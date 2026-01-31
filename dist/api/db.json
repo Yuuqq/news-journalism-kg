@@ -905,8 +905,8 @@
       "active_year": "1957"
     },
     {
-      "scholar_id": "SCH_THOMPSON",
-      "name_zh": "汤普森",
+      "scholar_id": "SCH_EP_THOMPSON",
+      "name_zh": "E.P.汤普森",
       "name_en": "E.P. Thompson",
       "description_zh": "英国马克思主义历史学家，《英国工人阶级的形成》作者，文化研究重要先驱。",
       "school_id": "SCHOOL_BIRMINGHAM",
@@ -1563,8 +1563,8 @@
       "evidence_passage_ids": "PAS_0047"
     },
     {
-      "proposition_id": "PROP_THOMPSON_1963_A",
-      "scholar_id": "SCH_THOMPSON",
+      "proposition_id": "PROP_EP_THOMPSON_1963_A",
+      "scholar_id": "SCH_EP_THOMPSON",
       "proposition_text_zh": "工人阶级不是被动的历史客体，而是通过文化实践主动创造自身历史的能动主体。",
       "year": "1963",
       "concept_ids": "CONCEPT_ENCODING_DECODING",
@@ -3619,9 +3619,9 @@
       "book_id": "BOOK_MAKING_ENGLISH_WORKING_CLASS",
       "title_zh": "英国工人阶级的形成",
       "title_en": "The Making of the English Working Class",
-      "scholar_id": "SCH_THOMPSON",
+      "scholar_id": "SCH_EP_THOMPSON",
       "year": "1963",
-      "description_zh": "汤普森的马克思主义历史学经典。"
+      "description_zh": "E.P.汤普森的马克思主义历史学经典。"
     },
     {
       "book_id": "BOOK_UNDERSTANDING_POPULAR_CULTURE",
