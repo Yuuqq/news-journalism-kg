@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="新闻传播学知识图谱 - 探索新闻学与传播学的学术脉络" />
+  <meta name="theme-color" content="#2980b9" />
+  <title>新闻传播学知识图谱 | News Journalism KG</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Vis.js for Graph - with fallback -->
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script>
+    // Fallback to cdnjs if unpkg fails
+    if (typeof vis === 'undefined') {
+      document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/dist/vis-network.min.js"><\/script>');
+    }
+  </script>
+</head>
+<body>
+  <div class="top">
+    <div class="brand">
+      <span class="logo">📰</span>
+      <div>
+        <div class="title">新闻传播学知识图谱</div>
+        <div class="subtitle">传播学理论 · 新闻事业史 · 学术脉络</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="search-box">
+        <input type="text" id="globalSearch" placeholder="搜索学者、理论、著作..." />
+      </div>
+      <button class="theme-toggle" id="themeToggle" title="切换主题">
+        <span id="themeIcon">🌙</span>
+      </button>
+      <div class="pill" id="statusPill">System Ready</div>
+    </div>
+  </div>
+
+  <div class="layout">
+    <nav class="nav" id="nav">
+      <div class="nav-section">探索</div>
+      <button data-route="dashboard" class="navBtn active">
+        <span class="nav-icon">📊</span>
+        <span class="nav-text">概览</span>
+      </button>
+      <button data-route="map" class="navBtn">
+        <span class="nav-icon">🗺️</span>
+        <span class="nav-text">学术全景图</span>
+      </button>
+      <button data-route="scholars_list" class="navBtn">
+        <span class="nav-icon">👥</span>
+        <span class="nav-text">学者名录</span>
+      </button>
+      <button data-route="timeline" class="navBtn">
+        <span class="nav-icon">⏳</span>
+        <span class="nav-text">历史时间轴</span>
+      </button>
+      <button data-route="graph" class="navBtn">
+        <span class="nav-icon">🕸️</span>
+        <span class="nav-text">关系图谱</span>
+      </button>
+      <button data-route="influence" class="navBtn">
+        <span class="nav-icon">🔗</span>
+        <span class="nav-text">影响网络</span>
+      </button>
+      <button data-route="books" class="navBtn">
+        <span class="nav-icon">📚</span>
+        <span class="nav-text">经典著作</span>
+      </button>
+
+      <div class="nav-divider"></div>
+      <div class="nav-section">工具</div>
+
+      <button data-route="data" class="navBtn">
+        <span class="nav-icon">📝</span>
+        <span class="nav-text">数据录入</span>
+      </button>
+      <button data-route="validate" class="navBtn">
+        <span class="nav-icon">✅</span>
+        <span class="nav-text">校验工具</span>
+      </button>
+      <button data-route="browse" class="navBtn">
+        <span class="nav-icon">📖</span>
+        <span class="nav-text">证据库</span>
+      </button>
+    </nav>
+
+    <main class="main">
+      <section id="view">
+        <div class="loading">
+          <div class="spinner"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <span>Created by <strong>qcma</strong></span>
+      <span class="footer-divider">|</span>
+      <span>新闻传播学知识图谱</span>
+    </div>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

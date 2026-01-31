@@ -1,0 +1,25 @@
+{
+  "project_name": "news-journalism-kg",
+  "version": "1.0.0",
+  "paths": {
+    "csv_dir": "data/csv",
+    "rdf_output": "data/validated/knowledge.ttl",
+    "schema_md": "data/csv/SCHEMA.md",
+    "ontology": "ontology/journalism_kg.owl"
+  },
+  "validation": {
+    "require_chinese_text": true,
+    "strict_evidence": true,
+    "allowed_source_types": ["encyclopedia", "lecture", "review"]
+  },
+  "neo4j": {
+    "uri": "bolt://localhost:7687",
+    "user": "neo4j",
+    "password_env_var": "NEO4J_PASSWORD"
+  },
+  "llm": {
+    "model": "gemini-pro",
+    "temperature": 0.0,
+    "max_output_tokens": 1024
+  }
+}

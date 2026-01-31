@@ -1,0 +1,54 @@
+book_id,title_zh,title_en,scholar_id,year,description_zh
+BOOK_PUBLIC_OPINION,舆论学,Public Opinion,SCH_LIPPMANN,1922,李普曼的代表作，探讨舆论与民主的关系，提出「拟态环境」等概念。
+BOOK_UNDERSTANDING_MEDIA,理解媒介,Understanding Media,SCH_MCLUHAN,1964,麦克卢汉最著名的著作，提出「媒介即讯息」和「地球村」等概念。
+BOOK_STRUCTURAL_TRANSFORMATION,公共领域的结构转型,The Structural Transformation of the Public Sphere,SCH_HABERMAS,1962,哈贝马斯的代表作，系统阐述公共领域理论。
+BOOK_PERSONAL_INFLUENCE,个人影响,Personal Influence,SCH_KATZ,1955,卡茨与拉扎斯菲尔德合著，提出两级传播理论。
+BOOK_AMUSING_OURSELVES,娱乐至死,Amusing Ourselves to Death,SCH_POSTMAN,1985,波兹曼批判电视文化对公共话语的侵蚀。
+BOOK_COMMUNICATION_EMPIRE,帝国与传播,Empire and Communications,SCH_INNIS,1950,伊尼斯探讨媒介与帝国兴衰关系的著作。
+BOOK_PROPAGANDA_TECHNIQUE,世界大战中的宣传技巧,Propaganda Technique in the World War,SCH_LASSWELL,1927,拉斯韦尔关于宣传技术的经典研究。
+BOOK_ENCODING_DECODING,电视话语的编码/解码,Encoding and Decoding in the Television Discourse,SCH_HALL,1973,霍尔提出编码/解码理论的论文。
+BOOK_DIFFUSION_INNOVATIONS,创新的扩散,Diffusion of Innovations,SCH_ROGERS,1962,罗杰斯关于创新扩散理论的开创性著作。
+BOOK_CHINESE_PRESS_HISTORY,中国报学史,A History of Chinese Journalism,SCH_GE_GONGZHEN,1927,中国第一部系统的新闻史著作。
+BOOK_RED_STAR,红星照耀中国,Red Star Over China,SCH_SNOW,1937,斯诺对中国革命的经典报道。
+BOOK_1984,一九八四,Nineteen Eighty-Four,SCH_ORWELL,1949,奥威尔的反乌托邦小说，探讨极权主义与媒体控制。
+BOOK_AREOPAGITICA,论出版自由,Areopagitica,SCH_MILTON,1644,弥尔顿反对出版审查的经典论著。
+BOOK_MANUFACTURING_CONSENT,制造共识,Manufacturing Consent,SCH_CHOMSKY,1988,乔姆斯基对美国媒体政治经济学的批判分析。
+BOOK_DIALECTIC_ENLIGHTENMENT,启蒙辩证法,Dialectic of Enlightenment,SCH_ADORNO,1944,阿多诺与霍克海默合著，批判启蒙理性走向工具理性的异化。
+BOOK_ONE_DIMENSIONAL_MAN,单向度的人,One-Dimensional Man,SCH_MARCUSE,1964,马尔库塞批判发达工业社会对人的控制与异化。
+BOOK_MECHANICAL_REPRODUCTION,机械复制时代的艺术作品,The Work of Art in the Age of Mechanical Reproduction,SCH_BENJAMIN,1936,本雅明分析技术复制对艺术「灵韵」的影响。
+BOOK_ESCAPE_FROM_FREEDOM,逃避自由,Escape from Freedom,SCH_FROMM,1941,弗洛姆分析现代人面对自由时的心理机制。
+BOOK_COMMUNICATION_PERSUASION,传播与说服,Communication and Persuasion,SCH_HOVLAND,1953,霍夫兰的说服研究经典著作，系统探讨态度改变机制。
+BOOK_MATHEMATICAL_COMMUNICATION,通信的数学理论,A Mathematical Theory of Communication,SCH_SHANNON,1948,香农奠定信息论数学基础的里程碑论文。
+BOOK_CYBERNETICS,控制论,Cybernetics,SCH_WIENER,1948,维纳创立控制论的开山之作。
+BOOK_CULTURE_SOCIETY,文化与社会,Culture and Society,SCH_WILLIAMS,1958,威廉斯奠定英国文化研究的经典著作。
+BOOK_USES_OF_LITERACY,识字的用途,The Uses of Literacy,SCH_HOGGART,1957,霍加特研究工人阶级文化的开创性著作。
+BOOK_MAKING_ENGLISH_WORKING_CLASS,英国工人阶级的形成,The Making of the English Working Class,SCH_THOMPSON,1963,汤普森的马克思主义历史学经典。
+BOOK_UNDERSTANDING_POPULAR_CULTURE,理解大众文化,Understanding Popular Culture,SCH_FISKE,1989,费斯克研究大众文化与受众能动性的代表作。
+BOOK_NETWORK_SOCIETY,网络社会的崛起,The Rise of the Network Society,SCH_CASTELLS,1996,卡斯特信息时代三部曲第一卷，分析网络社会结构。
+BOOK_NO_SENSE_OF_PLACE,消失的地域,No Sense of Place,SCH_MEYROWITZ,1985,梅罗维茨研究电子媒介对社会空间影响的著作。
+BOOK_CONVERGENCE_CULTURE,融合文化,Convergence Culture,SCH_JENKINS,2006,詹金斯研究媒介融合与参与式文化的代表作。
+BOOK_CRYSTALLIZING_PUBLIC_OPINION,舆论的结晶,Crystallizing Public Opinion,SCH_BERNAYS,1923,伯奈斯公共关系理论的奠基之作。
+BOOK_HISTORY_STANDARD_OIL,美孚石油公司史,The History of the Standard Oil Company,SCH_TARBELL,1904,塔贝尔揭露垄断的调查新闻经典。
+BOOK_IN_COLD_BLOOD,冷血,In Cold Blood,SCH_CAPOTE,1966,卡波特开创非虚构小说文体的里程碑作品。
+BOOK_PEOPLES_CHOICE,人民的选择,The People's Choice,SCH_LAZARSFELD,1944,拉扎斯菲尔德主持的选举研究经典，提出两级传播假说。
+BOOK_SPIRAL_OF_SILENCE,沉默的螺旋,The Spiral of Silence,SCH_NOELLE_NEUMANN,1984,诺依曼系统阐述沉默螺旋理论的著作。
+BOOK_XINWENXUE,新闻学,Erta the Principles of Journalism,SCH_XU_BAOHUANG,1919,徐宝璜著，中国第一部新闻学理论专著。
+BOOK_NORTHWEST_CORNER,中国的西北角,China's Northwest Corner,SCH_FAN_CHANGJIANG,1936,范长江的西北采访通讯集，开创现代新闻通讯文体。
+BOOK_YINBINGSHI_WENJI,饮冰室文集,Collected Works of Yinbingshi,SCH_LIANG_QICHAO,1902,梁启超文集，收录大量政论与报刊评论。
+BOOK_YANSHAN_YEHUA,燕山夜话,Evening Talks at Yanshan,SCH_DENG_TUO,1961,邓拓的杂文集，以史为鉴批评时弊。
+BOOK_NAHAN,呐喊,Call to Arms,SCH_LU_XUN,1923,鲁迅第一部小说集，包括《狂人日记》《阿Q正传》等。
+BOOK_TAOFEN_WENJI,韬奋文集,Collected Works of Taofen,SCH_ZOU_TAOFEN,1938,邹韬奋的文集，记录抗日救亡舆论工作。
+BOOK_CHINA_NEWS_HISTORY,中国新闻事业通史,A General History of Chinese Journalism,SCH_FANG_HANQI,1992,方汉奇主编，中国新闻史研究集大成之作。
+BOOK_ORAL_WRITTEN_CULTURE,口语文化与书面文化,Orality and Literacy,SCH_ONG,1982,翁分析口语与书面文化认知差异的经典。
+BOOK_PREFACE_PLATO,柏拉图导论,Preface to Plato,SCH_HAVELOCK,1963,哈弗洛克研究古希腊文化转型的重要著作。
+BOOK_BIAS_COMMUNICATION,传播的偏向,The Bias of Communication,SCH_INNIS,1951,伊尼斯研究媒介偏向的另一部重要著作。
+BOOK_GUTENBERG_GALAXY,谷登堡星汉,The Gutenberg Galaxy,SCH_MCLUHAN,1962,麦克卢汉研究印刷术对文化影响的著作。
+BOOK_GROUPTHINK,群体思维的受害者,Victims of Groupthink,SCH_JANIS,1972,贾尼斯提出群体思维理论的经典著作。
+BOOK_LONELY_CROWD,孤独的人群,The Lonely Crowd,SCH_RIESMAN,1950,里斯曼研究美国社会性格变迁的社会学经典。
+BOOK_DIGITAL_CAPITALISM,数字资本主义,Digital Capitalism,SCH_DAN_SCHILLER,1999,丹·席勒批判信息技术与资本主义逻辑的著作。
+BOOK_POLITICAL_ECONOMY_COMMUNICATION,传播政治经济学,The Political Economy of Communication,SCH_MOSCO,1996,莫斯可系统阐述传播政治经济学的教科书。
+BOOK_MASS_COMMUNICATION_THEORY,大众传播理论,Mass Communication Theory,SCH_MCQUAIL,1983,麦奎尔的传播学理论教科书，影响深远。
+BOOK_SHENGSHI_WEIYAN,盛世危言,Erta Warnings in Times of Prosperity,SCH_ZHENG_GUANYING,1894,郑观应的改良思想著作，主张商战救国。
+BOOK_PUBLIC_AND_PROBLEMS,公众及其问题,The Public and Its Problems,SCH_DEWEY,1927,杜威回应李普曼的民主与传播理论著作。
+BOOK_HUMAN_NATURE_SOCIAL_ORDER,人类本性与社会秩序,Human Nature and the Social Order,SCH_COOLEY,1902,库利提出「镜中我」理论的经典社会心理学著作。
+BOOK_MIND_SELF_SOCIETY,心灵自我与社会,Mind Self and Society,SCH_MEAD,1934,米德符号互动论的代表作，由学生整理出版。

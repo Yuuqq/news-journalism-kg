@@ -1,0 +1,8 @@
+[build]
+  publish = "dist"
+  command = "python scripts/build_static.py"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/api/:splat"
+  status = 200

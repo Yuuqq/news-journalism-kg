@@ -1,0 +1,10 @@
+subject_id,relation,object_id,note_zh
+SCH_MCLUHAN,师承,SCH_INNIS,麦克卢汉是伊尼斯的学生
+SCH_KATZ,合作,SCH_LAZARSFELD,卡茨与拉扎斯菲尔德合著《个人影响》
+SCH_WOODWARD,合作,SCH_BERNSTEIN,伍德沃德与伯恩斯坦共同揭露水门事件
+SCH_POSTMAN,继承,SCH_MCLUHAN,波兹曼继承发展媒介环境学
+SCH_HALL,继承,SCH_HABERMAS,霍尔受法兰克福学派影响
+SCH_ZHANG_JILUAN,同事,SCH_HU_ZHENGZHI,张季鸾与胡政之共同经营《大公报》
+SCH_SHAO_PIAOPING,同行,SCH_LIN_BAISHUI,两人同年因言获罪遇害
+SCH_LIANG_QICHAO,师承,SCH_KANG_YOUWEI,梁启超是康有为的学生
+SCH_LI_DAZHAO,同事,SCH_CHEN_DUXIU,两人同为《新青年》核心人物

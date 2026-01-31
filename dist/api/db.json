@@ -1,0 +1,3919 @@
+{
+  "scholars": [
+    {
+      "scholar_id": "SCH_LIPPMANN",
+      "name_zh": "李普曼",
+      "name_en": "Walter Lippmann",
+      "description_zh": "美国作家、记者、政治评论家，代表作《舆论学》。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1922"
+    },
+    {
+      "scholar_id": "SCH_SCHRAMM",
+      "name_zh": "施拉姆",
+      "name_en": "Wilbur Schramm",
+      "description_zh": "美国传播学者，常被称为「传播学之父」。",
+      "school_id": "SCHOOL_COLUMBIA",
+      "active_year": "1948"
+    },
+    {
+      "scholar_id": "SCH_LAZARSFELD",
+      "name_zh": "拉扎斯菲尔德",
+      "name_en": "Paul Lazarsfeld",
+      "description_zh": "奥地利裔美国社会学家，哥伦比亚学派奠基人，开创实证传播研究。",
+      "school_id": "SCHOOL_COLUMBIA",
+      "active_year": "1944"
+    },
+    {
+      "scholar_id": "SCH_MCLUHAN",
+      "name_zh": "麦克卢汉",
+      "name_en": "Marshall McLuhan",
+      "description_zh": "加拿大学者，现代传播理论的重要代表。",
+      "school_id": "SCHOOL_TORONTO",
+      "active_year": "1964"
+    },
+    {
+      "scholar_id": "SCH_INNIS",
+      "name_zh": "伊尼斯",
+      "name_en": "Harold Innis",
+      "description_zh": "加拿大经济历史学家，传播政治经济学奠基人，麦克卢汉的导师。",
+      "school_id": "SCHOOL_TORONTO",
+      "active_year": "1950"
+    },
+    {
+      "scholar_id": "SCH_POSTMAN",
+      "name_zh": "波兹曼",
+      "name_en": "Neil Postman",
+      "description_zh": "媒介环境学派代表人物，批评电视文化。",
+      "school_id": "SCHOOL_MEDIA_ECOLOGY",
+      "active_year": "1985"
+    },
+    {
+      "scholar_id": "SCH_LASSWELL",
+      "name_zh": "拉斯韦尔",
+      "name_en": "Harold Lasswell",
+      "description_zh": "传播学四大奠基人之一，提出「5W模式」和宣传分析。",
+      "school_id": "SCHOOL_CHICAGO",
+      "active_year": "1948"
+    },
+    {
+      "scholar_id": "SCH_LEWIN",
+      "name_zh": "卢因",
+      "name_en": "Kurt Lewin",
+      "description_zh": "传播学四大奠基人之一，提出「把关人」理论。",
+      "school_id": "SCHOOL_GROUP_DYNAMICS",
+      "active_year": "1947"
+    },
+    {
+      "scholar_id": "SCH_HOVLAND",
+      "name_zh": "霍夫兰",
+      "name_en": "Carl Hovland",
+      "description_zh": "传播学四大奠基人之一，耶鲁学派领袖，研究说服与态度改变。",
+      "school_id": "SCHOOL_YALE",
+      "active_year": "1953"
+    },
+    {
+      "scholar_id": "SCH_KATZ",
+      "name_zh": "卡茨",
+      "name_en": "Elihu Katz",
+      "description_zh": "《个人影响》合著者，后提出「使用与满足」理论。",
+      "school_id": "SCHOOL_COLUMBIA",
+      "active_year": "1955"
+    },
+    {
+      "scholar_id": "SCH_MCCOMBS",
+      "name_zh": "麦库姆斯",
+      "name_en": "Maxwell McCombs",
+      "description_zh": "提出「议程设置」理论。",
+      "school_id": "SCHOOL_AGENDA",
+      "active_year": "1972"
+    },
+    {
+      "scholar_id": "SCH_NOELLE_NEUMANN",
+      "name_zh": "诺依曼",
+      "name_en": "Elisabeth Noelle-Neumann",
+      "description_zh": "提出「沉默的螺旋」理论。",
+      "school_id": "SCHOOL_GERMAN",
+      "active_year": "1974"
+    },
+    {
+      "scholar_id": "SCH_GERBNER",
+      "name_zh": "格伯纳",
+      "name_en": "George Gerbner",
+      "description_zh": "提出「涵化理论」（培养分析）。",
+      "school_id": "SCHOOL_CULTIVATION",
+      "active_year": "1976"
+    },
+    {
+      "scholar_id": "SCH_ROGERS",
+      "name_zh": "罗杰斯",
+      "name_en": "Everett Rogers",
+      "description_zh": "传播学学者，创新扩散理论之父。",
+      "school_id": "SCHOOL_DIFFUSION",
+      "active_year": "1962"
+    },
+    {
+      "scholar_id": "SCH_CAREY",
+      "name_zh": "凯里",
+      "name_en": "James Carey",
+      "description_zh": "传播的仪式观。",
+      "school_id": "SCHOOL_CULTURAL_STUDIES",
+      "active_year": "1975"
+    },
+    {
+      "scholar_id": "SCH_HABERMAS",
+      "name_zh": "哈贝马斯",
+      "name_en": "Jürgen Habermas",
+      "description_zh": "德国当代哲学家与社会学家之一，关联「公共领域」等议题。",
+      "school_id": "SCHOOL_FRANKFURT",
+      "active_year": "1962"
+    },
+    {
+      "scholar_id": "SCH_PULITZER",
+      "name_zh": "普利策",
+      "name_en": "Joseph Pulitzer",
+      "description_zh": "现代报业大亨，新闻专业主义的推动者，普利策奖设立者。",
+      "school_id": "SCHOOL_PENNY_PRESS",
+      "active_year": "1904"
+    },
+    {
+      "scholar_id": "SCH_BENNETT",
+      "name_zh": "贝内特",
+      "name_en": "James Gordon Bennett",
+      "description_zh": "《纽约先驱报》创办人，确立了新闻的商业化与客观报道雏形。",
+      "school_id": "SCHOOL_PENNY_PRESS",
+      "active_year": "1835"
+    },
+    {
+      "scholar_id": "SCH_GREELEY",
+      "name_zh": "格里利",
+      "name_en": "Horace Greeley",
+      "description_zh": "《纽约论坛报》创办人，著名的社论撰写者。",
+      "school_id": "SCHOOL_PENNY_PRESS",
+      "active_year": "1841"
+    },
+    {
+      "scholar_id": "SCH_RAYMOND",
+      "name_zh": "雷蒙德",
+      "name_en": "Henry Raymond",
+      "description_zh": "《纽约时报》创办人，确立了理性、详实的报道风格。",
+      "school_id": "SCHOOL_QUALITY_PRESS",
+      "active_year": "1851"
+    },
+    {
+      "scholar_id": "SCH_OCHS",
+      "name_zh": "奥克斯",
+      "name_en": "Adolph Ochs",
+      "description_zh": "《纽约时报》复兴者，确立「刊登一切适于发表的新闻」之座右铭。",
+      "school_id": "SCHOOL_QUALITY_PRESS",
+      "active_year": "1896"
+    },
+    {
+      "scholar_id": "SCH_HEARST",
+      "name_zh": "赫斯特",
+      "name_en": "William Randolph Hearst",
+      "description_zh": "报业大亨，黄色新闻代表人物，原型为《公民凯恩》。",
+      "school_id": "SCHOOL_YELLOW_PRESS",
+      "active_year": "1895"
+    },
+    {
+      "scholar_id": "SCH_LUCE",
+      "name_zh": "卢斯",
+      "name_en": "Henry Luce",
+      "description_zh": "《时代》《生活》《财富》创办人，构建了「时代华纳」帝国雏形。",
+      "school_id": "SCHOOL_MAGAZINE",
+      "active_year": "1923"
+    },
+    {
+      "scholar_id": "SCH_MURROW",
+      "name_zh": "默罗",
+      "name_en": "Edward R. Murrow",
+      "description_zh": "广播电视新闻鼻祖，以二战伦敦报道和对抗麦卡锡主义闻名。",
+      "school_id": "SCHOOL_BROADCAST",
+      "active_year": "1940"
+    },
+    {
+      "scholar_id": "SCH_CRONKITE",
+      "name_zh": "克朗凯特",
+      "name_en": "Walter Cronkite",
+      "description_zh": "CBS主播，被称为「美国最值得信赖的人」。",
+      "school_id": "SCHOOL_BROADCAST",
+      "active_year": "1960"
+    },
+    {
+      "scholar_id": "SCH_BRADLEE",
+      "name_zh": "布拉德利",
+      "name_en": "Ben Bradlee",
+      "description_zh": "《华盛顿邮报》传奇主编，主导五角大楼文件报道。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1971"
+    },
+    {
+      "scholar_id": "SCH_WOODWARD",
+      "name_zh": "伍德沃德",
+      "name_en": "Bob Woodward",
+      "description_zh": "水门事件揭露者，调查记者标杆。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1972"
+    },
+    {
+      "scholar_id": "SCH_BERNSTEIN",
+      "name_zh": "伯恩斯坦",
+      "name_en": "Carl Bernstein",
+      "description_zh": "水门事件揭露者。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1972"
+    },
+    {
+      "scholar_id": "SCH_AMANPOUR",
+      "name_zh": "阿曼普",
+      "name_en": "Christiane Amanpour",
+      "description_zh": "CNN首席国际特派员，战地玫瑰。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1990"
+    },
+    {
+      "scholar_id": "SCH_FALLACI",
+      "name_zh": "法拉奇",
+      "name_en": "Oriana Fallaci",
+      "description_zh": "意大利女记者，以犀利的政治采访著称。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1970"
+    },
+    {
+      "scholar_id": "SCH_SNOW",
+      "name_zh": "斯诺",
+      "name_en": "Edgar Snow",
+      "description_zh": "《红星照耀中国》作者。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1937"
+    },
+    {
+      "scholar_id": "SCH_SMEDLEY",
+      "name_zh": "史沫特莱",
+      "name_en": "Agnes Smedley",
+      "description_zh": "美国左翼记者，报道中国革命。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1930"
+    },
+    {
+      "scholar_id": "SCH_EPSTEIN",
+      "name_zh": "爱泼斯坦",
+      "name_en": "Israel Epstein",
+      "description_zh": "中国籍波兰裔记者，新华社专家。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1940"
+    },
+    {
+      "scholar_id": "SCH_ORWELL",
+      "name_zh": "奥威尔",
+      "name_en": "George Orwell",
+      "description_zh": "记者，反极权主义作家，《1984》。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1949"
+    },
+    {
+      "scholar_id": "SCH_HEMINGWAY",
+      "name_zh": "海明威",
+      "name_en": "Ernest Hemingway",
+      "description_zh": "著名战地记者，电报体风格影响新闻写作。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1936"
+    },
+    {
+      "scholar_id": "SCH_LIEBLING",
+      "name_zh": "李布林",
+      "name_en": "A.J. Liebling",
+      "description_zh": "《纽约客》著名记者，报刊批评家。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1940"
+    },
+    {
+      "scholar_id": "SCH_DIDION",
+      "name_zh": "狄迪恩",
+      "name_en": "Joan Didion",
+      "description_zh": "新新闻主义代表，特稿写作。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1968"
+    },
+    {
+      "scholar_id": "SCH_CAPOTE",
+      "name_zh": "卡波特",
+      "name_en": "Truman Capote",
+      "description_zh": "《冷血》，非虚构小说先驱。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1966"
+    },
+    {
+      "scholar_id": "SCH_WOLFE",
+      "name_zh": "沃尔夫",
+      "name_en": "Tom Wolfe",
+      "description_zh": "新新闻主义教父。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1973"
+    },
+    {
+      "scholar_id": "SCH_THOMPSON",
+      "name_zh": "汤普森",
+      "name_en": "Hunter S. Thompson",
+      "description_zh": "贡佐新闻（Gonzo Journalism）。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1970"
+    },
+    {
+      "scholar_id": "SCH_BLY",
+      "name_zh": "奈莉·布莱",
+      "name_en": "Nellie Bly",
+      "description_zh": "隐形采访先驱，环游世界80天。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1889"
+    },
+    {
+      "scholar_id": "SCH_WELLS",
+      "name_zh": "艾达·威尔斯",
+      "name_en": "Ida B. Wells",
+      "description_zh": "反私刑调查记者，民权先驱。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1892"
+    },
+    {
+      "scholar_id": "SCH_TARBELL",
+      "name_zh": "塔贝尔",
+      "name_en": "Ida Tarbell",
+      "description_zh": "揭露美孚石油垄断，扒粪运动代表。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1904"
+    },
+    {
+      "scholar_id": "SCH_STEFFENS",
+      "name_zh": "斯蒂芬斯",
+      "name_en": "Lincoln Steffens",
+      "description_zh": "《城市的耻辱》，扒粪记者。",
+      "school_id": "SCHOOL_JOURNALISM",
+      "active_year": "1904"
+    },
+    {
+      "scholar_id": "SCH_MILTON",
+      "name_zh": "弥尔顿",
+      "name_en": "John Milton",
+      "description_zh": "《论出版自由》作者，提出「观点的公开市场」和「自我修正」理论。",
+      "school_id": "SCHOOL_LIBERTARIAN",
+      "active_year": "1644"
+    },
+    {
+      "scholar_id": "SCH_LOCKE",
+      "name_zh": "洛克",
+      "name_en": "John Locke",
+      "description_zh": "天赋人权论者，其思想奠定了新闻自由的哲学基础。",
+      "school_id": "SCHOOL_LIBERTARIAN",
+      "active_year": "1689"
+    },
+    {
+      "scholar_id": "SCH_JEFFERSON",
+      "name_zh": "杰斐逊",
+      "name_en": "Thomas Jefferson",
+      "description_zh": "美国第三任总统，名言「宁要无政府的报纸，不要无报纸的政府」。",
+      "school_id": "SCHOOL_LIBERTARIAN",
+      "active_year": "1787"
+    },
+    {
+      "scholar_id": "SCH_IVY_LEE",
+      "name_zh": "艾维·李",
+      "name_en": "Ivy Lee",
+      "description_zh": "现代公关之父，提出《原则宣言》，主张「说真话」。",
+      "school_id": "SCHOOL_PR",
+      "active_year": "1906"
+    },
+    {
+      "scholar_id": "SCH_BERNAYS",
+      "name_zh": "伯奈斯",
+      "name_en": "Edward Bernays",
+      "description_zh": "公关咨询之父，弗洛伊德的外甥，著有《舆论的结晶》。",
+      "school_id": "SCHOOL_PR",
+      "active_year": "1923"
+    },
+    {
+      "scholar_id": "SCH_WANG_TAO",
+      "name_zh": "王韬",
+      "name_en": "Wang Tao",
+      "description_zh": "中国近代报刊之父，创办《循环日报》，提出「变法自强」。",
+      "school_id": "SCHOOL_CN_EARLY",
+      "active_year": "1874"
+    },
+    {
+      "scholar_id": "SCH_KANG_YOUWEI",
+      "name_zh": "康有为",
+      "name_en": "Kang Youwei",
+      "description_zh": "维新变法领袖，创办《中外纪闻》《强学报》，倡导报刊启蒙。",
+      "school_id": "SCHOOL_CN_REFORM",
+      "active_year": "1895"
+    },
+    {
+      "scholar_id": "SCH_LIANG_QICHAO",
+      "name_zh": "梁启超",
+      "name_en": "Liang Qichao",
+      "description_zh": "中国近代思想启蒙家，维新派报刊活动家，提出「去塞求通」。",
+      "school_id": "SCHOOL_CN_REFORM",
+      "active_year": "1898"
+    },
+    {
+      "scholar_id": "SCH_YAN_FU",
+      "name_zh": "严复",
+      "name_en": "Yan Fu",
+      "description_zh": "创办《国闻报》，翻译《天演论》，主张「通上下之情」。",
+      "school_id": "SCHOOL_CN_REFORM",
+      "active_year": "1897"
+    },
+    {
+      "scholar_id": "SCH_ZHANG_TAIYAN",
+      "name_zh": "章太炎",
+      "name_en": "Zhang Taiyan",
+      "description_zh": "《苏报》案主角，《民报》主编，辛亥革命时期的舆论斗士。",
+      "school_id": "SCHOOL_CN_REVOLUTION",
+      "active_year": "1903"
+    },
+    {
+      "scholar_id": "SCH_YU_YOUREN",
+      "name_zh": "于右任",
+      "name_en": "Yu Youren",
+      "description_zh": "创办《神州日报》《民呼日报》，被誉为「元老记者」。",
+      "school_id": "SCHOOL_CN_REVOLUTION",
+      "active_year": "1909"
+    },
+    {
+      "scholar_id": "SCH_CHEN_DUXIU",
+      "name_zh": "陈独秀",
+      "name_en": "Chen Duxiu",
+      "description_zh": "《新青年》创办人，德先生与赛先生。",
+      "school_id": "SCHOOL_CN_REVOLUTION",
+      "active_year": "1915"
+    },
+    {
+      "scholar_id": "SCH_LI_DAZHAO",
+      "name_zh": "李大钊",
+      "name_en": "Li Dazhao",
+      "description_zh": "马克思主义在中国的最早传播者。",
+      "school_id": "SCHOOL_CN_REVOLUTION",
+      "active_year": "1919"
+    },
+    {
+      "scholar_id": "SCH_YING_LIANZHI",
+      "name_zh": "英敛之",
+      "name_en": "",
+      "description_zh": "《大公报》创始人，晚清报业改良派代表。",
+      "school_id": "SCHOOL_CN_REFORM",
+      "active_year": "1902"
+    },
+    {
+      "scholar_id": "SCH_SHAO_PIAOPING",
+      "name_zh": "邵飘萍",
+      "name_en": "Shao Piaoping",
+      "description_zh": "《京报》创办者，铁肩辣手，中国新闻摄影先驱，死于军阀枪下。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1918"
+    },
+    {
+      "scholar_id": "SCH_LIN_BAISHUI",
+      "name_zh": "林白水",
+      "name_en": "Lin Baishui",
+      "description_zh": "报界奇才，因言获罪，与邵飘萍同年遇害。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1926"
+    },
+    {
+      "scholar_id": "SCH_SHI_LIANGCAI",
+      "name_zh": "史量才",
+      "name_en": "Shi Liangcai",
+      "description_zh": "《申报》总经理，将其打造为中国影响最大的民营报纸，主张「国有国格，报有报格」。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1912"
+    },
+    {
+      "scholar_id": "SCH_ZHANG_JILUAN",
+      "name_zh": "张季鸾",
+      "name_en": "Zhang Jiluan",
+      "description_zh": "《大公报》总编辑，提出「不党、不卖、不私、不盲」四不主义。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1926"
+    },
+    {
+      "scholar_id": "SCH_HU_ZHENGZHI",
+      "name_zh": "胡政之",
+      "name_en": "Hu Zhengzhi",
+      "description_zh": "《大公报》总经理，开创中国报业经营管理的现代化模式。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1926"
+    },
+    {
+      "scholar_id": "SCH_ZOU_TAOFEN",
+      "name_zh": "邹韬奋",
+      "name_en": "Zou Taofen",
+      "description_zh": "生活书店创办人，主编《生活》周刊，抗日救亡运动的舆论旗手。",
+      "school_id": "SCHOOL_CN_LEFT",
+      "active_year": "1930"
+    },
+    {
+      "scholar_id": "SCH_CHU_ANPING",
+      "name_zh": "储安平",
+      "name_en": "Chu Anping",
+      "description_zh": "《观察》周刊主编，以此刊言论犀利、公正著称。",
+      "school_id": "SCHOOL_CN_LIBERAL",
+      "active_year": "1946"
+    },
+    {
+      "scholar_id": "SCH_DENG_TUO",
+      "name_zh": "邓拓",
+      "name_en": "Deng Tuo",
+      "description_zh": "《人民日报》总编辑，杂文集《燕山夜话》作者。",
+      "school_id": "SCHOOL_CN_CPC",
+      "active_year": "1950"
+    },
+    {
+      "scholar_id": "SCH_GE_GONGZHEN",
+      "name_zh": "戈公振",
+      "name_en": "Ge Gongzhen",
+      "description_zh": "新闻史学家，著有中国第一部《中国报学史》。",
+      "school_id": "SCHOOL_CN_ACADEMIC",
+      "active_year": "1927"
+    },
+    {
+      "scholar_id": "SCH_XU_BAOHUANG",
+      "name_zh": "徐宝璜",
+      "name_en": "Xu Baohuang",
+      "description_zh": "中国新闻教育第一人，北大新闻学研究会导师。",
+      "school_id": "SCHOOL_CN_ACADEMIC",
+      "active_year": "1918"
+    },
+    {
+      "scholar_id": "SCH_FAN_CHANGJIANG",
+      "name_zh": "范长江",
+      "name_en": "Fan Changjiang",
+      "description_zh": "中国著名记者，《大公报》旅行记者，开创了中国现代通讯报道的新风气。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1936"
+    },
+    {
+      "scholar_id": "SCH_XIAO_QIAN",
+      "name_zh": "萧乾",
+      "name_en": "Xiao Qian",
+      "description_zh": "《大公报》驻英记者，二战西线唯一的中国记者。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1944"
+    },
+    {
+      "scholar_id": "SCH_WANG_YUNSHENG",
+      "name_zh": "王芸生",
+      "name_en": "Wang Yunsheng",
+      "description_zh": "《大公报》著名主笔，《六十年来中国与日本》。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1932"
+    },
+    {
+      "scholar_id": "SCH_QU_QIUBAI",
+      "name_zh": "瞿秋白",
+      "name_en": "Qu Qiubai",
+      "description_zh": "红中社首任社长，翻译《国际歌》。",
+      "school_id": "SCHOOL_CN_CPC",
+      "active_year": "1931"
+    },
+    {
+      "scholar_id": "SCH_MAO_ZEDONG",
+      "name_zh": "毛泽东",
+      "name_en": "Mao Zedong",
+      "description_zh": "创办《湘江评论》，提出党报理论与群众路线。",
+      "school_id": "SCHOOL_CN_CPC",
+      "active_year": "1919"
+    },
+    {
+      "scholar_id": "SCH_JIN_YONG",
+      "name_zh": "金庸",
+      "name_en": "Jin Yong",
+      "description_zh": "查良镛，《明报》创办人，社论与武侠并重。",
+      "school_id": "SCHOOL_HK_PRESS",
+      "active_year": "1959"
+    },
+    {
+      "scholar_id": "SCH_LIN_YUTANG",
+      "name_zh": "林语堂",
+      "name_en": "Lin Yutang",
+      "description_zh": "幽默大师，曾任《语丝》撰稿人，中西文化桥梁。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1930"
+    },
+    {
+      "scholar_id": "SCH_LU_XUN",
+      "name_zh": "鲁迅",
+      "name_en": "Lu Xun",
+      "description_zh": "杂文家，曾主编《奔流》《语丝》，以笔为枪。",
+      "school_id": "SCHOOL_CN_CRITICAL",
+      "active_year": "1918"
+    },
+    {
+      "scholar_id": "SCH_HALL",
+      "name_zh": "霍尔",
+      "name_en": "Stuart Hall",
+      "description_zh": "伯明翰学派领袖，提出「编码/解码」理论。",
+      "school_id": "SCHOOL_BIRMINGHAM",
+      "active_year": "1973"
+    },
+    {
+      "scholar_id": "SCH_SMYTHE",
+      "name_zh": "斯迈思",
+      "name_en": "Dallas Smythe",
+      "description_zh": "提出「受众商品」论。",
+      "school_id": "SCHOOL_POLITICAL_ECO",
+      "active_year": "1977"
+    },
+    {
+      "scholar_id": "SCH_SCHILLER",
+      "name_zh": "席勒",
+      "name_en": "Herbert Schiller",
+      "description_zh": "研究「文化帝国主义」。",
+      "school_id": "SCHOOL_POLITICAL_ECO",
+      "active_year": "1969"
+    },
+    {
+      "scholar_id": "SCH_MCCHESNEY",
+      "name_zh": "麦切斯尼",
+      "name_en": "Robert McChesney",
+      "description_zh": "研究富媒体与民主危机。",
+      "school_id": "SCHOOL_POLITICAL_ECO",
+      "active_year": "1999"
+    },
+    {
+      "scholar_id": "SCH_CHOMSKY",
+      "name_zh": "乔姆斯基",
+      "name_en": "Noam Chomsky",
+      "description_zh": "生成语法，普遍语法，制造共识。",
+      "school_id": "SCHOOL_LINGUISTICS",
+      "active_year": "1957"
+    },
+    {
+      "scholar_id": "SCH_ADORNO",
+      "name_zh": "阿多诺",
+      "name_en": "Theodor Adorno",
+      "description_zh": "法兰克福学派核心成员，批判理论代表，与霍克海默合著《启蒙辩证法》。",
+      "school_id": "SCHOOL_FRANKFURT",
+      "active_year": "1944"
+    },
+    {
+      "scholar_id": "SCH_HORKHEIMER",
+      "name_zh": "霍克海默",
+      "name_en": "Max Horkheimer",
+      "description_zh": "法兰克福学派创始人，批判理论奠基人，提出传统理论与批判理论的区分。",
+      "school_id": "SCHOOL_FRANKFURT",
+      "active_year": "1937"
+    },
+    {
+      "scholar_id": "SCH_MARCUSE",
+      "name_zh": "马尔库塞",
+      "name_en": "Herbert Marcuse",
+      "description_zh": "法兰克福学派成员，《单向度的人》作者，新左派精神导师。",
+      "school_id": "SCHOOL_FRANKFURT",
+      "active_year": "1964"
+    },
+    {
+      "scholar_id": "SCH_BENJAMIN",
+      "name_zh": "本雅明",
+      "name_en": "Walter Benjamin",
+      "description_zh": "德国文化批评家，《机械复制时代的艺术作品》作者。",
+      "school_id": "SCHOOL_FRANKFURT",
+      "active_year": "1936"
+    },
+    {
+      "scholar_id": "SCH_FROMM",
+      "name_zh": "弗洛姆",
+      "name_en": "Erich Fromm",
+      "description_zh": "精神分析学家与社会批评家，《逃避自由》作者。",
+      "school_id": "SCHOOL_FRANKFURT",
+      "active_year": "1941"
+    },
+    {
+      "scholar_id": "SCH_KRACAUER",
+      "name_zh": "克拉考尔",
+      "name_en": "Siegfried Kracauer",
+      "description_zh": "德国文化批评家与电影理论家，法兰克福学派早期成员。",
+      "school_id": "SCHOOL_FRANKFURT",
+      "active_year": "1947"
+    },
+    {
+      "scholar_id": "SCH_LOWENTHAL",
+      "name_zh": "洛文塔尔",
+      "name_en": "Leo Löwenthal",
+      "description_zh": "法兰克福学派成员，研究大众文化与文学社会学。",
+      "school_id": "SCHOOL_FRANKFURT",
+      "active_year": "1957"
+    },
+    {
+      "scholar_id": "SCH_SHANNON",
+      "name_zh": "香农",
+      "name_en": "Claude Shannon",
+      "description_zh": "信息论之父，提出信息的数学理论，奠定现代通信基础。",
+      "school_id": "SCHOOL_INFO_THEORY",
+      "active_year": "1948"
+    },
+    {
+      "scholar_id": "SCH_WEAVER",
+      "name_zh": "韦弗",
+      "name_en": "Warren Weaver",
+      "description_zh": "与香农合作发展信息论，扩展其社会应用。",
+      "school_id": "SCHOOL_INFO_THEORY",
+      "active_year": "1949"
+    },
+    {
+      "scholar_id": "SCH_WIENER",
+      "name_zh": "维纳",
+      "name_en": "Norbert Wiener",
+      "description_zh": "控制论之父，《控制论》作者，研究通信与控制。",
+      "school_id": "SCHOOL_CYBERNETICS",
+      "active_year": "1948"
+    },
+    {
+      "scholar_id": "SCH_COOLEY",
+      "name_zh": "库利",
+      "name_en": "Charles Horton Cooley",
+      "description_zh": "美国社会学家，提出「镜中我」理论，将传播置于社会关系核心。",
+      "school_id": "SCHOOL_CHICAGO",
+      "active_year": "1909"
+    },
+    {
+      "scholar_id": "SCH_DEWEY",
+      "name_zh": "杜威",
+      "name_en": "John Dewey",
+      "description_zh": "美国实用主义哲学家，强调传播对民主社会的重要性。",
+      "school_id": "SCHOOL_PRAGMATISM",
+      "active_year": "1927"
+    },
+    {
+      "scholar_id": "SCH_BERELSON",
+      "name_zh": "贝雷尔森",
+      "name_en": "Bernard Berelson",
+      "description_zh": "内容分析方法先驱，哥伦比亚学派成员。",
+      "school_id": "SCHOOL_COLUMBIA",
+      "active_year": "1952"
+    },
+    {
+      "scholar_id": "SCH_RIESMAN",
+      "name_zh": "里斯曼",
+      "name_en": "David Riesman",
+      "description_zh": "《孤独的人群》作者，研究大众社会与传播。",
+      "school_id": "SCHOOL_COLUMBIA",
+      "active_year": "1950"
+    },
+    {
+      "scholar_id": "SCH_STOUFFER",
+      "name_zh": "斯托弗",
+      "name_en": "Samuel Stouffer",
+      "description_zh": "社会调查方法专家，芝加哥学派成员。",
+      "school_id": "SCHOOL_CHICAGO",
+      "active_year": "1949"
+    },
+    {
+      "scholar_id": "SCH_CASTELLS",
+      "name_zh": "卡斯特",
+      "name_en": "Manuel Castells",
+      "description_zh": "西班牙社会学家，网络社会理论创始人，《信息时代三部曲》作者。",
+      "school_id": "SCHOOL_NETWORK",
+      "active_year": "1996"
+    },
+    {
+      "scholar_id": "SCH_MEYROWITZ",
+      "name_zh": "梅罗维茨",
+      "name_en": "Joshua Meyrowitz",
+      "description_zh": "《消失的地域》作者，研究电子媒介对社会空间的影响。",
+      "school_id": "SCHOOL_MEDIA_ECOLOGY",
+      "active_year": "1985"
+    },
+    {
+      "scholar_id": "SCH_BLUMLER",
+      "name_zh": "布卢姆勒",
+      "name_en": "Jay Blumler",
+      "description_zh": "使用与满足理论发展者，政治传播研究先驱。",
+      "school_id": "SCHOOL_USES_GRATIFICATIONS",
+      "active_year": "1974"
+    },
+    {
+      "scholar_id": "SCH_MCQUAIL",
+      "name_zh": "麦奎尔",
+      "name_en": "Denis McQuail",
+      "description_zh": "《大众传播理论》作者，欧洲传播学代表人物。",
+      "school_id": "SCHOOL_EUROPEAN",
+      "active_year": "1983"
+    },
+    {
+      "scholar_id": "SCH_LUHMANN",
+      "name_zh": "卢曼",
+      "name_en": "Niklas Luhmann",
+      "description_zh": "德国社会学家，社会系统论代表，研究大众媒介作为社会系统。",
+      "school_id": "SCHOOL_SYSTEMS",
+      "active_year": "1984"
+    },
+    {
+      "scholar_id": "SCH_KITTLER",
+      "name_zh": "基特勒",
+      "name_en": "Friedrich Kittler",
+      "description_zh": "德国媒介理论家，技术媒介学派创始人。",
+      "school_id": "SCHOOL_GERMAN_MEDIA",
+      "active_year": "1986"
+    },
+    {
+      "scholar_id": "SCH_JENKINS",
+      "name_zh": "詹金斯",
+      "name_en": "Henry Jenkins",
+      "description_zh": "融合文化与参与式文化研究者，《融合文化》作者。",
+      "school_id": "SCHOOL_CULTURAL_STUDIES",
+      "active_year": "2006"
+    },
+    {
+      "scholar_id": "SCH_HUANG_YUANYONG",
+      "name_zh": "黄远庸",
+      "name_en": "Huang Yuanyong",
+      "description_zh": "中国第一位现代意义上的记者，民国初年著名政论家。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1912"
+    },
+    {
+      "scholar_id": "SCH_CHENG_SHEWO",
+      "name_zh": "成舍我",
+      "name_en": "Cheng Shewo",
+      "description_zh": "著名报人，创办《世界晚报》《立报》等多家报纸。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1924"
+    },
+    {
+      "scholar_id": "SCH_WANG_KANGNIAN",
+      "name_zh": "汪康年",
+      "name_en": "Wang Kangnian",
+      "description_zh": "《时务报》创办人之一，晚清维新派报人。",
+      "school_id": "SCHOOL_CN_REFORM",
+      "active_year": "1896"
+    },
+    {
+      "scholar_id": "SCH_QIU_JIN",
+      "name_zh": "秋瑾",
+      "name_en": "Qiu Jin",
+      "description_zh": "《中国女报》创办人，革命女杰，巾帼英雄。",
+      "school_id": "SCHOOL_CN_REVOLUTION",
+      "active_year": "1907"
+    },
+    {
+      "scholar_id": "SCH_PENG_YIZHONG",
+      "name_zh": "彭翼仲",
+      "name_en": "Peng Yizhong",
+      "description_zh": "《京话日报》《启蒙画报》创办人，白话报先驱。",
+      "school_id": "SCHOOL_CN_REFORM",
+      "active_year": "1904"
+    },
+    {
+      "scholar_id": "SCH_ZHAN_DABEI",
+      "name_zh": "詹大悲",
+      "name_en": "Zhan Dabei",
+      "description_zh": "《大江报》创办人，因发表《大乱者救中国之妙药也》被捕。",
+      "school_id": "SCHOOL_CN_REVOLUTION",
+      "active_year": "1911"
+    },
+    {
+      "scholar_id": "SCH_CHEN_YOUREN",
+      "name_zh": "陈友仁",
+      "name_en": "Eugene Chen",
+      "description_zh": "英文《京报》创办人，国民政府外交部长。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1917"
+    },
+    {
+      "scholar_id": "SCH_DENG_JIXI",
+      "name_zh": "邓季惺",
+      "name_en": "Deng Jixi",
+      "description_zh": "《新民报》创办人之一，著名女报人。",
+      "school_id": "SCHOOL_CN_REPUBLIC",
+      "active_year": "1929"
+    },
+    {
+      "scholar_id": "SCH_WILLIAMS",
+      "name_zh": "威廉斯",
+      "name_en": "Raymond Williams",
+      "description_zh": "英国文化研究奠基人，提出「文化是普通的」，著有《文化与社会》《漫长的革命》。",
+      "school_id": "SCHOOL_BIRMINGHAM",
+      "active_year": "1958"
+    },
+    {
+      "scholar_id": "SCH_HOGGART",
+      "name_zh": "霍加特",
+      "name_en": "Richard Hoggart",
+      "description_zh": "伯明翰当代文化研究中心创始人，著有《识字的用途》，研究工人阶级文化。",
+      "school_id": "SCHOOL_BIRMINGHAM",
+      "active_year": "1957"
+    },
+    {
+      "scholar_id": "SCH_THOMPSON",
+      "name_zh": "汤普森",
+      "name_en": "E.P. Thompson",
+      "description_zh": "英国马克思主义历史学家，《英国工人阶级的形成》作者，文化研究重要先驱。",
+      "school_id": "SCHOOL_BIRMINGHAM",
+      "active_year": "1963"
+    },
+    {
+      "scholar_id": "SCH_MCROBBIE",
+      "name_zh": "麦克罗比",
+      "name_en": "Angela McRobbie",
+      "description_zh": "伯明翰学派第二代代表，研究青年亚文化与女性主义媒介批评。",
+      "school_id": "SCHOOL_BIRMINGHAM",
+      "active_year": "1991"
+    },
+    {
+      "scholar_id": "SCH_MORLEY",
+      "name_zh": "莫利",
+      "name_en": "David Morley",
+      "description_zh": "伯明翰学派成员，《全国观众》作者，研究电视受众的解码实践。",
+      "school_id": "SCHOOL_BIRMINGHAM",
+      "active_year": "1980"
+    },
+    {
+      "scholar_id": "SCH_FISKE",
+      "name_zh": "费斯克",
+      "name_en": "John Fiske",
+      "description_zh": "文化研究学者，《理解大众文化》作者，研究受众的积极性与快感政治。",
+      "school_id": "SCHOOL_BIRMINGHAM",
+      "active_year": "1989"
+    },
+    {
+      "scholar_id": "SCH_SARNOFF",
+      "name_zh": "大卫·萨诺夫",
+      "name_en": "David Sarnoff",
+      "description_zh": "NBC创始人，美国广播业之父，推动广播电视商业化发展。",
+      "school_id": "SCHOOL_BROADCAST",
+      "active_year": "1926"
+    },
+    {
+      "scholar_id": "SCH_PALEY",
+      "name_zh": "威廉·佩利",
+      "name_en": "William Paley",
+      "description_zh": "CBS创始人，将CBS打造成美国三大广播网之一。",
+      "school_id": "SCHOOL_BROADCAST",
+      "active_year": "1928"
+    },
+    {
+      "scholar_id": "SCH_WALTERS",
+      "name_zh": "芭芭拉·沃尔特斯",
+      "name_en": "Barbara Walters",
+      "description_zh": "美国电视新闻女先驱，首位女性晚间新闻主播，开创名人访谈节目。",
+      "school_id": "SCHOOL_BROADCAST",
+      "active_year": "1976"
+    },
+    {
+      "scholar_id": "SCH_TURNER",
+      "name_zh": "特德·特纳",
+      "name_en": "Ted Turner",
+      "description_zh": "CNN创始人，开创24小时有线新闻网模式，改变电视新闻格局。",
+      "school_id": "SCHOOL_BROADCAST",
+      "active_year": "1980"
+    },
+    {
+      "scholar_id": "SCH_PAGE",
+      "name_zh": "亚瑟·佩奇",
+      "name_en": "Arthur Page",
+      "description_zh": "AT&T公关先驱，提出企业公关理论与佩奇原则。",
+      "school_id": "SCHOOL_PR",
+      "active_year": "1927"
+    },
+    {
+      "scholar_id": "SCH_BYOIR",
+      "name_zh": "卡尔·博伊尔",
+      "name_en": "Carl Byoir",
+      "description_zh": "现代公关公司创始人，开创全服务公关公司模式。",
+      "school_id": "SCHOOL_PR",
+      "active_year": "1930"
+    },
+    {
+      "scholar_id": "SCH_BURSON",
+      "name_zh": "哈罗德·伯森",
+      "name_en": "Harold Burson",
+      "description_zh": "博雅公关(Burson-Marsteller)创始人，全球最大公关公司之一的缔造者。",
+      "school_id": "SCHOOL_PR",
+      "active_year": "1953"
+    },
+    {
+      "scholar_id": "SCH_DAN_SCHILLER",
+      "name_zh": "丹·席勒",
+      "name_en": "Dan Schiller",
+      "description_zh": "赫伯特·席勒之子，数字资本主义研究先驱，著有《数字资本主义》。",
+      "school_id": "SCHOOL_POLITICAL_ECO",
+      "active_year": "1999"
+    },
+    {
+      "scholar_id": "SCH_MOSCO",
+      "name_zh": "文森特·莫斯可",
+      "name_en": "Vincent Mosco",
+      "description_zh": "传播政治经济学代表人物，著有《传播政治经济学》。",
+      "school_id": "SCHOOL_POLITICAL_ECO",
+      "active_year": "1996"
+    },
+    {
+      "scholar_id": "SCH_MURDOCK",
+      "name_zh": "格雷厄姆·默多克",
+      "name_en": "Graham Murdock",
+      "description_zh": "英国传播政治经济学者，研究媒体所有权与公共文化。",
+      "school_id": "SCHOOL_POLITICAL_ECO",
+      "active_year": "1982"
+    },
+    {
+      "scholar_id": "SCH_LEVINSON",
+      "name_zh": "保罗·莱文森",
+      "name_en": "Paul Levinson",
+      "description_zh": "新新媒介研究者，著有《数字麦克卢汉》《新新媒介》。",
+      "school_id": "SCHOOL_MEDIA_ECOLOGY",
+      "active_year": "1999"
+    },
+    {
+      "scholar_id": "SCH_STRATE",
+      "name_zh": "兰斯·斯特拉特",
+      "name_en": "Lance Strate",
+      "description_zh": "媒介生态学协会创始人，福特汉姆大学教授。",
+      "school_id": "SCHOOL_MEDIA_ECOLOGY",
+      "active_year": "1998"
+    },
+    {
+      "scholar_id": "SCH_NYSTROM",
+      "name_zh": "克里斯汀·尼斯特龙",
+      "name_en": "Christine Nystrom",
+      "description_zh": "媒介生态学教育家，纽约大学教授，波兹曼的同事。",
+      "school_id": "SCHOOL_MEDIA_ECOLOGY",
+      "active_year": "1973"
+    },
+    {
+      "scholar_id": "SCH_JANIS",
+      "name_zh": "欧文·贾尼斯",
+      "name_en": "Irving Janis",
+      "description_zh": "耶鲁学派成员，群体思维研究先驱，著有《群体思维的受害者》。",
+      "school_id": "SCHOOL_YALE",
+      "active_year": "1972"
+    },
+    {
+      "scholar_id": "SCH_SHAW",
+      "name_zh": "唐纳德·肖",
+      "name_en": "Donald Shaw",
+      "description_zh": "与麦库姆斯共同提出「议程设置」理论，传播学重要学者。",
+      "school_id": "SCHOOL_AGENDA",
+      "active_year": "1972"
+    },
+    {
+      "scholar_id": "SCH_GROSS",
+      "name_zh": "拉里·格罗斯",
+      "name_en": "Larry Gross",
+      "description_zh": "格伯纳的长期合作者，共同发展涵化理论，LGBTQ媒介研究先驱。",
+      "school_id": "SCHOOL_CULTIVATION",
+      "active_year": "1976"
+    },
+    {
+      "scholar_id": "SCH_ZHENG_GUANYING",
+      "name_zh": "郑观应",
+      "name_en": "Zheng Guanying",
+      "description_zh": "《盛世危言》作者，近代报刊思想先驱，主张商战与报刊启蒙。",
+      "school_id": "SCHOOL_CN_EARLY",
+      "active_year": "1894"
+    },
+    {
+      "scholar_id": "SCH_LAM_HANGCHI",
+      "name_zh": "林行止",
+      "name_en": "Lam Hang-chi",
+      "description_zh": "《信报》创办人，香港财经评论家，笔耕不辍四十余年。",
+      "school_id": "SCHOOL_HK_PRESS",
+      "active_year": "1973"
+    },
+    {
+      "scholar_id": "SCH_PARK",
+      "name_zh": "罗伯特·帕克",
+      "name_en": "Robert Park",
+      "description_zh": "芝加哥学派创始人之一，城市社会学奠基人，研究城市生态与传播。",
+      "school_id": "SCHOOL_CHICAGO",
+      "active_year": "1921"
+    },
+    {
+      "scholar_id": "SCH_MEAD",
+      "name_zh": "乔治·米德",
+      "name_en": "George Herbert Mead",
+      "description_zh": "符号互动论创始人，研究自我与社会的互动关系。",
+      "school_id": "SCHOOL_CHICAGO",
+      "active_year": "1934"
+    },
+    {
+      "scholar_id": "SCH_BLUMER",
+      "name_zh": "赫伯特·布鲁默",
+      "name_en": "Herbert Blumer",
+      "description_zh": "符号互动论命名者与系统化者，米德学生。",
+      "school_id": "SCHOOL_CHICAGO",
+      "active_year": "1937"
+    },
+    {
+      "scholar_id": "SCH_ONG",
+      "name_zh": "沃尔特·翁",
+      "name_en": "Walter Ong",
+      "description_zh": "口语文化与书面文化研究先驱，《口语文化与书面文化》作者。",
+      "school_id": "SCHOOL_TORONTO",
+      "active_year": "1982"
+    },
+    {
+      "scholar_id": "SCH_HAVELOCK",
+      "name_zh": "埃里克·哈弗洛克",
+      "name_en": "Eric Havelock",
+      "description_zh": "古希腊口语文化研究专家，《柏拉图导论》作者。",
+      "school_id": "SCHOOL_TORONTO",
+      "active_year": "1963"
+    },
+    {
+      "scholar_id": "SCH_DEKERCKHOVE",
+      "name_zh": "德里克·德科霍夫",
+      "name_en": "Derrick de Kerckhove",
+      "description_zh": "麦克卢汉弟子，多伦多大学麦克卢汉项目主任，研究数字媒介。",
+      "school_id": "SCHOOL_TORONTO",
+      "active_year": "1995"
+    },
+    {
+      "scholar_id": "SCH_BO_GU",
+      "name_zh": "博古",
+      "name_en": "Bo Gu",
+      "description_zh": "原名秦邦宪，红色中华通讯社（红中社）和新华社早期领导人，曾任中共中央负责人。",
+      "school_id": "SCHOOL_CN_CPC",
+      "active_year": "1931"
+    },
+    {
+      "scholar_id": "SCH_YANG_SHANGKUN",
+      "name_zh": "杨尚昆",
+      "name_en": "Yang Shangkun",
+      "description_zh": "延安新华广播电台创建者之一，曾任中共中央办公厅主任，后任国家主席。",
+      "school_id": "SCHOOL_CN_CPC",
+      "active_year": "1940"
+    },
+    {
+      "scholar_id": "SCH_LIAO_CHENGZHI",
+      "name_zh": "廖承志",
+      "name_en": "Liao Chengzhi",
+      "description_zh": "曾任新华社社长，主管对外宣传工作，致力于中日友好和侨务工作。",
+      "school_id": "SCHOOL_CN_CPC",
+      "active_year": "1949"
+    },
+    {
+      "scholar_id": "SCH_HUANG_TIANPENG",
+      "name_zh": "黄天鹏",
+      "name_en": "Huang Tianpeng",
+      "description_zh": "民国时期著名新闻学者，著有《新闻学概论》等多部新闻学著作。",
+      "school_id": "SCHOOL_CN_ACADEMIC",
+      "active_year": "1930"
+    },
+    {
+      "scholar_id": "SCH_REN_BAITAO",
+      "name_zh": "任白涛",
+      "name_en": "Ren Baitao",
+      "description_zh": "新闻学者，著有《综合新闻学》，系统阐述新闻学理论。",
+      "school_id": "SCHOOL_CN_ACADEMIC",
+      "active_year": "1941"
+    },
+    {
+      "scholar_id": "SCH_FANG_HANQI",
+      "name_zh": "方汉奇",
+      "name_en": "Fang Hanqi",
+      "description_zh": "当代中国新闻史研究泰斗，中国人民大学教授，著有《中国新闻事业通史》。",
+      "school_id": "SCHOOL_CN_ACADEMIC",
+      "active_year": "1992"
+    }
+  ],
+  "propositions": [
+    {
+      "proposition_id": "PROP_LIPPMANN_1922_A",
+      "scholar_id": "SCH_LIPPMANN",
+      "proposition_text_zh": "舆论是公众对于公共事务的看法，人们通过「拟态环境」而非真实环境来认识世界。",
+      "year": "1922",
+      "concept_ids": "CONCEPT_PUBLIC_OPINION",
+      "evidence_passage_ids": "PAS_0001"
+    },
+    {
+      "proposition_id": "PROP_MCLUHAN_1964_A",
+      "scholar_id": "SCH_MCLUHAN",
+      "proposition_text_zh": "媒介即讯息——媒介本身而非其传递的内容才是真正改变社会的力量。",
+      "year": "1964",
+      "concept_ids": "CONCEPT_MEDIUM_MESSAGE",
+      "evidence_passage_ids": "PAS_0002"
+    },
+    {
+      "proposition_id": "PROP_MCLUHAN_1964_B",
+      "scholar_id": "SCH_MCLUHAN",
+      "proposition_text_zh": "电子媒介使世界变成一个「地球村」，人类重新回归部落化状态。",
+      "year": "1964",
+      "concept_ids": "CONCEPT_GLOBAL_VILLAGE",
+      "evidence_passage_ids": "PAS_0002"
+    },
+    {
+      "proposition_id": "PROP_SCHRAMM_1948_A",
+      "scholar_id": "SCH_SCHRAMM",
+      "proposition_text_zh": "传播学是一门独立学科，需要系统的理论建构和实证研究方法。",
+      "year": "1948",
+      "concept_ids": "CONCEPT_PUBLIC_OPINION",
+      "evidence_passage_ids": "PAS_0003"
+    },
+    {
+      "proposition_id": "PROP_LAZARSFELD_1944_A",
+      "scholar_id": "SCH_LAZARSFELD",
+      "proposition_text_zh": "信息从媒介流向意见领袖，再由意见领袖传播给普通公众（两级传播）。",
+      "year": "1944",
+      "concept_ids": "CONCEPT_TWO_STEP_FLOW",
+      "evidence_passage_ids": "PAS_0004"
+    },
+    {
+      "proposition_id": "PROP_HABERMAS_1962_A",
+      "scholar_id": "SCH_HABERMAS",
+      "proposition_text_zh": "公共领域是介于国家和社会之间的公共空间，公民在此进行理性讨论和批判。",
+      "year": "1962",
+      "concept_ids": "CONCEPT_PUBLIC_SPHERE",
+      "evidence_passage_ids": "PAS_0005"
+    },
+    {
+      "proposition_id": "PROP_PULITZER_1904_A",
+      "scholar_id": "SCH_PULITZER",
+      "proposition_text_zh": "新闻业应该是一种公共服务，记者应接受专业教育并遵守职业道德。",
+      "year": "1904",
+      "concept_ids": "CONCEPT_OBJECTIVITY",
+      "evidence_passage_ids": "PAS_0006"
+    },
+    {
+      "proposition_id": "PROP_LIANG_1898_A",
+      "scholar_id": "SCH_LIANG_QICHAO",
+      "proposition_text_zh": "报刊应当「去塞求通」——打破信息壁垒，沟通上下，启迪民智。",
+      "year": "1898",
+      "concept_ids": "CONCEPT_PRESS_FREEDOM",
+      "evidence_passage_ids": "PAS_0007"
+    },
+    {
+      "proposition_id": "PROP_ZHANG_1926_A",
+      "scholar_id": "SCH_ZHANG_JILUAN",
+      "proposition_text_zh": "办报应坚持「不党、不卖、不私、不盲」，保持独立与公正。",
+      "year": "1926",
+      "concept_ids": "CONCEPT_OBJECTIVITY",
+      "evidence_passage_ids": "PAS_0008"
+    },
+    {
+      "proposition_id": "PROP_SHAO_1918_A",
+      "scholar_id": "SCH_SHAO_PIAOPING",
+      "proposition_text_zh": "新闻记者应当「铁肩担道义，辣手著文章」，为民请命。",
+      "year": "1918",
+      "concept_ids": "CONCEPT_FOURTH_ESTATE",
+      "evidence_passage_ids": "PAS_0009"
+    },
+    {
+      "proposition_id": "PROP_MCCOMBS_1972_A",
+      "scholar_id": "SCH_MCCOMBS",
+      "proposition_text_zh": "媒介可能无法告诉人们怎么想，但能成功地告诉人们想什么（议程设置）。",
+      "year": "1972",
+      "concept_ids": "CONCEPT_AGENDA_SETTING",
+      "evidence_passage_ids": "PAS_0010"
+    },
+    {
+      "proposition_id": "PROP_ADORNO_1944_A",
+      "scholar_id": "SCH_ADORNO",
+      "proposition_text_zh": "文化工业将艺术商品化，使大众文化成为控制和操纵公众意识的工具。",
+      "year": "1944",
+      "concept_ids": "CONCEPT_PROPAGANDA",
+      "evidence_passage_ids": "PAS_0011"
+    },
+    {
+      "proposition_id": "PROP_HORKHEIMER_1937_A",
+      "scholar_id": "SCH_HORKHEIMER",
+      "proposition_text_zh": "工具理性的膨胀导致理性异化，启蒙精神走向其反面，成为新的统治形式。",
+      "year": "1937",
+      "concept_ids": "CONCEPT_PROPAGANDA",
+      "evidence_passage_ids": "PAS_0012"
+    },
+    {
+      "proposition_id": "PROP_MARCUSE_1964_A",
+      "scholar_id": "SCH_MARCUSE",
+      "proposition_text_zh": "发达工业社会通过技术控制和消费主义，将人塑造成「单向度的人」，丧失批判性思维。",
+      "year": "1964",
+      "concept_ids": "CONCEPT_PROPAGANDA",
+      "evidence_passage_ids": "PAS_0013"
+    },
+    {
+      "proposition_id": "PROP_BENJAMIN_1936_A",
+      "scholar_id": "SCH_BENJAMIN",
+      "proposition_text_zh": "机械复制时代艺术品失去了「灵韵」，但也为艺术的民主化和政治化开辟了可能。",
+      "year": "1936",
+      "concept_ids": "CONCEPT_MEDIUM_MESSAGE",
+      "evidence_passage_ids": "PAS_0014"
+    },
+    {
+      "proposition_id": "PROP_FROMM_1941_A",
+      "scholar_id": "SCH_FROMM",
+      "proposition_text_zh": "现代人为逃避自由带来的孤独与焦虑，倾向于服从权威或追随群体，放弃个人自主性。",
+      "year": "1941",
+      "concept_ids": "CONCEPT_PUBLIC_OPINION",
+      "evidence_passage_ids": "PAS_0015"
+    },
+    {
+      "proposition_id": "PROP_MILTON_1644_A",
+      "scholar_id": "SCH_MILTON",
+      "proposition_text_zh": "真理与谬误在公开辩论中交锋，真理必将战胜谬误——这是出版自由的根本理由。",
+      "year": "1644",
+      "concept_ids": "CONCEPT_PRESS_FREEDOM",
+      "evidence_passage_ids": "PAS_0034"
+    },
+    {
+      "proposition_id": "PROP_JEFFERSON_1787_A",
+      "scholar_id": "SCH_JEFFERSON",
+      "proposition_text_zh": "新闻自由是民主制度的基石，没有报刊批评的政府必将走向专制。",
+      "year": "1787",
+      "concept_ids": "CONCEPT_PRESS_FREEDOM",
+      "evidence_passage_ids": "PAS_0035"
+    },
+    {
+      "proposition_id": "PROP_BENNETT_1835_A",
+      "scholar_id": "SCH_BENNETT",
+      "proposition_text_zh": "新闻应该摆脱政党控制，以独立、廉价、面向大众的商业模式运营。",
+      "year": "1835",
+      "concept_ids": "CONCEPT_OBJECTIVITY",
+      "evidence_passage_ids": "PAS_0036"
+    },
+    {
+      "proposition_id": "PROP_TARBELL_1904_A",
+      "scholar_id": "SCH_TARBELL",
+      "proposition_text_zh": "调查性新闻应当揭露企业垄断和政治腐败，为公众利益服务。",
+      "year": "1904",
+      "concept_ids": "CONCEPT_FOURTH_ESTATE",
+      "evidence_passage_ids": "PAS_0037"
+    },
+    {
+      "proposition_id": "PROP_MURROW_1940_A",
+      "scholar_id": "SCH_MURROW",
+      "proposition_text_zh": "广播新闻应当直面社会问题，记者有责任挑战权威、揭示真相。",
+      "year": "1940",
+      "concept_ids": "CONCEPT_FOURTH_ESTATE",
+      "evidence_passage_ids": "PAS_0038"
+    },
+    {
+      "proposition_id": "PROP_WOODWARD_1972_A",
+      "scholar_id": "SCH_WOODWARD",
+      "proposition_text_zh": "调查新闻的核心是追查证据链，坚持事实核查，让权力接受监督。",
+      "year": "1972",
+      "concept_ids": "CONCEPT_WATCHDOG",
+      "evidence_passage_ids": "PAS_0039"
+    },
+    {
+      "proposition_id": "PROP_HALL_1973_A",
+      "scholar_id": "SCH_HALL",
+      "proposition_text_zh": "受众并非被动接受媒介信息，而是根据自身立场进行编码与解码的意义协商。",
+      "year": "1973",
+      "concept_ids": "CONCEPT_ENCODING_DECODING",
+      "evidence_passage_ids": "PAS_0040"
+    },
+    {
+      "proposition_id": "PROP_CASTELLS_1996_A",
+      "scholar_id": "SCH_CASTELLS",
+      "proposition_text_zh": "信息技术革命催生了网络社会，权力流动于全球网络节点之间。",
+      "year": "1996",
+      "concept_ids": "CONCEPT_NETWORK_SOCIETY",
+      "evidence_passage_ids": "PAS_0041"
+    },
+    {
+      "proposition_id": "PROP_POSTMAN_1985_A",
+      "scholar_id": "SCH_POSTMAN",
+      "proposition_text_zh": "电视将一切公共话语转化为娱乐形式，我们正在「娱乐至死」。",
+      "year": "1985",
+      "concept_ids": "CONCEPT_MEDIA_ECOLOGY",
+      "evidence_passage_ids": "PAS_0042"
+    },
+    {
+      "proposition_id": "PROP_CHOMSKY_1988_A",
+      "scholar_id": "SCH_CHOMSKY",
+      "proposition_text_zh": "大众媒体通过宣传模式「制造共识」，为精英阶层的利益服务。",
+      "year": "1988",
+      "concept_ids": "CONCEPT_PROPAGANDA_MODEL",
+      "evidence_passage_ids": "PAS_0043"
+    },
+    {
+      "proposition_id": "PROP_IVY_LEE_1906_A",
+      "scholar_id": "SCH_IVY_LEE",
+      "proposition_text_zh": "公共关系应建立在公开、诚实的原则上，企业有义务向公众披露信息。",
+      "year": "1906",
+      "concept_ids": "CONCEPT_PUBLIC_RELATIONS",
+      "evidence_passage_ids": "PAS_0044"
+    },
+    {
+      "proposition_id": "PROP_BERNAYS_1923_A",
+      "scholar_id": "SCH_BERNAYS",
+      "proposition_text_zh": "公共关系是「舆论的结晶」工程，通过科学方法引导公众意见。",
+      "year": "1923",
+      "concept_ids": "CONCEPT_PUBLIC_RELATIONS",
+      "evidence_passage_ids": "PAS_0045"
+    },
+    {
+      "proposition_id": "PROP_WANG_TAO_1874_A",
+      "scholar_id": "SCH_WANG_TAO",
+      "proposition_text_zh": "变法自强——中国欲自强必先变法，而变法必先从报刊开始启迪民智。",
+      "year": "1874",
+      "concept_ids": "CONCEPT_PRESS_FREEDOM",
+      "evidence_passage_ids": "PAS_0024"
+    },
+    {
+      "proposition_id": "PROP_KANG_YOUWEI_1895_A",
+      "scholar_id": "SCH_KANG_YOUWEI",
+      "proposition_text_zh": "报刊启蒙——报刊为维新变法之利器，可开民智、通下情、振士气。",
+      "year": "1895",
+      "concept_ids": "CONCEPT_PUBLIC_SPHERE",
+      "evidence_passage_ids": "PAS_0025"
+    },
+    {
+      "proposition_id": "PROP_YAN_FU_1897_A",
+      "scholar_id": "SCH_YAN_FU",
+      "proposition_text_zh": "通上下之情——报刊应沟通上下，使民情达于上，国政达于下。",
+      "year": "1897",
+      "concept_ids": "CONCEPT_PUBLIC_OPINION",
+      "evidence_passage_ids": "PAS_0026"
+    },
+    {
+      "proposition_id": "PROP_CHEN_DUXIU_1915_A",
+      "scholar_id": "SCH_CHEN_DUXIU",
+      "proposition_text_zh": "新青年与新文化——以青年为对象，倡导民主与科学，推动思想启蒙。",
+      "year": "1915",
+      "concept_ids": "CONCEPT_PUBLIC_SPHERE",
+      "evidence_passage_ids": "PAS_0027"
+    },
+    {
+      "proposition_id": "PROP_LI_DAZHAO_1919_A",
+      "scholar_id": "SCH_LI_DAZHAO",
+      "proposition_text_zh": "马克思主义传播——通过报刊介绍和传播马克思主义，唤醒中国青年。",
+      "year": "1919",
+      "concept_ids": "CONCEPT_PROPAGANDA",
+      "evidence_passage_ids": "PAS_0028"
+    },
+    {
+      "proposition_id": "PROP_ZOU_TAOFEN_1930_A",
+      "scholar_id": "SCH_ZOU_TAOFEN",
+      "proposition_text_zh": "抗日救亡舆论——报刊应为民众喉舌，动员全民抗日救国。",
+      "year": "1930",
+      "concept_ids": "CONCEPT_FOURTH_ESTATE",
+      "evidence_passage_ids": "PAS_0029"
+    },
+    {
+      "proposition_id": "PROP_FAN_CHANGJIANG_1936_A",
+      "scholar_id": "SCH_FAN_CHANGJIANG",
+      "proposition_text_zh": "现代通讯报道——以亲身采访为基础，开创中国现代新闻通讯体裁。",
+      "year": "1936",
+      "concept_ids": "CONCEPT_OBJECTIVITY",
+      "evidence_passage_ids": "PAS_0030"
+    },
+    {
+      "proposition_id": "PROP_LU_XUN_1918_A",
+      "scholar_id": "SCH_LU_XUN",
+      "proposition_text_zh": "以笔为枪的杂文——杂文是匕首和投枪，应当揭露社会黑暗、唤醒民众。",
+      "year": "1918",
+      "concept_ids": "CONCEPT_FOURTH_ESTATE",
+      "evidence_passage_ids": "PAS_0031"
+    },
+    {
+      "proposition_id": "PROP_MAO_ZEDONG_1919_A",
+      "scholar_id": "SCH_MAO_ZEDONG",
+      "proposition_text_zh": "党报理论——报纸是党的喉舌，是党联系群众的桥梁和纽带。",
+      "year": "1919",
+      "concept_ids": "CONCEPT_PROPAGANDA",
+      "evidence_passage_ids": "PAS_0032"
+    },
+    {
+      "proposition_id": "PROP_XU_BAOHUANG_1918_A",
+      "scholar_id": "SCH_XU_BAOHUANG",
+      "proposition_text_zh": "新闻教育——新闻学是一门独立学科，记者需要系统的专业教育。",
+      "year": "1918",
+      "concept_ids": "CONCEPT_OBJECTIVITY",
+      "evidence_passage_ids": "PAS_0033"
+    },
+    {
+      "proposition_id": "PROP_LASSWELL_1948_A",
+      "scholar_id": "SCH_LASSWELL",
+      "proposition_text_zh": "传播过程可以用5W模式描述：谁（Who）、说什么（Says What）、通过什么渠道（In Which Channel）、对谁说（To Whom）、取得什么效果（With What Effect）。",
+      "year": "1948",
+      "concept_ids": "CONCEPT_5W_MODEL",
+      "evidence_passage_ids": "PAS_0016"
+    },
+    {
+      "proposition_id": "PROP_LEWIN_1947_A",
+      "scholar_id": "SCH_LEWIN",
+      "proposition_text_zh": "信息在传播渠道中流动时，必须经过某些「把关人」的筛选，他们决定哪些信息可以继续传播。",
+      "year": "1947",
+      "concept_ids": "CONCEPT_GATEKEEPER",
+      "evidence_passage_ids": "PAS_0017"
+    },
+    {
+      "proposition_id": "PROP_HOVLAND_1953_A",
+      "scholar_id": "SCH_HOVLAND",
+      "proposition_text_zh": "说服效果取决于信息来源的可信度、信息内容的组织方式以及受众的心理特征。",
+      "year": "1953",
+      "concept_ids": "CONCEPT_PERSUASION",
+      "evidence_passage_ids": "PAS_0018"
+    },
+    {
+      "proposition_id": "PROP_SHANNON_1948_A",
+      "scholar_id": "SCH_SHANNON",
+      "proposition_text_zh": "通信的基本问题是在一点精确地或近似地复现在另一点所选取的讯息，信息可以用数学方法量化。",
+      "year": "1948",
+      "concept_ids": "CONCEPT_INFORMATION_THEORY",
+      "evidence_passage_ids": "PAS_0019"
+    },
+    {
+      "proposition_id": "PROP_WIENER_1948_A",
+      "scholar_id": "SCH_WIENER",
+      "proposition_text_zh": "控制论研究动物和机器中控制和通信的科学，反馈机制是系统自我调节的关键。",
+      "year": "1948",
+      "concept_ids": "CONCEPT_CYBERNETICS",
+      "evidence_passage_ids": "PAS_0020"
+    },
+    {
+      "proposition_id": "PROP_NOELLE_NEUMANN_1974_A",
+      "scholar_id": "SCH_NOELLE_NEUMANN",
+      "proposition_text_zh": "当人们感知到自己的观点属于少数时，会倾向于保持沉默，形成「沉默的螺旋」效应。",
+      "year": "1974",
+      "concept_ids": "CONCEPT_SPIRAL_OF_SILENCE",
+      "evidence_passage_ids": "PAS_0021"
+    },
+    {
+      "proposition_id": "PROP_GERBNER_1976_A",
+      "scholar_id": "SCH_GERBNER",
+      "proposition_text_zh": "长期接触电视内容会使观众对社会现实的认知趋向电视所呈现的图景（涵化效果）。",
+      "year": "1976",
+      "concept_ids": "CONCEPT_CULTIVATION",
+      "evidence_passage_ids": "PAS_0022"
+    },
+    {
+      "proposition_id": "PROP_ROGERS_1962_A",
+      "scholar_id": "SCH_ROGERS",
+      "proposition_text_zh": "创新通过特定渠道在社会系统成员间传播，采纳者可分为创新者、早期采纳者、早期多数、晚期多数和落后者。",
+      "year": "1962",
+      "concept_ids": "CONCEPT_DIFFUSION",
+      "evidence_passage_ids": "PAS_0023"
+    },
+    {
+      "proposition_id": "PROP_WILLIAMS_1958_A",
+      "scholar_id": "SCH_WILLIAMS",
+      "proposition_text_zh": "文化是普通的——文化不是精英的专属，而是整个生活方式，包括普通人的日常实践。",
+      "year": "1958",
+      "concept_ids": "CONCEPT_ENCODING_DECODING",
+      "evidence_passage_ids": "PAS_0046"
+    },
+    {
+      "proposition_id": "PROP_HOGGART_1957_A",
+      "scholar_id": "SCH_HOGGART",
+      "proposition_text_zh": "工人阶级文化具有独特价值，大众文化的商业化正在侵蚀传统社区的有机联系。",
+      "year": "1957",
+      "concept_ids": "CONCEPT_ENCODING_DECODING",
+      "evidence_passage_ids": "PAS_0047"
+    },
+    {
+      "proposition_id": "PROP_THOMPSON_1963_A",
+      "scholar_id": "SCH_THOMPSON",
+      "proposition_text_zh": "工人阶级不是被动的历史客体，而是通过文化实践主动创造自身历史的能动主体。",
+      "year": "1963",
+      "concept_ids": "CONCEPT_ENCODING_DECODING",
+      "evidence_passage_ids": "PAS_0048"
+    },
+    {
+      "proposition_id": "PROP_MORLEY_1980_A",
+      "scholar_id": "SCH_MORLEY",
+      "proposition_text_zh": "电视观众根据自身社会位置对节目进行不同解读，存在主导、协商和对抗三种解码立场。",
+      "year": "1980",
+      "concept_ids": "CONCEPT_ENCODING_DECODING",
+      "evidence_passage_ids": "PAS_0049"
+    },
+    {
+      "proposition_id": "PROP_FISKE_1989_A",
+      "scholar_id": "SCH_FISKE",
+      "proposition_text_zh": "大众文化中存在快感与抵抗的政治，受众能够从主流文本中创造出对抗性意义。",
+      "year": "1989",
+      "concept_ids": "CONCEPT_ENCODING_DECODING",
+      "evidence_passage_ids": "PAS_0050"
+    },
+    {
+      "proposition_id": "PROP_SARNOFF_1926_A",
+      "scholar_id": "SCH_SARNOFF",
+      "proposition_text_zh": "广播应当成为商业化的大众娱乐媒体，通过广告支持实现免费收听的公共服务。",
+      "year": "1926",
+      "concept_ids": "CONCEPT_MEDIUM_MESSAGE",
+      "evidence_passage_ids": "PAS_0060"
+    },
+    {
+      "proposition_id": "PROP_PALEY_1928_A",
+      "scholar_id": "SCH_PALEY",
+      "proposition_text_zh": "广播网络应当以节目质量取胜，通过明星制和优质娱乐内容建立品牌忠诚度。",
+      "year": "1928",
+      "concept_ids": "CONCEPT_MEDIUM_MESSAGE",
+      "evidence_passage_ids": "PAS_0061"
+    },
+    {
+      "proposition_id": "PROP_WALTERS_1976_A",
+      "scholar_id": "SCH_WALTERS",
+      "proposition_text_zh": "女性新闻工作者能够胜任严肃政治报道，电视新闻应当突破性别界限。",
+      "year": "1976",
+      "concept_ids": "CONCEPT_FOURTH_ESTATE",
+      "evidence_passage_ids": "PAS_0062"
+    },
+    {
+      "proposition_id": "PROP_TURNER_1980_A",
+      "scholar_id": "SCH_TURNER",
+      "proposition_text_zh": "新闻不应受制于时段限制，24小时全天候新闻频道能够满足公众即时知情的需求。",
+      "year": "1980",
+      "concept_ids": "CONCEPT_GLOBAL_VILLAGE",
+      "evidence_passage_ids": "PAS_0063"
+    },
+    {
+      "proposition_id": "PROP_PAGE_1927_A",
+      "scholar_id": "SCH_PAGE",
+      "proposition_text_zh": "企业公共关系应当建立在真诚透明的基础上，公司行为必须与公众利益相一致。",
+      "year": "1927",
+      "concept_ids": "CONCEPT_PUBLIC_RELATIONS",
+      "evidence_passage_ids": "PAS_0064"
+    },
+    {
+      "proposition_id": "PROP_BYOIR_1930_A",
+      "scholar_id": "SCH_BYOIR",
+      "proposition_text_zh": "公共关系是一种全方位的专业服务，涵盖研究、策划、执行和评估的完整流程。",
+      "year": "1930",
+      "concept_ids": "CONCEPT_PUBLIC_RELATIONS",
+      "evidence_passage_ids": "PAS_0065"
+    },
+    {
+      "proposition_id": "PROP_BURSON_1953_A",
+      "scholar_id": "SCH_BURSON",
+      "proposition_text_zh": "公共关系必须全球化运作，跨国企业需要统一协调的国际传播策略。",
+      "year": "1953",
+      "concept_ids": "CONCEPT_PUBLIC_RELATIONS",
+      "evidence_passage_ids": "PAS_0066"
+    },
+    {
+      "proposition_id": "PROP_DAN_SCHILLER_1999_A",
+      "scholar_id": "SCH_DAN_SCHILLER",
+      "proposition_text_zh": "数字资本主义——信息技术和网络并非中立工具，而是资本主义逻辑的延伸，服务于企业利润和市场扩张。",
+      "year": "1999",
+      "concept_ids": "CONCEPT_NETWORK_SOCIETY",
+      "evidence_passage_ids": "PAS_0070"
+    },
+    {
+      "proposition_id": "PROP_MOSCO_1996_A",
+      "scholar_id": "SCH_MOSCO",
+      "proposition_text_zh": "传播政治经济学研究权力如何介入传播资源的生产、分配和消费，商品化、空间化和结构化是核心过程。",
+      "year": "1996",
+      "concept_ids": "CONCEPT_PROPAGANDA_MODEL",
+      "evidence_passage_ids": "PAS_0071"
+    },
+    {
+      "proposition_id": "PROP_MURDOCK_1982_A",
+      "scholar_id": "SCH_MURDOCK",
+      "proposition_text_zh": "媒体所有权集中削弱了内容多样性和公共利益，少数企业控制信息流动威胁民主参与。",
+      "year": "1982",
+      "concept_ids": "CONCEPT_PROPAGANDA_MODEL",
+      "evidence_passage_ids": "PAS_0072"
+    },
+    {
+      "proposition_id": "PROP_LEVINSON_1999_A",
+      "scholar_id": "SCH_LEVINSON",
+      "proposition_text_zh": "新新媒介——互联网和数字媒介延续并增强了人类感官和认知能力，是媒介进化的必然结果。",
+      "year": "1999",
+      "concept_ids": "CONCEPT_MEDIA_ECOLOGY",
+      "evidence_passage_ids": "PAS_0073"
+    },
+    {
+      "proposition_id": "PROP_STRATE_1998_A",
+      "scholar_id": "SCH_STRATE",
+      "proposition_text_zh": "媒介生态学研究媒介环境如何影响人类感知、理解和价值观，媒介是塑造文化的隐性力量。",
+      "year": "1998",
+      "concept_ids": "CONCEPT_MEDIA_ECOLOGY",
+      "evidence_passage_ids": "PAS_0074"
+    },
+    {
+      "proposition_id": "PROP_NYSTROM_1973_A",
+      "scholar_id": "SCH_NYSTROM",
+      "proposition_text_zh": "媒介生态学是关于媒介环境的研究，探索媒介如何影响人类感知、情感、认知和价值观。",
+      "year": "1973",
+      "concept_ids": "CONCEPT_MEDIA_ECOLOGY",
+      "evidence_passage_ids": "PAS_0075"
+    },
+    {
+      "proposition_id": "PROP_PARK_1921_A",
+      "scholar_id": "SCH_PARK",
+      "proposition_text_zh": "城市是一个社会实验室，报纸在城市生态系统中扮演着信息流通和社会整合的重要角色。",
+      "year": "1921",
+      "concept_ids": "CONCEPT_URBAN_ECOLOGY",
+      "evidence_passage_ids": "PAS_0051"
+    },
+    {
+      "proposition_id": "PROP_MEAD_1934_A",
+      "scholar_id": "SCH_MEAD",
+      "proposition_text_zh": "自我是通过社会互动形成的，人们通过「有意义的符号」进行沟通，语言是社会化的核心媒介。",
+      "year": "1934",
+      "concept_ids": "CONCEPT_SYMBOLIC_INTERACTION",
+      "evidence_passage_ids": "PAS_0052"
+    },
+    {
+      "proposition_id": "PROP_BLUMER_1937_A",
+      "scholar_id": "SCH_BLUMER",
+      "proposition_text_zh": "人们根据事物对他们的意义来行动，意义产生于社会互动，并在解释过程中不断被修改。",
+      "year": "1937",
+      "concept_ids": "CONCEPT_SYMBOLIC_INTERACTION",
+      "evidence_passage_ids": "PAS_0053"
+    },
+    {
+      "proposition_id": "PROP_ONG_1982_A",
+      "scholar_id": "SCH_ONG",
+      "proposition_text_zh": "书写技术重构了人类意识，口语文化与书面文化代表了两种根本不同的思维方式和社会组织形态。",
+      "year": "1982",
+      "concept_ids": "CONCEPT_MEDIA_ECOLOGY",
+      "evidence_passage_ids": "PAS_0054"
+    },
+    {
+      "proposition_id": "PROP_HAVELOCK_1963_A",
+      "scholar_id": "SCH_HAVELOCK",
+      "proposition_text_zh": "古希腊从口语向书面文化的转变催生了抽象思维和哲学，字母文字是西方理性传统的技术基础。",
+      "year": "1963",
+      "concept_ids": "CONCEPT_MEDIA_ECOLOGY",
+      "evidence_passage_ids": "PAS_0055"
+    },
+    {
+      "proposition_id": "PROP_DEKERCKHOVE_1995_A",
+      "scholar_id": "SCH_DEKERCKHOVE",
+      "proposition_text_zh": "数字网络正在创造「联网智能」，互联网延伸了人类的神经系统，形成一种集体心智形态。",
+      "year": "1995",
+      "concept_ids": "CONCEPT_NETWORK_SOCIETY",
+      "evidence_passage_ids": "PAS_0056"
+    },
+    {
+      "proposition_id": "PROP_JANIS_1972_A",
+      "scholar_id": "SCH_JANIS",
+      "proposition_text_zh": "高凝聚力群体在决策时容易产生「群体思维」，成员为维护一致性而压制异议，导致非理性决策。",
+      "year": "1972",
+      "concept_ids": "CONCEPT_GROUPTHINK",
+      "evidence_passage_ids": "PAS_0090"
+    },
+    {
+      "proposition_id": "PROP_SHAW_1972_A",
+      "scholar_id": "SCH_SHAW",
+      "proposition_text_zh": "媒介通过选择性报道设置公众议程，公众对议题重要性的认知与媒介报道量呈正相关。",
+      "year": "1972",
+      "concept_ids": "CONCEPT_AGENDA_SETTING",
+      "evidence_passage_ids": "PAS_0091"
+    },
+    {
+      "proposition_id": "PROP_GROSS_1976_A",
+      "scholar_id": "SCH_GROSS",
+      "proposition_text_zh": "电视对边缘群体的刻板化呈现会强化观众的偏见认知，少数群体形象的主流化是涵化效果的重要维度。",
+      "year": "1976",
+      "concept_ids": "CONCEPT_CULTIVATION",
+      "evidence_passage_ids": "PAS_0092"
+    },
+    {
+      "proposition_id": "PROP_ZHENG_GUANYING_1894_A",
+      "scholar_id": "SCH_ZHENG_GUANYING",
+      "proposition_text_zh": "商战——商务乃国家富强之本，应以商立国，兴办实业，与列强进行商业竞争。",
+      "year": "1894",
+      "concept_ids": "CONCEPT_PRESS_FREEDOM",
+      "evidence_passage_ids": "PAS_0093"
+    },
+    {
+      "proposition_id": "PROP_LAM_HANGCHI_1973_A",
+      "scholar_id": "SCH_LAM_HANGCHI",
+      "proposition_text_zh": "财经评论应独立客观，以专业分析服务读者，报刊是工商社会的公器。",
+      "year": "1973",
+      "concept_ids": "CONCEPT_FOURTH_ESTATE",
+      "evidence_passage_ids": "PAS_0094"
+    },
+    {
+      "proposition_id": "PROP_BO_GU_1931_A",
+      "scholar_id": "SCH_BO_GU",
+      "proposition_text_zh": "红色中华通讯社是党的耳目喉舌，新华社继承其革命传统，担负党的新闻宣传使命。",
+      "year": "1931",
+      "concept_ids": "CONCEPT_PROPAGANDA",
+      "evidence_passage_ids": "PAS_0080"
+    },
+    {
+      "proposition_id": "PROP_YANG_SHANGKUN_1940_A",
+      "scholar_id": "SCH_YANG_SHANGKUN",
+      "proposition_text_zh": "延安新华广播电台是党领导下的人民广播事业起点，开创了中国革命广播新纪元。",
+      "year": "1940",
+      "concept_ids": "CONCEPT_PROPAGANDA",
+      "evidence_passage_ids": "PAS_0081"
+    },
+    {
+      "proposition_id": "PROP_LIAO_CHENGZHI_1949_A",
+      "scholar_id": "SCH_LIAO_CHENGZHI",
+      "proposition_text_zh": "对外宣传是让世界了解中国的窗口，应向国际社会传播中国革命的真实声音。",
+      "year": "1949",
+      "concept_ids": "CONCEPT_PROPAGANDA",
+      "evidence_passage_ids": "PAS_0082"
+    },
+    {
+      "proposition_id": "PROP_HUANG_TIANPENG_1930_A",
+      "scholar_id": "SCH_HUANG_TIANPENG",
+      "proposition_text_zh": "新闻学应有完整的理论体系，从新闻本质、采访编辑到报业经营需系统研究。",
+      "year": "1930",
+      "concept_ids": "CONCEPT_OBJECTIVITY",
+      "evidence_passage_ids": "PAS_0083"
+    },
+    {
+      "proposition_id": "PROP_REN_BAITAO_1941_A",
+      "scholar_id": "SCH_REN_BAITAO",
+      "proposition_text_zh": "新闻学是一门综合性学科，应融合社会学、心理学、政治学等多学科视角。",
+      "year": "1941",
+      "concept_ids": "CONCEPT_OBJECTIVITY",
+      "evidence_passage_ids": "PAS_0084"
+    },
+    {
+      "proposition_id": "PROP_FANG_HANQI_1992_A",
+      "scholar_id": "SCH_FANG_HANQI",
+      "proposition_text_zh": "中国新闻事业发展有其独特规律，应从历史视角系统梳理中国新闻传播史。",
+      "year": "1992",
+      "concept_ids": "CONCEPT_OBJECTIVITY",
+      "evidence_passage_ids": "PAS_0085"
+    }
+  ],
+  "passages": [
+    {
+      "passage_id": "PAS_0001",
+      "source_id": "SRC_0001",
+      "source_title": "百度百科：李普曼",
+      "source_url": "https://baike.baidu.com/item/沃尔特·李普曼",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "沃尔特·李普曼（Walter Lippmann，1889年9月23日—1974年12月14日），美国作家、记者、政治评论家，传播学史上具有重要影响的学者之一。他的代表作《舆论学》（Public Opinion）被视为传播学领域的奠基之作。",
+      "locator": "概述段落"
+    },
+    {
+      "passage_id": "PAS_0002",
+      "source_id": "SRC_0002",
+      "source_title": "百度百科：麦克卢汉",
+      "source_url": "https://baike.baidu.com/item/马歇尔·麦克卢汉",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "麦克卢汉深受伊尼斯的影响，后者是多伦多大学的经济学家和传播学家。伊尼斯在研究中关注传播媒介对社会组织形式的影响，这一思想被麦克卢汉继承和发展。",
+      "locator": "人物关系段落"
+    },
+    {
+      "passage_id": "PAS_0003",
+      "source_id": "SRC_0003",
+      "source_title": "百度百科：施拉姆",
+      "source_url": "https://baike.baidu.com/item/威尔伯·施拉姆",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "威尔伯·施拉姆（Wilbur Schramm）是美国著名传播学者，被誉为「传播学之父」。他创建了世界上第一个大学传播学研究机构，培养了大批传播学人才。",
+      "locator": "概述段落"
+    },
+    {
+      "passage_id": "PAS_0004",
+      "source_id": "SRC_0004",
+      "source_title": "百度百科：拉扎斯菲尔德",
+      "source_url": "https://baike.baidu.com/item/保罗·拉扎斯菲尔德",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "保罗·拉扎斯菲尔德是奥地利裔美国社会学家，哥伦比亚学派的奠基人。他开创了实证传播研究方法，主持了著名的「人民的选择」研究。",
+      "locator": "概述段落"
+    },
+    {
+      "passage_id": "PAS_0005",
+      "source_id": "SRC_0005",
+      "source_title": "百度百科：哈贝马斯",
+      "source_url": "https://baike.baidu.com/item/于尔根·哈贝马斯",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "于尔根·哈贝马斯是德国当代最重要的哲学家和社会学家之一，法兰克福学派的代表人物。他提出的「公共领域」概念对传播学产生了深远影响。",
+      "locator": "概述段落"
+    },
+    {
+      "passage_id": "PAS_0006",
+      "source_id": "SRC_0006",
+      "source_title": "百度百科：普利策",
+      "source_url": "https://baike.baidu.com/item/约瑟夫·普利策",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "约瑟夫·普利策（Joseph Pulitzer）是美国报业巨头，以其名字命名的普利策奖是美国新闻界最高荣誉。他推动了新闻专业主义的发展。",
+      "locator": "概述段落"
+    },
+    {
+      "passage_id": "PAS_0007",
+      "source_id": "SRC_0007",
+      "source_title": "百度百科：梁启超",
+      "source_url": "https://baike.baidu.com/item/梁启超",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "梁启超是中国近代思想启蒙家，维新派报刊活动家。他主编《时务报》，提出「去塞求通」的办报理念，对中国近代新闻事业产生深远影响。",
+      "locator": "新闻活动段落"
+    },
+    {
+      "passage_id": "PAS_0008",
+      "source_id": "SRC_0008",
+      "source_title": "百度百科：张季鸾",
+      "source_url": "https://baike.baidu.com/item/张季鸾",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "张季鸾是《大公报》总编辑，他提出的「不党、不卖、不私、不盲」四不主义成为中国新闻界的职业准则。",
+      "locator": "四不主义段落"
+    },
+    {
+      "passage_id": "PAS_0009",
+      "source_id": "SRC_0009",
+      "source_title": "百度百科：邵飘萍",
+      "source_url": "https://baike.baidu.com/item/邵飘萍",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "邵飘萍是《京报》创办者，以「铁肩辣手」著称。他是中国新闻摄影的先驱，1926年被军阀张作霖杀害。",
+      "locator": "生平段落"
+    },
+    {
+      "passage_id": "PAS_0010",
+      "source_id": "SRC_0010",
+      "source_title": "百度百科：议程设置理论",
+      "source_url": "https://baike.baidu.com/item/议程设置理论",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "议程设置理论由麦库姆斯和肖于1972年提出，认为大众媒介通过报道议题能够影响公众认知问题重要性的顺序。",
+      "locator": "理论概述段落"
+    },
+    {
+      "passage_id": "PAS_0011",
+      "source_id": "SRC_0011",
+      "source_title": "百度百科：阿多诺",
+      "source_url": "https://baike.baidu.com/item/西奥多·阿多诺",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "西奥多·阿多诺是法兰克福学派核心成员，与霍克海默合著《启蒙辩证法》，提出「文化工业」概念，批判大众文化的商品化和标准化对人的异化。",
+      "locator": "文化工业段落"
+    },
+    {
+      "passage_id": "PAS_0012",
+      "source_id": "SRC_0012",
+      "source_title": "百度百科：霍克海默",
+      "source_url": "https://baike.baidu.com/item/马克斯·霍克海默",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "马克斯·霍克海默是法兰克福学派创始人，提出「批判理论」，批判工具理性对人类解放的阻碍，主张恢复理性的批判维度。",
+      "locator": "批判理论段落"
+    },
+    {
+      "passage_id": "PAS_0013",
+      "source_id": "SRC_0013",
+      "source_title": "百度百科：马尔库塞",
+      "source_url": "https://baike.baidu.com/item/赫伯特·马尔库塞",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "赫伯特·马尔库塞是法兰克福学派代表人物，《单向度的人》批判发达工业社会如何通过技术理性和消费主义消解人的否定性思维。",
+      "locator": "单向度的人段落"
+    },
+    {
+      "passage_id": "PAS_0014",
+      "source_id": "SRC_0014",
+      "source_title": "百度百科：本雅明",
+      "source_url": "https://baike.baidu.com/item/瓦尔特·本雅明",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "瓦尔特·本雅明是德国思想家，《机械复制时代的艺术作品》分析技术复制如何改变艺术的「灵韵」及其社会功能，影响深远。",
+      "locator": "艺术作品段落"
+    },
+    {
+      "passage_id": "PAS_0015",
+      "source_id": "SRC_0015",
+      "source_title": "百度百科：弗洛姆",
+      "source_url": "https://baike.baidu.com/item/埃里希·弗洛姆",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "埃里希·弗洛姆是人本主义精神分析学家，法兰克福学派成员。《逃避自由》分析现代人面对自由时的心理机制及其与极权主义的关系。",
+      "locator": "逃避自由段落"
+    },
+    {
+      "passage_id": "PAS_0034",
+      "source_id": "SRC_0034",
+      "source_title": "百度百科：弥尔顿",
+      "source_url": "https://baike.baidu.com/item/约翰·弥尔顿",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "约翰·弥尔顿（John Milton，1608-1674）是英国诗人、思想家。1644年发表《论出版自由》（Areopagitica），反对书报审查制度，主张出版自由，成为新闻自由思想的奠基之作。",
+      "locator": "出版自由段落"
+    },
+    {
+      "passage_id": "PAS_0035",
+      "source_id": "SRC_0035",
+      "source_title": "百度百科：杰斐逊",
+      "source_url": "https://baike.baidu.com/item/托马斯·杰斐逊",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "托马斯·杰斐逊（Thomas Jefferson，1743-1826）是美国第三任总统，《独立宣言》起草人。他坚定支持新闻自由，认为「没有报刊批评的政府不如没有政府的报刊」，推动《权利法案》确立新闻自由。",
+      "locator": "新闻自由段落"
+    },
+    {
+      "passage_id": "PAS_0036",
+      "source_id": "SRC_0036",
+      "source_title": "百度百科：本杰明·戴",
+      "source_url": "https://baike.baidu.com/item/便士报",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "詹姆斯·戈登·贝内特（James Gordon Bennett，1795-1872）于1835年创办《纽约先驱报》，开创商业化新闻模式，强调独立办报、面向大众、以广告为主要收入来源，是现代商业报纸的先驱。",
+      "locator": "便士报段落"
+    },
+    {
+      "passage_id": "PAS_0037",
+      "source_id": "SRC_0037",
+      "source_title": "百度百科：塔贝尔",
+      "source_url": "https://baike.baidu.com/item/艾达·塔贝尔",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "艾达·塔贝尔（Ida Tarbell，1857-1944）是美国调查记者，「扒粪运动」代表人物。她于1904年发表《美孚石油公司史》，揭露洛克菲勒垄断行为，推动反垄断立法。",
+      "locator": "扒粪运动段落"
+    },
+    {
+      "passage_id": "PAS_0038",
+      "source_id": "SRC_0038",
+      "source_title": "百度百科：默罗",
+      "source_url": "https://baike.baidu.com/item/爱德华·默罗",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "爱德华·默罗（Edward R. Murrow，1908-1965）是美国广播新闻先驱，CBS著名记者。他在二战期间从伦敦发回现场报道，后以电视节目《现在请看》揭露麦卡锡主义，被誉为广播新闻之父。",
+      "locator": "广播新闻段落"
+    },
+    {
+      "passage_id": "PAS_0039",
+      "source_id": "SRC_0039",
+      "source_title": "百度百科：伍德沃德",
+      "source_url": "https://baike.baidu.com/item/鲍勃·伍德沃德",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "鲍勃·伍德沃德（Bob Woodward，1943-）是《华盛顿邮报》调查记者。1972年与伯恩斯坦揭露水门事件，导致尼克松总统辞职，成为调查新闻的标志性事件，强化了新闻作为「第四权力」的监督功能。",
+      "locator": "水门事件段落"
+    },
+    {
+      "passage_id": "PAS_0040",
+      "source_id": "SRC_0040",
+      "source_title": "百度百科：斯图亚特·霍尔",
+      "source_url": "https://baike.baidu.com/item/斯图亚特·霍尔",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "斯图亚特·霍尔（Stuart Hall，1932-2014）是英国文化研究学派代表人物。1973年提出「编码/解码」理论，认为媒介文本生产与接收涉及不同的意义框架，受众可以进行对抗性解读。",
+      "locator": "编码解码段落"
+    },
+    {
+      "passage_id": "PAS_0041",
+      "source_id": "SRC_0041",
+      "source_title": "百度百科：曼纽尔·卡斯特",
+      "source_url": "https://baike.baidu.com/item/曼纽尔·卡斯特",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "曼纽尔·卡斯特（Manuel Castells，1942-）是西班牙社会学家。1996年出版《网络社会的崛起》，提出信息时代社会结构以网络为基础，权力和财富在全球网络节点间流动。",
+      "locator": "网络社会段落"
+    },
+    {
+      "passage_id": "PAS_0042",
+      "source_id": "SRC_0042",
+      "source_title": "百度百科：尼尔·波兹曼",
+      "source_url": "https://baike.baidu.com/item/尼尔·波兹曼",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "尼尔·波兹曼（Neil Postman，1931-2003）是美国媒介生态学家。1985年出版《娱乐至死》，批判电视将公共话语娱乐化，警示媒介技术对民主政治和理性思维的消解。",
+      "locator": "娱乐至死段落"
+    },
+    {
+      "passage_id": "PAS_0043",
+      "source_id": "SRC_0043",
+      "source_title": "百度百科：诺姆·乔姆斯基",
+      "source_url": "https://baike.baidu.com/item/诺姆·乔姆斯基",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "诺姆·乔姆斯基（Noam Chomsky，1928-）是美国语言学家和公共知识分子。1988年与赫尔曼合著《制造共识》，提出「宣传模式」理论，分析大众媒体如何为精英利益服务。",
+      "locator": "制造共识段落"
+    },
+    {
+      "passage_id": "PAS_0044",
+      "source_id": "SRC_0044",
+      "source_title": "百度百科：艾维·李",
+      "source_url": "https://baike.baidu.com/item/艾维·李",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "艾维·李（Ivy Lee，1877-1934）是现代公共关系之父。1906年发表《原则宣言》，主张企业应公开、诚实地与公众沟通，开创了现代公共关系行业。",
+      "locator": "现代公关段落"
+    },
+    {
+      "passage_id": "PAS_0045",
+      "source_id": "SRC_0045",
+      "source_title": "百度百科：爱德华·伯奈斯",
+      "source_url": "https://baike.baidu.com/item/爱德华·伯奈斯",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "爱德华·伯奈斯（Edward Bernays，1891-1995）是弗洛伊德的侄子，公共关系理论奠基人。1923年出版《舆论的结晶》，将心理学应用于公关实践，被誉为「公关之父」。",
+      "locator": "舆论的结晶段落"
+    },
+    {
+      "passage_id": "PAS_0024",
+      "source_id": "SRC_0024",
+      "source_title": "百度百科：王韬",
+      "source_url": "https://baike.baidu.com/item/王韬",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "王韬（1828-1897），清末思想家、报人，中国近代报刊事业先驱。1874年在香港创办《循环日报》，提出变法自强主张，是中国第一位报刊政论家。",
+      "locator": "概述段落"
+    },
+    {
+      "passage_id": "PAS_0025",
+      "source_id": "SRC_0025",
+      "source_title": "百度百科：康有为",
+      "source_url": "https://baike.baidu.com/item/康有为",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "康有为（1858-1927），清末维新派领袖。1895年发起公车上书，创办《万国公报》《强学报》，以报刊为维新变法工具，推动戊戌变法运动。",
+      "locator": "新闻活动段落"
+    },
+    {
+      "passage_id": "PAS_0026",
+      "source_id": "SRC_0026",
+      "source_title": "百度百科：严复",
+      "source_url": "https://baike.baidu.com/item/严复",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "严复（1854-1921），中国近代启蒙思想家、翻译家。1897年主持《国闻报》，提出报刊应「通上下之情」，翻译《天演论》等西方名著。",
+      "locator": "新闻活动段落"
+    },
+    {
+      "passage_id": "PAS_0027",
+      "source_id": "SRC_0027",
+      "source_title": "百度百科：陈独秀",
+      "source_url": "https://baike.baidu.com/item/陈独秀",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "陈独秀（1879-1942），新文化运动领袖。1915年创办《青年杂志》（后改名《新青年》），倡导科学与民主，掀起新文化运动浪潮。",
+      "locator": "新文化运动段落"
+    },
+    {
+      "passage_id": "PAS_0028",
+      "source_id": "SRC_0028",
+      "source_title": "百度百科：李大钊",
+      "source_url": "https://baike.baidu.com/item/李大钊",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "李大钊（1889-1927），中国共产党创始人之一。1919年在《新青年》发表《我的马克思主义观》，是中国最早系统介绍马克思主义的学者。",
+      "locator": "马克思主义传播段落"
+    },
+    {
+      "passage_id": "PAS_0029",
+      "source_id": "SRC_0029",
+      "source_title": "百度百科：邹韬奋",
+      "source_url": "https://baike.baidu.com/item/邹韬奋",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "邹韬奋（1895-1944），著名新闻记者、出版家。1930年代主编《生活》周刊，以「为民众喉舌」为宗旨，积极宣传抗日救亡。",
+      "locator": "新闻生涯段落"
+    },
+    {
+      "passage_id": "PAS_0030",
+      "source_id": "SRC_0030",
+      "source_title": "百度百科：范长江",
+      "source_url": "https://baike.baidu.com/item/范长江",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "范长江（1909-1970），著名新闻记者。1936年发表《中国的西北角》系列通讯，开创中国现代新闻通讯文体，是新华社创建者之一。",
+      "locator": "新闻生涯段落"
+    },
+    {
+      "passage_id": "PAS_0031",
+      "source_id": "SRC_0031",
+      "source_title": "百度百科：鲁迅",
+      "source_url": "https://baike.baidu.com/item/鲁迅",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "鲁迅（1881-1936），中国现代文学奠基人。其杂文被誉为「匕首和投枪」，以犀利笔锋批判社会黑暗，唤醒民众觉悟。",
+      "locator": "杂文创作段落"
+    },
+    {
+      "passage_id": "PAS_0032",
+      "source_id": "SRC_0032",
+      "source_title": "百度百科：毛泽东新闻思想",
+      "source_url": "https://baike.baidu.com/item/毛泽东新闻思想",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "毛泽东（1893-1976）创立了党报理论体系，强调报纸是党的喉舌，是党和人民联系的桥梁纽带，必须坚持党性原则。",
+      "locator": "党报理论段落"
+    },
+    {
+      "passage_id": "PAS_0033",
+      "source_id": "SRC_0033",
+      "source_title": "百度百科：徐宝璜",
+      "source_url": "https://baike.baidu.com/item/徐宝璜",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "徐宝璜（1894-1930），中国新闻教育先驱。1918年在北京大学开设新闻学课程，著有《新闻学》一书，被誉为中国新闻教育第一人。",
+      "locator": "新闻教育段落"
+    },
+    {
+      "passage_id": "PAS_0016",
+      "source_id": "SRC_0016",
+      "source_title": "百度百科：拉斯韦尔",
+      "source_url": "https://baike.baidu.com/item/哈罗德·拉斯韦尔",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "哈罗德·拉斯韦尔（Harold Lasswell）是美国著名政治学家和传播学奠基人之一。1948年提出传播学经典的5W模式，奠定了传播研究的基本框架。",
+      "locator": "5W模式段落"
+    },
+    {
+      "passage_id": "PAS_0017",
+      "source_id": "SRC_0017",
+      "source_title": "百度百科：卢因",
+      "source_url": "https://baike.baidu.com/item/库尔特·卢因",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "库尔特·卢因（Kurt Lewin）是德裔美国社会心理学家，被誉为「社会心理学之父」。1947年提出「把关人」概念，对新闻传播研究产生深远影响。",
+      "locator": "把关人理论段落"
+    },
+    {
+      "passage_id": "PAS_0018",
+      "source_id": "SRC_0018",
+      "source_title": "百度百科：霍夫兰",
+      "source_url": "https://baike.baidu.com/item/卡尔·霍夫兰",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "卡尔·霍夫兰（Carl Hovland）是美国心理学家，耶鲁学派的创始人。他主持的说服研究项目系统探讨了态度改变的心理机制。",
+      "locator": "说服研究段落"
+    },
+    {
+      "passage_id": "PAS_0019",
+      "source_id": "SRC_0019",
+      "source_title": "百度百科：香农",
+      "source_url": "https://baike.baidu.com/item/克劳德·香农",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "克劳德·香农（Claude Shannon）是美国数学家和电气工程师，被誉为「信息论之父」。1948年发表《通信的数学理论》，奠定了信息论的数学基础。",
+      "locator": "信息论段落"
+    },
+    {
+      "passage_id": "PAS_0020",
+      "source_id": "SRC_0020",
+      "source_title": "百度百科：维纳",
+      "source_url": "https://baike.baidu.com/item/诺伯特·维纳",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "诺伯特·维纳（Norbert Wiener）是美国数学家，控制论的创始人。1948年出版《控制论》，提出了反馈和控制的基本原理。",
+      "locator": "控制论段落"
+    },
+    {
+      "passage_id": "PAS_0021",
+      "source_id": "SRC_0021",
+      "source_title": "百度百科：诺依曼",
+      "source_url": "https://baike.baidu.com/item/伊丽莎白·诺依曼",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "伊丽莎白·诺依曼（Elisabeth Noelle-Neumann）是德国政治学家和传播学者。1974年提出「沉默的螺旋」理论，解释舆论形成的社会心理机制。",
+      "locator": "沉默的螺旋段落"
+    },
+    {
+      "passage_id": "PAS_0022",
+      "source_id": "SRC_0022",
+      "source_title": "百度百科：格伯纳",
+      "source_url": "https://baike.baidu.com/item/乔治·格伯纳",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "乔治·格伯纳（George Gerbner）是美国传播学者，宾夕法尼亚大学安嫩伯格传播学院院长。1976年提出涵化理论，研究电视对观众世界观的影响。",
+      "locator": "涵化理论段落"
+    },
+    {
+      "passage_id": "PAS_0023",
+      "source_id": "SRC_0023",
+      "source_title": "百度百科：罗杰斯",
+      "source_url": "https://baike.baidu.com/item/埃弗雷特·罗杰斯",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "埃弗雷特·罗杰斯（Everett Rogers）是美国传播学者。1962年出版《创新的扩散》，系统阐述了创新在社会系统中传播的规律。",
+      "locator": "创新扩散段落"
+    },
+    {
+      "passage_id": "PAS_0046",
+      "source_id": "SRC_0046",
+      "source_title": "百度百科：雷蒙德·威廉斯",
+      "source_url": "https://baike.baidu.com/item/雷蒙德·威廉斯",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "雷蒙德·威廉斯（Raymond Williams，1921-1988）是英国文化研究奠基人。1958年发表《文化与社会》，提出「文化是普通的」，强调文化是整个生活方式。",
+      "locator": "文化研究段落"
+    },
+    {
+      "passage_id": "PAS_0047",
+      "source_id": "SRC_0047",
+      "source_title": "百度百科：理查德·霍加特",
+      "source_url": "https://baike.baidu.com/item/理查德·霍加特",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "理查德·霍加特（Richard Hoggart，1918-2014）是伯明翰当代文化研究中心创始人。1957年出版《识字的用途》，开创工人阶级文化研究。",
+      "locator": "文化研究段落"
+    },
+    {
+      "passage_id": "PAS_0048",
+      "source_id": "SRC_0048",
+      "source_title": "百度百科：E.P.汤普森",
+      "source_url": "https://baike.baidu.com/item/E.P.汤普森",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "E.P.汤普森（E.P. Thompson，1924-1993）是英国马克思主义历史学家。1963年出版《英国工人阶级的形成》，强调工人阶级的文化能动性。",
+      "locator": "文化研究段落"
+    },
+    {
+      "passage_id": "PAS_0049",
+      "source_id": "SRC_0049",
+      "source_title": "百度百科：大卫·莫利",
+      "source_url": "https://baike.baidu.com/item/大卫·莫利",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "大卫·莫利（David Morley）是伯明翰学派成员。1980年出版《全国观众》，实证研究电视受众的解码实践，验证霍尔的编码/解码理论。",
+      "locator": "受众研究段落"
+    },
+    {
+      "passage_id": "PAS_0050",
+      "source_id": "SRC_0050",
+      "source_title": "百度百科：约翰·费斯克",
+      "source_url": "https://baike.baidu.com/item/约翰·费斯克",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "约翰·费斯克（John Fiske，1939-2021）是文化研究学者。1989年出版《理解大众文化》，强调受众的积极性和快感政治。",
+      "locator": "大众文化段落"
+    },
+    {
+      "passage_id": "PAS_0051",
+      "source_id": "SRC_0051",
+      "source_title": "百度百科：罗伯特·帕克",
+      "source_url": "https://baike.baidu.com/item/罗伯特·帕克",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "罗伯特·帕克（Robert E. Park，1864-1944）是美国社会学家，芝加哥学派创始人之一。他将城市视为社会实验室，运用生态学方法研究城市社会组织和传播过程，认为报纸是城市生态系统中的重要组成部分。",
+      "locator": "城市生态学段落"
+    },
+    {
+      "passage_id": "PAS_0052",
+      "source_id": "SRC_0052",
+      "source_title": "百度百科：乔治·米德",
+      "source_url": "https://baike.baidu.com/item/乔治·米德",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "乔治·赫伯特·米德（George Herbert Mead，1863-1931）是美国社会心理学家，符号互动论创始人。他提出「自我」通过社会互动形成，人们通过「主我」与「客我」的对话建构意义，语言和符号是社会互动的核心媒介。",
+      "locator": "符号互动论段落"
+    },
+    {
+      "passage_id": "PAS_0053",
+      "source_id": "SRC_0053",
+      "source_title": "百度百科：赫伯特·布鲁默",
+      "source_url": "https://baike.baidu.com/item/赫伯特·布鲁默",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "赫伯特·布鲁默（Herbert Blumer，1900-1987）是美国社会学家，米德的学生。他系统化了符号互动论，提出三个核心前提：人们根据事物的意义行动；意义源于社会互动；意义在解释过程中被修改。",
+      "locator": "符号互动论段落"
+    },
+    {
+      "passage_id": "PAS_0054",
+      "source_id": "SRC_0054",
+      "source_title": "百度百科：沃尔特·翁",
+      "source_url": "https://baike.baidu.com/item/沃尔特·翁",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "沃尔特·翁（Walter J. Ong，1912-2003）是美国学者，多伦多学派成员。1982年出版《口语文化与书面文化》，分析口语文化与书面文化的认知差异，认为书写技术重构了人类意识和思维方式。",
+      "locator": "口语文化段落"
+    },
+    {
+      "passage_id": "PAS_0055",
+      "source_id": "SRC_0055",
+      "source_title": "百度百科：埃里克·哈弗洛克",
+      "source_url": "https://baike.baidu.com/item/埃里克·哈弗洛克",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "埃里克·哈弗洛克（Eric A. Havelock，1903-1988）是古典学者，多伦多学派成员。1963年出版《柏拉图导论》，论证古希腊从口语文化向书面文化的转变如何催生了抽象思维和哲学。",
+      "locator": "希腊口语文化段落"
+    },
+    {
+      "passage_id": "PAS_0056",
+      "source_id": "SRC_0056",
+      "source_title": "百度百科：德里克·德科霍夫",
+      "source_url": "https://baike.baidu.com/item/德里克·德科霍夫",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "德里克·德科霍夫（Derrick de Kerckhove，1944-）是麦克卢汉的学生，多伦多学派第二代代表。他研究数字媒介对人类心智的影响，提出「联网智能」概念，认为互联网正在创造一种集体智慧形态。",
+      "locator": "数字媒介段落"
+    },
+    {
+      "passage_id": "PAS_0070",
+      "source_id": "SRC_0070",
+      "source_title": "百度百科：丹·席勒",
+      "source_url": "https://baike.baidu.com/item/丹·席勒",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "丹·席勒（Dan Schiller，1951-）是美国传播学者，传播政治经济学代表人物。1999年出版《数字资本主义》，批判信息技术如何被纳入资本主义逻辑，服务于企业利润最大化和全球市场扩张。",
+      "locator": "数字资本主义段落"
+    },
+    {
+      "passage_id": "PAS_0071",
+      "source_id": "SRC_0071",
+      "source_title": "百度百科：文森特·莫斯可",
+      "source_url": "https://baike.baidu.com/item/文森特·莫斯可",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "文森特·莫斯可（Vincent Mosco，1948-）是加拿大传播学者，传播政治经济学奠基人之一。1996年出版《传播政治经济学》，提出商品化、空间化、结构化三个核心分析范畴，研究传播产业中的权力关系。",
+      "locator": "传播政治经济学段落"
+    },
+    {
+      "passage_id": "PAS_0072",
+      "source_id": "SRC_0072",
+      "source_title": "百度百科：格雷厄姆·默多克",
+      "source_url": "https://baike.baidu.com/item/格雷厄姆·默多克",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "格雷厄姆·默多克（Graham Murdock，1946-）是英国传播学者，批判政治经济学代表人物。1982年与戈尔丁合著《大众媒介的政治经济学》，分析媒体所有权集中如何影响内容多样性和民主参与。",
+      "locator": "媒体所有权段落"
+    },
+    {
+      "passage_id": "PAS_0073",
+      "source_id": "SRC_0073",
+      "source_title": "百度百科：保罗·莱文森",
+      "source_url": "https://baike.baidu.com/item/保罗·莱文森",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "保罗·莱文森（Paul Levinson，1947-）是美国媒介理论家，媒介生态学第三代代表。1999年提出「新新媒介」概念，认为数字媒介是人类感官延伸的最新阶段，继承并发展了麦克卢汉的媒介进化思想。",
+      "locator": "新新媒介段落"
+    },
+    {
+      "passage_id": "PAS_0074",
+      "source_id": "SRC_0074",
+      "source_title": "百度百科：兰斯·斯特拉特",
+      "source_url": "https://baike.baidu.com/item/兰斯·斯特拉特",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "兰斯·斯特拉特（Lance Strate，1957-）是美国传播学者，1998年创立媒介生态学协会（MEA）。他致力于媒介生态学的学科建设，强调媒介环境对人类感知、思维和价值观的塑造作用。",
+      "locator": "媒介生态学协会段落"
+    },
+    {
+      "passage_id": "PAS_0075",
+      "source_id": "SRC_0075",
+      "source_title": "百度百科：克里斯汀·尼斯特龙",
+      "source_url": "https://baike.baidu.com/item/克里斯汀·尼斯特龙",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "克里斯汀·尼斯特龙（Christine Nystrom，1941-）是尼尔·波兹曼的同事，1973年在纽约大学创建媒介生态学博士项目。她首次系统定义媒介生态学为研究媒介环境如何影响人类感知、理解和价值的学科。",
+      "locator": "媒介生态学教育段落"
+    },
+    {
+      "passage_id": "PAS_0080",
+      "source_id": "SRC_0080",
+      "source_title": "百度百科：博古",
+      "source_url": "https://baike.baidu.com/item/博古",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "博古（1907-1946），原名秦邦宪，中国共产党早期领导人。1931年在江西瑞金参与创建红色中华通讯社（红中社），这是新华社的前身。红中社为革命根据地提供新闻报道服务，传播党的政策方针，是中国共产党新闻事业的重要起点。",
+      "locator": "红中社段落"
+    },
+    {
+      "passage_id": "PAS_0081",
+      "source_id": "SRC_0081",
+      "source_title": "百度百科：杨尚昆",
+      "source_url": "https://baike.baidu.com/item/杨尚昆",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "杨尚昆（1907-1998），中国共产党领导人。1940年在延安参与筹建延安新华广播电台，这是中国共产党领导的第一座人民广播电台，标志着党的广播事业的诞生，为抗日战争和解放战争时期的宣传工作发挥了重要作用。",
+      "locator": "延安广播段落"
+    },
+    {
+      "passage_id": "PAS_0082",
+      "source_id": "SRC_0082",
+      "source_title": "百度百科：廖承志",
+      "source_url": "https://baike.baidu.com/item/廖承志",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "廖承志（1908-1983），中国共产党领导人，长期从事对外宣传和统战工作。1949年后主持新华社对外新闻报道工作，推动中国对外宣传事业发展，致力于向国际社会传播中国声音，增进世界对中国的了解。",
+      "locator": "对外宣传段落"
+    },
+    {
+      "passage_id": "PAS_0083",
+      "source_id": "SRC_0083",
+      "source_title": "百度百科：黄天鹏",
+      "source_url": "https://baike.baidu.com/item/黄天鹏",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "黄天鹏（1905-1982），中国新闻学家、新闻教育家。1930年出版《新闻学概论》，系统阐述新闻学基本理论，涵盖新闻本质、采访编辑、报业经营等内容，是中国早期重要的新闻学理论著作之一。",
+      "locator": "新闻学概论段落"
+    },
+    {
+      "passage_id": "PAS_0084",
+      "source_id": "SRC_0084",
+      "source_title": "百度百科：任白涛",
+      "source_url": "https://baike.baidu.com/item/任白涛",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "任白涛（1890-1952），中国新闻学家。1941年出版《综合新闻学》，主张新闻学应当综合运用社会学、心理学、政治学等多学科方法，建立完整的新闻学理论体系，对中国新闻学学科建设产生重要影响。",
+      "locator": "综合新闻学段落"
+    },
+    {
+      "passage_id": "PAS_0085",
+      "source_id": "SRC_0085",
+      "source_title": "百度百科：方汉奇",
+      "source_url": "https://baike.baidu.com/item/方汉奇",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "方汉奇（1926-），中国新闻史学家，中国人民大学新闻学院教授。1992年主编出版《中国新闻事业通史》三卷本，系统梳理中国新闻事业从古代到当代的发展历程，是中国新闻史研究的里程碑之作。",
+      "locator": "新闻事业通史段落"
+    },
+    {
+      "passage_id": "PAS_0060",
+      "source_id": "SRC_0060",
+      "source_title": "百度百科：大卫·萨诺夫",
+      "source_url": "https://baike.baidu.com/item/大卫·萨诺夫",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "大卫·萨诺夫（David Sarnoff，1891-1971）是美国广播业先驱，RCA和NBC的缔造者。1926年他创建NBC，开创了以广告为支撑的商业广播模式，将广播从业余爱好者的实验转变为大众娱乐产业。",
+      "locator": "商业广播段落"
+    },
+    {
+      "passage_id": "PAS_0061",
+      "source_id": "SRC_0061",
+      "source_title": "百度百科：威廉·佩利",
+      "source_url": "https://baike.baidu.com/item/威廉·佩利",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "威廉·佩利（William S. Paley，1901-1990）是CBS创始人，美国广播业巨头。1928年收购哥伦比亚广播公司，通过签约明星艺人和制作优质娱乐节目，将CBS打造为与NBC并驾齐驱的广播帝国。",
+      "locator": "CBS发展段落"
+    },
+    {
+      "passage_id": "PAS_0062",
+      "source_id": "SRC_0062",
+      "source_title": "百度百科：芭芭拉·沃尔特斯",
+      "source_url": "https://baike.baidu.com/item/芭芭拉·沃尔特斯",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "芭芭拉·沃尔特斯（Barbara Walters，1929-2022）是美国电视新闻先驱，1976年成为美国三大网络首位女性晚间新闻联合主播，打破电视新闻的性别壁垒，以深度名人访谈著称。",
+      "locator": "女性新闻段落"
+    },
+    {
+      "passage_id": "PAS_0063",
+      "source_id": "SRC_0063",
+      "source_title": "百度百科：特德·特纳",
+      "source_url": "https://baike.baidu.com/item/特德·特纳",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "特德·特纳（Ted Turner，1938-）是美国媒体大亨，CNN创始人。1980年创办有线新闻网CNN，首创24小时全天候新闻播出模式，彻底改变了电视新闻的生产和消费方式。",
+      "locator": "24小时新闻段落"
+    },
+    {
+      "passage_id": "PAS_0064",
+      "source_id": "SRC_0064",
+      "source_title": "百度百科：亚瑟·佩奇",
+      "source_url": "https://baike.baidu.com/item/亚瑟·佩奇",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "亚瑟·佩奇（Arthur W. Page，1883-1960）是企业公关理论奠基人，1927年任AT&T公关副总裁。他提出「佩奇原则」，强调企业行为必须符合公众利益，公关应建立在诚实和透明之上。",
+      "locator": "企业公关段落"
+    },
+    {
+      "passage_id": "PAS_0065",
+      "source_id": "SRC_0065",
+      "source_title": "百度百科：卡尔·博伊尔",
+      "source_url": "https://baike.baidu.com/item/卡尔·博伊尔",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "卡尔·博伊尔（Carl Byoir，1888-1957）是美国公关先驱，1930年创立博伊尔公关公司。他开创了全服务公关模式，整合调研、策划、媒体关系和危机管理，推动公关成为专业服务行业。",
+      "locator": "全服务公关段落"
+    },
+    {
+      "passage_id": "PAS_0066",
+      "source_id": "SRC_0066",
+      "source_title": "百度百科：哈罗德·伯森",
+      "source_url": "https://baike.baidu.com/item/哈罗德·伯森",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "哈罗德·伯森（Harold Burson，1921-2020）是全球公关先驱，1953年联合创立博雅公关公司（Burson-Marsteller）。他将公关业务推向国际化，建立全球公关网络，服务跨国企业。",
+      "locator": "全球公关段落"
+    },
+    {
+      "passage_id": "PAS_0090",
+      "source_id": "SRC_0090",
+      "source_title": "百度百科：欧文·贾尼斯",
+      "source_url": "https://baike.baidu.com/item/欧文·贾尼斯",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "欧文·贾尼斯（Irving Janis，1918-1990）是美国社会心理学家。1972年出版《群体思维的受害者》，通过分析猪湾事件等政策失误案例，提出群体思维理论，揭示高凝聚力群体如何压制异议导致决策失误。",
+      "locator": "群体思维段落"
+    },
+    {
+      "passage_id": "PAS_0091",
+      "source_id": "SRC_0091",
+      "source_title": "百度百科：唐纳德·肖",
+      "source_url": "https://baike.baidu.com/item/唐纳德·肖",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "唐纳德·肖（Donald Shaw，1936-）是美国传播学者。1972年与麦库姆斯共同发表议程设置研究，通过1968年美国总统大选的实证研究，证明媒介报道与公众议题认知之间的相关性。",
+      "locator": "议程设置段落"
+    },
+    {
+      "passage_id": "PAS_0092",
+      "source_id": "SRC_0092",
+      "source_title": "百度百科：拉里·格罗斯",
+      "source_url": "https://baike.baidu.com/item/拉里·格罗斯",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "拉里·格罗斯（Larry Gross，1942-）是美国传播学者，宾夕法尼亚大学教授。与格伯纳合作开展涵化理论研究，特别关注电视对性少数群体形象呈现的影响，是LGBTQ媒介研究先驱。",
+      "locator": "涵化理论段落"
+    },
+    {
+      "passage_id": "PAS_0093",
+      "source_id": "SRC_0093",
+      "source_title": "百度百科：郑观应",
+      "source_url": "https://baike.baidu.com/item/郑观应",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "郑观应（1842-1922），清末维新思想家、实业家。1894年出版《盛世危言》，提出「商战」主张，认为商务竞争比军事战争更为重要，主张发展民族工商业以抵御外国经济侵略。",
+      "locator": "盛世危言段落"
+    },
+    {
+      "passage_id": "PAS_0094",
+      "source_id": "SRC_0094",
+      "source_title": "百度百科：林行止",
+      "source_url": "https://baike.baidu.com/item/林行止",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "林行止（1940-），香港著名财经评论家。1973年创办《信报财经新闻》，以独立、专业的财经评论著称，被誉为「香港第一健笔」，开创华文财经评论新风格。",
+      "locator": "信报财经段落"
+    }
+  ],
+  "concepts": [
+    {
+      "concept_id": "CONCEPT_PUBLIC_OPINION",
+      "name_zh": "舆论",
+      "description_zh": "公众对于公共事务所持有的看法和意见的总和。"
+    },
+    {
+      "concept_id": "CONCEPT_PUBLIC_SPHERE",
+      "name_zh": "公共领域",
+      "description_zh": "哈贝马斯提出的概念，指社会成员就公共事务进行理性讨论的空间。"
+    },
+    {
+      "concept_id": "CONCEPT_AGENDA_SETTING",
+      "name_zh": "议程设置",
+      "description_zh": "大众媒介通过报道议题影响公众认知重要性的能力。"
+    },
+    {
+      "concept_id": "CONCEPT_SPIRAL_OF_SILENCE",
+      "name_zh": "沉默的螺旋",
+      "description_zh": "人们因害怕孤立而隐藏与主流相悖的观点，导致少数意见逐渐沉默。"
+    },
+    {
+      "concept_id": "CONCEPT_CULTIVATION",
+      "name_zh": "涵化理论",
+      "description_zh": "电视等媒体长期潜移默化地影响受众对社会现实的认知。"
+    },
+    {
+      "concept_id": "CONCEPT_GATEKEEPING",
+      "name_zh": "把关人",
+      "description_zh": "在信息传播过程中控制信息流通的个人或组织。"
+    },
+    {
+      "concept_id": "CONCEPT_TWO_STEP_FLOW",
+      "name_zh": "两级传播",
+      "description_zh": "信息从媒介到意见领袖再到公众的传播模式。"
+    },
+    {
+      "concept_id": "CONCEPT_USES_GRATIFICATIONS",
+      "name_zh": "使用与满足",
+      "description_zh": "受众主动选择媒介内容以满足特定需求的理论。"
+    },
+    {
+      "concept_id": "CONCEPT_DIFFUSION",
+      "name_zh": "创新扩散",
+      "description_zh": "新事物在社会系统中传播的过程和规律。"
+    },
+    {
+      "concept_id": "CONCEPT_MEDIUM_MESSAGE",
+      "name_zh": "媒介即讯息",
+      "description_zh": "麦克卢汉的著名论断，强调媒介形式本身对社会的影响。"
+    },
+    {
+      "concept_id": "CONCEPT_GLOBAL_VILLAGE",
+      "name_zh": "地球村",
+      "description_zh": "麦克卢汉提出的概念，描述电子媒介时代世界的紧密联系。"
+    },
+    {
+      "concept_id": "CONCEPT_ENCODING_DECODING",
+      "name_zh": "编码/解码",
+      "description_zh": "霍尔提出的文本生产与接收过程的理论模型。"
+    },
+    {
+      "concept_id": "CONCEPT_PROPAGANDA",
+      "name_zh": "宣传",
+      "description_zh": "有组织地传播特定观点以影响公众态度的活动。"
+    },
+    {
+      "concept_id": "CONCEPT_5W",
+      "name_zh": "5W模式",
+      "description_zh": "拉斯韦尔提出的传播过程分析框架：谁、说什么、通过什么渠道、对谁说、取得什么效果。"
+    },
+    {
+      "concept_id": "CONCEPT_OBJECTIVITY",
+      "name_zh": "客观性",
+      "description_zh": "新闻报道追求公正、不偏不倚的专业理念。"
+    },
+    {
+      "concept_id": "CONCEPT_PRESS_FREEDOM",
+      "name_zh": "新闻自由",
+      "description_zh": "新闻媒体免受政府干预进行采访报道的权利。"
+    },
+    {
+      "concept_id": "CONCEPT_FOURTH_ESTATE",
+      "name_zh": "第四权力",
+      "description_zh": "媒体作为独立于行政、立法、司法之外的社会监督力量。"
+    },
+    {
+      "concept_id": "CONCEPT_YELLOW_JOURNALISM",
+      "name_zh": "黄色新闻",
+      "description_zh": "19世纪末以煽情、夸张手法吸引读者的新闻风格。"
+    },
+    {
+      "concept_id": "CONCEPT_MUCKRAKING",
+      "name_zh": "扒粪运动",
+      "description_zh": "20世纪初美国揭露社会黑暗面的调查性新闻运动。"
+    },
+    {
+      "concept_id": "CONCEPT_PENNY_PRESS",
+      "name_zh": "便士报",
+      "description_zh": "19世纪30年代兴起的廉价大众化报纸。"
+    }
+  ],
+  "years": [
+    {
+      "year_id": "YEAR_1644",
+      "year_value": "1644",
+      "label_zh": "1644年"
+    },
+    {
+      "year_id": "YEAR_1689",
+      "year_value": "1689",
+      "label_zh": "1689年"
+    },
+    {
+      "year_id": "YEAR_1787",
+      "year_value": "1787",
+      "label_zh": "1787年"
+    },
+    {
+      "year_id": "YEAR_1835",
+      "year_value": "1835",
+      "label_zh": "1835年"
+    },
+    {
+      "year_id": "YEAR_1841",
+      "year_value": "1841",
+      "label_zh": "1841年"
+    },
+    {
+      "year_id": "YEAR_1851",
+      "year_value": "1851",
+      "label_zh": "1851年"
+    },
+    {
+      "year_id": "YEAR_1874",
+      "year_value": "1874",
+      "label_zh": "1874年"
+    },
+    {
+      "year_id": "YEAR_1889",
+      "year_value": "1889",
+      "label_zh": "1889年"
+    },
+    {
+      "year_id": "YEAR_1892",
+      "year_value": "1892",
+      "label_zh": "1892年"
+    },
+    {
+      "year_id": "YEAR_1895",
+      "year_value": "1895",
+      "label_zh": "1895年"
+    },
+    {
+      "year_id": "YEAR_1896",
+      "year_value": "1896",
+      "label_zh": "1896年"
+    },
+    {
+      "year_id": "YEAR_1897",
+      "year_value": "1897",
+      "label_zh": "1897年"
+    },
+    {
+      "year_id": "YEAR_1898",
+      "year_value": "1898",
+      "label_zh": "1898年"
+    },
+    {
+      "year_id": "YEAR_1902",
+      "year_value": "1902",
+      "label_zh": "1902年"
+    },
+    {
+      "year_id": "YEAR_1903",
+      "year_value": "1903",
+      "label_zh": "1903年"
+    },
+    {
+      "year_id": "YEAR_1904",
+      "year_value": "1904",
+      "label_zh": "1904年"
+    },
+    {
+      "year_id": "YEAR_1906",
+      "year_value": "1906",
+      "label_zh": "1906年"
+    },
+    {
+      "year_id": "YEAR_1909",
+      "year_value": "1909",
+      "label_zh": "1909年"
+    },
+    {
+      "year_id": "YEAR_1912",
+      "year_value": "1912",
+      "label_zh": "1912年"
+    },
+    {
+      "year_id": "YEAR_1915",
+      "year_value": "1915",
+      "label_zh": "1915年"
+    },
+    {
+      "year_id": "YEAR_1918",
+      "year_value": "1918",
+      "label_zh": "1918年"
+    },
+    {
+      "year_id": "YEAR_1919",
+      "year_value": "1919",
+      "label_zh": "1919年"
+    },
+    {
+      "year_id": "YEAR_1922",
+      "year_value": "1922",
+      "label_zh": "1922年"
+    },
+    {
+      "year_id": "YEAR_1923",
+      "year_value": "1923",
+      "label_zh": "1923年"
+    },
+    {
+      "year_id": "YEAR_1926",
+      "year_value": "1926",
+      "label_zh": "1926年"
+    },
+    {
+      "year_id": "YEAR_1927",
+      "year_value": "1927",
+      "label_zh": "1927年"
+    },
+    {
+      "year_id": "YEAR_1930",
+      "year_value": "1930",
+      "label_zh": "1930年"
+    },
+    {
+      "year_id": "YEAR_1931",
+      "year_value": "1931",
+      "label_zh": "1931年"
+    },
+    {
+      "year_id": "YEAR_1932",
+      "year_value": "1932",
+      "label_zh": "1932年"
+    },
+    {
+      "year_id": "YEAR_1936",
+      "year_value": "1936",
+      "label_zh": "1936年"
+    },
+    {
+      "year_id": "YEAR_1937",
+      "year_value": "1937",
+      "label_zh": "1937年"
+    },
+    {
+      "year_id": "YEAR_1940",
+      "year_value": "1940",
+      "label_zh": "1940年"
+    },
+    {
+      "year_id": "YEAR_1944",
+      "year_value": "1944",
+      "label_zh": "1944年"
+    },
+    {
+      "year_id": "YEAR_1946",
+      "year_value": "1946",
+      "label_zh": "1946年"
+    },
+    {
+      "year_id": "YEAR_1947",
+      "year_value": "1947",
+      "label_zh": "1947年"
+    },
+    {
+      "year_id": "YEAR_1948",
+      "year_value": "1948",
+      "label_zh": "1948年"
+    },
+    {
+      "year_id": "YEAR_1949",
+      "year_value": "1949",
+      "label_zh": "1949年"
+    },
+    {
+      "year_id": "YEAR_1950",
+      "year_value": "1950",
+      "label_zh": "1950年"
+    },
+    {
+      "year_id": "YEAR_1953",
+      "year_value": "1953",
+      "label_zh": "1953年"
+    },
+    {
+      "year_id": "YEAR_1955",
+      "year_value": "1955",
+      "label_zh": "1955年"
+    },
+    {
+      "year_id": "YEAR_1957",
+      "year_value": "1957",
+      "label_zh": "1957年"
+    },
+    {
+      "year_id": "YEAR_1959",
+      "year_value": "1959",
+      "label_zh": "1959年"
+    },
+    {
+      "year_id": "YEAR_1960",
+      "year_value": "1960",
+      "label_zh": "1960年"
+    },
+    {
+      "year_id": "YEAR_1962",
+      "year_value": "1962",
+      "label_zh": "1962年"
+    },
+    {
+      "year_id": "YEAR_1964",
+      "year_value": "1964",
+      "label_zh": "1964年"
+    },
+    {
+      "year_id": "YEAR_1966",
+      "year_value": "1966",
+      "label_zh": "1966年"
+    },
+    {
+      "year_id": "YEAR_1968",
+      "year_value": "1968",
+      "label_zh": "1968年"
+    },
+    {
+      "year_id": "YEAR_1969",
+      "year_value": "1969",
+      "label_zh": "1969年"
+    },
+    {
+      "year_id": "YEAR_1970",
+      "year_value": "1970",
+      "label_zh": "1970年"
+    },
+    {
+      "year_id": "YEAR_1971",
+      "year_value": "1971",
+      "label_zh": "1971年"
+    },
+    {
+      "year_id": "YEAR_1972",
+      "year_value": "1972",
+      "label_zh": "1972年"
+    },
+    {
+      "year_id": "YEAR_1973",
+      "year_value": "1973",
+      "label_zh": "1973年"
+    },
+    {
+      "year_id": "YEAR_1974",
+      "year_value": "1974",
+      "label_zh": "1974年"
+    },
+    {
+      "year_id": "YEAR_1975",
+      "year_value": "1975",
+      "label_zh": "1975年"
+    },
+    {
+      "year_id": "YEAR_1976",
+      "year_value": "1976",
+      "label_zh": "1976年"
+    },
+    {
+      "year_id": "YEAR_1977",
+      "year_value": "1977",
+      "label_zh": "1977年"
+    },
+    {
+      "year_id": "YEAR_1985",
+      "year_value": "1985",
+      "label_zh": "1985年"
+    },
+    {
+      "year_id": "YEAR_1990",
+      "year_value": "1990",
+      "label_zh": "1990年"
+    },
+    {
+      "year_id": "YEAR_1999",
+      "year_value": "1999",
+      "label_zh": "1999年"
+    }
+  ],
+  "influences": [
+    {
+      "influence_id": "INF_0001",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_MCLUHAN",
+      "object_type": "Scholar",
+      "object_id": "SCH_INNIS",
+      "evidence_passage_id": "PAS_0002",
+      "year": "1964",
+      "note_zh": "麦克卢汉深受导师伊尼斯的传播思想影响。"
+    },
+    {
+      "influence_id": "INF_0002",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_POSTMAN",
+      "object_type": "Scholar",
+      "object_id": "SCH_MCLUHAN",
+      "evidence_passage_id": "PAS_0002",
+      "year": "1985",
+      "note_zh": "波兹曼继承并发展了麦克卢汉的媒介环境学思想。"
+    },
+    {
+      "influence_id": "INF_0003",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_KATZ",
+      "object_type": "Scholar",
+      "object_id": "SCH_LAZARSFELD",
+      "evidence_passage_id": "PAS_0004",
+      "year": "1955",
+      "note_zh": "卡茨与拉扎斯菲尔德合著《个人影响》，是其学术传承。"
+    },
+    {
+      "influence_id": "INF_0004",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_HABERMAS",
+      "object_type": "Scholar",
+      "object_id": "SCH_LIPPMANN",
+      "evidence_passage_id": "PAS_0005",
+      "year": "1962",
+      "note_zh": "哈贝马斯的公共领域理论受到李普曼舆论研究的启发。"
+    },
+    {
+      "influence_id": "INF_0005",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_HALL",
+      "object_type": "Scholar",
+      "object_id": "SCH_HABERMAS",
+      "evidence_passage_id": "PAS_0005",
+      "year": "1973",
+      "note_zh": "霍尔的编码/解码理论受到法兰克福学派批判理论的影响。"
+    },
+    {
+      "influence_id": "INF_0006",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_SCHRAMM",
+      "object_type": "Scholar",
+      "object_id": "SCH_LASSWELL",
+      "evidence_passage_id": "PAS_0003",
+      "year": "1948",
+      "note_zh": "施拉姆整合拉斯韦尔的5W模式建立传播学学科体系。"
+    },
+    {
+      "influence_id": "INF_0007",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_SCHRAMM",
+      "object_type": "Scholar",
+      "object_id": "SCH_LAZARSFELD",
+      "evidence_passage_id": "PAS_0003",
+      "year": "1948",
+      "note_zh": "施拉姆综合拉扎斯菲尔德的实证方法创建传播学。"
+    },
+    {
+      "influence_id": "INF_0008",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_SCHRAMM",
+      "object_type": "Scholar",
+      "object_id": "SCH_LEWIN",
+      "evidence_passage_id": "PAS_0003",
+      "year": "1948",
+      "note_zh": "施拉姆吸收卢因的群体动力学理论发展传播研究。"
+    },
+    {
+      "influence_id": "INF_0009",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_SCHRAMM",
+      "object_type": "Scholar",
+      "object_id": "SCH_HOVLAND",
+      "evidence_passage_id": "PAS_0003",
+      "year": "1948",
+      "note_zh": "施拉姆借鉴霍夫兰的说服研究构建传播学框架。"
+    },
+    {
+      "influence_id": "INF_0010",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_MCCOMBS",
+      "object_type": "Scholar",
+      "object_id": "SCH_LIPPMANN",
+      "evidence_passage_id": "PAS_0010",
+      "year": "1972",
+      "note_zh": "麦库姆斯的议程设置理论直接源于李普曼的拟态环境概念。"
+    },
+    {
+      "influence_id": "INF_0011",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_NOELLE_NEUMANN",
+      "object_type": "Scholar",
+      "object_id": "SCH_LAZARSFELD",
+      "evidence_passage_id": "PAS_0021",
+      "year": "1974",
+      "note_zh": "诺依曼的沉默螺旋理论受到哥伦比亚学派舆论研究启发。"
+    },
+    {
+      "influence_id": "INF_0012",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_GERBNER",
+      "object_type": "Scholar",
+      "object_id": "SCH_LAZARSFELD",
+      "evidence_passage_id": "PAS_0022",
+      "year": "1976",
+      "note_zh": "格伯纳的涵化理论延续了哥伦比亚学派的媒介效果研究传统。"
+    },
+    {
+      "influence_id": "INF_0013",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_ROGERS",
+      "object_type": "Scholar",
+      "object_id": "SCH_LAZARSFELD",
+      "evidence_passage_id": "PAS_0023",
+      "year": "1962",
+      "note_zh": "罗杰斯的创新扩散理论受到两级传播研究的影响。"
+    },
+    {
+      "influence_id": "INF_0014",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_ADORNO",
+      "object_type": "Scholar",
+      "object_id": "SCH_HORKHEIMER",
+      "evidence_passage_id": "PAS_0011",
+      "year": "1944",
+      "note_zh": "阿多诺与霍克海默合著《启蒙辩证法》，共同发展批判理论。"
+    },
+    {
+      "influence_id": "INF_0015",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_MARCUSE",
+      "object_type": "Scholar",
+      "object_id": "SCH_HORKHEIMER",
+      "evidence_passage_id": "PAS_0013",
+      "year": "1964",
+      "note_zh": "马尔库塞继承霍克海默的批判理论，发展出单向度批判。"
+    },
+    {
+      "influence_id": "INF_0016",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_BENJAMIN",
+      "object_type": "Scholar",
+      "object_id": "SCH_ADORNO",
+      "evidence_passage_id": "PAS_0014",
+      "year": "1936",
+      "note_zh": "本雅明与阿多诺保持密切学术交流，相互影响。"
+    },
+    {
+      "influence_id": "INF_0017",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_FROMM",
+      "object_type": "Scholar",
+      "object_id": "SCH_HORKHEIMER",
+      "evidence_passage_id": "PAS_0015",
+      "year": "1941",
+      "note_zh": "弗洛姆是法兰克福学派成员，受霍克海默批判理论影响。"
+    },
+    {
+      "influence_id": "INF_0018",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_CHOMSKY",
+      "object_type": "Scholar",
+      "object_id": "SCH_LIPPMANN",
+      "evidence_passage_id": "PAS_0043",
+      "year": "1988",
+      "note_zh": "乔姆斯基的制造共识理论批判性地回应李普曼的舆论思想。"
+    },
+    {
+      "influence_id": "INF_0019",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_HALL",
+      "object_type": "Scholar",
+      "object_id": "SCH_WILLIAMS",
+      "evidence_passage_id": "PAS_0040",
+      "year": "1973",
+      "note_zh": "霍尔继承威廉斯的文化研究传统，发展编码/解码理论。"
+    },
+    {
+      "influence_id": "INF_0020",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_HALL",
+      "object_type": "Scholar",
+      "object_id": "SCH_HOGGART",
+      "evidence_passage_id": "PAS_0040",
+      "year": "1973",
+      "note_zh": "霍尔在霍加特创立的伯明翰中心发展文化研究。"
+    },
+    {
+      "influence_id": "INF_0021",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_MORLEY",
+      "object_type": "Scholar",
+      "object_id": "SCH_HALL",
+      "evidence_passage_id": "PAS_0049",
+      "year": "1980",
+      "note_zh": "莫利的受众研究直接验证和发展霍尔的编码/解码理论。"
+    },
+    {
+      "influence_id": "INF_0022",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_FISKE",
+      "object_type": "Scholar",
+      "object_id": "SCH_HALL",
+      "evidence_passage_id": "PAS_0050",
+      "year": "1989",
+      "note_zh": "费斯克继承霍尔的文化研究方法，发展受众积极性理论。"
+    },
+    {
+      "influence_id": "INF_0023",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_WILLIAMS",
+      "object_type": "Scholar",
+      "object_id": "SCH_HOGGART",
+      "evidence_passage_id": "PAS_0046",
+      "year": "1958",
+      "note_zh": "威廉斯与霍加特共同奠定英国文化研究的基础。"
+    },
+    {
+      "influence_id": "INF_0024",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_LIANG_QICHAO",
+      "object_type": "Scholar",
+      "object_id": "SCH_KANG_YOUWEI",
+      "evidence_passage_id": "PAS_0007",
+      "year": "1898",
+      "note_zh": "梁启超是康有为的学生，继承维新变法报刊思想。"
+    },
+    {
+      "influence_id": "INF_0025",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_CHEN_DUXIU",
+      "object_type": "Scholar",
+      "object_id": "SCH_LIANG_QICHAO",
+      "evidence_passage_id": "PAS_0027",
+      "year": "1915",
+      "note_zh": "陈独秀受梁启超报刊启蒙思想影响，创办《新青年》。"
+    },
+    {
+      "influence_id": "INF_0026",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_LI_DAZHAO",
+      "object_type": "Scholar",
+      "object_id": "SCH_CHEN_DUXIU",
+      "evidence_passage_id": "PAS_0028",
+      "year": "1919",
+      "note_zh": "李大钊与陈独秀合作，共同推动马克思主义传播。"
+    },
+    {
+      "influence_id": "INF_0027",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_MAO_ZEDONG",
+      "object_type": "Scholar",
+      "object_id": "SCH_LI_DAZHAO",
+      "evidence_passage_id": "PAS_0032",
+      "year": "1919",
+      "note_zh": "毛泽东受李大钊影响接受马克思主义，发展党报理论。"
+    },
+    {
+      "influence_id": "INF_0028",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_FAN_CHANGJIANG",
+      "object_type": "Scholar",
+      "object_id": "SCH_ZHANG_JILUAN",
+      "evidence_passage_id": "PAS_0030",
+      "year": "1936",
+      "note_zh": "范长江在《大公报》工作，受张季鸾新闻理念影响。"
+    },
+    {
+      "influence_id": "INF_0029",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_ZOU_TAOFEN",
+      "object_type": "Scholar",
+      "object_id": "SCH_LIANG_QICHAO",
+      "evidence_passage_id": "PAS_0029",
+      "year": "1930",
+      "note_zh": "邹韬奋继承梁启超的报刊救国思想，推动抗日舆论。"
+    },
+    {
+      "influence_id": "INF_0030",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_XU_BAOHUANG",
+      "object_type": "Scholar",
+      "object_id": "SCH_PULITZER",
+      "evidence_passage_id": "PAS_0033",
+      "year": "1918",
+      "note_zh": "徐宝璜借鉴普利策的新闻教育理念，开创中国新闻教育。"
+    },
+    {
+      "influence_id": "INF_0031",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_BERNAYS",
+      "object_type": "Scholar",
+      "object_id": "SCH_IVY_LEE",
+      "evidence_passage_id": "PAS_0045",
+      "year": "1923",
+      "note_zh": "伯奈斯在艾维·李开创的公关基础上发展理论体系。"
+    },
+    {
+      "influence_id": "INF_0032",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_WOODWARD",
+      "object_type": "Scholar",
+      "object_id": "SCH_TARBELL",
+      "evidence_passage_id": "PAS_0039",
+      "year": "1972",
+      "note_zh": "伍德沃德继承塔贝尔的调查新闻传统，揭露水门事件。"
+    },
+    {
+      "influence_id": "INF_0033",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_MURROW",
+      "object_type": "Scholar",
+      "object_id": "SCH_PULITZER",
+      "evidence_passage_id": "PAS_0038",
+      "year": "1940",
+      "note_zh": "默罗继承普利策的新闻专业主义，开创广播新闻。"
+    },
+    {
+      "influence_id": "INF_0034",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_CASTELLS",
+      "object_type": "Scholar",
+      "object_id": "SCH_MCLUHAN",
+      "evidence_passage_id": "PAS_0041",
+      "year": "1996",
+      "note_zh": "卡斯特的网络社会理论延续麦克卢汉的媒介技术决定论。"
+    },
+    {
+      "influence_id": "INF_0035",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_MEYROWITZ",
+      "object_type": "Scholar",
+      "object_id": "SCH_MCLUHAN",
+      "evidence_passage_id": "PAS_0002",
+      "year": "1985",
+      "note_zh": "梅罗维茨继承麦克卢汉思想，研究电子媒介对社会空间影响。"
+    },
+    {
+      "influence_id": "INF_0036",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_JENKINS",
+      "object_type": "Scholar",
+      "object_id": "SCH_HALL",
+      "evidence_passage_id": "PAS_0002",
+      "year": "2006",
+      "note_zh": "詹金斯的融合文化研究继承伯明翰学派的受众能动性观点。"
+    },
+    {
+      "influence_id": "INF_0037",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_SMYTHE",
+      "object_type": "Scholar",
+      "object_id": "SCH_ADORNO",
+      "evidence_passage_id": "PAS_0011",
+      "year": "1977",
+      "note_zh": "斯迈思的受众商品论受法兰克福学派文化工业批判影响。"
+    },
+    {
+      "influence_id": "INF_0038",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_SCHILLER",
+      "object_type": "Scholar",
+      "object_id": "SCH_ADORNO",
+      "evidence_passage_id": "PAS_0011",
+      "year": "1969",
+      "note_zh": "席勒的文化帝国主义理论继承法兰克福学派批判传统。"
+    },
+    {
+      "influence_id": "INF_0039",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_MCCHESNEY",
+      "object_type": "Scholar",
+      "object_id": "SCH_SCHILLER",
+      "evidence_passage_id": "PAS_0011",
+      "year": "1999",
+      "note_zh": "麦切斯尼继承席勒的批判传统，研究媒体垄断与民主。"
+    },
+    {
+      "influence_id": "INF_0040",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_DEWEY",
+      "object_type": "Scholar",
+      "object_id": "SCH_COOLEY",
+      "evidence_passage_id": "PAS_0002",
+      "year": "1927",
+      "note_zh": "杜威与库利同属芝加哥学派，共同强调传播的社会功能。"
+    }
+  ],
+  "books": [
+    {
+      "book_id": "BOOK_PUBLIC_OPINION",
+      "title_zh": "舆论学",
+      "title_en": "Public Opinion",
+      "scholar_id": "SCH_LIPPMANN",
+      "year": "1922",
+      "description_zh": "李普曼的代表作，探讨舆论与民主的关系，提出「拟态环境」等概念。"
+    },
+    {
+      "book_id": "BOOK_UNDERSTANDING_MEDIA",
+      "title_zh": "理解媒介",
+      "title_en": "Understanding Media",
+      "scholar_id": "SCH_MCLUHAN",
+      "year": "1964",
+      "description_zh": "麦克卢汉最著名的著作，提出「媒介即讯息」和「地球村」等概念。"
+    },
+    {
+      "book_id": "BOOK_STRUCTURAL_TRANSFORMATION",
+      "title_zh": "公共领域的结构转型",
+      "title_en": "The Structural Transformation of the Public Sphere",
+      "scholar_id": "SCH_HABERMAS",
+      "year": "1962",
+      "description_zh": "哈贝马斯的代表作，系统阐述公共领域理论。"
+    },
+    {
+      "book_id": "BOOK_PERSONAL_INFLUENCE",
+      "title_zh": "个人影响",
+      "title_en": "Personal Influence",
+      "scholar_id": "SCH_KATZ",
+      "year": "1955",
+      "description_zh": "卡茨与拉扎斯菲尔德合著，提出两级传播理论。"
+    },
+    {
+      "book_id": "BOOK_AMUSING_OURSELVES",
+      "title_zh": "娱乐至死",
+      "title_en": "Amusing Ourselves to Death",
+      "scholar_id": "SCH_POSTMAN",
+      "year": "1985",
+      "description_zh": "波兹曼批判电视文化对公共话语的侵蚀。"
+    },
+    {
+      "book_id": "BOOK_COMMUNICATION_EMPIRE",
+      "title_zh": "帝国与传播",
+      "title_en": "Empire and Communications",
+      "scholar_id": "SCH_INNIS",
+      "year": "1950",
+      "description_zh": "伊尼斯探讨媒介与帝国兴衰关系的著作。"
+    },
+    {
+      "book_id": "BOOK_PROPAGANDA_TECHNIQUE",
+      "title_zh": "世界大战中的宣传技巧",
+      "title_en": "Propaganda Technique in the World War",
+      "scholar_id": "SCH_LASSWELL",
+      "year": "1927",
+      "description_zh": "拉斯韦尔关于宣传技术的经典研究。"
+    },
+    {
+      "book_id": "BOOK_ENCODING_DECODING",
+      "title_zh": "电视话语的编码/解码",
+      "title_en": "Encoding and Decoding in the Television Discourse",
+      "scholar_id": "SCH_HALL",
+      "year": "1973",
+      "description_zh": "霍尔提出编码/解码理论的论文。"
+    },
+    {
+      "book_id": "BOOK_DIFFUSION_INNOVATIONS",
+      "title_zh": "创新的扩散",
+      "title_en": "Diffusion of Innovations",
+      "scholar_id": "SCH_ROGERS",
+      "year": "1962",
+      "description_zh": "罗杰斯关于创新扩散理论的开创性著作。"
+    },
+    {
+      "book_id": "BOOK_CHINESE_PRESS_HISTORY",
+      "title_zh": "中国报学史",
+      "title_en": "A History of Chinese Journalism",
+      "scholar_id": "SCH_GE_GONGZHEN",
+      "year": "1927",
+      "description_zh": "中国第一部系统的新闻史著作。"
+    },
+    {
+      "book_id": "BOOK_RED_STAR",
+      "title_zh": "红星照耀中国",
+      "title_en": "Red Star Over China",
+      "scholar_id": "SCH_SNOW",
+      "year": "1937",
+      "description_zh": "斯诺对中国革命的经典报道。"
+    },
+    {
+      "book_id": "BOOK_1984",
+      "title_zh": "一九八四",
+      "title_en": "Nineteen Eighty-Four",
+      "scholar_id": "SCH_ORWELL",
+      "year": "1949",
+      "description_zh": "奥威尔的反乌托邦小说，探讨极权主义与媒体控制。"
+    },
+    {
+      "book_id": "BOOK_AREOPAGITICA",
+      "title_zh": "论出版自由",
+      "title_en": "Areopagitica",
+      "scholar_id": "SCH_MILTON",
+      "year": "1644",
+      "description_zh": "弥尔顿反对出版审查的经典论著。"
+    },
+    {
+      "book_id": "BOOK_MANUFACTURING_CONSENT",
+      "title_zh": "制造共识",
+      "title_en": "Manufacturing Consent",
+      "scholar_id": "SCH_CHOMSKY",
+      "year": "1988",
+      "description_zh": "乔姆斯基对美国媒体政治经济学的批判分析。"
+    },
+    {
+      "book_id": "BOOK_DIALECTIC_ENLIGHTENMENT",
+      "title_zh": "启蒙辩证法",
+      "title_en": "Dialectic of Enlightenment",
+      "scholar_id": "SCH_ADORNO",
+      "year": "1944",
+      "description_zh": "阿多诺与霍克海默合著，批判启蒙理性走向工具理性的异化。"
+    },
+    {
+      "book_id": "BOOK_ONE_DIMENSIONAL_MAN",
+      "title_zh": "单向度的人",
+      "title_en": "One-Dimensional Man",
+      "scholar_id": "SCH_MARCUSE",
+      "year": "1964",
+      "description_zh": "马尔库塞批判发达工业社会对人的控制与异化。"
+    },
+    {
+      "book_id": "BOOK_MECHANICAL_REPRODUCTION",
+      "title_zh": "机械复制时代的艺术作品",
+      "title_en": "The Work of Art in the Age of Mechanical Reproduction",
+      "scholar_id": "SCH_BENJAMIN",
+      "year": "1936",
+      "description_zh": "本雅明分析技术复制对艺术「灵韵」的影响。"
+    },
+    {
+      "book_id": "BOOK_ESCAPE_FROM_FREEDOM",
+      "title_zh": "逃避自由",
+      "title_en": "Escape from Freedom",
+      "scholar_id": "SCH_FROMM",
+      "year": "1941",
+      "description_zh": "弗洛姆分析现代人面对自由时的心理机制。"
+    },
+    {
+      "book_id": "BOOK_COMMUNICATION_PERSUASION",
+      "title_zh": "传播与说服",
+      "title_en": "Communication and Persuasion",
+      "scholar_id": "SCH_HOVLAND",
+      "year": "1953",
+      "description_zh": "霍夫兰的说服研究经典著作，系统探讨态度改变机制。"
+    },
+    {
+      "book_id": "BOOK_MATHEMATICAL_COMMUNICATION",
+      "title_zh": "通信的数学理论",
+      "title_en": "A Mathematical Theory of Communication",
+      "scholar_id": "SCH_SHANNON",
+      "year": "1948",
+      "description_zh": "香农奠定信息论数学基础的里程碑论文。"
+    },
+    {
+      "book_id": "BOOK_CYBERNETICS",
+      "title_zh": "控制论",
+      "title_en": "Cybernetics",
+      "scholar_id": "SCH_WIENER",
+      "year": "1948",
+      "description_zh": "维纳创立控制论的开山之作。"
+    },
+    {
+      "book_id": "BOOK_CULTURE_SOCIETY",
+      "title_zh": "文化与社会",
+      "title_en": "Culture and Society",
+      "scholar_id": "SCH_WILLIAMS",
+      "year": "1958",
+      "description_zh": "威廉斯奠定英国文化研究的经典著作。"
+    },
+    {
+      "book_id": "BOOK_USES_OF_LITERACY",
+      "title_zh": "识字的用途",
+      "title_en": "The Uses of Literacy",
+      "scholar_id": "SCH_HOGGART",
+      "year": "1957",
+      "description_zh": "霍加特研究工人阶级文化的开创性著作。"
+    },
+    {
+      "book_id": "BOOK_MAKING_ENGLISH_WORKING_CLASS",
+      "title_zh": "英国工人阶级的形成",
+      "title_en": "The Making of the English Working Class",
+      "scholar_id": "SCH_THOMPSON",
+      "year": "1963",
+      "description_zh": "汤普森的马克思主义历史学经典。"
+    },
+    {
+      "book_id": "BOOK_UNDERSTANDING_POPULAR_CULTURE",
+      "title_zh": "理解大众文化",
+      "title_en": "Understanding Popular Culture",
+      "scholar_id": "SCH_FISKE",
+      "year": "1989",
+      "description_zh": "费斯克研究大众文化与受众能动性的代表作。"
+    },
+    {
+      "book_id": "BOOK_NETWORK_SOCIETY",
+      "title_zh": "网络社会的崛起",
+      "title_en": "The Rise of the Network Society",
+      "scholar_id": "SCH_CASTELLS",
+      "year": "1996",
+      "description_zh": "卡斯特信息时代三部曲第一卷，分析网络社会结构。"
+    },
+    {
+      "book_id": "BOOK_NO_SENSE_OF_PLACE",
+      "title_zh": "消失的地域",
+      "title_en": "No Sense of Place",
+      "scholar_id": "SCH_MEYROWITZ",
+      "year": "1985",
+      "description_zh": "梅罗维茨研究电子媒介对社会空间影响的著作。"
+    },
+    {
+      "book_id": "BOOK_CONVERGENCE_CULTURE",
+      "title_zh": "融合文化",
+      "title_en": "Convergence Culture",
+      "scholar_id": "SCH_JENKINS",
+      "year": "2006",
+      "description_zh": "詹金斯研究媒介融合与参与式文化的代表作。"
+    },
+    {
+      "book_id": "BOOK_CRYSTALLIZING_PUBLIC_OPINION",
+      "title_zh": "舆论的结晶",
+      "title_en": "Crystallizing Public Opinion",
+      "scholar_id": "SCH_BERNAYS",
+      "year": "1923",
+      "description_zh": "伯奈斯公共关系理论的奠基之作。"
+    },
+    {
+      "book_id": "BOOK_HISTORY_STANDARD_OIL",
+      "title_zh": "美孚石油公司史",
+      "title_en": "The History of the Standard Oil Company",
+      "scholar_id": "SCH_TARBELL",
+      "year": "1904",
+      "description_zh": "塔贝尔揭露垄断的调查新闻经典。"
+    },
+    {
+      "book_id": "BOOK_IN_COLD_BLOOD",
+      "title_zh": "冷血",
+      "title_en": "In Cold Blood",
+      "scholar_id": "SCH_CAPOTE",
+      "year": "1966",
+      "description_zh": "卡波特开创非虚构小说文体的里程碑作品。"
+    },
+    {
+      "book_id": "BOOK_PEOPLES_CHOICE",
+      "title_zh": "人民的选择",
+      "title_en": "The People's Choice",
+      "scholar_id": "SCH_LAZARSFELD",
+      "year": "1944",
+      "description_zh": "拉扎斯菲尔德主持的选举研究经典，提出两级传播假说。"
+    },
+    {
+      "book_id": "BOOK_SPIRAL_OF_SILENCE",
+      "title_zh": "沉默的螺旋",
+      "title_en": "The Spiral of Silence",
+      "scholar_id": "SCH_NOELLE_NEUMANN",
+      "year": "1984",
+      "description_zh": "诺依曼系统阐述沉默螺旋理论的著作。"
+    },
+    {
+      "book_id": "BOOK_XINWENXUE",
+      "title_zh": "新闻学",
+      "title_en": "Erta the Principles of Journalism",
+      "scholar_id": "SCH_XU_BAOHUANG",
+      "year": "1919",
+      "description_zh": "徐宝璜著，中国第一部新闻学理论专著。"
+    },
+    {
+      "book_id": "BOOK_NORTHWEST_CORNER",
+      "title_zh": "中国的西北角",
+      "title_en": "China's Northwest Corner",
+      "scholar_id": "SCH_FAN_CHANGJIANG",
+      "year": "1936",
+      "description_zh": "范长江的西北采访通讯集，开创现代新闻通讯文体。"
+    },
+    {
+      "book_id": "BOOK_YINBINGSHI_WENJI",
+      "title_zh": "饮冰室文集",
+      "title_en": "Collected Works of Yinbingshi",
+      "scholar_id": "SCH_LIANG_QICHAO",
+      "year": "1902",
+      "description_zh": "梁启超文集，收录大量政论与报刊评论。"
+    },
+    {
+      "book_id": "BOOK_YANSHAN_YEHUA",
+      "title_zh": "燕山夜话",
+      "title_en": "Evening Talks at Yanshan",
+      "scholar_id": "SCH_DENG_TUO",
+      "year": "1961",
+      "description_zh": "邓拓的杂文集，以史为鉴批评时弊。"
+    },
+    {
+      "book_id": "BOOK_NAHAN",
+      "title_zh": "呐喊",
+      "title_en": "Call to Arms",
+      "scholar_id": "SCH_LU_XUN",
+      "year": "1923",
+      "description_zh": "鲁迅第一部小说集，包括《狂人日记》《阿Q正传》等。"
+    },
+    {
+      "book_id": "BOOK_TAOFEN_WENJI",
+      "title_zh": "韬奋文集",
+      "title_en": "Collected Works of Taofen",
+      "scholar_id": "SCH_ZOU_TAOFEN",
+      "year": "1938",
+      "description_zh": "邹韬奋的文集，记录抗日救亡舆论工作。"
+    },
+    {
+      "book_id": "BOOK_CHINA_NEWS_HISTORY",
+      "title_zh": "中国新闻事业通史",
+      "title_en": "A General History of Chinese Journalism",
+      "scholar_id": "SCH_FANG_HANQI",
+      "year": "1992",
+      "description_zh": "方汉奇主编，中国新闻史研究集大成之作。"
+    },
+    {
+      "book_id": "BOOK_ORAL_WRITTEN_CULTURE",
+      "title_zh": "口语文化与书面文化",
+      "title_en": "Orality and Literacy",
+      "scholar_id": "SCH_ONG",
+      "year": "1982",
+      "description_zh": "翁分析口语与书面文化认知差异的经典。"
+    },
+    {
+      "book_id": "BOOK_PREFACE_PLATO",
+      "title_zh": "柏拉图导论",
+      "title_en": "Preface to Plato",
+      "scholar_id": "SCH_HAVELOCK",
+      "year": "1963",
+      "description_zh": "哈弗洛克研究古希腊文化转型的重要著作。"
+    },
+    {
+      "book_id": "BOOK_BIAS_COMMUNICATION",
+      "title_zh": "传播的偏向",
+      "title_en": "The Bias of Communication",
+      "scholar_id": "SCH_INNIS",
+      "year": "1951",
+      "description_zh": "伊尼斯研究媒介偏向的另一部重要著作。"
+    },
+    {
+      "book_id": "BOOK_GUTENBERG_GALAXY",
+      "title_zh": "谷登堡星汉",
+      "title_en": "The Gutenberg Galaxy",
+      "scholar_id": "SCH_MCLUHAN",
+      "year": "1962",
+      "description_zh": "麦克卢汉研究印刷术对文化影响的著作。"
+    },
+    {
+      "book_id": "BOOK_GROUPTHINK",
+      "title_zh": "群体思维的受害者",
+      "title_en": "Victims of Groupthink",
+      "scholar_id": "SCH_JANIS",
+      "year": "1972",
+      "description_zh": "贾尼斯提出群体思维理论的经典著作。"
+    },
+    {
+      "book_id": "BOOK_LONELY_CROWD",
+      "title_zh": "孤独的人群",
+      "title_en": "The Lonely Crowd",
+      "scholar_id": "SCH_RIESMAN",
+      "year": "1950",
+      "description_zh": "里斯曼研究美国社会性格变迁的社会学经典。"
+    },
+    {
+      "book_id": "BOOK_DIGITAL_CAPITALISM",
+      "title_zh": "数字资本主义",
+      "title_en": "Digital Capitalism",
+      "scholar_id": "SCH_DAN_SCHILLER",
+      "year": "1999",
+      "description_zh": "丹·席勒批判信息技术与资本主义逻辑的著作。"
+    },
+    {
+      "book_id": "BOOK_POLITICAL_ECONOMY_COMMUNICATION",
+      "title_zh": "传播政治经济学",
+      "title_en": "The Political Economy of Communication",
+      "scholar_id": "SCH_MOSCO",
+      "year": "1996",
+      "description_zh": "莫斯可系统阐述传播政治经济学的教科书。"
+    },
+    {
+      "book_id": "BOOK_MASS_COMMUNICATION_THEORY",
+      "title_zh": "大众传播理论",
+      "title_en": "Mass Communication Theory",
+      "scholar_id": "SCH_MCQUAIL",
+      "year": "1983",
+      "description_zh": "麦奎尔的传播学理论教科书，影响深远。"
+    },
+    {
+      "book_id": "BOOK_SHENGSHI_WEIYAN",
+      "title_zh": "盛世危言",
+      "title_en": "Erta Warnings in Times of Prosperity",
+      "scholar_id": "SCH_ZHENG_GUANYING",
+      "year": "1894",
+      "description_zh": "郑观应的改良思想著作，主张商战救国。"
+    },
+    {
+      "book_id": "BOOK_PUBLIC_AND_PROBLEMS",
+      "title_zh": "公众及其问题",
+      "title_en": "The Public and Its Problems",
+      "scholar_id": "SCH_DEWEY",
+      "year": "1927",
+      "description_zh": "杜威回应李普曼的民主与传播理论著作。"
+    },
+    {
+      "book_id": "BOOK_HUMAN_NATURE_SOCIAL_ORDER",
+      "title_zh": "人类本性与社会秩序",
+      "title_en": "Human Nature and the Social Order",
+      "scholar_id": "SCH_COOLEY",
+      "year": "1902",
+      "description_zh": "库利提出「镜中我」理论的经典社会心理学著作。"
+    },
+    {
+      "book_id": "BOOK_MIND_SELF_SOCIETY",
+      "title_zh": "心灵自我与社会",
+      "title_en": "Mind Self and Society",
+      "scholar_id": "SCH_MEAD",
+      "year": "1934",
+      "description_zh": "米德符号互动论的代表作，由学生整理出版。"
+    }
+  ],
+  "relations": [
+    {
+      "subject_id": "SCH_MCLUHAN",
+      "relation": "师承",
+      "object_id": "SCH_INNIS",
+      "note_zh": "麦克卢汉是伊尼斯的学生"
+    },
+    {
+      "subject_id": "SCH_KATZ",
+      "relation": "合作",
+      "object_id": "SCH_LAZARSFELD",
+      "note_zh": "卡茨与拉扎斯菲尔德合著《个人影响》"
+    },
+    {
+      "subject_id": "SCH_WOODWARD",
+      "relation": "合作",
+      "object_id": "SCH_BERNSTEIN",
+      "note_zh": "伍德沃德与伯恩斯坦共同揭露水门事件"
+    },
+    {
+      "subject_id": "SCH_POSTMAN",
+      "relation": "继承",
+      "object_id": "SCH_MCLUHAN",
+      "note_zh": "波兹曼继承发展媒介环境学"
+    },
+    {
+      "subject_id": "SCH_HALL",
+      "relation": "继承",
+      "object_id": "SCH_HABERMAS",
+      "note_zh": "霍尔受法兰克福学派影响"
+    },
+    {
+      "subject_id": "SCH_ZHANG_JILUAN",
+      "relation": "同事",
+      "object_id": "SCH_HU_ZHENGZHI",
+      "note_zh": "张季鸾与胡政之共同经营《大公报》"
+    },
+    {
+      "subject_id": "SCH_SHAO_PIAOPING",
+      "relation": "同行",
+      "object_id": "SCH_LIN_BAISHUI",
+      "note_zh": "两人同年因言获罪遇害"
+    },
+    {
+      "subject_id": "SCH_LIANG_QICHAO",
+      "relation": "师承",
+      "object_id": "SCH_KANG_YOUWEI",
+      "note_zh": "梁启超是康有为的学生"
+    },
+    {
+      "subject_id": "SCH_LI_DAZHAO",
+      "relation": "同事",
+      "object_id": "SCH_CHEN_DUXIU",
+      "note_zh": "两人同为《新青年》核心人物"
+    }
+  ],
+  "meta": {
+    "build_time": "2026-01-31",
+    "version": "1.0.0-static"
+  }
+}
