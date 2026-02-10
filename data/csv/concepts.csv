@@ -19,3 +19,16 @@ CONCEPT_FOURTH_ESTATE,第四权力,媒体作为独立于行政、立法、司法
 CONCEPT_YELLOW_JOURNALISM,黄色新闻,19世纪末以煽情、夸张手法吸引读者的新闻风格。
 CONCEPT_MUCKRAKING,扒粪运动,20世纪初美国揭露社会黑暗面的调查性新闻运动。
 CONCEPT_PENNY_PRESS,便士报,19世纪30年代兴起的廉价大众化报纸。
+CONCEPT_WATCHDOG,监督功能,新闻媒体作为公众利益的守望者，对权力机构进行监督和问责的社会角色。
+CONCEPT_NETWORK_SOCIETY,网络社会,卡斯特尔提出的概念，描述以信息网络为基础的社会组织形态。
+CONCEPT_MEDIA_ECOLOGY,媒介生态学,研究媒介环境如何影响人类感知、理解和价值观的学术领域。
+CONCEPT_PROPAGANDA_MODEL,宣传模型,乔姆斯基和赫尔曼提出的分析框架，揭示大众媒体如何通过五种过滤机制服务于权力精英利益。
+CONCEPT_PUBLIC_RELATIONS,公共关系,组织与公众之间建立和维护互利关系的管理功能与传播活动。
+CONCEPT_5W_MODEL,5W传播模式,拉斯韦尔提出的传播过程分析模型，与CONCEPT_5W概念相关但强调模式化分析。
+CONCEPT_GATEKEEPER,把关人理论,卢因提出的概念，指在信息传播过程中对信息进行筛选和过滤的角色。
+CONCEPT_PERSUASION,说服传播,霍夫兰等人研究的通过传播手段改变受众态度和行为的理论。
+CONCEPT_INFORMATION_THEORY,信息论,香农提出的关于信息量化、传输和处理的数学理论。
+CONCEPT_CYBERNETICS,控制论,维纳提出的关于系统控制与通讯的理论，强调反馈机制在信息传播中的作用。
+CONCEPT_URBAN_ECOLOGY,城市生态学,芝加哥学派研究城市社会结构与传播的理论框架。
+CONCEPT_SYMBOLIC_INTERACTION,符号互动论,米德等人提出的理论，强调人类通过符号进行意义建构和社会互动。
+CONCEPT_GROUPTHINK,群体思维,贾尼斯提出的概念，指群体决策中为追求一致而抑制不同意见的倾向。

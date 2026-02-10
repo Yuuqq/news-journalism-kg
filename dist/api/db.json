@@ -2729,6 +2729,71 @@
       "concept_id": "CONCEPT_PENNY_PRESS",
       "name_zh": "便士报",
       "description_zh": "19世纪30年代兴起的廉价大众化报纸。"
+    },
+    {
+      "concept_id": "CONCEPT_WATCHDOG",
+      "name_zh": "监督功能",
+      "description_zh": "新闻媒体作为公众利益的守望者，对权力机构进行监督和问责的社会角色。"
+    },
+    {
+      "concept_id": "CONCEPT_NETWORK_SOCIETY",
+      "name_zh": "网络社会",
+      "description_zh": "卡斯特尔提出的概念，描述以信息网络为基础的社会组织形态。"
+    },
+    {
+      "concept_id": "CONCEPT_MEDIA_ECOLOGY",
+      "name_zh": "媒介生态学",
+      "description_zh": "研究媒介环境如何影响人类感知、理解和价值观的学术领域。"
+    },
+    {
+      "concept_id": "CONCEPT_PROPAGANDA_MODEL",
+      "name_zh": "宣传模型",
+      "description_zh": "乔姆斯基和赫尔曼提出的分析框架，揭示大众媒体如何通过五种过滤机制服务于权力精英利益。"
+    },
+    {
+      "concept_id": "CONCEPT_PUBLIC_RELATIONS",
+      "name_zh": "公共关系",
+      "description_zh": "组织与公众之间建立和维护互利关系的管理功能与传播活动。"
+    },
+    {
+      "concept_id": "CONCEPT_5W_MODEL",
+      "name_zh": "5W传播模式",
+      "description_zh": "拉斯韦尔提出的传播过程分析模型，与CONCEPT_5W概念相关但强调模式化分析。"
+    },
+    {
+      "concept_id": "CONCEPT_GATEKEEPER",
+      "name_zh": "把关人理论",
+      "description_zh": "卢因提出的概念，指在信息传播过程中对信息进行筛选和过滤的角色。"
+    },
+    {
+      "concept_id": "CONCEPT_PERSUASION",
+      "name_zh": "说服传播",
+      "description_zh": "霍夫兰等人研究的通过传播手段改变受众态度和行为的理论。"
+    },
+    {
+      "concept_id": "CONCEPT_INFORMATION_THEORY",
+      "name_zh": "信息论",
+      "description_zh": "香农提出的关于信息量化、传输和处理的数学理论。"
+    },
+    {
+      "concept_id": "CONCEPT_CYBERNETICS",
+      "name_zh": "控制论",
+      "description_zh": "维纳提出的关于系统控制与通讯的理论，强调反馈机制在信息传播中的作用。"
+    },
+    {
+      "concept_id": "CONCEPT_URBAN_ECOLOGY",
+      "name_zh": "城市生态学",
+      "description_zh": "芝加哥学派研究城市社会结构与传播的理论框架。"
+    },
+    {
+      "concept_id": "CONCEPT_SYMBOLIC_INTERACTION",
+      "name_zh": "符号互动论",
+      "description_zh": "米德等人提出的理论，强调人类通过符号进行意义建构和社会互动。"
+    },
+    {
+      "concept_id": "CONCEPT_GROUPTHINK",
+      "name_zh": "群体思维",
+      "description_zh": "贾尼斯提出的概念，指群体决策中为追求一致而抑制不同意见的倾向。"
     }
   ],
   "years": [
@@ -2776,6 +2841,11 @@
       "year_id": "YEAR_1892",
       "year_value": "1892",
       "label_zh": "1892年"
+    },
+    {
+      "year_id": "YEAR_1894",
+      "year_value": "1894",
+      "label_zh": "1894年"
     },
     {
       "year_id": "YEAR_1895",
@@ -2843,6 +2913,11 @@
       "label_zh": "1919年"
     },
     {
+      "year_id": "YEAR_1921",
+      "year_value": "1921",
+      "label_zh": "1921年"
+    },
+    {
       "year_id": "YEAR_1922",
       "year_value": "1922",
       "label_zh": "1922年"
@@ -2863,6 +2938,11 @@
       "label_zh": "1927年"
     },
     {
+      "year_id": "YEAR_1928",
+      "year_value": "1928",
+      "label_zh": "1928年"
+    },
+    {
       "year_id": "YEAR_1930",
       "year_value": "1930",
       "label_zh": "1930年"
@@ -2878,6 +2958,11 @@
       "label_zh": "1932年"
     },
     {
+      "year_id": "YEAR_1934",
+      "year_value": "1934",
+      "label_zh": "1934年"
+    },
+    {
       "year_id": "YEAR_1936",
       "year_value": "1936",
       "label_zh": "1936年"
@@ -2891,6 +2976,11 @@
       "year_id": "YEAR_1940",
       "year_value": "1940",
       "label_zh": "1940年"
+    },
+    {
+      "year_id": "YEAR_1941",
+      "year_value": "1941",
+      "label_zh": "1941年"
     },
     {
       "year_id": "YEAR_1944",
@@ -2938,6 +3028,11 @@
       "label_zh": "1957年"
     },
     {
+      "year_id": "YEAR_1958",
+      "year_value": "1958",
+      "label_zh": "1958年"
+    },
+    {
       "year_id": "YEAR_1959",
       "year_value": "1959",
       "label_zh": "1959年"
@@ -2951,6 +3046,11 @@
       "year_id": "YEAR_1962",
       "year_value": "1962",
       "label_zh": "1962年"
+    },
+    {
+      "year_id": "YEAR_1963",
+      "year_value": "1963",
+      "label_zh": "1963年"
     },
     {
       "year_id": "YEAR_1964",
@@ -3013,14 +3113,54 @@
       "label_zh": "1977年"
     },
     {
+      "year_id": "YEAR_1980",
+      "year_value": "1980",
+      "label_zh": "1980年"
+    },
+    {
+      "year_id": "YEAR_1982",
+      "year_value": "1982",
+      "label_zh": "1982年"
+    },
+    {
       "year_id": "YEAR_1985",
       "year_value": "1985",
       "label_zh": "1985年"
     },
     {
+      "year_id": "YEAR_1988",
+      "year_value": "1988",
+      "label_zh": "1988年"
+    },
+    {
+      "year_id": "YEAR_1989",
+      "year_value": "1989",
+      "label_zh": "1989年"
+    },
+    {
       "year_id": "YEAR_1990",
       "year_value": "1990",
       "label_zh": "1990年"
+    },
+    {
+      "year_id": "YEAR_1992",
+      "year_value": "1992",
+      "label_zh": "1992年"
+    },
+    {
+      "year_id": "YEAR_1995",
+      "year_value": "1995",
+      "label_zh": "1995年"
+    },
+    {
+      "year_id": "YEAR_1996",
+      "year_value": "1996",
+      "label_zh": "1996年"
+    },
+    {
+      "year_id": "YEAR_1998",
+      "year_value": "1998",
+      "label_zh": "1998年"
     },
     {
       "year_id": "YEAR_1999",
@@ -3913,7 +4053,7 @@
     }
   ],
   "meta": {
-    "build_time": "2026-01-31",
+    "build_time": "2026-02-10",
     "version": "1.0.0-static"
   }
 }

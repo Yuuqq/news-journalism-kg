@@ -5,6 +5,15 @@ let DATA_CACHE = null;
 let CACHE_TIME = 0;
 const CACHE_TTL = 30000; // 30 seconds
 
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function getGraphFontColor() {
+  return document.documentElement.getAttribute('data-theme') === 'dark' ? '#eaeaea' : '#333';
+}
+
 // Theme Management
 const ThemeManager = {
   init() {
@@ -201,7 +210,7 @@ const VIEWS = {
         <p style="color: var(--text-secondary); margin-bottom: 1rem;">导出知识图谱数据以供其他系统使用</p>
         <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
           <button class="primary" onclick="exportJSON()">📄 导出 JSON</button>
-          <button class="primary" onclick="exportRDF()">🔗 导出 RDF/Turtle</button>
+          ${!IS_STATIC ? '<button class="primary" onclick="exportRDF()">🔗 导出 RDF/Turtle</button>' : ''}
         </div>
       </div>
     `;
@@ -209,7 +218,7 @@ const VIEWS = {
 
   scholars_list: async () => {
     const data = await API.browse();
-    const sorted = data.scholars.sort((a,b) => a.name_zh.localeCompare(b.name_zh, 'zh-Hans-CN'));
+    const sorted = [...data.scholars].sort((a,b) => a.name_zh.localeCompare(b.name_zh, 'zh-Hans-CN'));
 
     // Group by school
     const schoolGroups = {};
@@ -242,15 +251,15 @@ const VIEWS = {
         <div class="card clickable" data-school="${s.school_id || 'OTHER'}" onclick="window.location.hash='scholar/${s.scholar_id}'">
           <div style="display:flex; align-items:center; gap:15px;">
             <div style="width:50px; height:50px; background:${avatarColor}; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#fff; font-size:1.3rem; font-weight:bold; flex-shrink:0;">
-              ${s.name_zh[0]}
+              ${escapeHtml(s.name_zh[0])}
             </div>
             <div style="overflow:hidden; flex:1;">
-              <h3 style="margin:0; font-size:1.1rem; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;">${s.name_zh}</h3>
-              <div style="font-size:0.8rem; color:var(--text-secondary);">${s.name_en || ''}</div>
-              <div class="badge scholar" style="margin-top:6px;">${school}</div>
+              <h3 style="margin:0; font-size:1.1rem; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;">${escapeHtml(s.name_zh)}</h3>
+              <div style="font-size:0.8rem; color:var(--text-secondary);">${escapeHtml(s.name_en)}</div>
+              <div class="badge scholar" style="margin-top:6px;">${escapeHtml(school)}</div>
             </div>
           </div>
-          ${s.description_zh ? `<p style="margin-top:1rem; font-size:0.85rem;">${s.description_zh.substring(0, 60)}${s.description_zh.length > 60 ? '...' : ''}</p>` : ''}
+          ${s.description_zh ? `<p style="margin-top:1rem; font-size:0.85rem;">${escapeHtml(s.description_zh.substring(0, 60))}${s.description_zh.length > 60 ? '...' : ''}</p>` : ''}
         </div>`;
     });
     html += `</div>`;
@@ -310,7 +319,7 @@ const VIEWS = {
           label: scholar ? scholar.name_zh : inf.subject_id,
           color: { background: '#2980b9', border: '#1a5276' },
           size: 12 + Math.min(degree * 3, 20),
-          font: { color: '#333', size: 12 }
+          font: { color: getGraphFontColor(), size: 12 }
         });
       }
 
@@ -322,7 +331,7 @@ const VIEWS = {
           label: scholar ? scholar.name_zh : inf.object_id,
           color: { background: '#27ae60', border: '#1e8449' },
           size: 18,
-          font: { color: '#333', size: 12 }
+          font: { color: getGraphFontColor(), size: 12 }
         });
       }
 
@@ -453,7 +462,7 @@ const VIEWS = {
 
   timeline: async () => {
     const data = await API.browse();
-    const props = data.propositions.sort((a, b) => (parseInt(a.year)||0) - (parseInt(b.year)||0));
+    const props = [...data.propositions].sort((a, b) => (parseInt(a.year)||0) - (parseInt(b.year)||0));
 
     let itemsHtml = '';
     let delay = 0;
@@ -468,8 +477,8 @@ const VIEWS = {
           <div class="timeline-dot" style="background:${dotColor}"></div>
           <div class="timeline-year">${p.year}</div>
           <div class="timeline-content">
-            <h3 style="color:${dotColor}">${title}</h3>
-            <p>${p.proposition_text_zh}</p>
+            <h3 style="color:${dotColor}">${escapeHtml(title)}</h3>
+            <p>${escapeHtml(p.proposition_text_zh)}</p>
             ${p.concept_ids ? `<div style="margin-top:0.5rem;">${p.concept_ids.split(';').filter(x=>x).map(c => `<span class="badge theory">${c.replace('CONCEPT_', '')}</span>`).join(' ')}</div>` : ''}
           </div>
         </div>
@@ -505,7 +514,7 @@ const VIEWS = {
       `;
     }
 
-    const sorted = books.sort((a,b) => (parseInt(a.year)||0) - (parseInt(b.year)||0));
+    const sorted = [...books].sort((a,b) => (parseInt(a.year)||0) - (parseInt(b.year)||0));
 
     let html = `
       <h2><span class="icon">📚</span> 经典著作库</h2>
@@ -519,12 +528,70 @@ const VIEWS = {
       html += `
         <div class="card">
           <div style="font-size:0.8rem; color:var(--text-secondary); margin-bottom:0.5rem;">📅 ${b.year}</div>
-          <h3 style="margin-bottom:0.3rem;">《${b.title_zh}》</h3>
-          <div style="font-size:0.85rem; color:var(--text-secondary); font-style:italic; margin-bottom:1rem;">${b.title_en || ''}</div>
+          <h3 style="margin-bottom:0.3rem;">《${escapeHtml(b.title_zh)}》</h3>
+          <div style="font-size:0.85rem; color:var(--text-secondary); font-style:italic; margin-bottom:1rem;">${escapeHtml(b.title_en)}</div>
           <div style="margin-bottom:0.8rem;">👤 ${authorName}</div>
-          <p>${b.description_zh}</p>
+          <p>${escapeHtml(b.description_zh)}</p>
         </div>`;
     });
+    html += '</div>';
+    return html;
+  },
+
+  concepts: async () => {
+    const data = await API.browse();
+    const concepts = data.concepts || [];
+
+    if (concepts.length === 0) {
+      return `
+        <h2><span class="icon">💡</span> 核心概念</h2>
+        <div class="empty-state">
+          <div class="icon">📭</div>
+          <p>暂无概念数据</p>
+        </div>
+      `;
+    }
+
+    const propsByConcept = {};
+    (data.propositions || []).forEach(p => {
+      const cids = (p.concept_ids || '').split(';').filter(x => x.trim());
+      cids.forEach(cid => {
+        const id = cid.trim();
+        if (!propsByConcept[id]) propsByConcept[id] = [];
+        propsByConcept[id].push(p);
+      });
+    });
+
+    const scholarMap = new Map(data.scholars.map(s => [s.scholar_id, s]));
+
+    let html = `
+      <h2><span class="icon">💡</span> 核心概念</h2>
+      <p style="color:var(--text-secondary); margin-bottom:1.5rem;">共收录 ${concepts.length} 个传播学核心概念</p>
+      <div class="card-grid">`;
+
+    concepts.forEach(c => {
+      const related = propsByConcept[c.concept_id] || [];
+      html += `
+        <div class="card">
+          <h3>${escapeHtml(c.name_zh)}</h3>
+          <div class="badge theory" style="margin-bottom:0.8rem;">${escapeHtml(c.concept_id.replace('CONCEPT_', ''))}</div>
+          <p>${escapeHtml(c.description_zh)}</p>
+          ${related.length > 0 ? `
+            <div style="margin-top:1rem; padding-top:0.8rem; border-top:1px solid var(--border-color);">
+              <div style="font-size:0.8rem; font-weight:600; color:var(--text-secondary); margin-bottom:0.5rem;">相关命题 (${related.length})</div>
+              ${related.slice(0, 3).map(p => {
+                const scholar = scholarMap.get(p.scholar_id);
+                return `<div style="font-size:0.85rem; margin-bottom:0.3rem; color:var(--text-secondary);">
+                  <span class="badge event">${escapeHtml(p.year)}</span>
+                  ${scholar ? `<a href="#scholar/${escapeHtml(p.scholar_id)}" style="color:var(--accent-color);text-decoration:none;">${escapeHtml(scholar.name_zh)}</a>` : ''}
+                </div>`;
+              }).join('')}
+              ${related.length > 3 ? `<div style="font-size:0.8rem; color:var(--text-secondary);">...还有 ${related.length - 3} 条</div>` : ''}
+            </div>
+          ` : ''}
+        </div>`;
+    });
+
     html += '</div>';
     return html;
   },
@@ -647,11 +714,11 @@ const VIEWS = {
       <div class="scholar-profile">
         <div>
           <div class="card" style="text-align:center;">
-            <div class="scholar-avatar" style="background:${avatarColor};">${scholar.name_zh[0]}</div>
-            <h2 style="border:none; margin-bottom:0.5rem; justify-content:center;">${scholar.name_zh}</h2>
-            <div style="color:var(--text-secondary); font-size:0.9rem; margin-bottom:1rem;">${scholar.name_en || ''}</div>
+            <div class="scholar-avatar" style="background:${avatarColor};">${escapeHtml(scholar.name_zh[0])}</div>
+            <h2 style="border:none; margin-bottom:0.5rem; justify-content:center;">${escapeHtml(scholar.name_zh)}</h2>
+            <div style="color:var(--text-secondary); font-size:0.9rem; margin-bottom:1rem;">${escapeHtml(scholar.name_en)}</div>
             <div class="badge scholar" style="margin-bottom:1rem;">${scholar.school_id ? getSchoolName(scholar.school_id) : '学者'}</div>
-            <p style="text-align:left; font-size:0.9rem; line-height:1.6;">${scholar.description_zh || '暂无简介'}</p>
+            <p style="text-align:left; font-size:0.9rem; line-height:1.6;">${escapeHtml(scholar.description_zh) || '暂无简介'}</p>
             ${scholar.active_year ? `<div style="margin-top:1rem; font-size:0.8rem; color:var(--text-secondary);">活跃年份: ${scholar.active_year}</div>` : ''}
           </div>
         </div>
@@ -756,47 +823,6 @@ const VIEWS = {
           ${rowsHtml}
         </div>
       </div>
-      <script>
-        (function() {
-          const container = document.getElementById('mapContainer');
-          if (!container) return;
-
-          let isDown = false;
-          let startX, startY;
-          let scrollLeft, scrollTop;
-
-          container.addEventListener('mousedown', (e) => {
-            if (e.target.classList.contains('map-dot')) return;
-            isDown = true;
-            container.style.cursor = 'grabbing';
-            startX = e.pageX - container.offsetLeft;
-            startY = e.pageY - container.offsetTop;
-            scrollLeft = container.scrollLeft;
-            scrollTop = container.scrollTop;
-          });
-
-          container.addEventListener('mouseleave', () => {
-            isDown = false;
-            container.style.cursor = 'grab';
-          });
-
-          container.addEventListener('mouseup', () => {
-            isDown = false;
-            container.style.cursor = 'grab';
-          });
-
-          container.addEventListener('mousemove', (e) => {
-            if (!isDown) return;
-            e.preventDefault();
-            const x = e.pageX - container.offsetLeft;
-            const y = e.pageY - container.offsetTop;
-            const walkX = (x - startX) * 1.5;
-            const walkY = (y - startY) * 1.5;
-            container.scrollLeft = scrollLeft - walkX;
-            container.scrollTop = scrollTop - walkY;
-          });
-        })();
-      </script>
     `;
   },
 
@@ -834,7 +860,7 @@ const VIEWS = {
           shape: 'dot',
           size: 28,
           color: { background: getAvatarColor(s.school_id), border: '#fff', highlight: { background: '#e74c3c', border: '#fff' } },
-          font: { color: '#333', size: 14, face: 'Inter', strokeWidth: 3, strokeColor: '#fff' }
+          font: { color: getGraphFontColor(), size: 14, face: 'Inter', strokeWidth: 3, strokeColor: document.documentElement.getAttribute('data-theme') === 'dark' ? '#16213e' : '#fff' }
         });
       }
     });
@@ -865,8 +891,6 @@ const VIEWS = {
 
         // Show loading state
         container.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--text-secondary);"><div class="spinner"></div><p>正在加载图谱...</p></div>';
-
-        console.log('Graph: nodes count:', nodes.length, 'edges count:', edges.length);
 
         if (nodes.length === 0) {
           container.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--text-secondary);"><p>⚠️ 没有学者数据可显示</p></div>';
@@ -1034,9 +1058,9 @@ const VIEWS = {
               <span class="badge event">${p.published_year || '年份不详'}</span>
               <span>${p.source_type || 'unknown'}</span>
             </div>
-            <h3 style="font-size:1rem;">${p.source_title}</h3>
-            <p style="font-style:italic; border-left:3px solid var(--accent-color); padding-left:1rem; margin:1rem 0;">"${p.passage_text}"</p>
-            <div style="font-size:0.8rem; color:var(--text-secondary);">📍 ${p.locator || '位置不详'}</div>
+            <h3 style="font-size:1rem;">${escapeHtml(p.source_title)}</h3>
+            <p style="font-style:italic; border-left:3px solid var(--accent-color); padding-left:1rem; margin:1rem 0;">"${escapeHtml(p.passage_text)}"</p>
+            <div style="font-size:0.8rem; color:var(--text-secondary);">📍 ${escapeHtml(p.locator) || '位置不详'}</div>
           </div>
         `).join('')}
       </div>
@@ -1048,7 +1072,7 @@ const VIEWS = {
     const total = results.scholars.length + results.books.length + results.propositions.length;
 
     return `
-      <h2><span class="icon">🔍</span> 搜索结果: "${query}"</h2>
+      <h2><span class="icon">🔍</span> 搜索结果: "${escapeHtml(query)}"</h2>
       <p style="color:var(--text-secondary); margin-bottom:1.5rem;">共找到 ${total} 条结果</p>
 
       ${results.scholars.length > 0 ? `
@@ -1056,8 +1080,8 @@ const VIEWS = {
         <div class="card-grid" style="margin-bottom:2rem;">
           ${results.scholars.slice(0, 10).map(s => `
             <div class="card clickable" onclick="window.location.hash='scholar/${s.scholar_id}'">
-              <h3>${s.name_zh}</h3>
-              <p>${s.description_zh || ''}</p>
+              <h3>${escapeHtml(s.name_zh)}</h3>
+              <p>${escapeHtml(s.description_zh)}</p>
             </div>
           `).join('')}
         </div>
@@ -1068,8 +1092,8 @@ const VIEWS = {
         <div class="card-grid" style="margin-bottom:2rem;">
           ${results.books.slice(0, 10).map(b => `
             <div class="card">
-              <h3>《${b.title_zh}》</h3>
-              <p>${b.description_zh || ''}</p>
+              <h3>《${escapeHtml(b.title_zh)}》</h3>
+              <p>${escapeHtml(b.description_zh)}</p>
             </div>
           `).join('')}
         </div>
@@ -1081,7 +1105,7 @@ const VIEWS = {
           ${results.propositions.slice(0, 10).map(p => `
             <div class="card">
               <div class="badge event">${p.year}</div>
-              <p style="margin-top:0.5rem;">${p.proposition_text_zh}</p>
+              <p style="margin-top:0.5rem;">${escapeHtml(p.proposition_text_zh)}</p>
             </div>
           `).join('')}
         </div>

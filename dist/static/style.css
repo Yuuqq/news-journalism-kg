@@ -818,7 +818,12 @@ button.secondary:hover {
   }
 
   .search-box {
-    display: none;
+    width: 120px;
+  }
+
+  .search-box input {
+    font-size: 0.8rem;
+    padding: 6px 10px;
   }
 
   .stats-grid {

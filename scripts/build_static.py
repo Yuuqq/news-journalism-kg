@@ -44,7 +44,7 @@ def build():
         'books': validate_csv.read_csv(csv_dir / 'books.csv'),
         'relations': validate_csv.read_csv(csv_dir / 'relations.csv'),
         'meta': {
-            'build_time': '2026-01-31',
+            'build_time': __import__('datetime').date.today().isoformat(),
             'version': '1.0.0-static'
         }
     }
