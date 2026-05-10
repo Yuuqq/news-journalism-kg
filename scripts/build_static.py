@@ -60,9 +60,16 @@ def build():
     with open(dist / 'api' / 'list.json', 'w', encoding='utf-8') as f:
         json.dump({'files': [], 'static_mode': True}, f)
 
+    # 3. Copy .well-known directory (site verification)
+    well_known_src = root / '.well-known'
+    if well_known_src.exists():
+        shutil.copytree(well_known_src, dist / '.well-known')
+
     print(f"Build complete! Output directory: {dist}")
     print(f"  - Copied static assets")
     print(f"  - Generated api/db.json ({len(db['scholars'])} scholars, {len(db['propositions'])} propositions)")
+    if well_known_src.exists():
+        print(f"  - Copied .well-known verification directory")
 
 if __name__ == "__main__":
     build()
