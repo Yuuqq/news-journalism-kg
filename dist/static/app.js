@@ -6,8 +6,18 @@ let CACHE_TIME = 0;
 const CACHE_TTL = 30000; // 30 seconds
 
 function escapeHtml(str) {
-  if (!str) return '';
-  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  if (str === null || str === undefined) return '';
+  return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// Decode a hash-route segment; falls back to the raw value on malformed input
+function safeDecode(segment) {
+  try { return decodeURIComponent(segment); } catch (e) { return segment; }
+}
+
+// Shared fallback UI when vis.js fails to load from CDN
+function visFallbackHtml() {
+  return '<div style="padding:2rem;text-align:center;color:var(--text-secondary);"><p>⚠️ 图谱库加载失败，请检查网络连接后刷新页面</p><button class="primary" onclick="location.reload()">🔄 刷新</button></div>';
 }
 
 function getGraphFontColor() {
@@ -75,10 +85,13 @@ const API = {
 
     let data;
     if (IS_STATIC) {
+      if (!GLOBAL_DB) {
+        throw new Error('静态数据库 (api/db.json) 加载失败，请刷新页面重试');
+      }
       data = {
-        scholars: GLOBAL_DB.scholars,
-        propositions: GLOBAL_DB.propositions,
-        passages: GLOBAL_DB.passages,
+        scholars: GLOBAL_DB.scholars || [],
+        propositions: GLOBAL_DB.propositions || [],
+        passages: GLOBAL_DB.passages || [],
         concepts: GLOBAL_DB.concepts || [],
         books: GLOBAL_DB.books || [],
         relations: GLOBAL_DB.relations || [],
@@ -86,6 +99,7 @@ const API = {
       };
     } else {
       const res = await fetch('/api/browse');
+      if (!res.ok) throw new Error(`服务器返回 ${res.status}，请稍后重试`);
       data = await res.json();
     }
 
@@ -110,39 +124,54 @@ const API = {
       };
     }
     const res = await fetch('/api/validate', { method: 'POST' });
-    return res.json();
+    let data = null;
+    try { data = await res.json(); } catch (_) {}
+    if (!res.ok && res.status !== 400) {
+      throw new Error((data && data.error) || `校验请求失败 (${res.status})`);
+    }
+    if (!data) throw new Error('校验响应格式错误');
+    return data;
   },
 
   get_csv: async (name) => {
-    const res = await fetch(`/api/csv?name=${name}`);
+    const res = await fetch(`/api/csv?name=${encodeURIComponent(name)}`);
+    if (!res.ok && res.status !== 400 && res.status !== 404) {
+      throw new Error(`服务器返回 ${res.status}`);
+    }
     return res.json();
   },
 
   save_csv: async (name, content) => {
-    const res = await fetch('/api/csv', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({name, content})
-    });
-    DATA_CACHE = null; // Invalidate cache
-    return res.json();
+    try {
+      const res = await fetch('/api/csv', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({name, content})
+      });
+      DATA_CACHE = null; // Invalidate cache
+      return await res.json();
+    } catch (e) {
+      DATA_CACHE = null;
+      throw e;
+    }
   },
 
   search: async (query) => {
     const data = await API.browse();
     const q = query.toLowerCase();
     const results = {
-      scholars: data.scholars.filter(s =>
-        s.name_zh.toLowerCase().includes(q) ||
+      scholars: (data.scholars || []).filter(s =>
+        (s.name_zh || '').toLowerCase().includes(q) ||
         (s.name_en && s.name_en.toLowerCase().includes(q)) ||
         (s.description_zh && s.description_zh.toLowerCase().includes(q))
       ),
       books: (data.books || []).filter(b =>
-        b.title_zh.toLowerCase().includes(q) ||
-        (b.title_en && b.title_en.toLowerCase().includes(q))
+        (b.title_zh || '').toLowerCase().includes(q) ||
+        (b.title_en && b.title_en.toLowerCase().includes(q)) ||
+        (b.description_zh && b.description_zh.toLowerCase().includes(q))
       ),
-      propositions: data.propositions.filter(p =>
-        p.proposition_text_zh.toLowerCase().includes(q)
+      propositions: (data.propositions || []).filter(p =>
+        (p.proposition_text_zh || '').toLowerCase().includes(q)
       )
     };
     return results;
@@ -218,7 +247,8 @@ const VIEWS = {
 
   scholars_list: async () => {
     const data = await API.browse();
-    const sorted = [...data.scholars].sort((a,b) => a.name_zh.localeCompare(b.name_zh, 'zh-Hans-CN'));
+    const displayName = s => s.name_zh || s.name_en || s.scholar_id || '';
+    const sorted = [...data.scholars].sort((a,b) => displayName(a).localeCompare(displayName(b), 'zh-Hans-CN'));
 
     // Group by school
     const schoolGroups = {};
@@ -229,7 +259,7 @@ const VIEWS = {
     });
 
     const schoolOptions = Object.keys(schoolGroups).sort().map(s =>
-      `<option value="${s}">${getSchoolName(s)}</option>`
+      `<option value="${escapeHtml(s)}">${escapeHtml(getSchoolName(s))}</option>`
     ).join('');
 
     let html = `
@@ -247,14 +277,15 @@ const VIEWS = {
     sorted.forEach(s => {
         const school = s.school_id ? getSchoolName(s.school_id) : '学者';
         const avatarColor = getAvatarColor(s.school_id);
+        const name = displayName(s);
         html += `
-        <div class="card clickable" data-school="${s.school_id || 'OTHER'}" onclick="window.location.hash='scholar/${s.scholar_id}'">
+        <div class="card clickable" data-school="${s.school_id || 'OTHER'}" onclick="window.location.hash='scholar/${escapeHtml(s.scholar_id)}'">
           <div style="display:flex; align-items:center; gap:15px;">
             <div style="width:50px; height:50px; background:${avatarColor}; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#fff; font-size:1.3rem; font-weight:bold; flex-shrink:0;">
-              ${escapeHtml(s.name_zh[0])}
+              ${escapeHtml(name[0] || '?')}
             </div>
             <div style="overflow:hidden; flex:1;">
-              <h3 style="margin:0; font-size:1.1rem; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;">${escapeHtml(s.name_zh)}</h3>
+              <h3 style="margin:0; font-size:1.1rem; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;">${escapeHtml(name)}</h3>
               <div style="font-size:0.8rem; color:var(--text-secondary);">${escapeHtml(s.name_en)}</div>
               <div class="badge scholar" style="margin-top:6px;">${escapeHtml(school)}</div>
             </div>
@@ -340,7 +371,7 @@ const VIEWS = {
         from: inf.object_id,
         to: inf.subject_id,
         arrows: { to: { enabled: true, scaleFactor: 0.6 } },
-        title: inf.note_zh,
+        title: escapeHtml(inf.note_zh),
         color: { color: '#bdc3c7', highlight: '#e74c3c' },
         width: 1.5
       });
@@ -349,6 +380,10 @@ const VIEWS = {
     setTimeout(() => {
       const container = document.getElementById('influence-viz');
       if (container) {
+        if (typeof vis === 'undefined') {
+          container.innerHTML = visFallbackHtml();
+          return;
+        }
         const graphData = {
           nodes: new vis.DataSet(Array.from(nodes.values())),
           edges: new vis.DataSet(edges)
@@ -445,13 +480,13 @@ const VIEWS = {
           const object = data.scholars.find(s => s.scholar_id === inf.object_id);
           return `
             <div class="card">
-              <div style="display:flex; align-items:center; gap:10px; margin-bottom:0.8rem;">
-                <span style="font-weight:bold; color:var(--accent-color);">${object ? object.name_zh : inf.object_id}</span>
+              <div style="display:flex; align-items:center; gap:10px; margin-bottom:0.8rem; flex-wrap:wrap;">
+                <span style="font-weight:bold; color:var(--accent-color);">${escapeHtml(object ? object.name_zh : inf.object_id)}</span>
                 <span style="color:var(--text-secondary);">→</span>
-                <span style="font-weight:bold;">${subject ? subject.name_zh : inf.subject_id}</span>
-                ${inf.year ? `<span class="badge event">${inf.year}</span>` : ''}
+                <span style="font-weight:bold;">${escapeHtml(subject ? subject.name_zh : inf.subject_id)}</span>
+                ${inf.year ? `<span class="badge event">${escapeHtml(inf.year)}</span>` : ''}
               </div>
-              <p style="font-size:0.9rem;">${inf.note_zh}</p>
+              <p style="font-size:0.9rem;">${escapeHtml(inf.note_zh)}</p>
             </div>
           `;
         }).join('')}
@@ -465,25 +500,25 @@ const VIEWS = {
     const props = [...data.propositions].sort((a, b) => (parseInt(a.year)||0) - (parseInt(b.year)||0));
 
     let itemsHtml = '';
-    let delay = 0;
     props.forEach((p, idx) => {
       const scholar = data.scholars.find(s => s.scholar_id === p.scholar_id);
       const title = scholar ? scholar.name_zh : '历史事件';
       const isEvent = !p.scholar_id;
       const dotColor = isEvent ? '#e67e22' : '#2980b9';
+      // Cap the stagger so long timelines don't leave far items invisible for seconds
+      const delay = Math.min(idx * 50, 1500);
 
       itemsHtml += `
         <div class="timeline-item" style="animation-delay:${delay}ms;">
           <div class="timeline-dot" style="background:${dotColor}"></div>
-          <div class="timeline-year">${p.year}</div>
+          <div class="timeline-year">${escapeHtml(p.year || '—')}</div>
           <div class="timeline-content">
             <h3 style="color:${dotColor}">${escapeHtml(title)}</h3>
             <p>${escapeHtml(p.proposition_text_zh)}</p>
-            ${p.concept_ids ? `<div style="margin-top:0.5rem;">${p.concept_ids.split(';').filter(x=>x).map(c => `<span class="badge theory">${c.replace('CONCEPT_', '')}</span>`).join(' ')}</div>` : ''}
+            ${p.concept_ids ? `<div style="margin-top:0.5rem;">${p.concept_ids.split(';').filter(x=>x).map(c => `<span class="badge theory">${escapeHtml(c.trim().replace('CONCEPT_', ''))}</span>`).join(' ')}</div>` : ''}
           </div>
         </div>
       `;
-      delay += 50;
     });
 
     return `
@@ -523,11 +558,11 @@ const VIEWS = {
 
     sorted.forEach(b => {
       const author = data.scholars.find(s => s.scholar_id === b.scholar_id);
-      const authorName = author ? `<a href="#scholar/${b.scholar_id}" style="color:var(--accent-color);text-decoration:none;font-weight:500;">${author.name_zh}</a>` : '未知作者';
+      const authorName = author ? `<a href="#scholar/${escapeHtml(b.scholar_id)}" style="color:var(--accent-color);text-decoration:none;font-weight:500;">${escapeHtml(author.name_zh)}</a>` : '未知作者';
 
       html += `
         <div class="card">
-          <div style="font-size:0.8rem; color:var(--text-secondary); margin-bottom:0.5rem;">📅 ${b.year}</div>
+          <div style="font-size:0.8rem; color:var(--text-secondary); margin-bottom:0.5rem;">📅 ${escapeHtml(b.year)}</div>
           <h3 style="margin-bottom:0.3rem;">《${escapeHtml(b.title_zh)}》</h3>
           <div style="font-size:0.85rem; color:var(--text-secondary); font-style:italic; margin-bottom:1rem;">${escapeHtml(b.title_en)}</div>
           <div style="margin-bottom:0.8rem;">👤 ${authorName}</div>
@@ -599,7 +634,7 @@ const VIEWS = {
   scholar: async (id) => {
     const data = await API.browse();
     const scholar = data.scholars.find(s => s.scholar_id === id);
-    if (!scholar) return `<div class="card error">Scholar not found: ${id}</div>`;
+    if (!scholar) return `<div class="card" style="border-color:#e74c3c;"><h3>未找到该学者</h3><p>Scholar not found: ${escapeHtml(id)}</p></div>`;
 
     const props = data.propositions.filter(p => p.scholar_id === id).sort((a, b) => (parseInt(a.year)||0) - (parseInt(b.year)||0));
     const books = (data.books || []).filter(b => b.scholar_id === id).sort((a, b) => (parseInt(a.year)||0) - (parseInt(b.year)||0));
@@ -621,12 +656,12 @@ const VIEWS = {
 
         influenceHtml += `
           <div class="card" style="padding:1rem;">
-            <div style="display:flex; align-items:center; gap:8px;">
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
               <span style="font-weight:bold;">${direction}</span>
-              <a href="#scholar/${otherId}" style="color:var(--accent-color); text-decoration:none; font-weight:bold;">${other ? other.name_zh : otherId}</a>
-              ${inf.year ? `<span class="badge event">${inf.year}</span>` : ''}
+              <a href="#scholar/${escapeHtml(otherId)}" style="color:var(--accent-color); text-decoration:none; font-weight:bold;">${escapeHtml(other ? other.name_zh : otherId)}</a>
+              ${inf.year ? `<span class="badge event">${escapeHtml(inf.year)}</span>` : ''}
             </div>
-            <p style="margin-top:0.5rem; font-size:0.9rem;">${inf.note_zh}</p>
+            <p style="margin-top:0.5rem; font-size:0.9rem;">${escapeHtml(inf.note_zh)}</p>
           </div>`;
       });
       influenceHtml += '</div>';
@@ -641,8 +676,8 @@ const VIEWS = {
       books.forEach(b => {
         bookHtml += `
           <div class="card" style="padding:1rem;">
-            <div style="font-weight:bold;">《${b.title_zh}》 (${b.year})</div>
-            <div style="font-size:0.8rem; color:var(--text-secondary); margin-top:0.3rem;">${b.description_zh}</div>
+            <div style="font-weight:bold;">《${escapeHtml(b.title_zh)}》 (${escapeHtml(b.year)})</div>
+            <div style="font-size:0.8rem; color:var(--text-secondary); margin-top:0.3rem;">${escapeHtml(b.description_zh)}</div>
           </div>`;
       });
       bookHtml += '</div>';
@@ -658,6 +693,10 @@ const VIEWS = {
       setTimeout(() => {
         const container = document.getElementById('social-viz');
         if (container) {
+          if (typeof vis === 'undefined') {
+            container.innerHTML = visFallbackHtml();
+            return;
+          }
           const sNodes = new Map();
           const sEdges = [];
           sNodes.set(id, { id, label: scholar.name_zh, color: '#e74c3c', size: 30 });
@@ -672,8 +711,8 @@ const VIEWS = {
             sEdges.push({
               from: r.subject_id,
               to: r.object_id,
-              label: r.relation,
-              font: { size: 11, align: 'middle' },
+              label: escapeHtml(r.relation),
+              font: { size: 11, align: 'middle', color: getGraphFontColor() },
               arrows: 'to',
               color: { color: '#bdc3c7' }
             });
@@ -683,7 +722,7 @@ const VIEWS = {
             nodes: new vis.DataSet(Array.from(sNodes.values())),
             edges: new vis.DataSet(sEdges)
           }, {
-            nodes: { shape: 'dot', font: { face: 'Inter' } },
+            nodes: { shape: 'dot', font: { face: 'Inter', color: getGraphFontColor() } },
             physics: { stabilization: false, barnesHut: { gravitationalConstant: -2000 } }
           });
         }
@@ -696,17 +735,18 @@ const VIEWS = {
       timelineHtml = '<p style="color:var(--text-secondary); font-style:italic;">暂无收录命题。</p>';
     } else {
       props.forEach(p => {
-        const concepts = (p.concept_ids || '').split(';').filter(x=>x).map(c => `<span class="badge theory">${c.replace('CONCEPT_', '')}</span>`).join(' ');
+        const concepts = (p.concept_ids || '').split(';').filter(x=>x).map(c => `<span class="badge theory">${escapeHtml(c.trim().replace('CONCEPT_', ''))}</span>`).join(' ');
         timelineHtml += `
           <div class="card" style="margin-bottom:1rem; border-left:4px solid var(--accent-color);">
-            <div style="font-weight:bold; color:var(--accent-color);">${p.year}</div>
-            <p style="margin:0.5rem 0;">${p.proposition_text_zh}</p>
+            <div style="font-weight:bold; color:var(--accent-color);">${escapeHtml(p.year || '—')}</div>
+            <p style="margin:0.5rem 0;">${escapeHtml(p.proposition_text_zh)}</p>
             <div>${concepts}</div>
           </div>`;
       });
     }
 
     const avatarColor = getAvatarColor(scholar.school_id);
+    const scholarName = scholar.name_zh || scholar.name_en || scholar.scholar_id;
 
     return `
       <button onclick="history.back()" class="back-btn">← 返回</button>
@@ -714,12 +754,12 @@ const VIEWS = {
       <div class="scholar-profile">
         <div>
           <div class="card" style="text-align:center;">
-            <div class="scholar-avatar" style="background:${avatarColor};">${escapeHtml(scholar.name_zh[0])}</div>
-            <h2 style="border:none; margin-bottom:0.5rem; justify-content:center;">${escapeHtml(scholar.name_zh)}</h2>
+            <div class="scholar-avatar" style="background:${avatarColor};">${escapeHtml(scholarName[0] || '?')}</div>
+            <h2 style="border:none; margin-bottom:0.5rem; justify-content:center;">${escapeHtml(scholarName)}</h2>
             <div style="color:var(--text-secondary); font-size:0.9rem; margin-bottom:1rem;">${escapeHtml(scholar.name_en)}</div>
-            <div class="badge scholar" style="margin-bottom:1rem;">${scholar.school_id ? getSchoolName(scholar.school_id) : '学者'}</div>
+            <div class="badge scholar" style="margin-bottom:1rem;">${escapeHtml(scholar.school_id ? getSchoolName(scholar.school_id) : '学者')}</div>
             <p style="text-align:left; font-size:0.9rem; line-height:1.6;">${escapeHtml(scholar.description_zh) || '暂无简介'}</p>
-            ${scholar.active_year ? `<div style="margin-top:1rem; font-size:0.8rem; color:var(--text-secondary);">活跃年份: ${scholar.active_year}</div>` : ''}
+            ${scholar.active_year ? `<div style="margin-top:1rem; font-size:0.8rem; color:var(--text-secondary);">活跃年份: ${escapeHtml(scholar.active_year)}</div>` : ''}
           </div>
         </div>
 
@@ -765,12 +805,13 @@ const VIEWS = {
       let dots = '';
       scholars.forEach(s => {
         const left = (s.year - startYear) * pxPerYear;
-        dots += `<div class="map-dot" onclick="window.location.hash='scholar/${s.scholar_id}'" title="${s.name_zh} (${s.active_year})" style="left:${left}px;"><div class="dot-label">${s.name_zh}</div></div>`;
+        const dotTitle = `${s.name_zh} (${s.active_year})`;
+        dots += `<div class="map-dot" onclick="window.location.hash='scholar/${escapeHtml(s.scholar_id)}'" title="${escapeHtml(dotTitle)}" style="left:${left}px;"><div class="dot-label">${escapeHtml(s.name_zh)}</div></div>`;
       });
 
       rowsHtml += `
         <div class="map-row">
-          <div class="map-school-label">${schoolName}</div>
+          <div class="map-school-label">${escapeHtml(schoolName)}</div>
           <div class="map-track">${dots}</div>
         </div>`;
     });
@@ -840,8 +881,7 @@ const VIEWS = {
         <label>🔍 学派筛选</label>
         <select id="schoolFilter">
           <option value="ALL">全部显示</option>
-          <option value="SCHOLARS_ONLY">仅显示学者节点</option>
-          ${sortedSchools.map(s => `<option value="${s}">${getSchoolName(s)}</option>`).join('')}
+          ${sortedSchools.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(getSchoolName(s))}</option>`).join('')}
         </select>
         <span class="hint">拖动节点调整布局 · 滚轮缩放 · 点击查看详情</span>
       </div>`;
@@ -849,12 +889,13 @@ const VIEWS = {
     // Build nodes - scholars only for initial performance
     const nodes = [];
     const edges = [];
+    const nodeIds = new Set();
 
     data.scholars.forEach(s => {
       if(s.scholar_id) {
         nodes.push({
           id: s.scholar_id,
-          label: s.name_zh,
+          label: s.name_zh || s.name_en || s.scholar_id,
           group: 'scholar',
           school: s.school_id,
           shape: 'dot',
@@ -862,20 +903,21 @@ const VIEWS = {
           color: { background: getAvatarColor(s.school_id), border: '#fff', highlight: { background: '#e74c3c', border: '#fff' } },
           font: { color: getGraphFontColor(), size: 14, face: 'Inter', strokeWidth: 3, strokeColor: document.documentElement.getAttribute('data-theme') === 'dark' ? '#16213e' : '#fff' }
         });
+        nodeIds.add(s.scholar_id);
       }
     });
 
     // Add influence edges between scholars
     const influences = data.influences || [];
     influences.forEach(inf => {
-      if (nodes.find(n => n.id === inf.subject_id) && nodes.find(n => n.id === inf.object_id)) {
+      if (nodeIds.has(inf.subject_id) && nodeIds.has(inf.object_id)) {
         edges.push({
           from: inf.object_id,
           to: inf.subject_id,
           arrows: { to: { enabled: true, scaleFactor: 0.5 } },
           color: { color: '#3498db', highlight: '#e74c3c' },
           width: 1.5,
-          title: inf.note_zh
+          title: escapeHtml(inf.note_zh)
         });
       }
     });
@@ -885,7 +927,7 @@ const VIEWS = {
       if(container) {
         // Check if vis.js is loaded
         if (typeof vis === 'undefined') {
-          container.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--text-secondary);"><p>⚠️ 图谱库加载失败，请检查网络连接后刷新页面</p><button class="primary" onclick="location.reload()">🔄 刷新</button></div>';
+          container.innerHTML = visFallbackHtml();
           return;
         }
 
@@ -949,7 +991,7 @@ const VIEWS = {
           const val = e.target.value;
           const allNodes = graphData.nodes.get();
 
-          if (val === 'ALL' || val === 'SCHOLARS_ONLY') {
+          if (val === 'ALL') {
             graphData.nodes.update(allNodes.map(n => ({
               id: n.id,
               hidden: false
@@ -965,7 +1007,7 @@ const VIEWS = {
         });
         } catch (err) {
           console.error('Graph render error:', err);
-          container.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--text-secondary);"><p>⚠️ 图谱渲染失败: ' + err.message + '</p><button class="primary" onclick="location.reload()">🔄 刷新</button></div>';
+          container.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--text-secondary);"><p>⚠️ 图谱渲染失败: ' + escapeHtml(err.message) + '</p><button class="primary" onclick="location.reload()">🔄 刷新</button></div>';
         }
       }
     }, 200);
@@ -994,7 +1036,7 @@ const VIEWS = {
       `;
     }
     const list = await API.list_csv();
-    const options = list.files.map(f => `<option value="${f.name}">${f.name}</option>`).join('');
+    const options = list.files.map(f => `<option value="${escapeHtml(f.name)}">${escapeHtml(f.name)}</option>`).join('');
     return `
       <h2><span class="icon">📝</span> 数据录入</h2>
       <div class="action-bar">
@@ -1018,17 +1060,19 @@ const VIEWS = {
     }
 
     const result = await API.validate();
-    const hasErrors = result.summary.errors > 0;
+    const errorCount = (result.summary && result.summary.errors) || 0;
+    const warnCount = (result.summary && result.summary.warnings) || 0;
+    const hasErrors = errorCount > 0;
 
     return `
       <h2><span class="icon">✅</span> 校验工具</h2>
       <div class="stats-grid" style="grid-template-columns: repeat(2, 1fr);">
         <div class="stat-card" style="border-color: ${hasErrors ? '#e74c3c' : '#27ae60'};">
-          <div class="stat-value" style="color: ${hasErrors ? '#e74c3c' : '#27ae60'};">${result.summary.errors}</div>
+          <div class="stat-value" style="color: ${hasErrors ? '#e74c3c' : '#27ae60'};">${errorCount}</div>
           <div class="stat-label">错误</div>
         </div>
         <div class="stat-card">
-          <div class="stat-value" style="color: #f39c12;">${result.summary.warnings}</div>
+          <div class="stat-value" style="color: #f39c12;">${warnCount}</div>
           <div class="stat-label">警告</div>
         </div>
       </div>
@@ -1037,8 +1081,9 @@ const VIEWS = {
         <div class="card-grid" style="grid-template-columns:1fr;">
           ${result.errors.map(e => `
             <div class="card" style="border-left:4px solid #e74c3c;">
-              <div style="font-weight:bold; color:#e74c3c;">${e.code}</div>
-              <p>${e.message}</p>
+              <div style="font-weight:bold; color:#e74c3c;">${escapeHtml(e.code)} ${escapeHtml(e.friendly || '')}</div>
+              <p>${escapeHtml(e.message)}</p>
+              <p style="font-size:0.8rem; margin-top:0.4rem;">${escapeHtml(Object.entries(e.context || {}).map(([k, v]) => `${k}=${v}`).join(' · '))}</p>
             </div>
           `).join('')}
         </div>
@@ -1055,12 +1100,13 @@ const VIEWS = {
         ${data.passages.map(p => `
           <div class="card">
             <div class="meta">
-              <span class="badge event">${p.published_year || '年份不详'}</span>
-              <span>${p.source_type || 'unknown'}</span>
+              <span class="badge event">${escapeHtml(p.published_year || '年份不详')}</span>
+              <span>${escapeHtml(p.source_type || 'unknown')}</span>
             </div>
             <h3 style="font-size:1rem;">${escapeHtml(p.source_title)}</h3>
             <p style="font-style:italic; border-left:3px solid var(--accent-color); padding-left:1rem; margin:1rem 0;">"${escapeHtml(p.passage_text)}"</p>
-            <div style="font-size:0.8rem; color:var(--text-secondary);">📍 ${escapeHtml(p.locator) || '位置不详'}</div>
+            ${p.source_url ? `<a href="${escapeHtml(p.source_url)}" target="_blank" rel="noopener noreferrer" style="font-size:0.8rem; color:var(--accent-color);">🔗 ${escapeHtml(p.source_title)}</a>` : ''}
+            <div style="font-size:0.8rem; color:var(--text-secondary); margin-top:0.5rem;">📍 ${escapeHtml(p.locator) || '位置不详'}</div>
           </div>
         `).join('')}
       </div>
@@ -1079,8 +1125,8 @@ const VIEWS = {
         <h3>👥 学者 (${results.scholars.length})</h3>
         <div class="card-grid" style="margin-bottom:2rem;">
           ${results.scholars.slice(0, 10).map(s => `
-            <div class="card clickable" onclick="window.location.hash='scholar/${s.scholar_id}'">
-              <h3>${escapeHtml(s.name_zh)}</h3>
+            <div class="card clickable" onclick="window.location.hash='scholar/${escapeHtml(s.scholar_id)}'">
+              <h3>${escapeHtml(s.name_zh || s.name_en || s.scholar_id)}</h3>
               <p>${escapeHtml(s.description_zh)}</p>
             </div>
           `).join('')}
@@ -1092,7 +1138,7 @@ const VIEWS = {
         <div class="card-grid" style="margin-bottom:2rem;">
           ${results.books.slice(0, 10).map(b => `
             <div class="card">
-              <h3>《${escapeHtml(b.title_zh)}》</h3>
+              <h3>《${escapeHtml(b.title_zh || b.title_en || '')}》</h3>
               <p>${escapeHtml(b.description_zh)}</p>
             </div>
           `).join('')}
@@ -1104,7 +1150,7 @@ const VIEWS = {
         <div class="card-grid">
           ${results.propositions.slice(0, 10).map(p => `
             <div class="card">
-              <div class="badge event">${p.year}</div>
+              <div class="badge event">${escapeHtml(p.year || '—')}</div>
               <p style="margin-top:0.5rem;">${escapeHtml(p.proposition_text_zh)}</p>
             </div>
           `).join('')}
@@ -1190,26 +1236,35 @@ function getAvatarColor(schoolId) {
 }
 
 // Router
+let renderSeq = 0;
 const render = async (rawRoute) => {
-  const [route, param] = rawRoute.split('/');
+  const seq = ++renderSeq;
+  // Hash segments stay percent-encoded (e.g. Chinese search terms), decode before use
+  const parts = rawRoute.split('/');
+  const route = safeDecode(parts[0] || '');
+  const param = parts.length > 1 ? safeDecode(parts.slice(1).join('/')) : undefined;
 
   const app = document.getElementById('view');
   app.innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+  document.querySelector('.main').scrollTop = 0;
 
   document.querySelectorAll('.navBtn').forEach(b => b.classList.remove('active'));
-  const btn = document.querySelector(`[data-route="${route}"]`);
+  const btn = document.querySelector(`[data-route="${CSS.escape(route)}"]`);
   if(btn) btn.classList.add('active');
 
   try {
     if (VIEWS[route]) {
       const content = await VIEWS[route](param);
+      if (seq !== renderSeq) return; // a newer navigation already took over
       app.innerHTML = content;
+      document.querySelector('.main').scrollTop = 0;
     } else {
-      app.innerHTML = `<div class="card" style="border-color:#e74c3c;"><h3>页面未找到</h3><p>Route: ${route}</p></div>`;
+      app.innerHTML = `<div class="card" style="border-color:#e74c3c;"><h3>页面未找到</h3><p>Route: ${escapeHtml(route)}</p></div>`;
     }
   } catch (e) {
     console.error(e);
-    app.innerHTML = `<div class="card" style="border-color:#e74c3c;"><h3>加载错误</h3><p>${e.message}</p></div>`;
+    if (seq !== renderSeq) return;
+    app.innerHTML = `<div class="card" style="border-color:#e74c3c;"><h3>加载错误</h3><p>${escapeHtml(e.message)}</p></div>`;
   }
 };
 
@@ -1238,8 +1293,10 @@ window.exportRDF = async () => {
     const result = await res.json();
     if (result.ok) {
       window.open(result.download, '_blank');
-    } else if (result.errors) {
-      alert('导出失败：请先修复数据校验错误。');
+    } else if (result.summary && result.summary.errors > 0) {
+      alert(`导出失败：数据存在 ${result.summary.errors} 个校验错误，请先在「校验工具」中修复。`);
+    } else {
+      alert('导出失败：' + (result.error || '未知错误'));
     }
   } catch (e) {
     alert('导出失败：' + e.message);
@@ -1248,16 +1305,43 @@ window.exportRDF = async () => {
 
 // CSV handlers
 window.loadCsv = async () => {
-  const name = document.getElementById('csvSelect').value;
-  const res = await API.get_csv(name);
-  document.getElementById('csvEditor').value = res.content;
+  const select = document.getElementById('csvSelect');
+  if (!select || !select.value) {
+    alert('没有可选择的数据文件');
+    return;
+  }
+  const name = select.value;
+  try {
+    const res = await API.get_csv(name);
+    if (res.error || res.content === undefined) {
+      alert('加载失败：' + (res.error || '服务器未返回内容'));
+      return;
+    }
+    document.getElementById('csvEditor').value = res.content;
+  } catch (e) {
+    alert('加载失败：' + e.message);
+  }
 };
 
 window.saveCsv = async () => {
-  const name = document.getElementById('csvSelect').value;
+  const select = document.getElementById('csvSelect');
+  if (!select || !select.value) {
+    alert('没有可选择的数据文件');
+    return;
+  }
+  const name = select.value;
   const content = document.getElementById('csvEditor').value;
-  const res = await API.save_csv(name, content);
-  if(res.ok) alert('保存成功！');
+  if (!confirm(`确定要保存并覆盖 ${name} 吗？\n建议先在「校验工具」中检查数据。`)) return;
+  try {
+    const res = await API.save_csv(name, content);
+    if (res.ok) {
+      alert('保存成功！');
+    } else {
+      alert('保存失败：' + (res.error || '服务器拒绝写入'));
+    }
+  } catch (e) {
+    alert('保存失败：' + e.message);
+  }
 };
 
 // Physics control functions for dynamic network
@@ -1334,21 +1418,30 @@ document.getElementById('nav').addEventListener('click', (e) => {
 
 document.getElementById('themeToggle').addEventListener('click', () => {
   ThemeManager.toggle();
+  // Re-render so canvas-rendered graphs pick up the new font colors
+  const hash = window.location.hash.slice(1);
+  render(hash || 'dashboard');
 });
 
-// Global search
-document.getElementById('globalSearch').addEventListener('keypress', (e) => {
-  if (e.key === 'Enter') {
-    const query = e.target.value.trim();
-    if (query) {
-      window.location.hash = `search/${encodeURIComponent(query)}`;
-    }
+// Trigger search from the input or the magnifier button
+function submitGlobalSearch() {
+  const input = document.getElementById('globalSearch');
+  const query = input.value.trim();
+  if (query) {
+    window.location.hash = `search/${encodeURIComponent(query)}`;
   }
+}
+
+document.getElementById('globalSearch').addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') submitGlobalSearch();
 });
+
+const searchBtn = document.getElementById('searchBtn');
+if (searchBtn) searchBtn.addEventListener('click', submitGlobalSearch);
 
 window.addEventListener('hashchange', () => {
   const hash = window.location.hash.slice(1);
-  if (hash) render(hash);
+  render(hash || 'dashboard');
 });
 
 // Boot

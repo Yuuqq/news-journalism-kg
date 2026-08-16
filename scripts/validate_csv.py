@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import io
 import json
 import re
 import sys
@@ -23,11 +24,13 @@ def read_csv(path: Path) -> list[dict[str, str]]:
     except FileNotFoundError:
         raise
     rows: list[dict[str, str]] = []
-    reader = csv.DictReader(raw.splitlines())
+    # io.StringIO keeps the csv module's handling of quoted fields intact,
+    # including embedded newlines that splitlines() would break apart
+    reader = csv.DictReader(io.StringIO(raw))
     if reader.fieldnames is None:
         return rows
     for row in reader:
-        cleaned = {k: (v or "").strip() for k, v in row.items()}
+        cleaned = {k: (v or "").strip() for k, v in row.items() if k is not None}
         if all(v == "" for v in cleaned.values()):
             continue
         rows.append(cleaned)

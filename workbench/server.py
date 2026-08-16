@@ -6,7 +6,24 @@ import json
 import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, unquote, urlparse
+
+import re
+
+# Windows reserved device names (CON, PRN, AUX, NUL, COM1-9, LPT1-9) are not
+# usable as file names regardless of extension
+_RESERVED_NAME_RE = re.compile(
+    r'^(?:CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])$', re.IGNORECASE
+)
+
+
+def is_valid_csv_name(name: str) -> bool:
+    if not name or '/' in name or '\\' in name or not name.endswith('.csv'):
+        return False
+    stem = name[:-len('.csv')]
+    if _RESERVED_NAME_RE.match(stem):
+        return False
+    return True
 
 
 def repo_root() -> Path:
@@ -107,24 +124,56 @@ class Handler(BaseHTTPRequestHandler):
         self._send(code, 'application/json; charset=utf-8', json_bytes(payload))
 
     def _read_json(self):
-        length = int(self.headers.get('Content-Length', '0') or '0')
-        raw = self.rfile.read(length) if length else b''
+        """Return (ok, payload). ok is False when the body is not valid JSON."""
+        try:
+            length = int(self.headers.get('Content-Length', '0') or '0')
+        except ValueError:
+            return False, None
+        if length <= 0:
+            return True, {}
+        if length > 20 * 1024 * 1024:
+            return False, None
+        raw = self.rfile.read(length)
         if not raw:
-            return {}
-        return json.loads(raw.decode('utf-8'))
+            return True, {}
+        try:
+            return True, json.loads(raw.decode('utf-8'))
+        except (ValueError, UnicodeDecodeError):
+            return False, None
 
     def do_GET(self) -> None:
+        try:
+            self._handle_get()
+        except Exception:
+            import traceback
+            traceback.print_exc()
+            try:
+                self._send(500, 'text/plain; charset=utf-8', b'Internal Server Error')
+            except Exception:
+                pass
+
+    def _handle_get(self) -> None:
         parsed = urlparse(self.path)
 
         if parsed.path == '/':
-            body = (STATIC_DIR / 'index.html').read_bytes()
+            try:
+                body = (STATIC_DIR / 'index.html').read_bytes()
+            except FileNotFoundError:
+                self._send(500, 'text/plain; charset=utf-8', b'index.html not found')
+                return
             self._send(200, 'text/html; charset=utf-8', body)
             return
 
         if parsed.path.startswith('/static/'):
-            rel = parsed.path.removeprefix('/static/')
+            rel = unquote(parsed.path.removeprefix('/static/'))
             f = (STATIC_DIR / rel)
-            if not f.exists():
+            try:
+                # Only serve files that live inside the static directory
+                f.resolve().relative_to(STATIC_DIR.resolve())
+            except Exception:
+                self._send(403, 'text/plain; charset=utf-8', b'Forbidden')
+                return
+            if not f.is_file():
                 self._send(404, 'text/plain; charset=utf-8', b'Not Found')
                 return
             if rel.endswith('.css'):
@@ -152,12 +201,12 @@ class Handler(BaseHTTPRequestHandler):
 
         if parsed.path == '/api/csv':
             qs = parse_qs(parsed.query)
-            name = (qs.get('name', [''])[0] or '').strip()
-            if not name or '/' in name or '\\' in name or not name.endswith('.csv'):
+            name = unquote((qs.get('name', [''])[0] or '')).strip()
+            if not is_valid_csv_name(name):
                 self._send_json(400, {'error': 'invalid name'})
                 return
             p = (DATA_CSV_DIR / name)
-            if not p.exists():
+            if not safe_inside_root(p) or not p.is_file():
                 self._send_json(404, {'error': 'not found'})
                 return
             self._send_json(200, {'name': name, 'content': p.read_text(encoding='utf-8-sig')})
@@ -227,6 +276,7 @@ class Handler(BaseHTTPRequestHandler):
             scholars = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'scholars.csv')
             props = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'propositions.csv')
             passages = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'passages.csv')
+            concepts = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'concepts.csv')
             books = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'books.csv')
             relations = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'relations.csv')
             influences = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'influences.csv')
@@ -234,6 +284,7 @@ class Handler(BaseHTTPRequestHandler):
                 'scholars': scholars,
                 'propositions': props,
                 'passages': passages,
+                'concepts': concepts,
                 'books': books,
                 'relations': relations,
                 'influences': influences,
@@ -243,13 +294,27 @@ class Handler(BaseHTTPRequestHandler):
         self._send(404, 'text/plain; charset=utf-8', b'Not Found')
 
     def do_POST(self) -> None:
+        try:
+            self._handle_post()
+        except Exception:
+            import traceback
+            traceback.print_exc()
+            try:
+                self._send(500, 'text/plain; charset=utf-8', b'Internal Server Error')
+            except Exception:
+                pass
+
+    def _handle_post(self) -> None:
         parsed = urlparse(self.path)
 
         if parsed.path == '/api/csv':
-            payload = self._read_json()
+            ok, payload = self._read_json()
+            if not ok or not isinstance(payload, dict):
+                self._send_json(400, {'error': 'invalid JSON body'})
+                return
             name = (payload.get('name') or '').strip()
             content = payload.get('content') or ''
-            if not name or '/' in name or '\\' in name or not name.endswith('.csv'):
+            if not is_valid_csv_name(name):
                 self._send_json(400, {'error': 'invalid name'})
                 return
             p = (DATA_CSV_DIR / name)
@@ -261,7 +326,11 @@ class Handler(BaseHTTPRequestHandler):
             return
 
         if parsed.path == '/api/validate':
-            issues = VALIDATE_MOD.validate(DATA_CSV_DIR)
+            try:
+                issues = VALIDATE_MOD.validate(DATA_CSV_DIR)
+            except FileNotFoundError as e:
+                self._send_json(500, {'error': f'缺少数据文件: {e.filename}'})
+                return
             errors = [i.to_dict() for i in issues if i.level == 'error']
             warnings = [i.to_dict() for i in issues if i.level == 'warning']
 
@@ -282,7 +351,11 @@ class Handler(BaseHTTPRequestHandler):
                 self._send_json(400, {'error': 'RDF exporter not installed'})
                 return
 
-            issues = VALIDATE_MOD.validate(DATA_CSV_DIR)
+            try:
+                issues = VALIDATE_MOD.validate(DATA_CSV_DIR)
+            except FileNotFoundError as e:
+                self._send_json(400, {'error': f'缺少数据文件: {e.filename}'})
+                return
             errors = [i.to_dict() for i in issues if i.level == 'error']
             warnings = [i.to_dict() for i in issues if i.level == 'warning']
             if errors:
@@ -311,7 +384,14 @@ def main() -> int:
     parser.add_argument('--port', type=int, default=8125)
     args = parser.parse_args()
 
-    httpd = ThreadingHTTPServer((args.host, args.port), Handler)
+    try:
+        httpd = ThreadingHTTPServer((args.host, args.port), Handler)
+    except OSError as e:
+        print(f'无法启动服务器: {e}')
+        print(f'端口 {args.port} 可能已被占用（或已有一个工作台实例在运行）。')
+        print('尝试使用其他端口: python workbench/server.py --port 8126')
+        return 1
+
     try:
         print(f'Listening on http://{args.host}:{args.port} (Ctrl+C to stop)')
     except Exception:

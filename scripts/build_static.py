@@ -14,7 +14,7 @@ def build():
     # Clean and recreate dist
     if dist.exists():
         shutil.rmtree(dist)
-    dist.mkdir()
+    dist.mkdir(parents=True, exist_ok=True)
 
     # 1. Copy Static Assets (HTML/CSS/JS)
     static_src = root / 'workbench' / 'static'
