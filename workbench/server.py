@@ -280,6 +280,8 @@ class Handler(BaseHTTPRequestHandler):
             books = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'books.csv')
             relations = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'relations.csv')
             influences = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'influences.csv')
+            quotes_path = DATA_CSV_DIR / 'quotes.csv'
+            quotes = VALIDATE_MOD.read_csv(quotes_path) if quotes_path.exists() else []
             self._send_json(200, {
                 'scholars': scholars,
                 'propositions': props,
@@ -288,6 +290,7 @@ class Handler(BaseHTTPRequestHandler):
                 'books': books,
                 'relations': relations,
                 'influences': influences,
+                'quotes': quotes,
             })
             return
 

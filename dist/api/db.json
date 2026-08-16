@@ -4518,6 +4518,92 @@
       "note_zh": "两人同为《新青年》核心人物"
     }
   ],
+  "quotes": [
+    {
+      "quote_id": "QOT_0001",
+      "scholar_id": "SCH_MILTON",
+      "quote_zh": "让我有自由来认识、抒发己见、并根据良心作自由的讨论，这才是一切自由中最重要的自由。《论出版自由》(1644)",
+      "context_zh": ""
+    },
+    {
+      "quote_id": "QOT_0002",
+      "scholar_id": "SCH_JEFFERSON",
+      "quote_zh": "如果让我在没有报纸的政府和没有政府的报纸之间做选择，我将毫不犹豫地选择后者。",
+      "context_zh": "1787年致爱德华·卡林顿的信（通行引述）"
+    },
+    {
+      "quote_id": "QOT_0003",
+      "scholar_id": "SCH_LIPPMANN",
+      "quote_zh": "我们不是先看见再定义，而是先定义再看见。《舆论学》(1922)",
+      "context_zh": ""
+    },
+    {
+      "quote_id": "QOT_0004",
+      "scholar_id": "SCH_MCLUHAN",
+      "quote_zh": "我们塑造了工具，此后又是工具塑造我们。《理解媒介》(1964)",
+      "context_zh": ""
+    },
+    {
+      "quote_id": "QOT_0005",
+      "scholar_id": "SCH_POSTMAN",
+      "quote_zh": "人们感到痛苦的不是他们用笑声代替了思考，而是他们不知道自己为什么笑以及为什么不再思考。《娱乐至死》(1985)",
+      "context_zh": ""
+    },
+    {
+      "quote_id": "QOT_0006",
+      "scholar_id": "SCH_PULITZER",
+      "quote_zh": "倘若一个国家是一艘航行在大海上的船，新闻记者就是船头的瞭望者。",
+      "context_zh": "普利策关于新闻职业使命的通行引述"
+    },
+    {
+      "quote_id": "QOT_0007",
+      "scholar_id": "SCH_LIANG_QICHAO",
+      "quote_zh": "报馆者，国家之耳目也、喉舌也，人群之镜也，文坛之王也。",
+      "context_zh": "梁启超政论中对报馆角色的通行概括"
+    },
+    {
+      "quote_id": "QOT_0008",
+      "scholar_id": "SCH_SHAO_PIAOPING",
+      "quote_zh": "铁肩担道义，辣手著文章。《京报》馆训",
+      "context_zh": ""
+    },
+    {
+      "quote_id": "QOT_0009",
+      "scholar_id": "SCH_XU_BAOHUANG",
+      "quote_zh": "新闻者，乃多数阅者所注意之最近事实也。《新闻学》(1919)中对新闻的经典定义",
+      "context_zh": ""
+    },
+    {
+      "quote_id": "QOT_0010",
+      "scholar_id": "SCH_WILLIAMS",
+      "quote_zh": "文化是平常的（Culture is ordinary）。《文化是平常的》(1958)",
+      "context_zh": ""
+    },
+    {
+      "quote_id": "QOT_0011",
+      "scholar_id": "SCH_HABERMAS",
+      "quote_zh": "公共领域首先是社会生活的一个领域，在其中可以形成公共舆论。《公共领域的结构转型》(1962)通行中译",
+      "context_zh": ""
+    },
+    {
+      "quote_id": "QOT_0012",
+      "scholar_id": "SCH_ADORNO",
+      "quote_zh": "在奥斯维辛之后写诗是野蛮的。《文化批评与社会》(1949)",
+      "context_zh": ""
+    },
+    {
+      "quote_id": "QOT_0013",
+      "scholar_id": "SCH_ORWELL",
+      "quote_zh": "所谓自由，就是可以说二加二等于四的自由。《一九八四》(1949)",
+      "context_zh": ""
+    },
+    {
+      "quote_id": "QOT_0014",
+      "scholar_id": "SCH_CHOMSKY",
+      "quote_zh": "宣传之于民主，正如暴力之于极权。《制造共识》核心命题的通行表述",
+      "context_zh": ""
+    }
+  ],
   "meta": {
     "build_time": "2026-08-17",
     "version": "1.0.0-static"

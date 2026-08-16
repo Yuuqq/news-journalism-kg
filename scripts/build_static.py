@@ -34,6 +34,7 @@ def build():
 
     # 2. Build Database (JSON)
     csv_dir = root / 'data' / 'csv'
+    quotes_path = csv_dir / 'quotes.csv'
     db = {
         'scholars': validate_csv.read_csv(csv_dir / 'scholars.csv'),
         'propositions': validate_csv.read_csv(csv_dir / 'propositions.csv'),
@@ -43,6 +44,7 @@ def build():
         'influences': validate_csv.read_csv(csv_dir / 'influences.csv'),
         'books': validate_csv.read_csv(csv_dir / 'books.csv'),
         'relations': validate_csv.read_csv(csv_dir / 'relations.csv'),
+        'quotes': validate_csv.read_csv(quotes_path) if quotes_path.exists() else [],
         'meta': {
             'build_time': __import__('datetime').date.today().isoformat(),
             'version': '1.0.0-static'

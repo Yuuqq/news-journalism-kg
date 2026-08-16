@@ -102,6 +102,16 @@ def validate(base_dir: Path) -> list[Issue]:
     influences = read_csv(base_dir / "influences.csv")
     years = read_csv(base_dir / "years.csv")
     books = read_csv(base_dir / "books.csv")
+    has_quotes = (base_dir / "quotes.csv").exists()
+    quotes = read_csv(base_dir / "quotes.csv") if has_quotes else []
+
+    if has_quotes:
+        require_columns(
+            issues=issues,
+            table="quotes.csv",
+            rows=quotes,
+            required=["quote_id", "scholar_id", "quote_zh"],
+        )
 
     require_columns(
         issues=issues,
@@ -195,6 +205,27 @@ def validate(base_dir: Path) -> list[Issue]:
                         "book_id": row.get("book_id", ""),
                         "field": "scholar_id",
                         "value": sid,
+                    },
+                )
+            )
+
+    # Quotes: fields + foreign keys (optional table)
+    for row in quotes:
+        require_field("quotes.csv", "quote_id", row, "quote_id")
+        require_field("quotes.csv", "quote_id", row, "scholar_id")
+        require_field("quotes.csv", "quote_id", row, "quote_zh")
+        qsid = row.get("scholar_id", "")
+        if qsid and qsid not in scholar_ids:
+            issues.append(
+                Issue(
+                    level="error",
+                    code="E2001",
+                    message="ForeignKeyNotFound",
+                    context={
+                        "table": "quotes.csv",
+                        "quote_id": row.get("quote_id", ""),
+                        "field": "scholar_id",
+                        "value": qsid,
                     },
                 )
             )
