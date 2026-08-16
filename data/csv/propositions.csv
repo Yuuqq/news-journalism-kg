@@ -1,5 +1,5 @@
 proposition_id,scholar_id,proposition_text_zh,year,concept_ids,evidence_passage_ids
-PROP_LIPPMANN_1922_A,SCH_LIPPMANN,舆论是公众对于公共事务的看法，人们通过「拟态环境」而非真实环境来认识世界。,1922,CONCEPT_PUBLIC_OPINION,PAS_0001
+PROP_LIPPMANN_1922_A,SCH_LIPPMANN,舆论是公众对于公共事务的看法，人们通过「拟态环境」而非真实环境来认识世界。,1922,CONCEPT_PUBLIC_OPINION;CONCEPT_PSEUDO_ENVIRONMENT,PAS_0001
 PROP_MCLUHAN_1964_A,SCH_MCLUHAN,媒介即讯息——媒介本身而非其传递的内容才是真正改变社会的力量。,1964,CONCEPT_MEDIUM_MESSAGE,PAS_0002
 PROP_MCLUHAN_1964_B,SCH_MCLUHAN,电子媒介使世界变成一个「地球村」，人类重新回归部落化状态。,1964,CONCEPT_GLOBAL_VILLAGE,PAS_0002
 PROP_SCHRAMM_1948_A,SCH_SCHRAMM,传播学是一门独立学科，需要系统的理论建构和实证研究方法。,1948,CONCEPT_PUBLIC_OPINION,PAS_0003
@@ -80,3 +80,15 @@ PROP_LIAO_CHENGZHI_1949_A,SCH_LIAO_CHENGZHI,对外宣传是让世界了解中国
 PROP_HUANG_TIANPENG_1930_A,SCH_HUANG_TIANPENG,新闻学应有完整的理论体系，从新闻本质、采访编辑到报业经营需系统研究。,1930,CONCEPT_OBJECTIVITY,PAS_0083
 PROP_REN_BAITAO_1941_A,SCH_REN_BAITAO,新闻学是一门综合性学科，应融合社会学、心理学、政治学等多学科视角。,1941,CONCEPT_OBJECTIVITY,PAS_0084
 PROP_FANG_HANQI_1992_A,SCH_FANG_HANQI,中国新闻事业发展有其独特规律，应从历史视角系统梳理中国新闻传播史。,1992,CONCEPT_OBJECTIVITY,PAS_0085
+PROP_WHITE_1950_A,SCH_WHITE,"把关人模式：进入电讯编辑部的新闻稿件约九成被弃用，传媒组织是信息流通中实际的""把关人""，新闻选择高度依赖编辑的个人价值判断。",1950,CONCEPT_GATEKEEPING,PAS_0098
+PROP_TICHENOR_1970_A,SCH_TICHENOR,知识沟假说：社会经济地位高者获取信息更快，因此大众媒介传送的信息越多，不同群体之间的知识鸿沟越大而非缩小。,1970,CONCEPT_KNOWLEDGE_GAP,PAS_0095
+PROP_GOFFMAN_1974_A,SCH_GOFFMAN,框架是人们用来认识世界、定义情境、解释社会事件的认知结构——对一个人来说，真实的东西就是其对情景的定义。,1974,CONCEPT_FRAMING,PAS_0096
+PROP_ENTMAN_1993_A,SCH_ENTMAN,"框架化的本质在于""选择""与""凸显""：从感知到的现实中挑选某些方面使其在传播文本中更突出，以促进特定的问题界定、因果解释、道德评价与处理建议。",1993,CONCEPT_FRAMING,PAS_0097
+PROP_SUNSTEIN_2001_A,SCH_SUNSTEIN,网络是群体极化的温床：过度的自主信息选择使个人困于信息茧房与回音室，同质群体经讨论后态度比先前更加极端。,2001,CONCEPT_ECHO_CHAMBER;CONCEPT_INFORMATION_COCOON,PAS_0099
+PROP_JENKINS_2006_A,SCH_JENKINS,融合文化：媒介融合不仅是技术过程更是文化过程，媒介消费者成为融合文化的积极参与者，参与式文化与跨媒体叙事由此兴起。,2006,CONCEPT_PARTICIPATORY_CULTURE;CONCEPT_MEDIA_CONVERGENCE,PAS_0100
+PROP_SHIRKY_2008_A,SCH_SHIRKY,"人人时代：网络工具极大降低了协调成本，使无组织的人群得以实现分享、协同生产与集体行动——""无组织的组织力量""重塑社会协作方式。",2008,CONCEPT_ORGANIZING_WITHOUT_ORGANIZATIONS,PAS_0101
+PROP_PARISER_2011_A,SCH_PARISER,过滤气泡：个性化算法依据用户的点击历史与行为数据过滤掉与其观点相左的内容，把每个人封闭在同质化的信息气泡之中。,2011,CONCEPT_FILTER_BUBBLE,PAS_0102
+PROP_GUO_1999_A,SCH_GUO_QINGGUANG,《传播学教程》出版：以概念的明晰性与理论的系统性引介传播学体系，成为中国传播学学科教材化、建制化的标志性成果。,1999,,PAS_0103
+PROP_CHEN_2008_A,SCH_CHEN_LIDAN,《新闻理论十讲》以十讲形式重构新闻学基本理论，将舆论分解为主体、客体、数量、强烈程度、持续性等八大要素。,2008,CONCEPT_PUBLIC_OPINION,PAS_0104
+PROP_LI_1985_A,SCH_LI_LIANGRONG,建国后国内第一本《新闻学概论》教材问世，确立了中国新闻学理论教材的基本框架，此后经多次修订影响数代新闻学子。,1985,,PAS_0105
+PROP_PENG_2001_A,SCH_PENG_LAN,《网络传播概论》出版，系统建构网络传播的知识体系，成为中国网络传播研究的代表性著作与高校核心教材。,2001,,PAS_0106

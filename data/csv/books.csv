@@ -52,3 +52,12 @@ BOOK_SHENGSHI_WEIYAN,盛世危言,Erta Warnings in Times of Prosperity,SCH_ZHENG
 BOOK_PUBLIC_AND_PROBLEMS,公众及其问题,The Public and Its Problems,SCH_DEWEY,1927,杜威回应李普曼的民主与传播理论著作。
 BOOK_HUMAN_NATURE_SOCIAL_ORDER,人类本性与社会秩序,Human Nature and the Social Order,SCH_COOLEY,1902,库利提出「镜中我」理论的经典社会心理学著作。
 BOOK_MIND_SELF_SOCIETY,心灵自我与社会,Mind Self and Society,SCH_MEAD,1934,米德符号互动论的代表作，由学生整理出版。
+BOOK_FRAME_ANALYSIS,框架分析：经验组织论,Frame Analysis: An Essay on the Organization of Experience,SCH_GOFFMAN,1974,"戈夫曼的社会学代表作，首次将""框架""概念系统引入情境分析，成为传播学框架理论的理论源头。"
+BOOK_REPUBLIC_COM,网络共和国,Republic.com,SCH_SUNSTEIN,2001,"桑斯坦分析网络时代公共领域的著作，提出回音室、群体极化与信息茧房等核心问题，主张民主社会需要""非预期的信息接触""。"
+BOOK_CONVERGENCE_CULTURE,融合文化：新旧媒介的碰撞之所,Convergence Culture: Where Old and New Media Collide,SCH_JENKINS,2006,詹金斯以跨媒体叙事与粉丝文化案例阐述媒介融合的文化逻辑，提出参与式文化理论。
+BOOK_HERE_COMES_EVERYBODY,人人时代：无组织的组织力量,Here Comes Everybody: The Power of Organizing Without Organizations,SCH_SHIRKY,2008,舍基的互联网研究代表作，论述网络工具如何降低协作门槛、催生无组织的组织力量。
+BOOK_FILTER_BUBBLE,过滤气泡（中译名：搜索引擎没告诉你的事）,The Filter Bubble: What the Internet Is Hiding from You,SCH_PARISER,2011,"帕里泽提出""过滤气泡""概念之作，揭示个性化算法如何决定我们能看到什么、看不到什么。"
+BOOK_COMMUNICATION_COURSE,传播学教程,A Course in Communication Studies,SCH_GUO_QINGGUANG,1999,郭庆光主编的国家级重点教材，初版1999年、第二版2011年，是中国传播学教学与考研的基础文献。
+BOOK_NEWS_THEORY_TEN_LECTURES,新闻理论十讲,Ten Lectures on Journalism Theory,SCH_CHEN_LIDAN,2008,陈力丹的新闻理论教材，以十讲形式系统阐述新闻学核心理论，重构新闻学基本问题。
+BOOK_JOURNALISM_INTRODUCTION,新闻学概论,Introduction to Journalism,SCH_LI_LIANGRONG,1985,建国后国内第一本新闻学概论教材（1985年），历经七次修订，是全国新闻传播专业使用最广的基础教材之一。
+BOOK_INTERNET_COMMUNICATION_INTRO,网络传播概论,Introduction to Internet Communication,SCH_PENG_LAN,2001,彭兰编著的网络传播教材（初版2001年），中国网络传播研究的代表性著作。

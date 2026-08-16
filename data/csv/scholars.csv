@@ -146,3 +146,14 @@ SCH_LIAO_CHENGZHI,廖承志,Liao Chengzhi,曾任新华社社长，主管对外�
 SCH_HUANG_TIANPENG,黄天鹏,Huang Tianpeng,民国时期著名新闻学者，著有《新闻学概论》等多部新闻学著作。,SCHOOL_CN_ACADEMIC,1930
 SCH_REN_BAITAO,任白涛,Ren Baitao,新闻学者，著有《综合新闻学》，系统阐述新闻学理论。,SCHOOL_CN_ACADEMIC,1941
 SCH_FANG_HANQI,方汉奇,Fang Hanqi,当代中国新闻史研究泰斗，中国人民大学教授，著有《中国新闻事业通史》。,SCHOOL_CN_ACADEMIC,1992
+SCH_WHITE,怀特,David Manning White,"美国传播学者，1950年将卢因的""把关人""概念引入新闻研究，以电讯编辑""Mr. Gates""的个案研究揭示新闻筛选的高度主观性。",SCHOOL_COLUMBIA,1950
+SCH_TICHENOR,蒂奇诺,Phillip J. Tichenor,美国传播学者，1970年与多诺霍、奥里恩合作提出知识沟假说，指出大众传播的信息流动会扩大不同社会经济地位群体间的知识差距。,SCHOOL_COLUMBIA,1970
+SCH_GOFFMAN,戈夫曼,Erving Goffman,"美国社会学家，符号互动论代表人物，1974年出版《框架分析》，将""框架""界定为人们认识世界、定义情境的解释结构，为传播学框架理论奠基。",SCHOOL_CHICAGO,1959
+SCH_ENTMAN,恩特曼,Robert M. Entman,"美国政治传播学者，1993年在《走向一个破碎范式的澄清》中把框架化界定为""选择与凸显""，成为传播学框架研究最常引用的定义。",SCHOOL_AGENDA,1993
+SCH_SUNSTEIN,桑斯坦,Cass R. Sunstein,"美国法学家、政治学者，哈佛大学教授，在《网络共和国》等著作中分析网络时代的群体极化、回音室效应与信息茧房，主张民主社会需要""非预期的信息接触""。",SCHOOL_LIBERTARIAN,2001
+SCH_SHIRKY,克莱·舍基,Clay Shirky,美国互联网研究者、纽约大学讲师，著有《人人时代：无组织的组织力量》，阐述网络工具如何使无组织的人群实现分享、协同生产与集体行动。,SCHOOL_NETWORK,2008
+SCH_PARISER,帕里泽,Eli Pariser,美国互联网活动家、MoveOn.org前执行董事，2011年出版《过滤气泡》，指出个性化算法会依据用户行为过滤相异观点，将人封闭在同质信息环境中。,SCHOOL_NETWORK,2011
+SCH_GUO_QINGGUANG,郭庆光,Guo Qingguang,中国人民大学新闻学院教授，所著《传播学教程》（初版1999年）为教育部国家级重点教材，是中国传播学学科体系化与教材建设的标志性成果。,SCHOOL_CN_ACADEMIC,1999
+SCH_CHEN_LIDAN,陈力丹,Chen Lidan,中国人民大学荣誉一级教授，研究方向涵盖新闻理论、传播学理论、舆论学与新闻史，著有《舆论学》《新闻理论十讲》《世界新闻传播史》等。,SCHOOL_CN_ACADEMIC,2008
+SCH_LI_LIANGRONG,李良荣,Li Liangrong,复旦大学新闻学院教授，1985年完成建国后国内第一本《新闻学概论》，该教材历经多次修订，是全国新闻传播专业使用最广的基础教材之一。,SCHOOL_CN_ACADEMIC,1985
+SCH_PENG_LAN,彭兰,Peng Lan,新媒体研究学者，历任清华大学、中国人民大学新闻学院教授，所著《网络传播概论》（初版2001年）是中国网络传播研究的代表性著作。,SCHOOL_CN_ACADEMIC,2001

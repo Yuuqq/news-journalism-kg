@@ -1175,6 +1175,94 @@
       "description_zh": "当代中国新闻史研究泰斗，中国人民大学教授，著有《中国新闻事业通史》。",
       "school_id": "SCHOOL_CN_ACADEMIC",
       "active_year": "1992"
+    },
+    {
+      "scholar_id": "SCH_WHITE",
+      "name_zh": "怀特",
+      "name_en": "David Manning White",
+      "description_zh": "美国传播学者，1950年将卢因的\"把关人\"概念引入新闻研究，以电讯编辑\"Mr. Gates\"的个案研究揭示新闻筛选的高度主观性。",
+      "school_id": "SCHOOL_COLUMBIA",
+      "active_year": "1950"
+    },
+    {
+      "scholar_id": "SCH_TICHENOR",
+      "name_zh": "蒂奇诺",
+      "name_en": "Phillip J. Tichenor",
+      "description_zh": "美国传播学者，1970年与多诺霍、奥里恩合作提出知识沟假说，指出大众传播的信息流动会扩大不同社会经济地位群体间的知识差距。",
+      "school_id": "SCHOOL_COLUMBIA",
+      "active_year": "1970"
+    },
+    {
+      "scholar_id": "SCH_GOFFMAN",
+      "name_zh": "戈夫曼",
+      "name_en": "Erving Goffman",
+      "description_zh": "美国社会学家，符号互动论代表人物，1974年出版《框架分析》，将\"框架\"界定为人们认识世界、定义情境的解释结构，为传播学框架理论奠基。",
+      "school_id": "SCHOOL_CHICAGO",
+      "active_year": "1959"
+    },
+    {
+      "scholar_id": "SCH_ENTMAN",
+      "name_zh": "恩特曼",
+      "name_en": "Robert M. Entman",
+      "description_zh": "美国政治传播学者，1993年在《走向一个破碎范式的澄清》中把框架化界定为\"选择与凸显\"，成为传播学框架研究最常引用的定义。",
+      "school_id": "SCHOOL_AGENDA",
+      "active_year": "1993"
+    },
+    {
+      "scholar_id": "SCH_SUNSTEIN",
+      "name_zh": "桑斯坦",
+      "name_en": "Cass R. Sunstein",
+      "description_zh": "美国法学家、政治学者，哈佛大学教授，在《网络共和国》等著作中分析网络时代的群体极化、回音室效应与信息茧房，主张民主社会需要\"非预期的信息接触\"。",
+      "school_id": "SCHOOL_LIBERTARIAN",
+      "active_year": "2001"
+    },
+    {
+      "scholar_id": "SCH_SHIRKY",
+      "name_zh": "克莱·舍基",
+      "name_en": "Clay Shirky",
+      "description_zh": "美国互联网研究者、纽约大学讲师，著有《人人时代：无组织的组织力量》，阐述网络工具如何使无组织的人群实现分享、协同生产与集体行动。",
+      "school_id": "SCHOOL_NETWORK",
+      "active_year": "2008"
+    },
+    {
+      "scholar_id": "SCH_PARISER",
+      "name_zh": "帕里泽",
+      "name_en": "Eli Pariser",
+      "description_zh": "美国互联网活动家、MoveOn.org前执行董事，2011年出版《过滤气泡》，指出个性化算法会依据用户行为过滤相异观点，将人封闭在同质信息环境中。",
+      "school_id": "SCHOOL_NETWORK",
+      "active_year": "2011"
+    },
+    {
+      "scholar_id": "SCH_GUO_QINGGUANG",
+      "name_zh": "郭庆光",
+      "name_en": "Guo Qingguang",
+      "description_zh": "中国人民大学新闻学院教授，所著《传播学教程》（初版1999年）为教育部国家级重点教材，是中国传播学学科体系化与教材建设的标志性成果。",
+      "school_id": "SCHOOL_CN_ACADEMIC",
+      "active_year": "1999"
+    },
+    {
+      "scholar_id": "SCH_CHEN_LIDAN",
+      "name_zh": "陈力丹",
+      "name_en": "Chen Lidan",
+      "description_zh": "中国人民大学荣誉一级教授，研究方向涵盖新闻理论、传播学理论、舆论学与新闻史，著有《舆论学》《新闻理论十讲》《世界新闻传播史》等。",
+      "school_id": "SCHOOL_CN_ACADEMIC",
+      "active_year": "2008"
+    },
+    {
+      "scholar_id": "SCH_LI_LIANGRONG",
+      "name_zh": "李良荣",
+      "name_en": "Li Liangrong",
+      "description_zh": "复旦大学新闻学院教授，1985年完成建国后国内第一本《新闻学概论》，该教材历经多次修订，是全国新闻传播专业使用最广的基础教材之一。",
+      "school_id": "SCHOOL_CN_ACADEMIC",
+      "active_year": "1985"
+    },
+    {
+      "scholar_id": "SCH_PENG_LAN",
+      "name_zh": "彭兰",
+      "name_en": "Peng Lan",
+      "description_zh": "新媒体研究学者，历任清华大学、中国人民大学新闻学院教授，所著《网络传播概论》（初版2001年）是中国网络传播研究的代表性著作。",
+      "school_id": "SCHOOL_CN_ACADEMIC",
+      "active_year": "2001"
     }
   ],
   "propositions": [
@@ -1183,7 +1271,7 @@
       "scholar_id": "SCH_LIPPMANN",
       "proposition_text_zh": "舆论是公众对于公共事务的看法，人们通过「拟态环境」而非真实环境来认识世界。",
       "year": "1922",
-      "concept_ids": "CONCEPT_PUBLIC_OPINION",
+      "concept_ids": "CONCEPT_PUBLIC_OPINION;CONCEPT_PSEUDO_ENVIRONMENT",
       "evidence_passage_ids": "PAS_0001"
     },
     {
@@ -1825,6 +1913,102 @@
       "year": "1992",
       "concept_ids": "CONCEPT_OBJECTIVITY",
       "evidence_passage_ids": "PAS_0085"
+    },
+    {
+      "proposition_id": "PROP_WHITE_1950_A",
+      "scholar_id": "SCH_WHITE",
+      "proposition_text_zh": "把关人模式：进入电讯编辑部的新闻稿件约九成被弃用，传媒组织是信息流通中实际的\"把关人\"，新闻选择高度依赖编辑的个人价值判断。",
+      "year": "1950",
+      "concept_ids": "CONCEPT_GATEKEEPING",
+      "evidence_passage_ids": "PAS_0098"
+    },
+    {
+      "proposition_id": "PROP_TICHENOR_1970_A",
+      "scholar_id": "SCH_TICHENOR",
+      "proposition_text_zh": "知识沟假说：社会经济地位高者获取信息更快，因此大众媒介传送的信息越多，不同群体之间的知识鸿沟越大而非缩小。",
+      "year": "1970",
+      "concept_ids": "CONCEPT_KNOWLEDGE_GAP",
+      "evidence_passage_ids": "PAS_0095"
+    },
+    {
+      "proposition_id": "PROP_GOFFMAN_1974_A",
+      "scholar_id": "SCH_GOFFMAN",
+      "proposition_text_zh": "框架是人们用来认识世界、定义情境、解释社会事件的认知结构——对一个人来说，真实的东西就是其对情景的定义。",
+      "year": "1974",
+      "concept_ids": "CONCEPT_FRAMING",
+      "evidence_passage_ids": "PAS_0096"
+    },
+    {
+      "proposition_id": "PROP_ENTMAN_1993_A",
+      "scholar_id": "SCH_ENTMAN",
+      "proposition_text_zh": "框架化的本质在于\"选择\"与\"凸显\"：从感知到的现实中挑选某些方面使其在传播文本中更突出，以促进特定的问题界定、因果解释、道德评价与处理建议。",
+      "year": "1993",
+      "concept_ids": "CONCEPT_FRAMING",
+      "evidence_passage_ids": "PAS_0097"
+    },
+    {
+      "proposition_id": "PROP_SUNSTEIN_2001_A",
+      "scholar_id": "SCH_SUNSTEIN",
+      "proposition_text_zh": "网络是群体极化的温床：过度的自主信息选择使个人困于信息茧房与回音室，同质群体经讨论后态度比先前更加极端。",
+      "year": "2001",
+      "concept_ids": "CONCEPT_ECHO_CHAMBER;CONCEPT_INFORMATION_COCOON",
+      "evidence_passage_ids": "PAS_0099"
+    },
+    {
+      "proposition_id": "PROP_JENKINS_2006_A",
+      "scholar_id": "SCH_JENKINS",
+      "proposition_text_zh": "融合文化：媒介融合不仅是技术过程更是文化过程，媒介消费者成为融合文化的积极参与者，参与式文化与跨媒体叙事由此兴起。",
+      "year": "2006",
+      "concept_ids": "CONCEPT_PARTICIPATORY_CULTURE;CONCEPT_MEDIA_CONVERGENCE",
+      "evidence_passage_ids": "PAS_0100"
+    },
+    {
+      "proposition_id": "PROP_SHIRKY_2008_A",
+      "scholar_id": "SCH_SHIRKY",
+      "proposition_text_zh": "人人时代：网络工具极大降低了协调成本，使无组织的人群得以实现分享、协同生产与集体行动——\"无组织的组织力量\"重塑社会协作方式。",
+      "year": "2008",
+      "concept_ids": "CONCEPT_ORGANIZING_WITHOUT_ORGANIZATIONS",
+      "evidence_passage_ids": "PAS_0101"
+    },
+    {
+      "proposition_id": "PROP_PARISER_2011_A",
+      "scholar_id": "SCH_PARISER",
+      "proposition_text_zh": "过滤气泡：个性化算法依据用户的点击历史与行为数据过滤掉与其观点相左的内容，把每个人封闭在同质化的信息气泡之中。",
+      "year": "2011",
+      "concept_ids": "CONCEPT_FILTER_BUBBLE",
+      "evidence_passage_ids": "PAS_0102"
+    },
+    {
+      "proposition_id": "PROP_GUO_1999_A",
+      "scholar_id": "SCH_GUO_QINGGUANG",
+      "proposition_text_zh": "《传播学教程》出版：以概念的明晰性与理论的系统性引介传播学体系，成为中国传播学学科教材化、建制化的标志性成果。",
+      "year": "1999",
+      "concept_ids": "",
+      "evidence_passage_ids": "PAS_0103"
+    },
+    {
+      "proposition_id": "PROP_CHEN_2008_A",
+      "scholar_id": "SCH_CHEN_LIDAN",
+      "proposition_text_zh": "《新闻理论十讲》以十讲形式重构新闻学基本理论，将舆论分解为主体、客体、数量、强烈程度、持续性等八大要素。",
+      "year": "2008",
+      "concept_ids": "CONCEPT_PUBLIC_OPINION",
+      "evidence_passage_ids": "PAS_0104"
+    },
+    {
+      "proposition_id": "PROP_LI_1985_A",
+      "scholar_id": "SCH_LI_LIANGRONG",
+      "proposition_text_zh": "建国后国内第一本《新闻学概论》教材问世，确立了中国新闻学理论教材的基本框架，此后经多次修订影响数代新闻学子。",
+      "year": "1985",
+      "concept_ids": "",
+      "evidence_passage_ids": "PAS_0105"
+    },
+    {
+      "proposition_id": "PROP_PENG_2001_A",
+      "scholar_id": "SCH_PENG_LAN",
+      "proposition_text_zh": "《网络传播概论》出版，系统建构网络传播的知识体系，成为中国网络传播研究的代表性著作与高校核心教材。",
+      "year": "2001",
+      "concept_ids": "",
+      "evidence_passage_ids": "PAS_0106"
     }
   ],
   "passages": [
@@ -2627,6 +2811,126 @@
       "published_year": "2023",
       "passage_text": "林行止（1940-），香港著名财经评论家。1973年创办《信报财经新闻》，以独立、专业的财经评论著称，被誉为「香港第一健笔」，开创华文财经评论新风格。",
       "locator": "信报财经段落"
+    },
+    {
+      "passage_id": "PAS_0095",
+      "source_id": "SRC_0095",
+      "source_title": "百度百科：知沟理论",
+      "source_url": "https://baike.baidu.com/item/%E7%9F%A5%E6%B2%9F%E7%90%86%E8%AE%BA/6581835",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "知沟理论（Knowledge Gap Theory）是由美国传播学家蒂奇诺等人于1970年提出的传播学理论：由于社会经济地位高者通常能比社会经济地位低者更快地获取信息，因此大众媒介传送的信息越多，两者之间的知识鸿沟也就越大，而非缩小。",
+      "locator": "概述段落"
+    },
+    {
+      "passage_id": "PAS_0096",
+      "source_id": "SRC_0096",
+      "source_title": "百度百科：框架理论",
+      "source_url": "https://baike.baidu.com/item/%E6%A1%86%E6%9E%B6%E7%90%86%E8%AE%BA/6255053",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "社会学家欧文·戈夫曼于1974年出版《框架分析：经验组织论》，首次将\"框架\"概念系统地引入传播情境。他将框架定义为人们用来认识世界、定义情境、解释社会事件的认知结构，此后框架概念才受到传播学界的重视。",
+      "locator": "理论来源段落"
+    },
+    {
+      "passage_id": "PAS_0097",
+      "source_id": "SRC_0097",
+      "source_title": "维基百科：框架（社会科学）",
+      "source_url": "https://zh.wikipedia.org/zh-cn/%E6%A1%86%E6%9E%B6_(%E7%A4%BE%E6%9C%83%E7%A7%91%E5%AD%B8)",
+      "source_type": "encyclopedia",
+      "published_year": "2024",
+      "passage_text": "恩特曼（Entman）1993年在《框架化：走向一个破碎范式的澄清》中提出被广泛引用的定义：框架化的本质在于\"选择\"与\"凸显\"，即从感知到的现实中挑选出某些方面，使其在传播文本中更加突出，从而促进特定的问题界定、因果解释、道德评价和处理建议。",
+      "locator": "框架化一节"
+    },
+    {
+      "passage_id": "PAS_0098",
+      "source_id": "SRC_0098",
+      "source_title": "百度百科：\"把关人\"理论",
+      "source_url": "https://baike.baidu.com/item/%E2%80%9C%E6%8A%8A%E5%85%B3%E4%BA%BA%E2%80%9D%E7%90%86%E8%AE%BA/357270",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "1950年，传播学者怀特将卢因提出的\"把关人\"概念引进新闻研究领域，明确提出新闻筛选过程的\"把关\"模式。其对一位电讯编辑（化名Mr. Gates）的个案研究发现，进入电讯编辑部的新闻稿件约九成被弃用，编辑的选择高度依赖个人价值判断。",
+      "locator": "理论发展段落"
+    },
+    {
+      "passage_id": "PAS_0099",
+      "source_id": "SRC_0099",
+      "source_title": "百度百科：信息茧房",
+      "source_url": "https://baike.baidu.com/item/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/12661227",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "桑斯坦在《网络共和国》中指出，网络是群体极化的温床：长期处在信息茧房中的个体由于过度的自主选择，会沉浸在自我满足之中，逐渐丧失了解与接触社会的动机与能力；具有同质观点的群体经过讨论后，态度会比一开始更加极端。",
+      "locator": "概念来源段落"
+    },
+    {
+      "passage_id": "PAS_0100",
+      "source_id": "SRC_0100",
+      "source_title": "百度百科：参与文化",
+      "source_url": "https://baike.baidu.com/item/%E5%8F%82%E4%B8%8E%E6%96%87%E5%8C%96/3947753",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "2006年，詹金斯在《融合文化：新旧媒介的碰撞之所》一书中对参与式文化概念进行了进一步阐述，强调媒介消费者成为融合文化的参与者，而不仅仅是被动接收者。",
+      "locator": "概述段落"
+    },
+    {
+      "passage_id": "PAS_0101",
+      "source_id": "SRC_0101",
+      "source_title": "百度百科：人人时代",
+      "source_url": "https://baike.baidu.com/item/%E4%BA%BA%E4%BA%BA%E6%97%B6%E4%BB%A3/2352153",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "《人人时代：无组织的组织力量》是美国学者克莱·舍基的社科著作，聚焦新媒体技术对人类协作方式的变革，探讨人们如何借助网络工具在没有传统组织架构的情况下进行分享、协同生产与集体行动。",
+      "locator": "内容简介"
+    },
+    {
+      "passage_id": "PAS_0102",
+      "source_id": "SRC_0102",
+      "source_title": "维基百科：过滤气泡",
+      "source_url": "https://zh.wikipedia.org/zh-cn/%E9%81%8E%E6%BF%BE%E6%B0%A3%E6%B3%A1",
+      "source_type": "encyclopedia",
+      "published_year": "2024",
+      "passage_text": "过滤气泡（filter bubble）指网站针对个人化搜寻、推荐系统和算法管理筛选后内容的结果所造成的现象：搜寻结果根据用户信息（点击历史、位置等）被定制，用户被隔离在与其观点相符的信息环境中。该词由美国互联网活动家帕里泽于2011年提出并随其著作《The Filter Bubble》流行。",
+      "locator": "概述段落"
+    },
+    {
+      "passage_id": "PAS_0103",
+      "source_id": "SRC_0103",
+      "source_title": "考研帮：郭庆光《传播学教程》参考书解读",
+      "source_url": "https://m.kaoyan.com/www/shumu/53e86a70ac3ce.html",
+      "source_type": "review",
+      "published_year": "2020",
+      "passage_text": "郭庆光所著《传播学教程》是国家级重点教材，它运用国内外传播学研究的最新成果，结合新媒介技术的发展，阐释人类社会的信息传播现象，注重概念的明晰性和理论的系统性，是大学新闻、广播电视、广告、公关、出版等专业的核心教材，初版于1999年，第二版2011年出版。",
+      "locator": "教材简介"
+    },
+    {
+      "passage_id": "PAS_0104",
+      "source_id": "SRC_0104",
+      "source_title": "中国人民大学新闻学院：陈力丹教师页",
+      "source_url": "http://jcrpro.ruc.edu.cn/teacher/12",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "陈力丹，中国人民大学荣誉一级教授、校务委员，研究方向为新闻理论、传播学理论、中外新闻史、舆论学。其《新闻理论十讲》（2008年复旦大学出版社出版）以十讲形式系统阐述新闻学核心理论，将舆论分为八大要素。",
+      "locator": "教师简介"
+    },
+    {
+      "passage_id": "PAS_0105",
+      "source_id": "SRC_0105",
+      "source_title": "复旦发展研究院：《新闻学概论》（第八版）介绍",
+      "source_url": "https://fddi.fudan.edu.cn/01/62/c19045a524642/page.htm",
+      "source_type": "review",
+      "published_year": "2023",
+      "passage_text": "李良荣教授于1985年完成了第一本《新闻学概论》，这也是建国后国内第一本新闻学概论教材；其系列教材由复旦大学出版社于2001年首次出版后二十年间历经七次修订，是全国新闻传播学专业使用人数最多的教材之一。",
+      "locator": "版本沿革"
+    },
+    {
+      "passage_id": "PAS_0106",
+      "source_id": "SRC_0106",
+      "source_title": "百度百科：网络传播概论",
+      "source_url": "https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E4%BC%A0%E6%92%AD%E6%A6%82%E8%AE%BA/61830102",
+      "source_type": "encyclopedia",
+      "published_year": "2023",
+      "passage_text": "彭兰编著的《网络传播概论》初版于2001年10月由中国人民大学出版社出版，是国内出版较早且影响力较大的网络传播教材，被多所高校列为新闻传播考研参考教材，被视为中国网络传播研究的代表性著作之一。",
+      "locator": "内容简介"
     }
   ],
   "concepts": [
@@ -2794,6 +3098,51 @@
       "concept_id": "CONCEPT_GROUPTHINK",
       "name_zh": "群体思维",
       "description_zh": "贾尼斯提出的概念，指群体决策中为追求一致而抑制不同意见的倾向。"
+    },
+    {
+      "concept_id": "CONCEPT_PSEUDO_ENVIRONMENT",
+      "name_zh": "拟态环境",
+      "description_zh": "李普曼在《舆论学》中提出的概念，指公众通过媒介构建的象征性现实来认识世界，这种\"第二手现实\"介于人与真实环境之间。"
+    },
+    {
+      "concept_id": "CONCEPT_KNOWLEDGE_GAP",
+      "name_zh": "知识沟",
+      "description_zh": "蒂奇诺等1970年提出的假说：由于社会经济地位高者获取信息更快，大众媒介传送的信息越多，不同群体之间的知识鸿沟越大。"
+    },
+    {
+      "concept_id": "CONCEPT_FRAMING",
+      "name_zh": "框架理论",
+      "description_zh": "源自贝特森、由戈夫曼系统化的理论传统，认为框架是人们界定情境、解释事件的认知结构；恩特曼将其界定为\"选择与凸显\"的传播过程。"
+    },
+    {
+      "concept_id": "CONCEPT_ECHO_CHAMBER",
+      "name_zh": "回音室效应",
+      "description_zh": "桑斯坦提出的概念，指在相对封闭的传播环境中，意见相近的声音不断重复并被强化，回避了观点交锋，加剧群体极化。"
+    },
+    {
+      "concept_id": "CONCEPT_INFORMATION_COCOON",
+      "name_zh": "信息茧房",
+      "description_zh": "桑斯坦提出的概念，指人们依个人兴趣自主选择信息，长期只听与自己观点相近的声音，如同蚕茧般把自己包裹在同质信息之中。"
+    },
+    {
+      "concept_id": "CONCEPT_FILTER_BUBBLE",
+      "name_zh": "过滤气泡",
+      "description_zh": "帕里泽2011年提出的概念，指个性化推荐算法依据用户的行为数据过滤掉与其观点相左的内容，把每个人封闭在 tailor-made 的信息气泡里。"
+    },
+    {
+      "concept_id": "CONCEPT_PARTICIPATORY_CULTURE",
+      "name_zh": "参与式文化",
+      "description_zh": "詹金斯提出的概念，指以网络为平台、低门槛支持个人创作与分享的文化形态，媒介消费者成为文化生产过程的积极参与者。"
+    },
+    {
+      "concept_id": "CONCEPT_MEDIA_CONVERGENCE",
+      "name_zh": "媒介融合",
+      "description_zh": "詹金斯在《融合文化》中系统阐述的概念，指内容跨媒介流动、多种媒介产业合作与受众迁移的文化过程，融合发生在消费者手中。"
+    },
+    {
+      "concept_id": "CONCEPT_ORGANIZING_WITHOUT_ORGANIZATIONS",
+      "name_zh": "无组织的组织",
+      "description_zh": "舍基提出的概念，指借助网络工具，原本无组织的人群能够以极低的协调成本实现分享、协同生产与集体行动。"
     }
   ],
   "years": [
@@ -3166,6 +3515,31 @@
       "year_id": "YEAR_1999",
       "year_value": "1999",
       "label_zh": "1999年"
+    },
+    {
+      "year_id": "YEAR_1993",
+      "year_value": "1993",
+      "label_zh": "1993年"
+    },
+    {
+      "year_id": "YEAR_2001",
+      "year_value": "2001",
+      "label_zh": "2001年"
+    },
+    {
+      "year_id": "YEAR_2006",
+      "year_value": "2006",
+      "label_zh": "2006年"
+    },
+    {
+      "year_id": "YEAR_2008",
+      "year_value": "2008",
+      "label_zh": "2008年"
+    },
+    {
+      "year_id": "YEAR_2011",
+      "year_value": "2011",
+      "label_zh": "2011年"
     }
   ],
   "influences": [
@@ -3568,6 +3942,26 @@
       "evidence_passage_id": "PAS_0002",
       "year": "1927",
       "note_zh": "杜威与库利同属芝加哥学派，共同强调传播的社会功能。"
+    },
+    {
+      "influence_id": "INF_0041",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_WHITE",
+      "object_type": "Scholar",
+      "object_id": "SCH_LEWIN",
+      "evidence_passage_id": "PAS_0098",
+      "year": "1950",
+      "note_zh": "怀特将卢因1947年提出的\"把关人\"概念引入新闻传播领域，发展出新闻筛选的把关模式。"
+    },
+    {
+      "influence_id": "INF_0042",
+      "subject_type": "Scholar",
+      "subject_id": "SCH_ENTMAN",
+      "object_type": "Scholar",
+      "object_id": "SCH_GOFFMAN",
+      "evidence_passage_id": "PAS_0097",
+      "year": "1993",
+      "note_zh": "恩特曼在戈夫曼《框架分析》的基础上，将框架概念发展为传播学中\"选择与凸显\"的操作性定义。"
     }
   ],
   "books": [
@@ -3994,6 +4388,78 @@
       "scholar_id": "SCH_MEAD",
       "year": "1934",
       "description_zh": "米德符号互动论的代表作，由学生整理出版。"
+    },
+    {
+      "book_id": "BOOK_FRAME_ANALYSIS",
+      "title_zh": "框架分析：经验组织论",
+      "title_en": "Frame Analysis: An Essay on the Organization of Experience",
+      "scholar_id": "SCH_GOFFMAN",
+      "year": "1974",
+      "description_zh": "戈夫曼的社会学代表作，首次将\"框架\"概念系统引入情境分析，成为传播学框架理论的理论源头。"
+    },
+    {
+      "book_id": "BOOK_REPUBLIC_COM",
+      "title_zh": "网络共和国",
+      "title_en": "Republic.com",
+      "scholar_id": "SCH_SUNSTEIN",
+      "year": "2001",
+      "description_zh": "桑斯坦分析网络时代公共领域的著作，提出回音室、群体极化与信息茧房等核心问题，主张民主社会需要\"非预期的信息接触\"。"
+    },
+    {
+      "book_id": "BOOK_CONVERGENCE_CULTURE",
+      "title_zh": "融合文化：新旧媒介的碰撞之所",
+      "title_en": "Convergence Culture: Where Old and New Media Collide",
+      "scholar_id": "SCH_JENKINS",
+      "year": "2006",
+      "description_zh": "詹金斯以跨媒体叙事与粉丝文化案例阐述媒介融合的文化逻辑，提出参与式文化理论。"
+    },
+    {
+      "book_id": "BOOK_HERE_COMES_EVERYBODY",
+      "title_zh": "人人时代：无组织的组织力量",
+      "title_en": "Here Comes Everybody: The Power of Organizing Without Organizations",
+      "scholar_id": "SCH_SHIRKY",
+      "year": "2008",
+      "description_zh": "舍基的互联网研究代表作，论述网络工具如何降低协作门槛、催生无组织的组织力量。"
+    },
+    {
+      "book_id": "BOOK_FILTER_BUBBLE",
+      "title_zh": "过滤气泡（中译名：搜索引擎没告诉你的事）",
+      "title_en": "The Filter Bubble: What the Internet Is Hiding from You",
+      "scholar_id": "SCH_PARISER",
+      "year": "2011",
+      "description_zh": "帕里泽提出\"过滤气泡\"概念之作，揭示个性化算法如何决定我们能看到什么、看不到什么。"
+    },
+    {
+      "book_id": "BOOK_COMMUNICATION_COURSE",
+      "title_zh": "传播学教程",
+      "title_en": "A Course in Communication Studies",
+      "scholar_id": "SCH_GUO_QINGGUANG",
+      "year": "1999",
+      "description_zh": "郭庆光主编的国家级重点教材，初版1999年、第二版2011年，是中国传播学教学与考研的基础文献。"
+    },
+    {
+      "book_id": "BOOK_NEWS_THEORY_TEN_LECTURES",
+      "title_zh": "新闻理论十讲",
+      "title_en": "Ten Lectures on Journalism Theory",
+      "scholar_id": "SCH_CHEN_LIDAN",
+      "year": "2008",
+      "description_zh": "陈力丹的新闻理论教材，以十讲形式系统阐述新闻学核心理论，重构新闻学基本问题。"
+    },
+    {
+      "book_id": "BOOK_JOURNALISM_INTRODUCTION",
+      "title_zh": "新闻学概论",
+      "title_en": "Introduction to Journalism",
+      "scholar_id": "SCH_LI_LIANGRONG",
+      "year": "1985",
+      "description_zh": "建国后国内第一本新闻学概论教材（1985年），历经七次修订，是全国新闻传播专业使用最广的基础教材之一。"
+    },
+    {
+      "book_id": "BOOK_INTERNET_COMMUNICATION_INTRO",
+      "title_zh": "网络传播概论",
+      "title_en": "Introduction to Internet Communication",
+      "scholar_id": "SCH_PENG_LAN",
+      "year": "2001",
+      "description_zh": "彭兰编著的网络传播教材（初版2001年），中国网络传播研究的代表性著作。"
     }
   ],
   "relations": [
