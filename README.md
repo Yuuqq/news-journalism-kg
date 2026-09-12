@@ -84,7 +84,21 @@ python3 workbench/server.py
 4. 打开 **Graph 知识图谱** → 用鼠标拖拽节点，探索关系网络
 5. 最后去 **Influence 影响网络** 和 **Browse 证据库** 深入挖掘
 
-### 5. 构建静态站点（部署用）
+### 5. 生成教学备课卡片（Lesson Generator）
+
+本项目内置了一个 Python 脚本，可以读取知识图谱中的理论命题与原文证据，直接生成可粘贴到讲义或 PPT 中的 Markdown 备课卡片，并且自动生成供课堂讨论的引导问题。
+
+```bash
+# 随机生成一个包含学者、命题、证据段落与讨论题的备课卡片，并保存到 examples 目录：
+python scripts/generate_lesson.py --random --seed 42 > examples/lesson-sample.md
+
+# 也可以按特定学者或学派生成：
+python scripts/generate_lesson.py --scholar SCH_LIPPMANN
+python scripts/generate_lesson.py --school SCHOOL_TORONTO
+```
+生成的示例文件请参考 `examples/lesson-sample.md`。
+
+### 6. 构建静态站点（部署用）
 
 ```bash
 python scripts/build_static.py
