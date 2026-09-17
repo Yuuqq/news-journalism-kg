@@ -10,6 +10,20 @@ function escapeHtml(str) {
   return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+// 学者外部补全元信息（/api/browse 合并的 scholars_external.csv 字段）
+function scholarExtMeta(s) {
+  if (!s || (!s.birth_year && !s.wikipedia_url)) return '';
+  let parts = [];
+  if (s.birth_year) {
+    const life = s.death_year ? `${s.birth_year}–${s.death_year}` : `${s.birth_year}–`;
+    parts.push(`<span style="font-size:0.75rem; color:var(--text-secondary);">${life}</span>`);
+  }
+  if (s.wikipedia_url) {
+    parts.push(`<a href="${escapeHtml(s.wikipedia_url)}" target="_blank" rel="nofollow" style="font-size:0.75rem; color:var(--link, #58a6ff); text-decoration:none;" onclick="event.stopPropagation()">维基↗</a>`);
+  }
+  return `<div style="margin-top:2px; display:flex; gap:8px; align-items:center; justify-content:inherit;">${parts.join('')}</div>`;
+}
+
 // Decode a hash-route segment; falls back to the raw value on malformed input
 function safeDecode(segment) {
   try { return decodeURIComponent(segment); } catch (e) { return segment; }
@@ -409,8 +423,7 @@ const VIEWS = {
 
   scholars_list: async () => {
     const data = await API.browse();
-    const displayName = s => s.name_zh || s.name_en || s.scholar_id || '';
-    const sorted = [...data.scholars].sort((a,b) => displayName(a).localeCompare(displayName(b), 'zh-Hans-CN'));
+    const displayName = s => s.name_zh || s.name_en || s.scholar_id || '';    const sorted = [...data.scholars].sort((a,b) => displayName(a).localeCompare(displayName(b), 'zh-Hans-CN'));
 
     // Group by school
     const schoolGroups = {};
@@ -449,6 +462,7 @@ const VIEWS = {
             <div style="overflow:hidden; flex:1;">
               <h3 style="margin:0; font-size:1.1rem; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;">${escapeHtml(name)}</h3>
               <div style="font-size:0.8rem; color:var(--text-secondary);">${escapeHtml(s.name_en)}</div>
+              ${scholarExtMeta(s)}
               <div class="badge scholar" style="margin-top:6px;">${escapeHtml(school)}</div>
             </div>
           </div>
@@ -1067,6 +1081,7 @@ const VIEWS = {
             <div class="scholar-avatar" style="background:${avatarColor};">${escapeHtml(scholarName[0] || '?')}</div>
             <h2 style="border:none; margin-bottom:0.5rem; justify-content:center;">${escapeHtml(scholarName)}</h2>
             <div style="color:var(--text-secondary); font-size:0.9rem; margin-bottom:1rem;">${escapeHtml(scholar.name_en)}</div>
+            ${scholarExtMeta(scholar)}
             <div class="badge scholar" style="margin-bottom:1rem;">${escapeHtml(scholar.school_id ? getSchoolName(scholar.school_id) : '学者')}</div>
             <p style="text-align:left; font-size:0.9rem; line-height:1.6;">${escapeHtml(scholar.description_zh) || '暂无简介'}</p>
             ${scholar.active_year ? `<div style="margin-top:1rem; font-size:0.8rem; color:var(--text-secondary);">活跃年份: ${escapeHtml(scholar.active_year)}</div>` : ''}

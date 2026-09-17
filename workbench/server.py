@@ -63,6 +63,44 @@ STATIC_DIR = ROOT / 'workbench' / 'static'
 VALIDATE_MOD = load_module('validate_csv', ROOT / 'scripts' / 'validate_csv.py')
 RDF_MOD = load_module('csv_to_rdf', ROOT / 'scripts' / 'csv_to_rdf.py') if (ROOT / 'scripts' / 'csv_to_rdf.py').exists() else None
 
+# 学者外部补全旁挂表（scripts/enrich_scholars.py 产物；缺失时为空，API 优雅降级）
+def load_scholar_ext() -> dict:
+    path = DATA_CSV_DIR / 'scholars_external.csv'
+    if not path.exists():
+        return {}
+    import csv as _csv
+    with open(path, encoding='utf-8-sig', newline='') as f:
+        return {r.get('scholar_id'): r for r in _csv.DictReader(f) if r.get('scholar_id')}
+
+
+def merge_scholar_ext(scholar: dict, ext_map: dict | None = None) -> dict:
+    ext_map = ext_map if ext_map is not None else load_scholar_ext()
+    e = ext_map.get(scholar.get('scholar_id'))
+    if e:
+        for k in ('birth_year', 'death_year', 'wikipedia_url'):
+            if e.get(k):
+                scholar[k] = e[k]
+    return scholar
+
+
+def load_book_ext() -> dict:
+    path = DATA_CSV_DIR / 'books_external.csv'
+    if not path.exists():
+        return {}
+    import csv as _csv
+    with open(path, encoding='utf-8-sig', newline='') as f:
+        return {r.get('book_id'): r for r in _csv.DictReader(f) if r.get('book_id')}
+
+
+def merge_book_ext(book: dict, ext_map: dict | None = None) -> dict:
+    ext_map = ext_map if ext_map is not None else load_book_ext()
+    e = ext_map.get(book.get('book_id'))
+    if e:
+        for k in ('wikipedia_url', 'found_year', 'year_status'):
+            if e.get(k):
+                book[k] = e[k]
+    return book
+
 
 def json_bytes(payload) -> bytes:
     return json.dumps(payload, ensure_ascii=False, indent=2).encode('utf-8')
@@ -273,11 +311,11 @@ class Handler(BaseHTTPRequestHandler):
             return
 
         if parsed.path == '/api/browse':
-            scholars = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'scholars.csv')
+            scholars = [merge_scholar_ext(s) for s in VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'scholars.csv')]
             props = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'propositions.csv')
             passages = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'passages.csv')
             concepts = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'concepts.csv')
-            books = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'books.csv')
+            books = [merge_book_ext(b) for b in VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'books.csv')]
             relations = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'relations.csv')
             influences = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'influences.csv')
             quotes_path = DATA_CSV_DIR / 'quotes.csv'

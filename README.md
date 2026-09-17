@@ -158,6 +158,20 @@ news-journalism-kg/
 3. **影响可解释**：影响关系需有文献支持
 4. **人可维护**：CSV 格式允许非程序员直接编辑
 
+## 学者外部补全（2026-09-17，Tavily + 维基 opensearch）
+
+`data/csv/scholars_external.csv` 为**旁挂表**（核心 CSV 零改动）：scholar_id → 维基百科链接、生卒年、证据 URL。管线：维基 opensearch 精确定位条目（本机直连 wikipedia 不稳，带重试）→ Tavily extract 服务端抓页 → 解析生卒年（优先 infobox Born/Died 行，其次导语日期范围；排除「活跃年份」类括号如 "(1921–1961)"）。每行事实的证据 URL 即 evidence_url，符合本 KG「断言可溯源」原则。extract 结果缓存于 `data/enrich_cache/`（按 URL 幂等）。
+
+```bash
+TAVILY_API_KEY=xxx python scripts/enrich_scholars.py [--workers 6]
+# 复用于其他同 schema 项目：
+TAVILY_API_KEY=xxx python scripts/enrich_scholars.py --csv <path>/scholars.csv
+```
+
+首轮结果：158 位学者，wiki 链接 123、生卒年 113；9 位知名学者生卒年对照核验全对。`no_wiki_hit` 条目多为 opensearch 网络瞬断或确无维基页（部分中国报人），可清出后幂等重跑。
+
+**著作补全（同日）**：`scripts/enrich_books.py` → `books_external.csv`（父项目 101 本：wiki 链接 65、出版年 verified 29；子项目 61 本：wiki 23、verified 19；mismatch 条目两侧年份并陈不覆盖）。集成：wiki 学者页书目带维基链接；workbench `/api/browse` 等已合并（`merge_book_ext`）。注意维基 infobox 标签含不换行空格 `\xa0`，解析已内置归一化。
+
 ## 许可证
 
 MIT License

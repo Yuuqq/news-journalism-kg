@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (dist files)
+node_modules/
+dist/
+
+# Config & environment files
+config.json
+.env
+*.env
+data/enrich_cache/
