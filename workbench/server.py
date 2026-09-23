@@ -26,6 +26,36 @@ def is_valid_csv_name(name: str) -> bool:
     return True
 
 
+def _local_hostname(value: str) -> str | None:
+    """Extract hostname from an Origin URL or Host header; None if unparseable."""
+    value = (value or '').strip()
+    if not value:
+        return None
+    if '://' in value:
+        host = urlparse(value).hostname
+        return host.lower() if host else None
+    # Host header: hostname[:port] or [ipv6]:port
+    if value.startswith('['):
+        end = value.find(']')
+        if end <= 1:
+            return None
+        return value[1:end].lower()
+    return value.split(':', 1)[0].lower()
+
+
+def is_local_origin_or_host(origin: str, host: str) -> bool:
+    """True when Origin or Host refers to 127.0.0.1 / localhost."""
+    allowed = {'127.0.0.1', 'localhost'}
+    o = _local_hostname(origin)
+    h = _local_hostname(host)
+    return (o in allowed) or (h in allowed)
+
+
+def content_type_is_json(content_type: str) -> bool:
+    media = (content_type or '').split(';', 1)[0].strip().lower()
+    return media == 'application/json'
+
+
 def repo_root() -> Path:
     return Path(__file__).resolve().parent.parent
 
@@ -349,6 +379,15 @@ class Handler(BaseHTTPRequestHandler):
         parsed = urlparse(self.path)
 
         if parsed.path == '/api/csv':
+            if not content_type_is_json(self.headers.get('Content-Type', '')):
+                self._send_json(415, {'error': 'Content-Type must be application/json'})
+                return
+            if not is_local_origin_or_host(
+                self.headers.get('Origin', ''),
+                self.headers.get('Host', ''),
+            ):
+                self._send_json(403, {'error': 'forbidden: local Origin or Host required'})
+                return
             ok, payload = self._read_json()
             if not ok or not isinstance(payload, dict):
                 self._send_json(400, {'error': 'invalid JSON body'})

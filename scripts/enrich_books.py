@@ -209,7 +209,12 @@ def main():
     done = set()
     if out_path.exists():
         with open(out_path, encoding="utf-8-sig", newline="") as f:
-            done = {r["book_id"] for r in _csv.DictReader(f)}
+            # 临时失败 (year_status 以 error: 开头) 不计入完成，下次重试
+            done = {
+                r["book_id"]
+                for r in _csv.DictReader(f)
+                if r.get("book_id") and not (r.get("year_status") or "").startswith("error:")
+            }
     todo = [b for b in books if b["book_id"] not in done]
     print(f"[books] {len(books)} 本，待补 {len(todo)}（缓存跳过 {len(done)}）", flush=True)
 

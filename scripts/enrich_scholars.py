@@ -326,7 +326,12 @@ def main():
     done_ids = set()
     if out_path.exists():
         with open(out_path, encoding="utf-8-sig", newline="") as f:
-            done_ids = {r["scholar_id"] for r in _csv.DictReader(f) if r.get("scholar_id")}
+            # 临时失败 (method 以 error: 开头) 不计入完成，下次重试
+            done_ids = {
+                r["scholar_id"]
+                for r in _csv.DictReader(f)
+                if r.get("scholar_id") and not (r.get("method") or "").startswith("error:")
+            }
     todo = [r for r in rows if r["scholar_id"] not in done_ids]
     if args.limit:
         todo = todo[: args.limit]
