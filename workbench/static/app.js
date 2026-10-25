@@ -599,7 +599,7 @@ const VIEWS = {
   scholar: async (id) => {
     const data = await API.browse();
     const scholar = data.scholars.find(s => s.scholar_id === id);
-    if (!scholar) return `<div class="card error">Scholar not found: ${id}</div>`;
+    if (!scholar) return `<div class="card error">Scholar not found: ${escapeHtml(id)}</div>`;
 
     const props = data.propositions.filter(p => p.scholar_id === id).sort((a, b) => (parseInt(a.year)||0) - (parseInt(b.year)||0));
     const books = (data.books || []).filter(b => b.scholar_id === id).sort((a, b) => (parseInt(a.year)||0) - (parseInt(b.year)||0));
@@ -765,12 +765,12 @@ const VIEWS = {
       let dots = '';
       scholars.forEach(s => {
         const left = (s.year - startYear) * pxPerYear;
-        dots += `<div class="map-dot" onclick="window.location.hash='scholar/${s.scholar_id}'" title="${s.name_zh} (${s.active_year})" style="left:${left}px;"><div class="dot-label">${s.name_zh}</div></div>`;
+        dots += `<div class="map-dot" onclick="window.location.hash='scholar/${escapeHtml(s.scholar_id)}'" title="${escapeHtml(s.name_zh)} (${escapeHtml(s.active_year || '')})" style="left:${left}px;"><div class="dot-label">${escapeHtml(s.name_zh)}</div></div>`;
       });
 
       rowsHtml += `
         <div class="map-row">
-          <div class="map-school-label">${schoolName}</div>
+          <div class="map-school-label">${escapeHtml(schoolName)}</div>
           <div class="map-track">${dots}</div>
         </div>`;
     });
@@ -1205,7 +1205,7 @@ const render = async (rawRoute) => {
       const content = await VIEWS[route](param);
       app.innerHTML = content;
     } else {
-      app.innerHTML = `<div class="card" style="border-color:#e74c3c;"><h3>页面未找到</h3><p>Route: ${route}</p></div>`;
+      app.innerHTML = `<div class="card" style="border-color:#e74c3c;"><h3>页面未找到</h3><p>Route: ${escapeHtml(route)}</p></div>`;
     }
   } catch (e) {
     console.error(e);

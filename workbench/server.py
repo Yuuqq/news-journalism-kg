@@ -51,9 +51,11 @@ def json_bytes(payload) -> bytes:
     return json.dumps(payload, ensure_ascii=False, indent=2).encode('utf-8')
 
 
-def safe_inside_root(candidate: Path) -> bool:
+def safe_inside_root(candidate: Path, root_path: Path = None) -> bool:
+    if root_path is None:
+        root_path = ROOT
     try:
-        candidate.resolve().relative_to(ROOT.resolve())
+        candidate.resolve().relative_to(root_path.resolve())
         return True
     except Exception:
         return False
@@ -108,10 +110,15 @@ class Handler(BaseHTTPRequestHandler):
 
     def _read_json(self):
         length = int(self.headers.get('Content-Length', '0') or '0')
+        if length > 10485760:  # 10 MB limit
+            return None
         raw = self.rfile.read(length) if length else b''
         if not raw:
             return {}
-        return json.loads(raw.decode('utf-8'))
+        try:
+            return json.loads(raw.decode('utf-8'))
+        except (json.JSONDecodeError, UnicodeDecodeError):
+            return None
 
     def do_GET(self) -> None:
         parsed = urlparse(self.path)
@@ -124,6 +131,9 @@ class Handler(BaseHTTPRequestHandler):
         if parsed.path.startswith('/static/'):
             rel = parsed.path.removeprefix('/static/')
             f = (STATIC_DIR / rel)
+            if not safe_inside_root(f, STATIC_DIR):
+                self._send(404, 'text/plain; charset=utf-8', b'Not Found')
+                return
             if not f.exists():
                 self._send(404, 'text/plain; charset=utf-8', b'Not Found')
                 return
@@ -247,6 +257,9 @@ class Handler(BaseHTTPRequestHandler):
 
         if parsed.path == '/api/csv':
             payload = self._read_json()
+            if payload is None:
+                self._send_json(400, {'error': 'invalid json'})
+                return
             name = (payload.get('name') or '').strip()
             content = payload.get('content') or ''
             if not name or '/' in name or '\\' in name or not name.endswith('.csv'):
