@@ -30,6 +30,8 @@ from pathlib import Path
 
 import requests
 
+from wiki_match import rank_person_titles, reject_person_title
+
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -42,6 +44,16 @@ EXTRACT_PATH = "/extract"
 
 # include_domains 不能完全信（会漏进 apsanet.org / 其他语言维基等），客户端严格过滤
 WIKI_LANG_PRIORITY = ("en", "zh", "simple")
+
+
+# 重跑时应重试的终态：请求抛错（search_failed:/error:）与 no_wiki_hit（README 记载
+# 多为 opensearch 瞬断）都可能只是网络问题；no_name 是确定结论，不重试。
+_TRANSIENT_STATUSES = {"no_wiki_hit"}
+
+
+def _is_transient(status: str) -> bool:
+    status = status or ""
+    return status.startswith(("error:", "search_failed:")) or status in _TRANSIENT_STATUSES
 
 
 def pick_wiki_result(results: list[dict]) -> tuple[str, str]:
@@ -202,12 +214,12 @@ def opensearch_wiki(name: str, lang: str = "en") -> str:
             r.raise_for_status()
             data = r.json()
             titles = data[1] if len(data) > 1 else []
-            if not titles:
+            ranked = rank_person_titles(name, titles)
+            if not ranked:
                 return ""
-            name_l = name.lower()
-            title = next((t for t in titles if name_l in t.lower()), titles[0])
             from urllib.parse import quote
-            return f"https://{lang}.wikipedia.org/wiki/{quote(title.replace(' ', '_'))}"
+            title = ranked[0]
+            return f"https://{lang}.wikipedia.org/wiki/{quote(title.replace(' ', '_'), safe='()')}"
         except Exception:
             time.sleep(2)
     return ""
@@ -243,11 +255,13 @@ def enrich_one(row: dict, key: str) -> dict:
             m = re.match(r"https://([a-z]+)\.wikipedia\.org/wiki/([^:]+)$", u)
             if not m or m.group(1) not in WIKI_LANG_PRIORITY:
                 continue
-            title_seg = m.group(2).replace("_", " ")
-            if name.lower() in title_seg.lower():
-                wiki_url = u
-                how = "tavily_search"
-                break
+            from urllib.parse import unquote
+            title_seg = unquote(m.group(2)).replace("_", " ")
+            if reject_person_title(title_seg) or not rank_person_titles(name, [title_seg]):
+                continue
+            wiki_url = u
+            how = "tavily_search"
+            break
     if not wiki_url:
         out["method"] = "no_wiki_hit"
         return out
@@ -326,11 +340,13 @@ def main():
     done_ids = set()
     if out_path.exists():
         with open(out_path, encoding="utf-8-sig", newline="") as f:
-            # 临时失败 (method 以 error: 开头) 不计入完成，下次重试
+            # 临时失败不计入完成，下次重试。enrich_one 内部已吞掉多数异常，
+            # 故 "error:" 极少出现，真正可重试的是 search_failed / no_wiki_hit
+            # （README 记载 no_wiki_hit 多为 opensearch 瞬断）。
             done_ids = {
-                r["scholar_id"]
+                r.get("scholar_id")
                 for r in _csv.DictReader(f)
-                if r.get("scholar_id") and not (r.get("method") or "").startswith("error:")
+                if r.get("scholar_id") and not _is_transient(r.get("method"))
             }
     todo = [r for r in rows if r["scholar_id"] not in done_ids]
     if args.limit:
@@ -367,6 +383,10 @@ def main():
         all_rows = list(old.values())
     by_id = {r["scholar_id"]: r for r in all_rows}
     for r in results:
+        old = by_id.get(r["scholar_id"])
+        # 重试行这次没定位到维基页（瞬时失败）时不覆盖旧行的有效链接/生卒年
+        if old and old.get("wikipedia_url") and not r.get("wikipedia_url"):
+            continue
         by_id[r["scholar_id"]] = r
     fieldnames = ["scholar_id", "wikipedia_url", "birth_year", "death_year", "evidence_url", "method", "enriched_at"]
     with open(out_path, "w", encoding="utf-8-sig", newline="") as f:

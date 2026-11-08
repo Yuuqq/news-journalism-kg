@@ -26,13 +26,12 @@ BOOK_MAKING_ENGLISH_WORKING_CLASS,英国工人阶级的形成,The Making of the 
 BOOK_UNDERSTANDING_POPULAR_CULTURE,理解大众文化,Understanding Popular Culture,SCH_FISKE,1989,费斯克研究大众文化与受众能动性的代表作。
 BOOK_NETWORK_SOCIETY,网络社会的崛起,The Rise of the Network Society,SCH_CASTELLS,1996,卡斯特信息时代三部曲第一卷，分析网络社会结构。
 BOOK_NO_SENSE_OF_PLACE,消失的地域,No Sense of Place,SCH_MEYROWITZ,1985,梅罗维茨研究电子媒介对社会空间影响的著作。
-BOOK_CONVERGENCE_CULTURE,融合文化,Convergence Culture,SCH_JENKINS,2006,詹金斯研究媒介融合与参与式文化的代表作。
 BOOK_CRYSTALLIZING_PUBLIC_OPINION,舆论的结晶,Crystallizing Public Opinion,SCH_BERNAYS,1923,伯奈斯公共关系理论的奠基之作。
 BOOK_HISTORY_STANDARD_OIL,美孚石油公司史,The History of the Standard Oil Company,SCH_TARBELL,1904,塔贝尔揭露垄断的调查新闻经典。
 BOOK_IN_COLD_BLOOD,冷血,In Cold Blood,SCH_CAPOTE,1966,卡波特开创非虚构小说文体的里程碑作品。
 BOOK_PEOPLES_CHOICE,人民的选择,The People's Choice,SCH_LAZARSFELD,1944,拉扎斯菲尔德主持的选举研究经典，提出两级传播假说。
 BOOK_SPIRAL_OF_SILENCE,沉默的螺旋,The Spiral of Silence,SCH_NOELLE_NEUMANN,1984,诺依曼系统阐述沉默螺旋理论的著作。
-BOOK_XINWENXUE,新闻学,Erta the Principles of Journalism,SCH_XU_BAOHUANG,1919,徐宝璜著，中国第一部新闻学理论专著。
+BOOK_XINWENXUE,新闻学,Journalism,SCH_XU_BAOHUANG,1919,徐宝璜著，中国第一部新闻学理论专著。
 BOOK_NORTHWEST_CORNER,中国的西北角,China's Northwest Corner,SCH_FAN_CHANGJIANG,1936,范长江的西北采访通讯集，开创现代新闻通讯文体。
 BOOK_YINBINGSHI_WENJI,饮冰室文集,Collected Works of Yinbingshi,SCH_LIANG_QICHAO,1902,梁启超文集，收录大量政论与报刊评论。
 BOOK_YANSHAN_YEHUA,燕山夜话,Evening Talks at Yanshan,SCH_DENG_TUO,1961,邓拓的杂文集，以史为鉴批评时弊。
@@ -48,7 +47,7 @@ BOOK_LONELY_CROWD,孤独的人群,The Lonely Crowd,SCH_RIESMAN,1950,里斯曼研
 BOOK_DIGITAL_CAPITALISM,数字资本主义,Digital Capitalism,SCH_DAN_SCHILLER,1999,丹·席勒批判信息技术与资本主义逻辑的著作。
 BOOK_POLITICAL_ECONOMY_COMMUNICATION,传播政治经济学,The Political Economy of Communication,SCH_MOSCO,1996,莫斯可系统阐述传播政治经济学的教科书。
 BOOK_MASS_COMMUNICATION_THEORY,大众传播理论,Mass Communication Theory,SCH_MCQUAIL,1983,麦奎尔的传播学理论教科书，影响深远。
-BOOK_SHENGSHI_WEIYAN,盛世危言,Erta Warnings in Times of Prosperity,SCH_ZHENG_GUANYING,1894,郑观应的改良思想著作，主张商战救国。
+BOOK_SHENGSHI_WEIYAN,盛世危言,Words of Warning to a Prosperous Age,SCH_ZHENG_GUANYING,1894,郑观应的改良思想著作，主张商战救国。
 BOOK_PUBLIC_AND_PROBLEMS,公众及其问题,The Public and Its Problems,SCH_DEWEY,1927,杜威回应李普曼的民主与传播理论著作。
 BOOK_HUMAN_NATURE_SOCIAL_ORDER,人类本性与社会秩序,Human Nature and the Social Order,SCH_COOLEY,1902,库利提出「镜中我」理论的经典社会心理学著作。
 BOOK_MIND_SELF_SOCIETY,心灵自我与社会,Mind Self and Society,SCH_MEAD,1934,米德符号互动论的代表作，由学生整理出版。

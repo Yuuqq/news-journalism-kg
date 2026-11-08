@@ -26,6 +26,8 @@ from urllib.parse import quote
 
 import requests
 
+from wiki_match import titles_compatible, zh_title_exact
+
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -37,11 +39,12 @@ EXTRACT_PATH = "/extract"
 UA = {"User-Agent": "news-kg-book-enrichment/1.0"}
 _Y = r"(?:1[5-9]\d{2}|20[0-2]\d)"
 
+# no_wiki_hit 经常是 opensearch 瞬断，或旧匹配器把副标题整词要求进条目标题。两者都重试。
+_TRANSIENT_STATUSES = {"wiki_found_extract_failed", "no_wiki_hit"}
 
-def norm_title(t: str) -> set[str]:
-    stop = {"a", "an", "the", "of", "in", "on", "and", "de", "la", "le"}
-    words = re.findall(r"[a-z]+", (t or "").lower())
-    return {w for w in words if w not in stop and len(w) > 2}
+
+def _is_transient(status: str) -> bool:
+    return (status or "").startswith("error:") or status in _TRANSIENT_STATUSES
 
 
 def tavily(path: str, payload: dict, key: str, timeout: int = 90, retries: int = 3) -> dict:
@@ -62,11 +65,13 @@ def tavily(path: str, payload: dict, key: str, timeout: int = 90, retries: int =
     raise last if last else RuntimeError("tavily_failed")
 
 
-def opensearch(query: str) -> list[tuple[str, str]]:
+def opensearch(query: str, lang: str = "en") -> list[tuple[str, str]]:
     """返回 [(title, url)]，失败空表。"""
+    if not query:
+        return []
     try:
         r = requests.get(
-            "https://en.wikipedia.org/w/api.php",
+            f"https://{lang}.wikipedia.org/w/api.php",
             params={"action": "opensearch", "search": query, "limit": 6,
                     "format": "json", "redirects": "resolve"},
             headers=UA, timeout=20)
@@ -111,8 +116,8 @@ def enrich_one(book: dict, scholar: dict | None, key: str, cache_dir: Path) -> d
     recorded = (book.get("year") or "").strip()
 
     # 1) 定位：opensearch（本机直连不稳，两轮重试）→ Tavily search 兜底（服务端稳定）
-    #    词覆盖匹配防同名电影/事件误配
-    want = norm_title(title)
+    #    主标题相容即可，副标题不必整段出现在维基标题里；电影/剧集页排除。
+    title_zh = (book.get("title_zh") or "").strip()
 
     def pick(cands):
         for wt, wu in cands:
@@ -124,14 +129,15 @@ def enrich_one(book: dict, scholar: dict | None, key: str, cache_dir: Path) -> d
                 wt2 = unquote(seg).replace("_", " ")
             except Exception:
                 wt2 = wt
-            got = norm_title(wt2) | norm_title(wt2.split("(")[0])
-            if want and want <= got:
+            if titles_compatible(title, wt2) or zh_title_exact(title_zh, wt2):
                 return wu
         return ""
 
-    wiki_url = pick(opensearch(f"{title} {author}".strip()) if author else opensearch(title))
+    wiki_url = pick(opensearch(f"{title} {author}".strip(), "en") if author else opensearch(title, "en"))
     if not wiki_url:
-        wiki_url = pick(opensearch(f"{title} book"))
+        wiki_url = pick(opensearch(f"{title} book", "en"))
+    if not wiki_url and title_zh:
+        wiki_url = pick(opensearch(title_zh, "zh"))
     if not wiki_url:
         try:
             data = tavily(SEARCH_PATH, {
@@ -170,13 +176,17 @@ def enrich_one(book: dict, scholar: dict | None, key: str, cache_dir: Path) -> d
         return out
     found = find_pub_year(raw)
     out["found_year"] = found
+    try:
+        rec_year = int(recorded) if recorded else None
+    except ValueError:
+        rec_year = None  # 非纯数字年份（如 "c. 1990"）：不比较，避免整行崩成 error
     if not found:
         out["year_status"] = "no_year_found"
-    elif not recorded:
-        out["year_status"] = "found_no_record"
-    elif int(found) == int(recorded):
+    elif rec_year is None:
+        out["year_status"] = "bad_recorded_year" if recorded else "found_no_record"
+    elif int(found) == rec_year:
         out["year_status"] = "verified"
-    elif abs(int(found) - int(recorded)) <= 2:
+    elif abs(int(found) - rec_year) <= 2:
         out["year_status"] = "near_match"
     else:
         out["year_status"] = "mismatch"
@@ -209,11 +219,12 @@ def main():
     done = set()
     if out_path.exists():
         with open(out_path, encoding="utf-8-sig", newline="") as f:
-            # 临时失败 (year_status 以 error: 开头) 不计入完成，下次重试
+            # 临时失败不计入完成，下次重试。enrich_one 内部已吞掉多数异常，
+            # 故 "error:" 极少出现，真正可重试的是这些明确瞬态的终态。
             done = {
-                r["book_id"]
+                r.get("book_id")
                 for r in _csv.DictReader(f)
-                if r.get("book_id") and not (r.get("year_status") or "").startswith("error:")
+                if r.get("book_id") and not _is_transient(r.get("year_status"))
             }
     todo = [b for b in books if b["book_id"] not in done]
     print(f"[books] {len(books)} 本，待补 {len(todo)}（缓存跳过 {len(done)}）", flush=True)
@@ -246,6 +257,10 @@ def main():
         all_rows = list(old.values())
     by_id = {r["book_id"]: r for r in all_rows}
     for r in results:
+        old = by_id.get(r["book_id"])
+        # 重试行这次连维基页都没定位到（瞬时失败）时不覆盖旧行的有效结果
+        if old and old.get("wikipedia_url") and not r.get("wikipedia_url"):
+            continue
         by_id[r["book_id"]] = r
     fields = ["book_id", "wikipedia_url", "found_year", "year_status", "evidence_url", "enriched_at"]
     with open(out_path, "w", encoding="utf-8-sig", newline="") as f:
