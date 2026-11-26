@@ -10,5 +10,10 @@
     "require_chinese_text": true,
     "strict_evidence": true,
     "allowed_source_types": ["encyclopedia", "lecture", "review"]
+  },
+  "magpie_web_search": {
+    "mcp_url": "http://127.0.0.1:3425/mcp/magpie/web-search",
+    "timeout_seconds": 35,
+    "min_interval_seconds": 0.35
   }
 }

@@ -1,0 +1,4369 @@
+{
+  "summary": {
+    "enriched_at": "2026-11-26",
+    "mode": "write",
+    "mcp_url": "http://127.0.0.1:3425/mcp/magpie/web-search",
+    "live_search_calls": 0,
+    "live_fetch_calls": 28,
+    "total_queries_logged": 135,
+    "total_fetches_logged": 112,
+    "books": {
+      "total_rows": 61,
+      "targets_processed": 32,
+      "wiki_before": 31,
+      "wiki_after": 37,
+      "evidence_before": 31,
+      "evidence_after": 61,
+      "found_year_before": 29,
+      "found_year_after": 59,
+      "year_status_counts_after": {
+        "mismatch": 7,
+        "near_match": 3,
+        "no_year_found": 2,
+        "verified": 49
+      }
+    },
+    "scholars_external": {
+      "total_rows": 158,
+      "wiki_before": 146,
+      "wiki_after": 147,
+      "evidence_before": 146,
+      "evidence_after": 158,
+      "birth_year_before": 146,
+      "birth_year_after": 153,
+      "death_year_before": 122,
+      "death_year_after": 131
+    },
+    "scholars_core": {
+      "total_rows": 158,
+      "name_en_before": 157,
+      "name_en_after": 158
+    },
+    "invariants": {
+      "overwrites": [],
+      "bad_urls": [],
+      "mobile_leaks": [],
+      "lifespan_errors": [],
+      "passed": true
+    }
+  },
+  "books": [
+    {
+      "book_id": "BOOK_BIAS_COMMUNICATION",
+      "title_zh": "传播的偏向",
+      "title_en": "The Bias of Communication",
+      "author_zh": "伊尼斯",
+      "author_en": "Harold Innis",
+      "recorded_year": "1951",
+      "before": {
+        "book_id": "BOOK_BIAS_COMMUNICATION",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"The Bias of Communication\" innis wikipedia",
+        "\"The Bias of Communication\" innis book published",
+        "\"The Bias of Communication\" innis \"first published\" OR 1951"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Harold_Innis",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Harold Innis"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Harold_Innis%27s_communications_theories",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Harold Innis's communications theories"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Empire_and_Communications",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Empire and Communications"
+        },
+        {
+          "url": "https://utppublishing.com/doi/book/10.3138/9780802096067",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": "1951"
+        }
+      ],
+      "evidence_excerpt": ", communication, and media theory. First published in 1951, this masterful collection of essays explore",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_BIAS_COMMUNICATION",
+        "wikipedia_url": "",
+        "found_year": "1951",
+        "year_status": "verified",
+        "evidence_url": "https://utppublishing.com/doi/book/10.3138/9780802096067",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_CHINA_NEWS_HISTORY",
+      "title_zh": "中国新闻事业通史",
+      "title_en": "A General History of Chinese Journalism",
+      "author_zh": "方汉奇",
+      "author_en": "Fang Hanqi",
+      "recorded_year": "1992",
+      "before": {
+        "book_id": "BOOK_CHINA_NEWS_HISTORY",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"中国新闻事业通史\" 方汉奇 维基百科",
+        "\"中国新闻事业通史\" 方汉奇 出版社 出版",
+        "\"中国新闻事业通史\" 方汉奇 1992 初版 OR 维基文库 OR 百度百科",
+        "\"A General History of Chinese Journalism\" hanqi wikipedia"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E6%B1%89%E5%A5%87",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "方汉奇"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E6%96%B0%E9%97%BB%E5%8F%B2",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "中国新闻史"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E6%96%B0%E9%97%BB%E7%A4%BE",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "中国新闻社"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E7%99%BE%E7%A7%91%E5%85%A8%E4%B9%A6",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "中国大百科全书"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E9%80%A0%E5%B8%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "南京造币有限公司"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/History_of_Chinese_newspapers",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "History of Chinese newspapers"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Media_history_of_China",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Media history of China"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mass_media_in_China",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Mass media in China"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/History_of_journalism",
+          "kind": "wiki_rejected_author_mismatch"
+        },
+        {
+          "url": "https://opac.gxu.edu.cn/bookInfo_0110160588.html",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "1999"
+        }
+      ],
+      "evidence_excerpt": "金资助据第3卷著录。 出版：北京 :中国人民大学出版社,1999 - 馆藏信息 分馆名 | 馆藏部门 | 图书条码 | 索书号 |",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_CHINA_NEWS_HISTORY",
+        "wikipedia_url": "",
+        "found_year": "1999",
+        "year_status": "mismatch",
+        "evidence_url": "https://opac.gxu.edu.cn/bookInfo_0110160588.html",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_CHINESE_PRESS_HISTORY",
+      "title_zh": "中国报学史",
+      "title_en": "A History of Chinese Journalism",
+      "author_zh": "戈公振",
+      "author_en": "Ge Gongzhen",
+      "recorded_year": "1927",
+      "before": {
+        "book_id": "BOOK_CHINESE_PRESS_HISTORY",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"中国报学史\" 戈公振 维基百科",
+        "\"中国报学史\" 戈公振 出版社 出版",
+        "\"中国报学史\" 戈公振 1927 初版 OR 维基文库 OR 百度百科",
+        "\"A History of Chinese Journalism\" gongzhen wikipedia"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E9%80%A0%E5%B8%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "南京造币有限公司"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%88%88%E5%85%AC%E6%8C%AF",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "戈公振"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chinese_Academy_of_Sciences",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Chinese Academy of Sciences"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Aroon_Purie",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Aroon Purie"
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E6%8A%A5%E5%AD%A6%E5%8F%B2%2F%E6%B0%91%E5%9B%BD%E6%B2%AA%E4%B8%8A%E5%88%9D%E7%89%88%E4%B9%A6/16469019",
+          "tier": 4,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": "1927"
+        }
+      ],
+      "evidence_excerpt": "业的研究做出了开拓性贡献。 ## 出版历史 播报 编辑 《中国报学史》初版于1927年。2011年，三联书店推出新版，其附录《史实订误》纠正了156处事实错误，涉及时间、报刊名",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_CHINESE_PRESS_HISTORY",
+        "wikipedia_url": "",
+        "found_year": "1927",
+        "year_status": "verified",
+        "evidence_url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E6%8A%A5%E5%AD%A6%E5%8F%B2%2F%E6%B0%91%E5%9B%BD%E6%B2%AA%E4%B8%8A%E5%88%9D%E7%89%88%E4%B9%A6/16469019",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_COMMUNICATION_COURSE",
+      "title_zh": "传播学教程",
+      "title_en": "A Course in Communication Studies",
+      "author_zh": "郭庆光",
+      "author_en": "Guo Qingguang",
+      "recorded_year": "1999",
+      "before": {
+        "book_id": "BOOK_COMMUNICATION_COURSE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"传播学教程\" 郭庆光 维基百科",
+        "\"传播学教程\" 郭庆光 出版社 出版",
+        "\"传播学教程\" 郭庆光 1999 初版 OR 维基文库 OR 百度百科",
+        "\"A Course in Communication Studies\" qingguang wikipedia"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%9C%BE%E5%82%B3%E6%92%AD",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "大眾傳播"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E4%BC%A0%E6%92%AD%E5%AD%A6",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "传播学"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%82%B3%E6%92%AD%E7%90%86%E8%AB%96",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "傳播理論"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E6%8A%80%E4%BC%A0%E6%92%AD%E5%AD%A6",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "科技传播学"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/History_of_communication_studies",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "History of communication studies"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Media_studies",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Media studies"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Communication_studies",
+          "kind": "wiki_rejected_author_mismatch"
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E4%BC%A0%E6%92%AD%E5%AD%A6%E6%95%99%E7%A8%8B/10285660",
+          "tier": 4,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": "2011"
+        }
+      ],
+      "evidence_excerpt": "传播学教程（2011年中国人民大学出版社出版的图书）百度百科 订阅更新 订阅更新 0有用+1 ## 内容简介 播报 编辑 本书是",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_COMMUNICATION_COURSE",
+        "wikipedia_url": "",
+        "found_year": "2011",
+        "year_status": "mismatch",
+        "evidence_url": "https://baike.baidu.com/item/%E4%BC%A0%E6%92%AD%E5%AD%A6%E6%95%99%E7%A8%8B/10285660",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_COMMUNICATION_PERSUASION",
+      "title_zh": "传播与说服",
+      "title_en": "Communication and Persuasion",
+      "author_zh": "霍夫兰",
+      "author_en": "Carl Hovland",
+      "recorded_year": "1953",
+      "before": {
+        "book_id": "BOOK_COMMUNICATION_PERSUASION",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Communication and Persuasion\" hovland wikipedia",
+        "\"Communication and Persuasion\" hovland book published",
+        "\"Communication and Persuasion\" hovland \"first published\" OR 1953"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://www.britannica.com/topic/Communication-and-Persuasion",
+          "tier": 1,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": ""
+        },
+        {
+          "url": "https://archive.org/details/communicationper0000unse",
+          "tier": 3,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "1953"
+        }
+      ],
+      "evidence_excerpt": "1953",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_COMMUNICATION_PERSUASION",
+        "wikipedia_url": "",
+        "found_year": "1953",
+        "year_status": "verified",
+        "evidence_url": "https://archive.org/details/communicationper0000unse",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_CONVERGENCE_CULTURE",
+      "title_zh": "融合文化：新旧媒介的碰撞之所",
+      "title_en": "Convergence Culture: Where Old and New Media Collide",
+      "author_zh": "詹金斯",
+      "author_en": "Henry Jenkins",
+      "recorded_year": "2006",
+      "before": {
+        "book_id": "BOOK_CONVERGENCE_CULTURE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Convergence Culture\" jenkins wikipedia",
+        "\"Convergence Culture\" jenkins book published",
+        "\"Convergence Culture\" jenkins \"first published\" OR 2006"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Henry_Jenkins",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Henry Jenkins"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Participatory_culture",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Participatory culture"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Convergence_culture",
+          "kind": "wiki_verified",
+          "found_year": ""
+        },
+        {
+          "url": "https://nyupress.org/9780814743072/convergence-culture",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "2006"
+        }
+      ],
+      "evidence_excerpt": "August 2006",
+      "status": "enriched_wiki",
+      "after": {
+        "book_id": "BOOK_CONVERGENCE_CULTURE",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Convergence_culture",
+        "found_year": "2006",
+        "year_status": "verified",
+        "evidence_url": "https://nyupress.org/9780814743072/convergence-culture",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_DIGITAL_CAPITALISM",
+      "title_zh": "数字资本主义",
+      "title_en": "Digital Capitalism",
+      "author_zh": "丹·席勒",
+      "author_en": "Dan Schiller",
+      "recorded_year": "1999",
+      "before": {
+        "book_id": "BOOK_DIGITAL_CAPITALISM",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Digital Capitalism\" schiller wikipedia",
+        "\"Digital Capitalism\" schiller book published",
+        "\"Digital Capitalism\" schiller \"first published\" OR 1999"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Electronic_colonialism",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Electronic colonialism"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kodak",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Kodak"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Digital_Federal_Credit_Union",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Digital Federal Credit Union"
+        },
+        {
+          "url": "https://mitpress.mit.edu/9780262692335/digital-capitalism",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": "1999"
+        }
+      ],
+      "evidence_excerpt": "February 28th, 2000 - Publisher: The MIT Press $5.75 - Hardcover - 9780262194174 - Published: March 4th, 1999 - Publishe",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_DIGITAL_CAPITALISM",
+        "wikipedia_url": "",
+        "found_year": "1999",
+        "year_status": "verified",
+        "evidence_url": "https://mitpress.mit.edu/9780262692335/digital-capitalism",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_ENCODING_DECODING",
+      "title_zh": "电视话语的编码/解码",
+      "title_en": "Encoding and Decoding in the Television Discourse",
+      "author_zh": "霍尔",
+      "author_en": "Stuart Hall",
+      "recorded_year": "1973",
+      "before": {
+        "book_id": "BOOK_ENCODING_DECODING",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Encoding and Decoding in the Television Discourse\" hall wikipedia",
+        "\"Encoding and Decoding in the Television Discourse\" hall book published",
+        "\"Encoding and Decoding in the Television Discourse\" hall \"first published\" OR 1973"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Encoding/decoding_model_of_communication",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Encoding/decoding model of communication"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Stuart_Hall_(cultural_theorist)",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Stuart Hall (cultural theorist)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Reception_theory",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Reception theory"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Associated_Press_Television_News",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Associated Press Television News"
+        },
+        {
+          "url": "https://epapers.bham.ac.uk/id/eprint/2962",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "1973"
+        }
+      ],
+      "evidence_excerpt": "+ Tools Hall, Stuart (1973) Encoding and Decoding in the television discourse. Discussion Paper. University of Birmingham,",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_ENCODING_DECODING",
+        "wikipedia_url": "",
+        "found_year": "1973",
+        "year_status": "verified",
+        "evidence_url": "https://epapers.bham.ac.uk/id/eprint/2962",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_FILTER_BUBBLE",
+      "title_zh": "过滤气泡（中译名：搜索引擎没告诉你的事）",
+      "title_en": "The Filter Bubble: What the Internet Is Hiding from You",
+      "author_zh": "帕里泽",
+      "author_en": "Eli Pariser",
+      "recorded_year": "2011",
+      "before": {
+        "book_id": "BOOK_FILTER_BUBBLE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"The Filter Bubble\" pariser wikipedia",
+        "\"The Filter Bubble\" pariser book published",
+        "\"The Filter Bubble\" pariser \"first published\" OR 2011"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Eli_Pariser",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Eli Pariser"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Algorithmic_amplification",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Algorithmic amplification"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Digital_self-determination",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Digital self-determination"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Personalized_search",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Personalized search"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Filter_bubble",
+          "kind": "wiki_verified",
+          "found_year": "2011"
+        }
+      ],
+      "evidence_excerpt": "rca 2010. Pariser's book The Filter Bubble (2011) predicted that individualized personalizatio",
+      "status": "enriched_wiki",
+      "after": {
+        "book_id": "BOOK_FILTER_BUBBLE",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Filter_bubble",
+        "found_year": "2011",
+        "year_status": "verified",
+        "evidence_url": "https://en.wikipedia.org/wiki/Filter_bubble",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_FRAME_ANALYSIS",
+      "title_zh": "框架分析：经验组织论",
+      "title_en": "Frame Analysis: An Essay on the Organization of Experience",
+      "author_zh": "戈夫曼",
+      "author_en": "Erving Goffman",
+      "recorded_year": "1974",
+      "before": {
+        "book_id": "BOOK_FRAME_ANALYSIS",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Frame Analysis\" goffman wikipedia",
+        "\"Frame Analysis\" goffman book published",
+        "\"Frame Analysis\" goffman \"first published\" OR 1974"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Erving_Goffman",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Erving Goffman"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Framing_(social_sciences)",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Framing (social sciences)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Frame_analysis",
+          "kind": "wiki_verified",
+          "found_year": ""
+        },
+        {
+          "url": "https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=1355&context=capstone_masters",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": "1974"
+        }
+      ],
+      "evidence_excerpt": "tion of Erving Goffman's Frame Analysis FRAME ANALYSIS Introduction Frame Analysis was published in 1974 by the sociologist Erving Goffman as an exam",
+      "status": "enriched_wiki",
+      "after": {
+        "book_id": "BOOK_FRAME_ANALYSIS",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Frame_analysis",
+        "found_year": "1974",
+        "year_status": "verified",
+        "evidence_url": "https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=1355&context=capstone_masters",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_GROUPTHINK",
+      "title_zh": "群体思维的受害者",
+      "title_en": "Victims of Groupthink",
+      "author_zh": "欧文·贾尼斯",
+      "author_en": "Irving Janis",
+      "recorded_year": "1972",
+      "before": {
+        "book_id": "BOOK_GROUPTHINK",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Victims of Groupthink\" janis wikipedia",
+        "\"Victims of Groupthink\" janis book published",
+        "\"Victims of Groupthink\" janis \"first published\" OR 1972"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Irving_Janis",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Irving Janis"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Groupthink",
+          "kind": "wiki_verified",
+          "found_year": "1972"
+        }
+      ],
+      "evidence_excerpt": "blication of Janis' book Victims of Groupthink in 1972,[11] and a revised edition with the title Gr",
+      "status": "enriched_wiki",
+      "after": {
+        "book_id": "BOOK_GROUPTHINK",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Groupthink",
+        "found_year": "1972",
+        "year_status": "verified",
+        "evidence_url": "https://en.wikipedia.org/wiki/Groupthink",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_HUMAN_NATURE_SOCIAL_ORDER",
+      "title_zh": "人类本性与社会秩序",
+      "title_en": "Human Nature and the Social Order",
+      "author_zh": "库利",
+      "author_en": "Charles Horton Cooley",
+      "recorded_year": "1902",
+      "before": {
+        "book_id": "BOOK_HUMAN_NATURE_SOCIAL_ORDER",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Human Nature and the Social Order\" cooley wikipedia",
+        "\"Human Nature and the Social Order\" cooley book published",
+        "\"Human Nature and the Social Order\" cooley \"first published\" OR 1902"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Charles_Horton_Cooley",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Charles Horton Cooley"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Looking-glass_self",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Looking-glass self"
+        },
+        {
+          "url": "https://www.routledge.com/Human-Nature-and-the-Social-Order/Cooley/p/book/9780878559183",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "1902"
+        }
+      ],
+      "evidence_excerpt": "with the publication of Human Nature and the Social Order in 1902. Human Nature and the Social Order is someth",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_HUMAN_NATURE_SOCIAL_ORDER",
+        "wikipedia_url": "",
+        "found_year": "1902",
+        "year_status": "verified",
+        "evidence_url": "https://www.routledge.com/Human-Nature-and-the-Social-Order/Cooley/p/book/9780878559183",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_INTERNET_COMMUNICATION_INTRO",
+      "title_zh": "网络传播概论",
+      "title_en": "Introduction to Internet Communication",
+      "author_zh": "彭兰",
+      "author_en": "Peng Lan",
+      "recorded_year": "2001",
+      "before": {
+        "book_id": "BOOK_INTERNET_COMMUNICATION_INTRO",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"网络传播概论\" 彭兰 维基百科",
+        "\"网络传播概论\" 彭兰 出版社 出版",
+        "\"网络传播概论\" 彭兰 2001 初版 OR 维基文库 OR 百度百科",
+        "\"Introduction to Internet Communication\" lan wikipedia"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%AA%92%E9%AB%94",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新媒體"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E7%88%AD%E8%AD%B0%E5%88%97%E8%A1%A8",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "維基百科爭議列表"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%9D%92%E6%B5%B7%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E5%8F%B0",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "青海广播电视台"
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E4%BC%A0%E6%92%AD%E6%A6%82%E8%AE%BA/20863866",
+          "tier": 4,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "2001"
+        }
+      ],
+      "evidence_excerpt": "年中国人民大学出版社出版的图书 展开7个同名词条 《网络传播概论》初版于2001年，由中国人民大学新闻学院教授彭兰编写，第三版于2012年由中国人民大学出版社出版 [6-7",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_INTERNET_COMMUNICATION_INTRO",
+        "wikipedia_url": "",
+        "found_year": "2001",
+        "year_status": "verified",
+        "evidence_url": "https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E4%BC%A0%E6%92%AD%E6%A6%82%E8%AE%BA/20863866",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_JOURNALISM_INTRODUCTION",
+      "title_zh": "新闻学概论",
+      "title_en": "Introduction to Journalism",
+      "author_zh": "李良荣",
+      "author_en": "Li Liangrong",
+      "recorded_year": "1985",
+      "before": {
+        "book_id": "BOOK_JOURNALISM_INTRODUCTION",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"新闻学概论\" 李良荣 维基百科",
+        "\"新闻学概论\" 李良荣 出版社 出版",
+        "\"新闻学概论\" 李良荣 1985 初版 OR 维基文库 OR 百度百科",
+        "\"Introduction to Journalism\" liangrong wikipedia"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E6%96%B0%E8%81%9E",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "阿拉伯新聞"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E9%80%A0%E5%B8%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "南京造币有限公司"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Glossary_of_journalism",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Glossary of journalism"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Journalist",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Journalist"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Citizen_journalism",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Citizen journalism"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/History_of_journalism",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "History of journalism"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/New_Journalism",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "New Journalism"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Scoop_(news)",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Scoop (news)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Journalism",
+          "kind": "wiki_rejected_author_mismatch"
+        },
+        {
+          "url": "https://fddi.fudan.edu.cn/01/62/c19045a524642/page.htm",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "1985"
+        }
+      ],
+      "evidence_excerpt": "大纲》，但囿于当时各种原因，未能完稿。 李良荣教授传承其导师的衣钵，于1985年完成了第一本《新闻学概论》，其后又写过三本概论，最近一本由复旦大学出版社于2001年第一次出版，二十年",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_JOURNALISM_INTRODUCTION",
+        "wikipedia_url": "",
+        "found_year": "1985",
+        "year_status": "verified",
+        "evidence_url": "https://fddi.fudan.edu.cn/01/62/c19045a524642/page.htm",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_MASS_COMMUNICATION_THEORY",
+      "title_zh": "大众传播理论",
+      "title_en": "Mass Communication Theory",
+      "author_zh": "麦奎尔",
+      "author_en": "Denis McQuail",
+      "recorded_year": "1983",
+      "before": {
+        "book_id": "BOOK_MASS_COMMUNICATION_THEORY",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Mass Communication Theory\" mcquail wikipedia",
+        "\"Mass Communication Theory\" mcquail book published",
+        "\"Mass Communication Theory\" mcquail \"first published\" OR 1983"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Logo",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Logo"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Quality",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Quality"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mass_General_Brigham",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Mass General Brigham"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mass_communication",
+          "kind": "wiki_rejected_person_or_company"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Communication_theory",
+          "kind": "wiki_rejected_author_mismatch"
+        },
+        {
+          "url": "https://journals.sagepub.com/doi/10.1177/016344378400600409",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": "1984"
+        }
+      ],
+      "evidence_excerpt": "on #### Published In Go to Article first published: October 1984 Issue published: October 1984 ### Authors ##",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_MASS_COMMUNICATION_THEORY",
+        "wikipedia_url": "",
+        "found_year": "1984",
+        "year_status": "near_match",
+        "evidence_url": "https://journals.sagepub.com/doi/10.1177/016344378400600409",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_NETWORK_SOCIETY",
+      "title_zh": "网络社会的崛起",
+      "title_en": "The Rise of the Network Society",
+      "author_zh": "卡斯特",
+      "author_en": "Manuel Castells",
+      "recorded_year": "1996",
+      "before": {
+        "book_id": "BOOK_NETWORK_SOCIETY",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"The Rise of the Network Society\" castells wikipedia",
+        "\"The Rise of the Network Society\" castells book published",
+        "\"The Rise of the Network Society\" castells \"first published\" OR 1996"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Information_Age:_Economy,_Society_and_Culture",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "The Information Age: Economy, Society and Culture"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Manuel_Castells",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Manuel Castells"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Organization_theory_(Castells)",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Organization theory (Castells)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Network_society",
+          "kind": "wiki_verified",
+          "found_year": "1996"
+        }
+      ],
+      "evidence_excerpt": "nd by Manuel Castells in The Rise of the Network Society (1996), the first part of his trilogy The Informati",
+      "status": "enriched_wiki",
+      "after": {
+        "book_id": "BOOK_NETWORK_SOCIETY",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Network_society",
+        "found_year": "1996",
+        "year_status": "verified",
+        "evidence_url": "https://en.wikipedia.org/wiki/Network_society",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_NEWS_THEORY_TEN_LECTURES",
+      "title_zh": "新闻理论十讲",
+      "title_en": "Ten Lectures on Journalism Theory",
+      "author_zh": "陈力丹",
+      "author_en": "Chen Lidan",
+      "recorded_year": "2008",
+      "before": {
+        "book_id": "BOOK_NEWS_THEORY_TEN_LECTURES",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"新闻理论十讲\" 陈力丹 维基百科",
+        "\"新闻理论十讲\" 陈力丹 出版社 出版",
+        "\"新闻理论十讲\" 陈力丹 2008 初版 OR 维基文库 OR 百度百科",
+        "\"Ten Lectures on Journalism Theory\" lidan wikipedia"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻联播"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%99%88%E5%8A%9B%E4%B8%B9",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "陈力丹"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB%E5%AD%A6",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻学"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%8A%A5%E5%88%8A%E7%9A%84%E5%9B%9B%E7%A7%8D%E7%90%86%E8%AE%BA",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "报刊的四种理论"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%AB%AF%E4%BC%A0%E5%AA%92",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "端传媒"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E6%96%B0%E8%81%9E",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "阿拉伯新聞"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Media_studies",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Media studies"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/History_of_American_journalism",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "History of American journalism"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mediatization_(media)",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Mediatization (media)"
+        },
+        {
+          "url": "https://opac.gxu.edu.cn/bookInfo_01h0187615.html",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "2008"
+        }
+      ],
+      "evidence_excerpt": "价格：CNY30.00 出版：上海 :复旦大学出版社 ,2008 载体形态：322页 :图, 肖像 ;23cm 丛编：新闻传播学通",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_NEWS_THEORY_TEN_LECTURES",
+        "wikipedia_url": "",
+        "found_year": "2008",
+        "year_status": "verified",
+        "evidence_url": "https://opac.gxu.edu.cn/bookInfo_01h0187615.html",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_NORTHWEST_CORNER",
+      "title_zh": "中国的西北角",
+      "title_en": "China's Northwest Corner",
+      "author_zh": "范长江",
+      "author_en": "Fan Changjiang",
+      "recorded_year": "1936",
+      "before": {
+        "book_id": "BOOK_NORTHWEST_CORNER",
+        "wikipedia_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E7%9A%84%E8%A5%BF%E5%8C%97%E8%A7%92",
+        "found_year": "",
+        "year_status": "no_year_found",
+        "evidence_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E7%9A%84%E8%A5%BF%E5%8C%97%E8%A7%92",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E7%9A%84%E8%A5%BF%E5%8C%97%E8%A7%92",
+          "kind": "existing_wikipedia_fetch",
+          "ok": true,
+          "found_year": "1936"
+        }
+      ],
+      "evidence_excerpt": "行记者的沿途见闻，向读者报道了当时中国工农红军长征的情况，《大公报》于1936年8月将其通讯集册出版。 ## 主题 [编辑] 维基共享资源上的相关多媒体资源：中国的西北角 在《中国的",
+      "status": "filled_year_only",
+      "after": {
+        "book_id": "BOOK_NORTHWEST_CORNER",
+        "wikipedia_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E7%9A%84%E8%A5%BF%E5%8C%97%E8%A7%92",
+        "found_year": "1936",
+        "year_status": "verified",
+        "evidence_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E7%9A%84%E8%A5%BF%E5%8C%97%E8%A7%92",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_NO_SENSE_OF_PLACE",
+      "title_zh": "消失的地域",
+      "title_en": "No Sense of Place",
+      "author_zh": "梅罗维茨",
+      "author_en": "Joshua Meyrowitz",
+      "recorded_year": "1985",
+      "before": {
+        "book_id": "BOOK_NO_SENSE_OF_PLACE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"No Sense of Place\" meyrowitz wikipedia",
+        "\"No Sense of Place\" meyrowitz book published",
+        "\"No Sense of Place\" meyrowitz \"first published\" OR 1985"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Medium_theory",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Medium theory"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Joshua_Meyrowitz",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Joshua Meyrowitz"
+        },
+        {
+          "url": "https://global.oup.com/academic/product/no-sense-of-place-9780195042313",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": ""
+        }
+      ],
+      "evidence_excerpt": "An award-winning seminal book that develops a groundbreaking theory on how changes in media influence everyday social behavior and identity. Rather than focusin",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_NO_SENSE_OF_PLACE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_year_found",
+        "evidence_url": "https://global.oup.com/academic/product/no-sense-of-place-9780195042313",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_ORAL_WRITTEN_CULTURE",
+      "title_zh": "口语文化与书面文化",
+      "title_en": "Orality and Literacy",
+      "author_zh": "沃尔特·翁",
+      "author_en": "Walter Ong",
+      "recorded_year": "1982",
+      "before": {
+        "book_id": "BOOK_ORAL_WRITTEN_CULTURE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Orality and Literacy\" ong wikipedia",
+        "\"Orality and Literacy\" ong book published",
+        "\"Orality and Literacy\" ong \"first published\" OR 1982"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Secondary_orality",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Secondary orality"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Orality",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Orality"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Walter_J._Ong",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Walter J. Ong"
+        },
+        {
+          "url": "https://books.google.com/books/about/Orality_and_Literacy.html?id=Ys8gGDZQHQ4C",
+          "tier": 3,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "2012"
+        }
+      ],
+      "evidence_excerpt": "er J. Ong, John Hartley Routledge, 2012 - 232페이지 Walter J. Ong's classic",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_ORAL_WRITTEN_CULTURE",
+        "wikipedia_url": "",
+        "found_year": "2012",
+        "year_status": "mismatch",
+        "evidence_url": "https://books.google.com/books/about/Orality_and_Literacy.html?id=Ys8gGDZQHQ4C",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_PEOPLES_CHOICE",
+      "title_zh": "人民的选择",
+      "title_en": "The People's Choice",
+      "author_zh": "拉扎斯菲尔德",
+      "author_en": "Paul Lazarsfeld",
+      "recorded_year": "1944",
+      "before": {
+        "book_id": "BOOK_PEOPLES_CHOICE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"The People's Choice\" lazarsfeld wikipedia",
+        "\"The People's Choice\" lazarsfeld book published",
+        "\"The People's Choice\" lazarsfeld \"first published\" OR 1944"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Paul_Lazarsfeld",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Paul Lazarsfeld"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Multi-step_flow_theory",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Multi-step flow theory"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Two-step_flow_of_communication",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Two-step flow of communication"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Paul_Atanga_Nji",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Paul Atanga Nji"
+        },
+        {
+          "url": "https://www.britannica.com/topic/The-Peoples-Choice",
+          "tier": 1,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": "1944"
+        }
+      ],
+      "evidence_excerpt": "ernard Berelson, and Hazel Gaudet, published in 1944. This book introduced the two-step flow mode",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_PEOPLES_CHOICE",
+        "wikipedia_url": "",
+        "found_year": "1944",
+        "year_status": "verified",
+        "evidence_url": "https://www.britannica.com/topic/The-Peoples-Choice",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_PERSONAL_INFLUENCE",
+      "title_zh": "个人影响",
+      "title_en": "Personal Influence",
+      "author_zh": "卡茨",
+      "author_en": "Elihu Katz",
+      "recorded_year": "1955",
+      "before": {
+        "book_id": "BOOK_PERSONAL_INFLUENCE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Personal Influence\" katz wikipedia",
+        "\"Personal Influence\" katz book published",
+        "\"Personal Influence\" katz \"first published\" OR 1955"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Two-step_flow_of_communication",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Two-step flow of communication"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Elihu_Katz",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Elihu Katz"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Paul_Lazarsfeld",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Paul Lazarsfeld"
+        },
+        {
+          "url": "https://www.routledge.com/Personal-Influence-The-Part-Played-by-People-in-the-Flow-of-Mass-Communications/Katz-Lazarsfeld-Roper/p/book/9781412805070",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "1955"
+        }
+      ],
+      "evidence_excerpt": "rchase)Opens in new tab or window First published in 1955, \"Personal Influence\" reports the results of",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_PERSONAL_INFLUENCE",
+        "wikipedia_url": "",
+        "found_year": "1955",
+        "year_status": "verified",
+        "evidence_url": "https://www.routledge.com/Personal-Influence-The-Part-Played-by-People-in-the-Flow-of-Mass-Communications/Katz-Lazarsfeld-Roper/p/book/9781412805070",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_POLITICAL_ECONOMY_COMMUNICATION",
+      "title_zh": "传播政治经济学",
+      "title_en": "The Political Economy of Communication",
+      "author_zh": "文森特·莫斯可",
+      "author_en": "Vincent Mosco",
+      "recorded_year": "1996",
+      "before": {
+        "book_id": "BOOK_POLITICAL_ECONOMY_COMMUNICATION",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"The Political Economy of Communication\" mosco wikipedia",
+        "\"The Political Economy of Communication\" mosco book published",
+        "\"The Political Economy of Communication\" mosco \"first published\" OR 1996"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Political_economy_of_communications",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Political economy of communications"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Christian_Fuchs_(sociologist)",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Christian Fuchs (sociologist)"
+        },
+        {
+          "url": "https://perpus.filsafat.ugm.ac.id/wp-content/uploads/sites/230/2017/11/S2-Vincent_Mosco-The_Political_Economy_of_Communication_2nd_ed-Sage_Publications_Ltd.2009-.pdf",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": "1996"
+        }
+      ],
+      "evidence_excerpt": "Vincent Mosco © Vincent Mosco 2009 First published 1996 This edition 2009 Apart from any fair dealin",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_POLITICAL_ECONOMY_COMMUNICATION",
+        "wikipedia_url": "",
+        "found_year": "1996",
+        "year_status": "verified",
+        "evidence_url": "https://perpus.filsafat.ugm.ac.id/wp-content/uploads/sites/230/2017/11/S2-Vincent_Mosco-The_Political_Economy_of_Communication_2nd_ed-Sage_Publications_Ltd.2009-.pdf",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_PREFACE_PLATO",
+      "title_zh": "柏拉图导论",
+      "title_en": "Preface to Plato",
+      "author_zh": "埃里克·哈弗洛克",
+      "author_en": "Eric Havelock",
+      "recorded_year": "1963",
+      "before": {
+        "book_id": "BOOK_PREFACE_PLATO",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Preface to Plato\" havelock wikipedia",
+        "\"Preface to Plato\" havelock book published",
+        "\"Preface to Plato\" havelock \"first published\" OR 1963"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Eric_A._Havelock",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Eric A. Havelock"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Plato",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Plato"
+        },
+        {
+          "url": "https://monoskop.org/images/0/0d/Havelock_Eric_A_Preface_to_Plato.pdf",
+          "tier": 3,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": ""
+        },
+        {
+          "url": "https://archive.org/details/prefacetoplato01have",
+          "tier": 3,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "1963"
+        }
+      ],
+      "evidence_excerpt": "1963",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_PREFACE_PLATO",
+        "wikipedia_url": "",
+        "found_year": "1963",
+        "year_status": "verified",
+        "evidence_url": "https://archive.org/details/prefacetoplato01have",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_PROPAGANDA_TECHNIQUE",
+      "title_zh": "世界大战中的宣传技巧",
+      "title_en": "Propaganda Technique in the World War",
+      "author_zh": "拉斯韦尔",
+      "author_en": "Harold Lasswell",
+      "recorded_year": "1927",
+      "before": {
+        "book_id": "BOOK_PROPAGANDA_TECHNIQUE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Propaganda Technique in the World War\" lasswell wikipedia",
+        "\"Propaganda Technique in the World War\" lasswell book published",
+        "\"Propaganda Technique in the World War\" lasswell \"first published\" OR 1927"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Harold_Lasswell",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Harold Lasswell"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Propaganda_techniques",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Propaganda techniques"
+        },
+        {
+          "url": "https://www.britannica.com/topic/Propaganda-Technique-in-the-World-War",
+          "tier": 1,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": "1927"
+        }
+      ],
+      "evidence_excerpt": "ummary Harold Lasswell's Propaganda Technique in the World War (1927) is a foundational analysis of the propaganda",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_PROPAGANDA_TECHNIQUE",
+        "wikipedia_url": "",
+        "found_year": "1927",
+        "year_status": "verified",
+        "evidence_url": "https://www.britannica.com/topic/Propaganda-Technique-in-the-World-War",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_REPUBLIC_COM",
+      "title_zh": "网络共和国",
+      "title_en": "Republic.com",
+      "author_zh": "桑斯坦",
+      "author_en": "Cass R. Sunstein",
+      "recorded_year": "2001",
+      "before": {
+        "book_id": "BOOK_REPUBLIC_COM",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Republic.com\" sunstein wikipedia",
+        "\"Republic.com\" sunstein book published",
+        "\"Republic.com\" sunstein \"first published\" OR 2001"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cass_Sunstein",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Cass Sunstein"
+        },
+        {
+          "url": "https://chicagounbound.uchicago.edu/books/811",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "2001"
+        }
+      ],
+      "evidence_excerpt": "ation Cass R. Sunstein, Republic.com (Princeton University Press, 2001). Full text not available in ChicagoUnbound.",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_REPUBLIC_COM",
+        "wikipedia_url": "",
+        "found_year": "2001",
+        "year_status": "verified",
+        "evidence_url": "https://chicagounbound.uchicago.edu/books/811",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_SHENGSHI_WEIYAN",
+      "title_zh": "盛世危言",
+      "title_en": "Words of Warning to a Prosperous Age",
+      "author_zh": "郑观应",
+      "author_en": "Zheng Guanying",
+      "recorded_year": "1894",
+      "before": {
+        "book_id": "BOOK_SHENGSHI_WEIYAN",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Words_of_Warning_to_a_Prosperous_Age",
+        "found_year": "",
+        "year_status": "no_year_found",
+        "evidence_url": "https://en.wikipedia.org/wiki/Words_of_Warning_to_a_Prosperous_Age",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Words_of_Warning_to_a_Prosperous_Age",
+          "kind": "existing_wikipedia_fetch",
+          "ok": true,
+          "found_year": "1893"
+        }
+      ],
+      "evidence_excerpt": "s Age was completed in 1892[7] and first published in 1893.[8] In the book, Zheng suggested the establi",
+      "status": "filled_year_only",
+      "after": {
+        "book_id": "BOOK_SHENGSHI_WEIYAN",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Words_of_Warning_to_a_Prosperous_Age",
+        "found_year": "1893",
+        "year_status": "near_match",
+        "evidence_url": "https://en.wikipedia.org/wiki/Words_of_Warning_to_a_Prosperous_Age",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_SPIRAL_OF_SILENCE",
+      "title_zh": "沉默的螺旋",
+      "title_en": "The Spiral of Silence",
+      "author_zh": "诺依曼",
+      "author_en": "Elisabeth Noelle-Neumann",
+      "recorded_year": "1984",
+      "before": {
+        "book_id": "BOOK_SPIRAL_OF_SILENCE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"The Spiral of Silence\" neumann wikipedia",
+        "\"The Spiral of Silence\" neumann book published",
+        "\"The Spiral of Silence\" neumann \"first published\" OR 1984"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Elisabeth_Noelle-Neumann",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Elisabeth Noelle-Neumann"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/WeWork",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "WeWork"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Spiral_of_silence",
+          "kind": "wiki_verified",
+          "found_year": ""
+        },
+        {
+          "url": "https://academic.oup.com/ijpor/article-abstract/12/1/3/739823",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": "1974"
+        }
+      ],
+      "evidence_excerpt": "s have been conducted on the spiral of silence since Noelle-Neumann (1974) formulated the th",
+      "status": "enriched_wiki",
+      "after": {
+        "book_id": "BOOK_SPIRAL_OF_SILENCE",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Spiral_of_silence",
+        "found_year": "1974",
+        "year_status": "mismatch",
+        "evidence_url": "https://academic.oup.com/ijpor/article-abstract/12/1/3/739823",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_TAOFEN_WENJI",
+      "title_zh": "韬奋文集",
+      "title_en": "Collected Works of Taofen",
+      "author_zh": "邹韬奋",
+      "author_en": "Zou Taofen",
+      "recorded_year": "1938",
+      "before": {
+        "book_id": "BOOK_TAOFEN_WENJI",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"韬奋文集\" 邹韬奋 维基百科",
+        "\"韬奋文集\" 邹韬奋 出版社 出版",
+        "\"韬奋文集\" 邹韬奋 1938 初版 OR 维基文库 OR 百度百科",
+        "\"Collected Works of Taofen\" taofen wikipedia"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/鄒韜奮",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "鄒韜奮"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%84%92%E9%9F%9C%E5%A5%AE",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "鄒韜奮"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%94%9F%E6%B4%BB_(%E5%91%A8%E5%88%8A)",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "生活 (周刊)"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%94%9F%E6%B4%BB%E4%B9%A6%E5%BA%97",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "生活书店"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Zou_Taofen",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Zou Taofen"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Selected_Works_of_Mao_Tse-Tung",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Selected Works of Mao Tse-Tung"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Selected_Works_of_Jiang_Zemin",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Selected Works of Jiang Zemin"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Acquisition",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Acquisition"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Collected_works",
+          "kind": "wiki_fetch_missing_or_disambig",
+          "ok": true
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E9%9F%AC%E5%A5%8B%E6%96%87%E9%9B%86/18768931",
+          "tier": 4,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "1955"
+        }
+      ],
+      "evidence_excerpt": "1955年",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_TAOFEN_WENJI",
+        "wikipedia_url": "",
+        "found_year": "1955",
+        "year_status": "mismatch",
+        "evidence_url": "https://baike.baidu.com/item/%E9%9F%AC%E5%A5%8B%E6%96%87%E9%9B%86/18768931",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_UNDERSTANDING_POPULAR_CULTURE",
+      "title_zh": "理解大众文化",
+      "title_en": "Understanding Popular Culture",
+      "author_zh": "费斯克",
+      "author_en": "John Fiske",
+      "recorded_year": "1989",
+      "before": {
+        "book_id": "BOOK_UNDERSTANDING_POPULAR_CULTURE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"Understanding Popular Culture\" fiske wikipedia",
+        "\"Understanding Popular Culture\" fiske book published",
+        "\"Understanding Popular Culture\" fiske \"first published\" OR 1989"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/John_Fiske_(media_scholar)",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "John Fiske (media scholar)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Popular_culture",
+          "kind": "wiki_rejected_author_mismatch"
+        },
+        {
+          "url": "https://www.taylorfrancis.com/books/mono/10.4324/9780203837177/understanding-popular-culture-john-fiske",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": false,
+          "found_year": ""
+        },
+        {
+          "url": "https://www.routledge.com/Understanding-Popular-Culture/Fiske/p/book/9780415596534",
+          "tier": 2,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": ""
+        }
+      ],
+      "evidence_excerpt": "When it was first written, _Understanding Popular Culture_ took a groundbreaking approach to studying such cultural artifacts as jeans, shopping malls, tabloid ",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_UNDERSTANDING_POPULAR_CULTURE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_year_found",
+        "evidence_url": "https://www.taylorfrancis.com/books/mono/10.4324/9780203837177/understanding-popular-culture-john-fiske",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_XINWENXUE",
+      "title_zh": "新闻学",
+      "title_en": "Journalism",
+      "author_zh": "徐宝璜",
+      "author_en": "Xu Baohuang",
+      "recorded_year": "1919",
+      "before": {
+        "book_id": "BOOK_XINWENXUE",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"新闻学\" 徐宝璜 维基百科",
+        "\"新闻学\" 徐宝璜 出版社 出版",
+        "\"新闻学\" 徐宝璜 1919 初版 OR 维基文库 OR 百度百科"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%AE%9D%E7%92%9C",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "徐宝璜"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%96%B0%E9%97%BB%E5%AD%A6%E7%A0%94%E7%A9%B6%E4%BC%9A",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "北京大学新闻学研究会"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB%E5%AD%A6%E5%8F%B2",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻学史"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB%E4%B8%8E%E4%BC%A0%E6%92%AD%E7%A0%94%E7%A9%B6",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻与传播研究"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E6%96%B0%E8%81%9E",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "阿拉伯新聞"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB%E5%AD%A6",
+          "kind": "wiki_rejected_author_mismatch"
+        },
+        {
+          "url": "http://www.xinhuanet.com/zgjx/2018-10/26/c_137559491.htm",
+          "tier": 4,
+          "kind": "auth_verified",
+          "dedicated": false,
+          "fetched_ok": true,
+          "found_year": "1919"
+        }
+      ],
+      "evidence_excerpt": "稽互证，为此《新闻学》一篇，在我国新闻界实为‘破天荒’之作”。这本书自1919年初版后，先后6次再版，直到现在还是新闻学的重要参考书。 除了在北大教书外，徐宝璜还在民国大学",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_XINWENXUE",
+        "wikipedia_url": "",
+        "found_year": "1919",
+        "year_status": "verified",
+        "evidence_url": "http://www.xinhuanet.com/zgjx/2018-10/26/c_137559491.htm",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "book_id": "BOOK_YANSHAN_YEHUA",
+      "title_zh": "燕山夜话",
+      "title_en": "Evening Talks at Yanshan",
+      "author_zh": "邓拓",
+      "author_en": "Deng Tuo",
+      "recorded_year": "1961",
+      "before": {
+        "book_id": "BOOK_YANSHAN_YEHUA",
+        "wikipedia_url": "",
+        "found_year": "",
+        "year_status": "no_wiki_hit",
+        "evidence_url": "",
+        "enriched_at": "2026-09-17"
+      },
+      "queries": [
+        "\"燕山夜话\" 邓拓 维基百科",
+        "\"燕山夜话\" 邓拓 出版社 出版",
+        "\"燕山夜话\" 邓拓 1961 初版 OR 维基文库 OR 百度百科",
+        "\"Evening Talks at Yanshan\" tuo wikipedia"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%82%93%E6%8B%93",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "邓拓"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%AE%B6%E6%9D%91_(%E6%96%87%E9%9D%A9%E7%94%A8%E8%AA%9E)",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "三家村 (文革用語)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yanshan",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Yanshan"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yanshan_University",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Yanshan University"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yan%27an_Forum",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Yan'an Forum"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Informal_Talks",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Informal Talks"
+        },
+        {
+          "url": "http://www.chinawriter.com.cn/n1/2018/0426/c404063-29952901.html",
+          "tier": 4,
+          "kind": "auth_verified",
+          "dedicated": true,
+          "fetched_ok": true,
+          "found_year": "1980"
+        }
+      ],
+      "evidence_excerpt": "词，标注了这批知识性杂文的写作路径。 福建人民出版社在“文革”结束后1980年出版的《忆邓拓》一书中，收有当年《北京晚报》五色土副刊编辑顾行、刘孟洪的回忆文章《邓拓同志和他",
+      "status": "enriched_evidence",
+      "after": {
+        "book_id": "BOOK_YANSHAN_YEHUA",
+        "wikipedia_url": "",
+        "found_year": "1980",
+        "year_status": "mismatch",
+        "evidence_url": "http://www.chinawriter.com.cn/n1/2018/0426/c404063-29952901.html",
+        "enriched_at": "2026-11-26"
+      }
+    }
+  ],
+  "scholars": [
+    {
+      "scholar_id": "SCH_BURSON",
+      "name_zh": "哈罗德·伯森",
+      "name_en": "Harold Burson",
+      "active_year": "1953",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_BURSON",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"Harold Burson\" Burson-Marsteller public relations wikipedia",
+        "\"Harold Burson\" Burson-Marsteller public relations professor OR biography OR obituary",
+        "\"Harold Burson\" obituary OR \"in memoriam\" OR remembering OR biography"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Burson_(company)",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Burson (company)"
+        },
+        {
+          "url": "https://www.prsa.org/article/remembering-harold-burson-1921-2020",
+          "tier": 1,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "burson-marsteller",
+            "boston university",
+            "communications",
+            "prsa",
+            "communication",
+            "public relations",
+            "desc:Burson-Marsteller"
+          ],
+          "lifespan": {
+            "birth_year": "1921",
+            "death_year": "2020",
+            "living_confirmed": false,
+            "birth_excerpt": "Harold Burson (1921-2020) | PRSA PRSA Logo Welcome . Logout - Accreditation in Public Relations (APR)) # Remembering Harold Burson (1921-2020) #####",
+            "death_excerpt": "Harold Burson (1921-2020) | PRSA PRSA Logo Welcome . Logout - Accreditation in Public Relations (APR)) # Remembering Harold Burson (1921-2020) #####",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_evidence",
+      "after": {
+        "scholar_id": "SCH_BURSON",
+        "wikipedia_url": "",
+        "birth_year": "1921",
+        "death_year": "2020",
+        "evidence_url": "https://www.prsa.org/article/remembering-harold-burson-1921-2020",
+        "method": "magpie_web_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_DAN_SCHILLER",
+      "name_zh": "丹·席勒",
+      "name_en": "Dan Schiller",
+      "active_year": "1999",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_DAN_SCHILLER",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"Dan Schiller\" Digital Capitalism communication Illinois wikipedia",
+        "\"Dan Schiller\" Digital Capitalism communication Illinois professor OR biography OR obituary",
+        "\"Dan Schiller\" obituary OR \"in memoriam\" OR remembering OR biography"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Herbert_Schiller",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Herbert Schiller"
+        },
+        {
+          "url": "http://ischool.illinois.edu/people/dan-schiller",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "illinois",
+            "communications",
+            "media",
+            "press",
+            "journalism",
+            "political economy",
+            "communication",
+            "digital capitalism"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/20570473231160594",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "illinois",
+            "communications",
+            "press",
+            "journalism",
+            "political economy",
+            "communication",
+            "digital capitalism"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://www.press.uillinois.edu/wordpress/qa-with-digital-depression-author-dan-schiller",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "illinois",
+            "sociology",
+            "communications",
+            "media",
+            "press",
+            "newspaper",
+            "political economy",
+            "communication",
+            "digital capitalism"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://mitpress.mit.edu/9780262692335/digital-capitalism",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "illinois",
+            "media",
+            "political economy",
+            "communication",
+            "digital capitalism"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_evidence",
+      "after": {
+        "scholar_id": "SCH_DAN_SCHILLER",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "http://ischool.illinois.edu/people/dan-schiller",
+        "method": "magpie_web_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_GUO_QINGGUANG",
+      "name_zh": "郭庆光",
+      "name_en": "Guo Qingguang",
+      "active_year": "1999",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_GUO_QINGGUANG",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"郭庆光\" 人民大学 新闻学 维基百科",
+        "\"郭庆光\" 人民大学 新闻学 出生 OR 简历 OR 教授",
+        "\"郭庆光\" 人民大学 新闻学 百度百科"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6%E6%96%B0%E9%97%BB%E5%AD%A6%E9%99%A2",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "中国人民大学新闻学院"
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E9%83%AD%E5%BA%86%E5%85%89/38180",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "新闻学",
+            "传播学",
+            "新闻传播",
+            "社会学",
+            "中国人民大学"
+          ],
+          "lifespan": {
+            "birth_year": "1956",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "更新 订阅更新 0有用+1 郭庆光，男，1956年出生于山东，1982年毕业于 中国人民大学新闻系。曾任中国人民大学新闻学院执行院长。兼任国务院新闻传播学",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "http://jcr.ruc.edu.cn/jzyg/rxjs/040ebcd6e04b4aa0ae71163fbc602e2f.htm",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "新闻学",
+            "传播学",
+            "新闻传播",
+            "媒介",
+            "媒体",
+            "中国人民大学",
+            "book:传播学教程"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "http://jcr.ruc.edu.cn/xwgg/xwdt/index84.htm",
+          "tier": 2,
+          "kind": "auth_name_rejected"
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E4%BC%A0%E6%92%AD%E5%AD%A6%E6%95%99%E7%A8%8B/10285660",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "新闻学",
+            "传播学",
+            "新闻传播",
+            "媒介",
+            "公关",
+            "社会学",
+            "中国人民大学",
+            "清华大学",
+            "book:传播学教程"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6%E6%96%B0%E9%97%BB%E5%AD%A6%E9%99%A2/4453550",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "新闻学",
+            "传播学",
+            "新闻传播",
+            "媒介",
+            "舆论",
+            "中国人民大学",
+            "book:传播学教程"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E4%BC%A0%E6%92%AD%E5%AD%A6%E6%95%99%E7%A8%8B/63590815",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "传播学",
+            "中国人民大学",
+            "book:传播学教程"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_evidence",
+      "after": {
+        "scholar_id": "SCH_GUO_QINGGUANG",
+        "wikipedia_url": "",
+        "birth_year": "1956",
+        "death_year": "",
+        "evidence_url": "https://baike.baidu.com/item/%E9%83%AD%E5%BA%86%E5%85%89/38180",
+        "method": "magpie_web_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_LI_LIANGRONG",
+      "name_zh": "李良荣",
+      "name_en": "Li Liangrong",
+      "active_year": "1985",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_LI_LIANGRONG",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"李良荣\" 复旦 新闻学 维基百科",
+        "\"李良荣\" 复旦 新闻学 出生 OR 简历 OR 教授",
+        "\"李良荣\" 复旦 新闻学 百度百科"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E6%96%B0%E8%81%9E",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "阿拉伯新聞"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E9%80%A0%E5%B8%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "南京造币有限公司"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%89%AF%E8%8D%A3",
+          "kind": "wiki_rejected_field_mismatch",
+          "rel_hits": []
+        },
+        {
+          "url": "https://fddi.fudan.edu.cn/_t2515/cb/f1/c23477a248817/page.htm",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "新闻学",
+            "传播学",
+            "新闻传播",
+            "媒介",
+            "媒体",
+            "社会学",
+            "复旦大学",
+            "传播与国家治理",
+            "book:新闻学概论"
+          ],
+          "lifespan": {
+            "birth_year": "1946",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "江传媒学院新闻与传播学院院长 李良荣，1946年1月生，浙江宁波人，复旦大学著名新闻学教授，复旦大学传播与国家治理研究中心主任，原教育部高等学校新闻学学科",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://xwxy.fudan.edu.cn/ab/01/c41191a502529/page.htm",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "新闻学",
+            "新闻传播",
+            "媒介",
+            "媒体",
+            "记者",
+            "报刊",
+            "舆论",
+            "复旦大学",
+            "book:新闻学概论"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E6%96%B0%E4%B8%96%E7%BA%AA%E7%9A%84%E6%8E%A2%E7%B4%A2%EF%BC%9A%E6%9D%8E%E8%89%AF%E8%8D%A3%E6%96%B0%E4%B8%96%E7%BA%AA%E6%96%B0%E9%97%BB%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%96%87%E9%9B%86/19903297",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "新闻学",
+            "媒体",
+            "复旦大学",
+            "book:新闻学概论"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E6%9D%8E%E8%89%AF%E8%8D%A3%E8%87%AA%E9%80%89%E9%9B%86%EF%BC%9A%E6%96%B0%E9%97%BB%E6%94%B9%E9%9D%A9%E7%9A%84%E6%8E%A2%E7%B4%A2/18706610",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "传播学",
+            "新闻传播",
+            "复旦大学"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E6%96%B0%E4%BC%A0%E6%92%AD%E9%9D%A9%E5%91%BD/19224697",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "新闻传播",
+            "复旦大学",
+            "传播与国家治理"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_evidence",
+      "after": {
+        "scholar_id": "SCH_LI_LIANGRONG",
+        "wikipedia_url": "",
+        "birth_year": "1946",
+        "death_year": "",
+        "evidence_url": "https://fddi.fudan.edu.cn/_t2515/cb/f1/c23477a248817/page.htm",
+        "method": "magpie_web_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_MORLEY",
+      "name_zh": "莫利",
+      "name_en": "David Morley",
+      "active_year": "1980",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_MORLEY",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"David Morley\" Goldsmiths media communications wikipedia",
+        "\"David Morley\" Goldsmiths media communications professor OR biography OR obituary",
+        "\"David Morley\" obituary OR \"in memoriam\" OR remembering OR biography"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Nationwide_Project",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "The Nationwide Project"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/w:Nexstar_Media_Group",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "w:Nexstar Media Group"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/David_Morley",
+          "kind": "wiki_fetch_missing_or_disambig"
+        },
+        {
+          "url": "https://monoskop.org/David_Morley",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "television",
+            "cultural studies",
+            "communications",
+            "media",
+            "goldsmiths",
+            "communication",
+            "nationwide audience"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://www.gold.ac.uk/media-communications/people/morley",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "television",
+            "broadcast",
+            "cultural studies",
+            "broadcasting",
+            "communications",
+            "media",
+            "press",
+            "goldsmiths",
+            "journalism",
+            "communication"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://archiveshub.jisc.ac.uk/data/gb150-us131",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "television",
+            "cultural studies",
+            "communications",
+            "media",
+            "communication",
+            "nationwide audience"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://www.uoc.edu/en/news/2025/interview-david-morley",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "television",
+            "cultural studies",
+            "communications",
+            "media",
+            "goldsmiths",
+            "sociologist",
+            "communication",
+            "digital capitalism",
+            "nationwide audience"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_evidence",
+      "after": {
+        "scholar_id": "SCH_MORLEY",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "https://monoskop.org/David_Morley",
+        "method": "magpie_web_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_MURDOCK",
+      "name_zh": "格雷厄姆·默多克",
+      "name_en": "Graham Murdock",
+      "active_year": "1982",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_MURDOCK",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"Graham Murdock\" media political economy communication wikipedia",
+        "\"Graham Murdock\" media political economy communication professor OR biography OR obituary",
+        "\"Graham Murdock\" obituary OR \"in memoriam\" OR remembering OR biography"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Media_imperialism",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Media imperialism"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Political_economy_of_communications",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Political economy of communications"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Social_media_marketing",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Social media marketing"
+        },
+        {
+          "url": "https://www.lborolondon.ac.uk/staff/graham-murdock",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "sociology",
+            "cultural studies",
+            "communications",
+            "media",
+            "press",
+            "loughborough",
+            "journalism",
+            "political economy",
+            "communication"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://www.intellectbooks.com/graham-murdock",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "television",
+            "sociology",
+            "cultural studies",
+            "media",
+            "press",
+            "loughborough",
+            "journalism",
+            "political economy",
+            "communication"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://www.ae-info.org/ae/User/Murdock_Graham/CV",
+          "tier": 1,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "sociology",
+            "communications",
+            "media",
+            "press",
+            "loughborough",
+            "political economy",
+            "communication"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_evidence",
+      "after": {
+        "scholar_id": "SCH_MURDOCK",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "https://www.lborolondon.ac.uk/staff/graham-murdock",
+        "method": "magpie_web_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_NYSTROM",
+      "name_zh": "克里斯汀·尼斯特龙",
+      "name_en": "Christine Nystrom",
+      "active_year": "1973",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_NYSTROM",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"Christine Nystrom\" media ecology NYU wikipedia",
+        "\"Christine Nystrom\" media ecology NYU professor OR biography OR obituary",
+        "\"Christine Nystrom\" obituary OR \"in memoriam\" OR remembering OR biography"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Media_ecology",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Media ecology"
+        },
+        {
+          "url": "https://www.intellectbooks.com/christine-l-nystrom",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "media ecology",
+            "television",
+            "sociology",
+            "cultural studies",
+            "media",
+            "journalism",
+            "nyu",
+            "communication"
+          ],
+          "lifespan": {
+            "birth_year": "1941",
+            "death_year": "2010",
+            "living_confirmed": false,
+            "birth_excerpt": "Nystrom (1941–2010) taught at NYU from 1971 to 2001 and was a founder of the discipline of Media Ecology. A collection of her work, including this essay, will b",
+            "death_excerpt": "Nystrom (1941–2010) taught at NYU from 1971 to 2001 and was a founder of the discipline of Media Ecology. A collection of her work, including this essay, will b",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_evidence",
+      "after": {
+        "scholar_id": "SCH_NYSTROM",
+        "wikipedia_url": "",
+        "birth_year": "1941",
+        "death_year": "2010",
+        "evidence_url": "https://www.intellectbooks.com/christine-l-nystrom",
+        "method": "magpie_web_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_PENG_LAN",
+      "name_zh": "彭兰",
+      "name_en": "Peng Lan",
+      "active_year": "2001",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_PENG_LAN",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"彭兰\" 人民大学 清华 维基百科",
+        "\"彭兰\" 人民大学 清华 出生 OR 简历 OR 教授",
+        "\"彭兰\" 人民大学 清华 百度百科"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "清华大学"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/zh:%E6%B8%85%E8%8F%AF%E5%A4%A7%E5%AD%B8",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "zh:清華大學"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%BD%AD%E6%B8%85%E5%8D%8E",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "彭清华"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "北京大学"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "北京邮电大学"
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E5%BD%AD%E5%85%B0/7859094",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "新闻学",
+            "传播学",
+            "新闻传播",
+            "媒介",
+            "媒体",
+            "记者",
+            "报刊",
+            "中国人民大学",
+            "清华大学",
+            "网络传播"
+          ],
+          "lifespan": {
+            "birth_year": "1966",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "低门槛编辑特权 立即前往 彭兰，女，1966年10月生，湖南长沙人， [1] [10]教育部“长江学者”特聘教授， [34]中国人民大学新闻学院教授、博士",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E5%BD%AD%E5%85%B0/0",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "新闻学",
+            "传播学",
+            "新闻传播",
+            "媒体",
+            "中国人民大学",
+            "清华大学",
+            "网络传播",
+            "book:网络传播概论"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://jil.nju.edu.cn/gywm/cy/gwtd/20210421/i198210.html",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "新闻学",
+            "传播学",
+            "媒介",
+            "媒体",
+            "中国人民大学",
+            "网络传播",
+            "book:网络传播概论"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E6%96%B0%E5%AA%92%E4%BD%93%E7%94%A8%E6%88%B7%E7%A0%94%E7%A9%B6/57311826",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "新闻学",
+            "传播学",
+            "新闻传播",
+            "媒体",
+            "中国人民大学",
+            "清华大学",
+            "网络传播",
+            "book:网络传播概论"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E4%BC%A0%E6%92%AD%E6%A6%82%E8%AE%BA/20863866",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "新闻学",
+            "传播学",
+            "新闻传播",
+            "媒介",
+            "媒体",
+            "记者",
+            "公关",
+            "社会学",
+            "舆论",
+            "中国人民大学"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_evidence",
+      "after": {
+        "scholar_id": "SCH_PENG_LAN",
+        "wikipedia_url": "",
+        "birth_year": "1966",
+        "death_year": "",
+        "evidence_url": "https://baike.baidu.com/item/%E5%BD%AD%E5%85%B0/7859094",
+        "method": "magpie_web_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_REN_BAITAO",
+      "name_zh": "任白涛",
+      "name_en": "Ren Baitao",
+      "active_year": "1941",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_REN_BAITAO",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"任白涛\" 新闻学 综合新闻学 维基百科",
+        "\"任白涛\" 新闻学 综合新闻学 出生 OR 简历 OR 教授",
+        "\"任白涛\" 新闻学 综合新闻学 百度百科"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB%E5%AD%A6",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻学"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB%E5%AD%A6%E5%8F%B2",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻学史"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB%E4%B8%8E%E4%BC%A0%E6%92%AD%E7%A0%94%E7%A9%B6",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "新闻与传播研究"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E9%99%85%E6%96%B0%E9%97%BB%E7%95%8C",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "国际新闻界"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E6%96%B0%E8%81%9E",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "阿拉伯新聞"
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E4%BB%BB%E7%99%BD%E6%B6%9B/4652325",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "新闻学",
+            "综合新闻学",
+            "book:综合新闻学"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "http://www.nopss.gov.cn/n/2015/0626/c383527-27214523.html",
+          "tier": 3,
+          "kind": "auth_name_rejected"
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E5%BA%94%E7%94%A8%E6%96%B0%E9%97%BB%E5%AD%A6/692792",
+          "tier": 4,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "新闻学",
+            "应用新闻学"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_evidence",
+      "after": {
+        "scholar_id": "SCH_REN_BAITAO",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "https://baike.baidu.com/item/%E4%BB%BB%E7%99%BD%E6%B6%9B/4652325",
+        "method": "magpie_web_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_SHAW",
+      "name_zh": "唐纳德·肖",
+      "name_en": "Donald Shaw",
+      "active_year": "1972",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_SHAW",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"Donald Shaw\" agenda setting journalism wikipedia",
+        "\"Donald Shaw\" agenda setting journalism professor OR biography OR obituary",
+        "\"Donald Shaw\" obituary OR \"in memoriam\" OR remembering OR biography"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Agenda-setting_theory",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Agenda-setting theory"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Donald_Lewis_Shaw",
+          "kind": "wiki_verified",
+          "rel_hits": [
+            "media",
+            "press",
+            "journalism",
+            "agenda-setting",
+            "newspaper",
+            "north carolina",
+            "agenda setting",
+            "communication",
+            "iowa"
+          ],
+          "lifespan": {
+            "birth_year": "1936",
+            "death_year": "2021",
+            "living_confirmed": false,
+            "birth_excerpt": "(1936-10-27)October 27, 1936",
+            "death_excerpt": "October 19, 2021(2021-10-19) (aged84)[1]",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_wiki",
+      "after": {
+        "scholar_id": "SCH_SHAW",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Donald_Lewis_Shaw",
+        "birth_year": "1936",
+        "death_year": "2021",
+        "evidence_url": "https://en.wikipedia.org/wiki/Donald_Lewis_Shaw",
+        "method": "magpie_wiki_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_TICHENOR",
+      "name_zh": "蒂奇诺",
+      "name_en": "Phillip J. Tichenor",
+      "active_year": "1970",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_TICHENOR",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"Phillip J. Tichenor\" OR \"Phillip Tichenor\" knowledge gap Minnesota wikipedia",
+        "\"Phillip J. Tichenor\" OR \"Phillip Tichenor\" knowledge gap Minnesota professor OR biography OR obituary",
+        "\"Phillip J. Tichenor\" OR \"Phillip Tichenor\" obituary OR \"in memoriam\" OR remembering OR biography"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Knowledge_gap_hypothesis",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Knowledge gap hypothesis"
+        },
+        {
+          "url": "https://www.koopfuneralhome.com/obituaries/phillip-tichenor",
+          "tier": 3,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "sociology",
+            "knowledge gap",
+            "journalism",
+            "minnesota",
+            "communication",
+            "rural sociology"
+          ],
+          "lifespan": {
+            "birth_year": "1931",
+            "death_year": "2025",
+            "living_confirmed": false,
+            "birth_excerpt": "ft # Phillip James Tichenor ## Jul 31, 1931 — Mar 12, 2025 Phillip James Tichenor pass",
+            "death_excerpt": "ft # Phillip James Tichenor ## Jul 31, 1931 — Mar 12, 2025 Phillip James Tichenor pass",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_evidence",
+      "after": {
+        "scholar_id": "SCH_TICHENOR",
+        "wikipedia_url": "",
+        "birth_year": "1931",
+        "death_year": "2025",
+        "evidence_url": "https://www.koopfuneralhome.com/obituaries/phillip-tichenor",
+        "method": "magpie_web_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_WHITE",
+      "name_zh": "怀特",
+      "name_en": "David Manning White",
+      "active_year": "1950",
+      "subtrack": "missing_core",
+      "before": {
+        "scholar_id": "SCH_WHITE",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "",
+        "method": "no_wiki_hit",
+        "enriched_at": "2026-11-09"
+      },
+      "queries": [
+        "\"David Manning White\" gatekeeper journalism wikipedia",
+        "\"David Manning White\" gatekeeper journalism professor OR biography OR obituary",
+        "\"David Manning White\" obituary OR \"in memoriam\" OR remembering OR biography"
+      ],
+      "candidates_checked": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gatekeeping_(communication)",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "Gatekeeping (communication)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/James_David_Manning",
+          "kind": "wiki_title_rejected",
+          "wiki_title": "James David Manning"
+        },
+        {
+          "url": "https://journalism.uiowa.edu/anniversary/centennial-profiles/david-manning-white",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "propaganda",
+            "illinois",
+            "television",
+            "journalist",
+            "mass culture",
+            "communications",
+            "media",
+            "press",
+            "journalism",
+            "uiowa"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://aura-lab.siue.edu/theories/gatekeeping",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": true,
+          "rel_hits": [
+            "gatekeeper",
+            "illinois",
+            "gatekeeping",
+            "mr. gates",
+            "journalist",
+            "sociology",
+            "communications",
+            "media",
+            "press",
+            "journalism"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://scholarcommons.scu.edu/cgi/viewcontent.cgi?article=1033&context=crt",
+          "tier": 2,
+          "kind": "auth_verified",
+          "fetched_ok": false,
+          "rel_hits": [
+            "gatekeeper",
+            "gatekeeping",
+            "mr. gates",
+            "media",
+            "journalism",
+            "newspaper",
+            "communication",
+            "desc:Gates"
+          ],
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "enriched_evidence",
+      "after": {
+        "scholar_id": "SCH_WHITE",
+        "wikipedia_url": "",
+        "birth_year": "",
+        "death_year": "",
+        "evidence_url": "https://journalism.uiowa.edu/anniversary/centennial-profiles/david-manning-white",
+        "method": "magpie_web_fetch",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_AMANPOUR",
+      "name_zh": "阿曼普",
+      "name_en": "Christiane Amanpour",
+      "birth_year": "1958",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Christiane_Amanpour",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_AMANPOUR",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christiane_Amanpour",
+        "birth_year": "1958",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Christiane_Amanpour",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Christiane_Amanpour",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1958",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "Born | Christiane Maria Heideh Amanpour (1958-01-12) 12 January 1958 (age68) Ealing, Middlesex, England",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_AMANPOUR",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christiane_Amanpour",
+        "birth_year": "1958",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Christiane_Amanpour",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_BERNSTEIN",
+      "name_zh": "伯恩斯坦",
+      "name_en": "Carl Bernstein",
+      "birth_year": "1944",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Carl_Bernstein",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_BERNSTEIN",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_Bernstein",
+        "birth_year": "1944",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Carl_Bernstein",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Carl_Bernstein",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1944",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "Born | Carl Milton Bernstein (1944-02-14) February 14, 1944 (age82) Washington, D.C., U.S. Occupations | Journalist, author Employer |",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_BERNSTEIN",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_Bernstein",
+        "birth_year": "1944",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Carl_Bernstein",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_CASTELLS",
+      "name_zh": "卡斯特",
+      "name_en": "Manuel Castells",
+      "birth_year": "1942",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Manuel_Castells",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_CASTELLS",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manuel_Castells",
+        "birth_year": "1942",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Manuel_Castells",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Manuel_Castells",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1942",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "(1942-02-09) 9 February 1942 (age84)",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_CASTELLS",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manuel_Castells",
+        "birth_year": "1942",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Manuel_Castells",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_CHEN_LIDAN",
+      "name_zh": "陈力丹",
+      "name_en": "Chen Lidan",
+      "birth_year": "1951",
+      "existing_wikipedia_url": "https://zh.wikipedia.org/wiki/%E9%99%88%E5%8A%9B%E4%B8%B9",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_CHEN_LIDAN",
+        "wikipedia_url": "https://zh.wikipedia.org/wiki/%E9%99%88%E5%8A%9B%E4%B8%B9",
+        "birth_year": "1951",
+        "death_year": "",
+        "evidence_url": "https://zh.wikipedia.org/wiki/%E9%99%88%E5%8A%9B%E4%B8%B9",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      },
+      "checks": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%99%88%E5%8A%9B%E4%B8%B9",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1951",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "陈力丹（1951年2月—），男，江苏通州)人，中国新闻传播学家。现任中国人民大学荣誉一级教授，校务委员。[1][2][3] ## 生平 [编辑] 1968年至1973年，在黑龙江生产建设兵团工作；[4]1973年至1976年，以“工农兵大学生”身份就读于北京大学中文系新闻专业；[4]1976年至1978年，任《光",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_CHEN_LIDAN",
+        "wikipedia_url": "https://zh.wikipedia.org/wiki/%E9%99%88%E5%8A%9B%E4%B8%B9",
+        "birth_year": "1951",
+        "death_year": "",
+        "evidence_url": "https://zh.wikipedia.org/wiki/%E9%99%88%E5%8A%9B%E4%B8%B9",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      }
+    },
+    {
+      "scholar_id": "SCH_CHOMSKY",
+      "name_zh": "乔姆斯基",
+      "name_en": "Noam Chomsky",
+      "birth_year": "1928",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Noam_Chomsky",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_CHOMSKY",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Noam_Chomsky",
+        "birth_year": "1928",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Noam_Chomsky",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Noam_Chomsky",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1928",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "Born | Avram Noam Chomsky (1928-12-07) December 7, 1928 (age97) Philadelphia, Pennsylvania, US Occupations | Professor, public intellec",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_CHOMSKY",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Noam_Chomsky",
+        "birth_year": "1928",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Noam_Chomsky",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_CHU_ANPING",
+      "name_zh": "储安平",
+      "name_en": "Chu Anping",
+      "birth_year": "1909",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Chu_Anping",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_CHU_ANPING",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chu_Anping",
+        "birth_year": "1909",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Chu_Anping",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Chu_Anping",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1909",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "(1909-11-05)5 November 1909",
+            "death_excerpt": "",
+            "death_note": "disappeared:Disappeared | September 1966 (aged 56) Status | Missing for 56 years and 6 months Education | Kwang Hua University U"
+          }
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%82%A8%E5%AE%89%E5%B9%B3",
+          "kind": "interwiki_zh_check",
+          "lifespan": {
+            "birth_year": "1909",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "1909年11月5日",
+            "death_excerpt": "",
+            "death_note": "disappeared:失踪 | 1966年9月（57岁） 中华人民共和国北京市 失踪情况 | 1982年6月宣告死亡 国籍 | 中华人民共和国 母校 | 上海光华大学 爱丁堡大学 职业 | 思想家、学者、政治"
+          }
+        }
+      ],
+      "status": "living_or_unconfirmed",
+      "after": {
+        "scholar_id": "SCH_CHU_ANPING",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chu_Anping",
+        "birth_year": "1909",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Chu_Anping",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_DEKERCKHOVE",
+      "name_zh": "德里克·德科霍夫",
+      "name_en": "Derrick de Kerckhove",
+      "birth_year": "1944",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Derrick_de_Kerckhove",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_DEKERCKHOVE",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Derrick_de_Kerckhove",
+        "birth_year": "1944",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Derrick_de_Kerckhove",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Derrick_de_Kerckhove",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1944",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "1944 (age81–82)",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_DEKERCKHOVE",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Derrick_de_Kerckhove",
+        "birth_year": "1944",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Derrick_de_Kerckhove",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_DENG_TUO",
+      "name_zh": "邓拓",
+      "name_en": "Deng Tuo",
+      "birth_year": "1919",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Deng_Tuo",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_DENG_TUO",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Deng_Tuo",
+        "birth_year": "1919",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Deng_Tuo",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Deng_Tuo",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1911",
+            "death_year": "1966",
+            "living_confirmed": false,
+            "birth_excerpt": "uo (Chinese: 邓拓; pinyin: Dènɡ Tuò; c. 1911 – 17 May 1966), also known by the pen name Ma Na",
+            "death_excerpt": "uo (Chinese: 邓拓; pinyin: Dènɡ Tuò; c. 1911 – 17 May 1966), also known by the pen name Ma Na",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "filled_death_year",
+      "after": {
+        "scholar_id": "SCH_DENG_TUO",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Deng_Tuo",
+        "birth_year": "1919",
+        "death_year": "1966",
+        "evidence_url": "https://en.wikipedia.org/wiki/Deng_Tuo",
+        "method": "tavily_search+tavily_extract+magpie_death_year",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_ENTMAN",
+      "name_zh": "恩特曼",
+      "name_en": "Robert M. Entman",
+      "birth_year": "1950",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Entman",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_ENTMAN",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Entman",
+        "birth_year": "1950",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Robert_Entman",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Robert_Entman",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1949",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "(1949-11-07) November 7, 1949 (age77)",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_ENTMAN",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Entman",
+        "birth_year": "1950",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Robert_Entman",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      }
+    },
+    {
+      "scholar_id": "SCH_EP_THOMPSON",
+      "name_zh": "E.P.汤普森",
+      "name_en": "E.P. Thompson",
+      "birth_year": "1924",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/E._P._Thompson",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_EP_THOMPSON",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/E._P._Thompson",
+        "birth_year": "1924",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/E._P._Thompson",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/E._P._Thompson",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1924",
+            "death_year": "1993",
+            "living_confirmed": false,
+            "birth_excerpt": "Born | Edward Palmer Thompson (1924-02-03)3 February 1924 Oxford, England",
+            "death_excerpt": "28 August 1993 (aged69)",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "filled_death_year",
+      "after": {
+        "scholar_id": "SCH_EP_THOMPSON",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/E._P._Thompson",
+        "birth_year": "1924",
+        "death_year": "1993",
+        "evidence_url": "https://en.wikipedia.org/wiki/E._P._Thompson",
+        "method": "opensearch_en+tavily_extract+magpie_death_year",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_FANG_HANQI",
+      "name_zh": "方汉奇",
+      "name_en": "Fang Hanqi",
+      "birth_year": "1926",
+      "existing_wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E6%B1%89%E5%A5%87",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_FANG_HANQI",
+        "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E6%B1%89%E5%A5%87",
+        "birth_year": "1926",
+        "death_year": "",
+        "evidence_url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E6%B1%89%E5%A5%87",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      },
+      "checks": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E6%B1%89%E5%A5%87",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1926",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "方汉奇（1926年12月27日—），原名汉迁，男，汉族，广东普宁人，中国新闻史学家，曾任中国人民大学教授、博士生导师。[1][2][3][4][5] ## 参考资料 [编辑] Scholia上有关方汉奇的信息 1. ^ 廖盖隆等编. 中囯人名大辞典·当代人物卷. 上海: 上海辞书出版社. 1990. 2. ^",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_FANG_HANQI",
+        "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E6%B1%89%E5%A5%87",
+        "birth_year": "1926",
+        "death_year": "",
+        "evidence_url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E6%B1%89%E5%A5%87",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      }
+    },
+    {
+      "scholar_id": "SCH_GROSS",
+      "name_zh": "拉里·格罗斯",
+      "name_en": "Larry Gross",
+      "birth_year": "1953",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Gross",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_GROSS",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Gross",
+        "birth_year": "1953",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Larry_Gross",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Larry_Gross",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1953",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "1953 (age72–73)",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "living_or_unconfirmed",
+      "after": {
+        "scholar_id": "SCH_GROSS",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Gross",
+        "birth_year": "1953",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Larry_Gross",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_HABERMAS",
+      "name_zh": "哈贝马斯",
+      "name_en": "Jürgen Habermas",
+      "birth_year": "1929",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_HABERMAS",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas",
+        "birth_year": "1929",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1929",
+            "death_year": "2026",
+            "living_confirmed": false,
+            "birth_excerpt": "(1929-06-18)18 June 1929",
+            "death_excerpt": "14 March 2026(2026-03-14) (aged96)",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "filled_death_year",
+      "after": {
+        "scholar_id": "SCH_HABERMAS",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas",
+        "birth_year": "1929",
+        "death_year": "2026",
+        "evidence_url": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas",
+        "method": "opensearch_en+tavily_extract+magpie_death_year",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_JENKINS",
+      "name_zh": "詹金斯",
+      "name_en": "Henry Jenkins",
+      "birth_year": "1958",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Jenkins",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_JENKINS",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Jenkins",
+        "birth_year": "1958",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Henry_Jenkins",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Henry_Jenkins",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1958",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "Born | Henry Guy Jenkins III (1958-06-04) June 4, 1958 (age68) Atlanta, Georgia, United States",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_JENKINS",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Jenkins",
+        "birth_year": "1958",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Henry_Jenkins",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_LAM_HANGCHI",
+      "name_zh": "林行止",
+      "name_en": "Lam Hang-chi",
+      "birth_year": "1940",
+      "existing_wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%A1%8C%E6%AD%A2",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_LAM_HANGCHI",
+        "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%A1%8C%E6%AD%A2",
+        "birth_year": "1940",
+        "death_year": "",
+        "evidence_url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%A1%8C%E6%AD%A2",
+        "method": "opensearch_zh+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%A1%8C%E6%AD%A2",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1938",
+            "death_year": "2026",
+            "living_confirmed": false,
+            "birth_excerpt": "1938年(1938)",
+            "death_excerpt": "2026年9月6日(2026-09-06)（85—86岁）",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "filled_death_year",
+      "after": {
+        "scholar_id": "SCH_LAM_HANGCHI",
+        "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%A1%8C%E6%AD%A2",
+        "birth_year": "1940",
+        "death_year": "2026",
+        "evidence_url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%A1%8C%E6%AD%A2",
+        "method": "opensearch_zh+tavily_extract+magpie_death_year",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_LEVINSON",
+      "name_zh": "保罗·莱文森",
+      "name_en": "Paul Levinson",
+      "birth_year": "1947",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Levinson",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_LEVINSON",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Levinson",
+        "birth_year": "1947",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Paul_Levinson",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Paul_Levinson",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1947",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "(1947-03-25) March 25, 1947 (age79)",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_LEVINSON",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Levinson",
+        "birth_year": "1947",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Paul_Levinson",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_MCROBBIE",
+      "name_zh": "麦克罗比",
+      "name_en": "Angela McRobbie",
+      "birth_year": "1951",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Angela_McRobbie",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_MCROBBIE",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Angela_McRobbie",
+        "birth_year": "1951",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Angela_McRobbie",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Angela_McRobbie",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1951",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "1951 (age74–75)",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_MCROBBIE",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Angela_McRobbie",
+        "birth_year": "1951",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Angela_McRobbie",
+        "method": "opensearch_en+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_MEYROWITZ",
+      "name_zh": "梅罗维茨",
+      "name_en": "Joshua Meyrowitz",
+      "birth_year": "1949",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Joshua_Meyrowitz",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_MEYROWITZ",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joshua_Meyrowitz",
+        "birth_year": "1949",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Joshua_Meyrowitz",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joshua_Meyrowitz",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1949",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "American academic (born 1949)",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_MEYROWITZ",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joshua_Meyrowitz",
+        "birth_year": "1949",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Joshua_Meyrowitz",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_PARISER",
+      "name_zh": "帕里泽",
+      "name_en": "Eli Pariser",
+      "birth_year": "1980",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Eli_Pariser",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_PARISER",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eli_Pariser",
+        "birth_year": "1980",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Eli_Pariser",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Eli_Pariser",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1980",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "(1980-12-17) December 17, 1980 (age45)",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_PARISER",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eli_Pariser",
+        "birth_year": "1980",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Eli_Pariser",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      }
+    },
+    {
+      "scholar_id": "SCH_SHIRKY",
+      "name_zh": "克莱·舍基",
+      "name_en": "Clay Shirky",
+      "birth_year": "1964",
+      "existing_wikipedia_url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%8E%B1%C2%B7%E8%88%8D%E5%9F%BA",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_SHIRKY",
+        "wikipedia_url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%8E%B1%C2%B7%E8%88%8D%E5%9F%BA",
+        "birth_year": "1964",
+        "death_year": "",
+        "evidence_url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%8E%B1%C2%B7%E8%88%8D%E5%9F%BA",
+        "method": "opensearch_zh+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%8E%B1%C2%B7%E8%88%8D%E5%9F%BA",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1964",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "1964年（61—62岁）",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E8%8E%B1%E7%90%86",
+          "kind": "interwiki_zh_check",
+          "lifespan": {
+            "birth_year": "",
+            "death_year": "",
+            "living_confirmed": false,
+            "birth_excerpt": "",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "living_or_unconfirmed",
+      "after": {
+        "scholar_id": "SCH_SHIRKY",
+        "wikipedia_url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%8E%B1%C2%B7%E8%88%8D%E5%9F%BA",
+        "birth_year": "1964",
+        "death_year": "",
+        "evidence_url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%8E%B1%C2%B7%E8%88%8D%E5%9F%BA",
+        "method": "opensearch_zh+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_STRATE",
+      "name_zh": "兰斯·斯特拉特",
+      "name_en": "Lance Strate",
+      "birth_year": "1957",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Lance_Strate",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_STRATE",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lance_Strate",
+        "birth_year": "1957",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Lance_Strate",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lance_Strate",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1957",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "Lance Strate in 2006 Lance A. Strate (born September 17, 1957) is an American writer and professor of communication and media studies at Fordham University. He was the 2015 Margar",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_STRATE",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lance_Strate",
+        "birth_year": "1957",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Lance_Strate",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      }
+    },
+    {
+      "scholar_id": "SCH_SUNSTEIN",
+      "name_zh": "桑斯坦",
+      "name_en": "Cass R. Sunstein",
+      "birth_year": "1954",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Cass_Sunstein",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_SUNSTEIN",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cass_Sunstein",
+        "birth_year": "1954",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Cass_Sunstein",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cass_Sunstein",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1954",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "Born | Cass Robert Sunstein (1954-09-21) September 21, 1954 (age72) Concord, Massachusetts, U.S. Party | Democratic) Spouses | Lisa Rud",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_SUNSTEIN",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cass_Sunstein",
+        "birth_year": "1954",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Cass_Sunstein",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      }
+    },
+    {
+      "scholar_id": "SCH_TURNER",
+      "name_zh": "特德·特纳",
+      "name_en": "Ted Turner",
+      "birth_year": "1938",
+      "existing_wikipedia_url": "https://simple.wikipedia.org/wiki/Ted_Turner",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_TURNER",
+        "wikipedia_url": "https://simple.wikipedia.org/wiki/Ted_Turner",
+        "birth_year": "1938",
+        "death_year": "",
+        "evidence_url": "https://simple.wikipedia.org/wiki/Ted_Turner",
+        "method": "tavily_search+tavily_extract",
+        "enriched_at": "2026-09-17"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ted_Turner",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1938",
+            "death_year": "2026",
+            "living_confirmed": false,
+            "birth_excerpt": "Born | Robert Edward Turner III (1938-11-19)November 19, 1938 Cincinnati, Ohio, U.S.",
+            "death_excerpt": "May 6, 2026(2026-05-06) (aged87)",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "filled_death_year",
+      "after": {
+        "scholar_id": "SCH_TURNER",
+        "wikipedia_url": "https://simple.wikipedia.org/wiki/Ted_Turner",
+        "birth_year": "1938",
+        "death_year": "2026",
+        "evidence_url": "https://simple.wikipedia.org/wiki/Ted_Turner",
+        "method": "tavily_search+tavily_extract+magpie_death_year",
+        "enriched_at": "2026-11-26"
+      }
+    },
+    {
+      "scholar_id": "SCH_WOODWARD",
+      "name_zh": "伍德沃德",
+      "name_en": "Bob Woodward",
+      "birth_year": "1943",
+      "existing_wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Woodward",
+      "subtrack": "verify_death_year",
+      "before": {
+        "scholar_id": "SCH_WOODWARD",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Woodward",
+        "birth_year": "1943",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Bob_Woodward",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      },
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bob_Woodward",
+          "ok": true,
+          "lifespan": {
+            "birth_year": "1943",
+            "death_year": "",
+            "living_confirmed": true,
+            "birth_excerpt": "Born | Robert Upshur Woodward (1943-03-26) March 26, 1943 (age83) Geneva, Illinois, U.S.",
+            "death_excerpt": "",
+            "death_note": ""
+          }
+        }
+      ],
+      "status": "confirmed_living",
+      "after": {
+        "scholar_id": "SCH_WOODWARD",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Woodward",
+        "birth_year": "1943",
+        "death_year": "",
+        "evidence_url": "https://en.wikipedia.org/wiki/Bob_Woodward",
+        "method": "wikidata_repair",
+        "enriched_at": "2026-11-09"
+      }
+    },
+    {
+      "scholar_id": "SCH_YING_LIANZHI",
+      "name_zh": "英敛之",
+      "subtrack": "missing_name_en",
+      "before": {
+        "scholar_id": "SCH_YING_LIANZHI",
+        "name_zh": "英敛之",
+        "name_en": "",
+        "description_zh": "《大公报》创始人，晚清报业改良派代表。",
+        "school_id": "SCHOOL_CN_REFORM",
+        "active_year": "1902"
+      },
+      "queries": [
+        "\"英敛之\" wikipedia"
+      ],
+      "checks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ying_Lianzhi",
+          "wiki_title": "Ying Lianzhi",
+          "verified_name_en": "Ying Lianzhi"
+        }
+      ],
+      "status": "filled_name_en",
+      "after": {
+        "scholar_id": "SCH_YING_LIANZHI",
+        "name_zh": "英敛之",
+        "name_en": "Ying Lianzhi",
+        "description_zh": "《大公报》创始人，晚清报业改良派代表。",
+        "school_id": "SCHOOL_CN_REFORM",
+        "active_year": "1902"
+      }
+    }
+  ]
+}
