@@ -1,0 +1,18 @@
+# 此文件用于保持 assets/screenshots/ 目录
+# 请在此目录下添加以下截图（建议命名）：
+# - dashboard.png
+# - scholars.png
+# - scholars-detail.png
+# - timeline.png
+# - graph.png
+# - influence.png
+# - books.png
+# - browse.png
+#
+# 获取方式：
+# 1. 运行 `python workbench/server.py`
+# 2. 打开 http://127.0.0.1:8125
+# 3. 使用浏览器截图工具（或 DevTools 截图）
+# 4. 上传到此目录
+#
+# 然后在 README.md 中插入图片路径即可。
