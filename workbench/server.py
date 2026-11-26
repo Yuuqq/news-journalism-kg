@@ -3,7 +3,9 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import os
 import sys
+import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, unquote, urlparse
@@ -16,9 +18,15 @@ _RESERVED_NAME_RE = re.compile(
     r'^(?:CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])$', re.IGNORECASE
 )
 
+# Characters Windows refuses (or that break path handling): control chars and
+# the reserved set. Rejecting them here turns a 500 from open() into a 400.
+_UNSAFE_NAME_CHARS_RE = re.compile(r'[\x00-\x1f<>:"|?*]')
+
 
 def is_valid_csv_name(name: str) -> bool:
     if not name or '/' in name or '\\' in name or not name.endswith('.csv'):
+        return False
+    if _UNSAFE_NAME_CHARS_RE.search(name):
         return False
     stem = name[:-len('.csv')]
     if _RESERVED_NAME_RE.match(stem):
@@ -32,7 +40,10 @@ def _local_hostname(value: str) -> str | None:
     if not value:
         return None
     if '://' in value:
-        host = urlparse(value).hostname
+        try:
+            host = urlparse(value).hostname
+        except ValueError:  # e.g. "http://[::1" -> Invalid IPv6 URL
+            return None
         return host.lower() if host else None
     # Host header: hostname[:port] or [ipv6]:port
     if value.startswith('['):
@@ -43,12 +54,21 @@ def _local_hostname(value: str) -> str | None:
     return value.split(':', 1)[0].lower()
 
 
+_LOOPBACK_HOSTS = {'127.0.0.1', 'localhost', '::1'}
+
+
 def is_local_origin_or_host(origin: str, host: str) -> bool:
-    """True when Origin or Host refers to 127.0.0.1 / localhost."""
-    allowed = {'127.0.0.1', 'localhost'}
-    o = _local_hostname(origin)
-    h = _local_hostname(host)
-    return (o in allowed) or (h in allowed)
+    """True when Host is loopback and Origin, if sent, is loopback too.
+
+    Host must always be loopback: a page on another site still sends
+    `Host: 127.0.0.1`, so deciding on Host alone lets it through, while a
+    DNS-rebinding domain sends its own Host name and is rejected here.
+    """
+    if _local_hostname(host) not in _LOOPBACK_HOSTS:
+        return False
+    if not (origin or '').strip():
+        return True  # non-browser clients (curl, scripts) omit Origin
+    return _local_hostname(origin) in _LOOPBACK_HOSTS
 
 
 def content_type_is_json(content_type: str) -> bool:
@@ -137,10 +157,15 @@ def json_bytes(payload) -> bytes:
 
 
 def safe_inside_root(candidate: Path) -> bool:
+    """True only when the resolved path stays inside the CSV directory.
+
+    Resolving first matters: a symlink placed in data/csv would otherwise pass a
+    plain join check and let /api/csv read or overwrite files elsewhere.
+    """
     try:
-        candidate.resolve().relative_to(ROOT.resolve())
+        candidate.resolve().relative_to(DATA_CSV_DIR.resolve())
         return True
-    except Exception:
+    except (OSError, ValueError):
         return False
 
 
@@ -277,7 +302,14 @@ class Handler(BaseHTTPRequestHandler):
             if not safe_inside_root(p) or not p.is_file():
                 self._send_json(404, {'error': 'not found'})
                 return
-            self._send_json(200, {'name': name, 'content': p.read_text(encoding='utf-8-sig')})
+            try:
+                content = p.read_text(encoding='utf-8-sig')
+            except UnicodeDecodeError:
+                self._send_json(422, {
+                    'error': f'{name} 不是 UTF-8 编码，工作台无法编辑（请先转为 UTF-8）',
+                })
+                return
+            self._send_json(200, {'name': name, 'content': content})
             return
 
         if parsed.path == '/api/search':
@@ -341,11 +373,15 @@ class Handler(BaseHTTPRequestHandler):
             return
 
         if parsed.path == '/api/browse':
-            scholars = [merge_scholar_ext(s) for s in VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'scholars.csv')]
+            # Load each sidecar once: merge_* called without a map re-reads the
+            # whole CSV on every row (~160 scholars / ~60 books per request).
+            scholar_ext = load_scholar_ext()
+            book_ext = load_book_ext()
+            scholars = [merge_scholar_ext(s, scholar_ext) for s in VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'scholars.csv')]
             props = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'propositions.csv')
             passages = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'passages.csv')
             concepts = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'concepts.csv')
-            books = [merge_book_ext(b) for b in VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'books.csv')]
+            books = [merge_book_ext(b, book_ext) for b in VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'books.csv')]
             relations = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'relations.csv')
             influences = VALIDATE_MOD.read_csv(DATA_CSV_DIR / 'influences.csv')
             quotes_path = DATA_CSV_DIR / 'quotes.csv'
@@ -392,8 +428,12 @@ class Handler(BaseHTTPRequestHandler):
             if not ok or not isinstance(payload, dict):
                 self._send_json(400, {'error': 'invalid JSON body'})
                 return
-            name = (payload.get('name') or '').strip()
-            content = payload.get('content') or ''
+            name = payload.get('name')
+            content = payload.get('content')
+            if not isinstance(name, str) or not isinstance(content, str):
+                self._send_json(400, {'error': 'name and content must be strings'})
+                return
+            name = name.strip()
             if not is_valid_csv_name(name):
                 self._send_json(400, {'error': 'invalid name'})
                 return
@@ -401,7 +441,24 @@ class Handler(BaseHTTPRequestHandler):
             if not safe_inside_root(p):
                 self._send_json(400, {'error': 'invalid path'})
                 return
-            p.write_text(content.replace('\r\n', '\n'), encoding='utf-8')
+            # Encode before touching the file: write_text() truncates first and
+            # would leave an empty CSV behind if encoding failed (lone surrogate).
+            try:
+                data = content.replace('\r\n', '\n').encode('utf-8')
+            except UnicodeEncodeError:
+                self._send_json(400, {'error': 'content is not valid Unicode'})
+                return
+            tmp = p.with_name(f'.{p.name}.{os.getpid()}.{threading.get_ident()}.tmp')
+            try:
+                tmp.write_bytes(data)
+                os.replace(tmp, p)
+            except OSError as e:
+                try:
+                    tmp.unlink()
+                except OSError:
+                    pass
+                self._send_json(500, {'error': f'write failed: {e.strerror or e}'})
+                return
             self._send_json(200, {'ok': True, 'name': name, 'bytes': p.stat().st_size})
             return
 

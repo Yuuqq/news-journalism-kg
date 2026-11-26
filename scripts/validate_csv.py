@@ -23,17 +23,26 @@ def read_csv(path: Path) -> list[dict[str, str]]:
         raw = path.read_text(encoding="utf-8-sig")
     except FileNotFoundError:
         raise
+    except UnicodeDecodeError:
+        # Undecodable input is reported as E3001 ("empty or unreadable") by
+        # require_columns instead of crashing the whole validation run.
+        return []
     rows: list[dict[str, str]] = []
     # io.StringIO keeps the csv module's handling of quoted fields intact,
     # including embedded newlines that splitlines() would break apart
     reader = csv.DictReader(io.StringIO(raw))
     if reader.fieldnames is None:
         return rows
-    for row in reader:
-        cleaned = {k: (v or "").strip() for k, v in row.items() if k is not None}
-        if all(v == "" for v in cleaned.values()):
-            continue
-        rows.append(cleaned)
+    try:
+        for row in reader:
+            cleaned = {k: (v or "").strip() for k, v in row.items() if k is not None}
+            if all(v == "" for v in cleaned.values()):
+                continue
+            rows.append(cleaned)
+    except csv.Error:
+        # Malformed/serialized-too-large input (e.g. a field past the 131072
+        # char default): report the table as unreadable instead of 500-ing.
+        return []
     return rows
 
 

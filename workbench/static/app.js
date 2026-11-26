@@ -312,7 +312,10 @@ const API = {
   get_csv: async (name) => {
     const res = await fetch(`/api/csv?name=${encodeURIComponent(name)}`);
     if (!res.ok && res.status !== 400 && res.status !== 404) {
-      throw new Error(`服务器返回 ${res.status}`);
+      // Surface the server's explanation (e.g. non-UTF-8 file) instead of a bare status
+      let detail = '';
+      try { detail = (await res.json()).error || ''; } catch (_) {}
+      throw new Error(detail || `服务器返回 ${res.status}`);
     }
     return res.json();
   },

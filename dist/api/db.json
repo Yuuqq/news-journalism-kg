@@ -6,7 +6,10 @@
       "name_en": "Walter Lippmann",
       "description_zh": "美国作家、记者、政治评论家，代表作《舆论学》。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1922"
+      "active_year": "1922",
+      "birth_year": "1889",
+      "death_year": "1974",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Walter_Lippmann"
     },
     {
       "scholar_id": "SCH_SCHRAMM",
@@ -14,7 +17,10 @@
       "name_en": "Wilbur Schramm",
       "description_zh": "美国传播学者，常被称为「传播学之父」。",
       "school_id": "SCHOOL_COLUMBIA",
-      "active_year": "1948"
+      "active_year": "1948",
+      "birth_year": "1907",
+      "death_year": "1987",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wilbur_Schramm"
     },
     {
       "scholar_id": "SCH_LAZARSFELD",
@@ -22,7 +28,10 @@
       "name_en": "Paul Lazarsfeld",
       "description_zh": "奥地利裔美国社会学家，哥伦比亚学派奠基人，开创实证传播研究。",
       "school_id": "SCHOOL_COLUMBIA",
-      "active_year": "1944"
+      "active_year": "1944",
+      "birth_year": "1901",
+      "death_year": "1976",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Lazarsfeld"
     },
     {
       "scholar_id": "SCH_MCLUHAN",
@@ -30,7 +39,10 @@
       "name_en": "Marshall McLuhan",
       "description_zh": "加拿大学者，现代传播理论的重要代表。",
       "school_id": "SCHOOL_TORONTO",
-      "active_year": "1964"
+      "active_year": "1964",
+      "birth_year": "1911",
+      "death_year": "1980",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marshall_McLuhan"
     },
     {
       "scholar_id": "SCH_INNIS",
@@ -38,7 +50,10 @@
       "name_en": "Harold Innis",
       "description_zh": "加拿大经济历史学家，传播政治经济学奠基人，麦克卢汉的导师。",
       "school_id": "SCHOOL_TORONTO",
-      "active_year": "1950"
+      "active_year": "1950",
+      "birth_year": "1894",
+      "death_year": "1952",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Harold_Innis"
     },
     {
       "scholar_id": "SCH_POSTMAN",
@@ -46,7 +61,10 @@
       "name_en": "Neil Postman",
       "description_zh": "媒介环境学派代表人物，批评电视文化。",
       "school_id": "SCHOOL_MEDIA_ECOLOGY",
-      "active_year": "1985"
+      "active_year": "1985",
+      "birth_year": "1931",
+      "death_year": "2003",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Neil_Postman"
     },
     {
       "scholar_id": "SCH_LASSWELL",
@@ -54,7 +72,10 @@
       "name_en": "Harold Lasswell",
       "description_zh": "传播学四大奠基人之一，提出「5W模式」和宣传分析。",
       "school_id": "SCHOOL_CHICAGO",
-      "active_year": "1948"
+      "active_year": "1948",
+      "birth_year": "1902",
+      "death_year": "1978",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Harold_Lasswell"
     },
     {
       "scholar_id": "SCH_LEWIN",
@@ -62,7 +83,10 @@
       "name_en": "Kurt Lewin",
       "description_zh": "传播学四大奠基人之一，提出「把关人」理论。",
       "school_id": "SCHOOL_GROUP_DYNAMICS",
-      "active_year": "1947"
+      "active_year": "1947",
+      "birth_year": "1890",
+      "death_year": "1947",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kurt_Lewin"
     },
     {
       "scholar_id": "SCH_HOVLAND",
@@ -70,7 +94,10 @@
       "name_en": "Carl Hovland",
       "description_zh": "传播学四大奠基人之一，耶鲁学派领袖，研究说服与态度改变。",
       "school_id": "SCHOOL_YALE",
-      "active_year": "1953"
+      "active_year": "1953",
+      "birth_year": "1912",
+      "death_year": "1961",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_Hovland"
     },
     {
       "scholar_id": "SCH_KATZ",
@@ -78,7 +105,10 @@
       "name_en": "Elihu Katz",
       "description_zh": "《个人影响》合著者，后提出「使用与满足」理论。",
       "school_id": "SCHOOL_COLUMBIA",
-      "active_year": "1955"
+      "active_year": "1955",
+      "birth_year": "1926",
+      "death_year": "2021",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Elihu_Katz"
     },
     {
       "scholar_id": "SCH_MCCOMBS",
@@ -86,7 +116,10 @@
       "name_en": "Maxwell McCombs",
       "description_zh": "提出「议程设置」理论。",
       "school_id": "SCHOOL_AGENDA",
-      "active_year": "1972"
+      "active_year": "1972",
+      "birth_year": "1938",
+      "death_year": "2024",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Maxwell_McCombs"
     },
     {
       "scholar_id": "SCH_NOELLE_NEUMANN",
@@ -94,7 +127,10 @@
       "name_en": "Elisabeth Noelle-Neumann",
       "description_zh": "提出「沉默的螺旋」理论。",
       "school_id": "SCHOOL_GERMAN",
-      "active_year": "1974"
+      "active_year": "1974",
+      "birth_year": "1916",
+      "death_year": "2010",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Elisabeth_Noelle-Neumann"
     },
     {
       "scholar_id": "SCH_GERBNER",
@@ -102,7 +138,10 @@
       "name_en": "George Gerbner",
       "description_zh": "提出「涵化理论」（培养分析）。",
       "school_id": "SCHOOL_CULTIVATION",
-      "active_year": "1976"
+      "active_year": "1976",
+      "birth_year": "1919",
+      "death_year": "2005",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/George_Gerbner"
     },
     {
       "scholar_id": "SCH_ROGERS",
@@ -110,7 +149,10 @@
       "name_en": "Everett Rogers",
       "description_zh": "传播学学者，创新扩散理论之父。",
       "school_id": "SCHOOL_DIFFUSION",
-      "active_year": "1962"
+      "active_year": "1962",
+      "birth_year": "1931",
+      "death_year": "2004",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Everett_Rogers"
     },
     {
       "scholar_id": "SCH_CAREY",
@@ -118,7 +160,10 @@
       "name_en": "James Carey",
       "description_zh": "传播的仪式观。",
       "school_id": "SCHOOL_CULTURAL_STUDIES",
-      "active_year": "1975"
+      "active_year": "1975",
+      "birth_year": "1934",
+      "death_year": "2006",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/James_W._Carey"
     },
     {
       "scholar_id": "SCH_HABERMAS",
@@ -126,7 +171,9 @@
       "name_en": "Jürgen Habermas",
       "description_zh": "德国当代哲学家与社会学家之一，关联「公共领域」等议题。",
       "school_id": "SCHOOL_FRANKFURT",
-      "active_year": "1962"
+      "active_year": "1962",
+      "birth_year": "1929",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas"
     },
     {
       "scholar_id": "SCH_PULITZER",
@@ -134,7 +181,10 @@
       "name_en": "Joseph Pulitzer",
       "description_zh": "现代报业大亨，新闻专业主义的推动者，普利策奖设立者。",
       "school_id": "SCHOOL_PENNY_PRESS",
-      "active_year": "1904"
+      "active_year": "1904",
+      "birth_year": "1847",
+      "death_year": "1911",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Pulitzer"
     },
     {
       "scholar_id": "SCH_BENNETT",
@@ -142,7 +192,10 @@
       "name_en": "James Gordon Bennett",
       "description_zh": "《纽约先驱报》创办人，确立了新闻的商业化与客观报道雏形。",
       "school_id": "SCHOOL_PENNY_PRESS",
-      "active_year": "1835"
+      "active_year": "1835",
+      "birth_year": "1795",
+      "death_year": "1872",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/James_Gordon_Bennett_Sr."
     },
     {
       "scholar_id": "SCH_GREELEY",
@@ -150,7 +203,10 @@
       "name_en": "Horace Greeley",
       "description_zh": "《纽约论坛报》创办人，著名的社论撰写者。",
       "school_id": "SCHOOL_PENNY_PRESS",
-      "active_year": "1841"
+      "active_year": "1841",
+      "birth_year": "1811",
+      "death_year": "1872",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Horace_Greeley"
     },
     {
       "scholar_id": "SCH_RAYMOND",
@@ -158,7 +214,10 @@
       "name_en": "Henry Raymond",
       "description_zh": "《纽约时报》创办人，确立了理性、详实的报道风格。",
       "school_id": "SCHOOL_QUALITY_PRESS",
-      "active_year": "1851"
+      "active_year": "1851",
+      "birth_year": "1821",
+      "death_year": "1865",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Raymond_Selden"
     },
     {
       "scholar_id": "SCH_OCHS",
@@ -166,7 +225,10 @@
       "name_en": "Adolph Ochs",
       "description_zh": "《纽约时报》复兴者，确立「刊登一切适于发表的新闻」之座右铭。",
       "school_id": "SCHOOL_QUALITY_PRESS",
-      "active_year": "1896"
+      "active_year": "1896",
+      "birth_year": "1858",
+      "death_year": "1935",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Adolph_Ochs"
     },
     {
       "scholar_id": "SCH_HEARST",
@@ -174,7 +236,10 @@
       "name_en": "William Randolph Hearst",
       "description_zh": "报业大亨，黄色新闻代表人物，原型为《公民凯恩》。",
       "school_id": "SCHOOL_YELLOW_PRESS",
-      "active_year": "1895"
+      "active_year": "1895",
+      "birth_year": "1863",
+      "death_year": "1951",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/William_Randolph_Hearst"
     },
     {
       "scholar_id": "SCH_LUCE",
@@ -182,7 +247,10 @@
       "name_en": "Henry Luce",
       "description_zh": "《时代》《生活》《财富》创办人，构建了「时代华纳」帝国雏形。",
       "school_id": "SCHOOL_MAGAZINE",
-      "active_year": "1923"
+      "active_year": "1923",
+      "birth_year": "1898",
+      "death_year": "1967",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Luce"
     },
     {
       "scholar_id": "SCH_MURROW",
@@ -190,7 +258,10 @@
       "name_en": "Edward R. Murrow",
       "description_zh": "广播电视新闻鼻祖，以二战伦敦报道和对抗麦卡锡主义闻名。",
       "school_id": "SCHOOL_BROADCAST",
-      "active_year": "1940"
+      "active_year": "1940",
+      "birth_year": "1908",
+      "death_year": "1965",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_R._Murrow"
     },
     {
       "scholar_id": "SCH_CRONKITE",
@@ -198,7 +269,10 @@
       "name_en": "Walter Cronkite",
       "description_zh": "CBS主播，被称为「美国最值得信赖的人」。",
       "school_id": "SCHOOL_BROADCAST",
-      "active_year": "1960"
+      "active_year": "1960",
+      "birth_year": "1916",
+      "death_year": "2009",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Walter_Cronkite"
     },
     {
       "scholar_id": "SCH_BRADLEE",
@@ -206,7 +280,10 @@
       "name_en": "Ben Bradlee",
       "description_zh": "《华盛顿邮报》传奇主编，主导五角大楼文件报道。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1971"
+      "active_year": "1971",
+      "birth_year": "1921",
+      "death_year": "2014",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Bradlee"
     },
     {
       "scholar_id": "SCH_WOODWARD",
@@ -214,7 +291,9 @@
       "name_en": "Bob Woodward",
       "description_zh": "水门事件揭露者，调查记者标杆。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1972"
+      "active_year": "1972",
+      "birth_year": "1943",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Woodward"
     },
     {
       "scholar_id": "SCH_BERNSTEIN",
@@ -222,7 +301,9 @@
       "name_en": "Carl Bernstein",
       "description_zh": "水门事件揭露者。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1972"
+      "active_year": "1972",
+      "birth_year": "1944",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_Bernstein"
     },
     {
       "scholar_id": "SCH_AMANPOUR",
@@ -230,7 +311,9 @@
       "name_en": "Christiane Amanpour",
       "description_zh": "CNN首席国际特派员，战地玫瑰。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1990"
+      "active_year": "1990",
+      "birth_year": "1958",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Christiane_Amanpour"
     },
     {
       "scholar_id": "SCH_FALLACI",
@@ -238,7 +321,10 @@
       "name_en": "Oriana Fallaci",
       "description_zh": "意大利女记者，以犀利的政治采访著称。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1970"
+      "active_year": "1970",
+      "birth_year": "1929",
+      "death_year": "2006",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E9%87%8C%E4%BA%9A%E5%A8%9C%C2%B7%E6%B3%95%E6%8B%89%E5%A5%87"
     },
     {
       "scholar_id": "SCH_SNOW",
@@ -246,7 +332,10 @@
       "name_en": "Edgar Snow",
       "description_zh": "《红星照耀中国》作者。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1937"
+      "active_year": "1937",
+      "birth_year": "1905",
+      "death_year": "1972",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Edgar_Snow"
     },
     {
       "scholar_id": "SCH_SMEDLEY",
@@ -254,7 +343,10 @@
       "name_en": "Agnes Smedley",
       "description_zh": "美国左翼记者，报道中国革命。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1930"
+      "active_year": "1930",
+      "birth_year": "1892",
+      "death_year": "1950",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Agnes_Smedley"
     },
     {
       "scholar_id": "SCH_EPSTEIN",
@@ -262,7 +354,10 @@
       "name_en": "Israel Epstein",
       "description_zh": "中国籍波兰裔记者，新华社专家。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1940"
+      "active_year": "1940",
+      "birth_year": "1915",
+      "death_year": "2005",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Israel_Epstein"
     },
     {
       "scholar_id": "SCH_ORWELL",
@@ -270,7 +365,10 @@
       "name_en": "George Orwell",
       "description_zh": "记者，反极权主义作家，《1984》。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1949"
+      "active_year": "1949",
+      "birth_year": "1903",
+      "death_year": "1950",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/George_Orwell"
     },
     {
       "scholar_id": "SCH_HEMINGWAY",
@@ -278,7 +376,10 @@
       "name_en": "Ernest Hemingway",
       "description_zh": "著名战地记者，电报体风格影响新闻写作。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1936"
+      "active_year": "1936",
+      "birth_year": "1899",
+      "death_year": "1961",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ernest_Hemingway"
     },
     {
       "scholar_id": "SCH_LIEBLING",
@@ -286,7 +387,10 @@
       "name_en": "A.J. Liebling",
       "description_zh": "《纽约客》著名记者，报刊批评家。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1940"
+      "active_year": "1940",
+      "birth_year": "1904",
+      "death_year": "1963",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/A._J._Liebling"
     },
     {
       "scholar_id": "SCH_DIDION",
@@ -294,7 +398,10 @@
       "name_en": "Joan Didion",
       "description_zh": "新新闻主义代表，特稿写作。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1968"
+      "active_year": "1968",
+      "birth_year": "1934",
+      "death_year": "2021",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Joan_Didion"
     },
     {
       "scholar_id": "SCH_CAPOTE",
@@ -302,7 +409,10 @@
       "name_en": "Truman Capote",
       "description_zh": "《冷血》，非虚构小说先驱。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1966"
+      "active_year": "1966",
+      "birth_year": "1924",
+      "death_year": "1984",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Truman_Capote"
     },
     {
       "scholar_id": "SCH_WOLFE",
@@ -310,7 +420,10 @@
       "name_en": "Tom Wolfe",
       "description_zh": "新新闻主义教父。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1973"
+      "active_year": "1973",
+      "birth_year": "1930",
+      "death_year": "2018",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tom_Wolfe"
     },
     {
       "scholar_id": "SCH_THOMPSON",
@@ -318,7 +431,10 @@
       "name_en": "Hunter S. Thompson",
       "description_zh": "贡佐新闻（Gonzo Journalism）。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1970"
+      "active_year": "1970",
+      "birth_year": "1937",
+      "death_year": "2005",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hunter_S._Thompson"
     },
     {
       "scholar_id": "SCH_BLY",
@@ -326,7 +442,10 @@
       "name_en": "Nellie Bly",
       "description_zh": "隐形采访先驱，环游世界80天。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1889"
+      "active_year": "1889",
+      "birth_year": "1864",
+      "death_year": "1922",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nellie_Bly"
     },
     {
       "scholar_id": "SCH_WELLS",
@@ -334,7 +453,10 @@
       "name_en": "Ida B. Wells",
       "description_zh": "反私刑调查记者，民权先驱。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1892"
+      "active_year": "1892",
+      "birth_year": "1862",
+      "death_year": "1931",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ida_B._Wells"
     },
     {
       "scholar_id": "SCH_TARBELL",
@@ -342,7 +464,10 @@
       "name_en": "Ida Tarbell",
       "description_zh": "揭露美孚石油垄断，扒粪运动代表。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1904"
+      "active_year": "1904",
+      "birth_year": "1857",
+      "death_year": "1944",
+      "wikipedia_url": "https://simple.wikipedia.org/wiki/Ida_Tarbell"
     },
     {
       "scholar_id": "SCH_STEFFENS",
@@ -350,7 +475,10 @@
       "name_en": "Lincoln Steffens",
       "description_zh": "《城市的耻辱》，扒粪记者。",
       "school_id": "SCHOOL_JOURNALISM",
-      "active_year": "1904"
+      "active_year": "1904",
+      "birth_year": "1866",
+      "death_year": "1936",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lincoln_Steffens"
     },
     {
       "scholar_id": "SCH_MILTON",
@@ -358,7 +486,10 @@
       "name_en": "John Milton",
       "description_zh": "《论出版自由》作者，提出「观点的公开市场」和「自我修正」理论。",
       "school_id": "SCHOOL_LIBERTARIAN",
-      "active_year": "1644"
+      "active_year": "1644",
+      "birth_year": "1608",
+      "death_year": "1674",
+      "wikipedia_url": "https://simple.wikipedia.org/wiki/John_Milton"
     },
     {
       "scholar_id": "SCH_LOCKE",
@@ -366,7 +497,10 @@
       "name_en": "John Locke",
       "description_zh": "天赋人权论者，其思想奠定了新闻自由的哲学基础。",
       "school_id": "SCHOOL_LIBERTARIAN",
-      "active_year": "1689"
+      "active_year": "1689",
+      "birth_year": "1632",
+      "death_year": "1704",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Locke"
     },
     {
       "scholar_id": "SCH_JEFFERSON",
@@ -374,7 +508,10 @@
       "name_en": "Thomas Jefferson",
       "description_zh": "美国第三任总统，名言「宁要无政府的报纸，不要无报纸的政府」。",
       "school_id": "SCHOOL_LIBERTARIAN",
-      "active_year": "1787"
+      "active_year": "1787",
+      "birth_year": "1743",
+      "death_year": "1826",
+      "wikipedia_url": "https://simple.wikipedia.org/wiki/Thomas_Jefferson"
     },
     {
       "scholar_id": "SCH_IVY_LEE",
@@ -382,7 +519,10 @@
       "name_en": "Ivy Lee",
       "description_zh": "现代公关之父，提出《原则宣言》，主张「说真话」。",
       "school_id": "SCHOOL_PR",
-      "active_year": "1906"
+      "active_year": "1906",
+      "birth_year": "1877",
+      "death_year": "1934",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ivy_Lee"
     },
     {
       "scholar_id": "SCH_BERNAYS",
@@ -390,7 +530,10 @@
       "name_en": "Edward Bernays",
       "description_zh": "公关咨询之父，弗洛伊德的外甥，著有《舆论的结晶》。",
       "school_id": "SCHOOL_PR",
-      "active_year": "1923"
+      "active_year": "1923",
+      "birth_year": "1891",
+      "death_year": "1995",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Bernays"
     },
     {
       "scholar_id": "SCH_WANG_TAO",
@@ -398,7 +541,10 @@
       "name_en": "Wang Tao",
       "description_zh": "中国近代报刊之父，创办《循环日报》，提出「变法自强」。",
       "school_id": "SCHOOL_CN_EARLY",
-      "active_year": "1874"
+      "active_year": "1874",
+      "birth_year": "1828",
+      "death_year": "1897",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wang_Tao_(translator)"
     },
     {
       "scholar_id": "SCH_KANG_YOUWEI",
@@ -406,7 +552,10 @@
       "name_en": "Kang Youwei",
       "description_zh": "维新变法领袖，创办《中外纪闻》《强学报》，倡导报刊启蒙。",
       "school_id": "SCHOOL_CN_REFORM",
-      "active_year": "1895"
+      "active_year": "1895",
+      "birth_year": "1858",
+      "death_year": "1927",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kang_Youwei"
     },
     {
       "scholar_id": "SCH_LIANG_QICHAO",
@@ -414,7 +563,10 @@
       "name_en": "Liang Qichao",
       "description_zh": "中国近代思想启蒙家，维新派报刊活动家，提出「去塞求通」。",
       "school_id": "SCHOOL_CN_REFORM",
-      "active_year": "1898"
+      "active_year": "1898",
+      "birth_year": "1873",
+      "death_year": "1929",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Liang_Qichao"
     },
     {
       "scholar_id": "SCH_YAN_FU",
@@ -422,7 +574,10 @@
       "name_en": "Yan Fu",
       "description_zh": "创办《国闻报》，翻译《天演论》，主张「通上下之情」。",
       "school_id": "SCHOOL_CN_REFORM",
-      "active_year": "1897"
+      "active_year": "1897",
+      "birth_year": "1854",
+      "death_year": "1921",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yan_Fu"
     },
     {
       "scholar_id": "SCH_ZHANG_TAIYAN",
@@ -430,7 +585,10 @@
       "name_en": "Zhang Taiyan",
       "description_zh": "《苏报》案主角，《民报》主编，辛亥革命时期的舆论斗士。",
       "school_id": "SCHOOL_CN_REVOLUTION",
-      "active_year": "1903"
+      "active_year": "1903",
+      "birth_year": "1869",
+      "death_year": "1936",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Zhang_Binglin"
     },
     {
       "scholar_id": "SCH_YU_YOUREN",
@@ -438,7 +596,10 @@
       "name_en": "Yu Youren",
       "description_zh": "创办《神州日报》《民呼日报》，被誉为「元老记者」。",
       "school_id": "SCHOOL_CN_REVOLUTION",
-      "active_year": "1909"
+      "active_year": "1909",
+      "birth_year": "1879",
+      "death_year": "1964",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yu_Yu-jen"
     },
     {
       "scholar_id": "SCH_CHEN_DUXIU",
@@ -446,7 +607,10 @@
       "name_en": "Chen Duxiu",
       "description_zh": "《新青年》创办人，德先生与赛先生。",
       "school_id": "SCHOOL_CN_REVOLUTION",
-      "active_year": "1915"
+      "active_year": "1915",
+      "birth_year": "1879",
+      "death_year": "1942",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chen_Duxiu"
     },
     {
       "scholar_id": "SCH_LI_DAZHAO",
@@ -454,7 +618,10 @@
       "name_en": "Li Dazhao",
       "description_zh": "马克思主义在中国的最早传播者。",
       "school_id": "SCHOOL_CN_REVOLUTION",
-      "active_year": "1919"
+      "active_year": "1919",
+      "birth_year": "1889",
+      "death_year": "1927",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Li_Dazhao"
     },
     {
       "scholar_id": "SCH_YING_LIANZHI",
@@ -462,7 +629,10 @@
       "name_en": "",
       "description_zh": "《大公报》创始人，晚清报业改良派代表。",
       "school_id": "SCHOOL_CN_REFORM",
-      "active_year": "1902"
+      "active_year": "1902",
+      "birth_year": "1867",
+      "death_year": "1926",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E6%96%82%E4%B9%8B"
     },
     {
       "scholar_id": "SCH_SHAO_PIAOPING",
@@ -470,7 +640,10 @@
       "name_en": "Shao Piaoping",
       "description_zh": "《京报》创办者，铁肩辣手，中国新闻摄影先驱，死于军阀枪下。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1918"
+      "active_year": "1918",
+      "birth_year": "1884",
+      "death_year": "1926",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Shao_Piaoping"
     },
     {
       "scholar_id": "SCH_LIN_BAISHUI",
@@ -478,7 +651,10 @@
       "name_en": "Lin Baishui",
       "description_zh": "报界奇才，因言获罪，与邵飘萍同年遇害。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1926"
+      "active_year": "1926",
+      "birth_year": "1874",
+      "death_year": "1926",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E7%99%BD%E6%B0%B4"
     },
     {
       "scholar_id": "SCH_SHI_LIANGCAI",
@@ -486,7 +662,10 @@
       "name_en": "Shi Liangcai",
       "description_zh": "《申报》总经理，将其打造为中国影响最大的民营报纸，主张「国有国格，报有报格」。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1912"
+      "active_year": "1912",
+      "birth_year": "1880",
+      "death_year": "1934",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Shi_Liangcai"
     },
     {
       "scholar_id": "SCH_ZHANG_JILUAN",
@@ -494,7 +673,10 @@
       "name_en": "Zhang Jiluan",
       "description_zh": "《大公报》总编辑，提出「不党、不卖、不私、不盲」四不主义。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1926"
+      "active_year": "1926",
+      "birth_year": "1888",
+      "death_year": "1941",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A3%E9%B8%BE"
     },
     {
       "scholar_id": "SCH_HU_ZHENGZHI",
@@ -502,7 +684,10 @@
       "name_en": "Hu Zhengzhi",
       "description_zh": "《大公报》总经理，开创中国报业经营管理的现代化模式。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1926"
+      "active_year": "1926",
+      "birth_year": "1889",
+      "death_year": "1949",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hu_Zhengzhi"
     },
     {
       "scholar_id": "SCH_ZOU_TAOFEN",
@@ -510,7 +695,10 @@
       "name_en": "Zou Taofen",
       "description_zh": "生活书店创办人，主编《生活》周刊，抗日救亡运动的舆论旗手。",
       "school_id": "SCHOOL_CN_LEFT",
-      "active_year": "1930"
+      "active_year": "1930",
+      "birth_year": "1895",
+      "death_year": "1944",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Zou_Taofen"
     },
     {
       "scholar_id": "SCH_CHU_ANPING",
@@ -518,7 +706,9 @@
       "name_en": "Chu Anping",
       "description_zh": "《观察》周刊主编，以此刊言论犀利、公正著称。",
       "school_id": "SCHOOL_CN_LIBERAL",
-      "active_year": "1946"
+      "active_year": "1946",
+      "birth_year": "1909",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chu_Anping"
     },
     {
       "scholar_id": "SCH_DENG_TUO",
@@ -526,7 +716,9 @@
       "name_en": "Deng Tuo",
       "description_zh": "《人民日报》总编辑，杂文集《燕山夜话》作者。",
       "school_id": "SCHOOL_CN_CPC",
-      "active_year": "1950"
+      "active_year": "1950",
+      "birth_year": "1919",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Deng_Tuo"
     },
     {
       "scholar_id": "SCH_GE_GONGZHEN",
@@ -534,7 +726,10 @@
       "name_en": "Ge Gongzhen",
       "description_zh": "新闻史学家，著有中国第一部《中国报学史》。",
       "school_id": "SCHOOL_CN_ACADEMIC",
-      "active_year": "1927"
+      "active_year": "1927",
+      "birth_year": "1890",
+      "death_year": "1935",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%88%88%E5%85%AC%E6%8C%AF"
     },
     {
       "scholar_id": "SCH_XU_BAOHUANG",
@@ -542,7 +737,10 @@
       "name_en": "Xu Baohuang",
       "description_zh": "中国新闻教育第一人，北大新闻学研究会导师。",
       "school_id": "SCHOOL_CN_ACADEMIC",
-      "active_year": "1918"
+      "active_year": "1918",
+      "birth_year": "1894",
+      "death_year": "1930",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%AE%9D%E7%92%9C"
     },
     {
       "scholar_id": "SCH_FAN_CHANGJIANG",
@@ -550,7 +748,10 @@
       "name_en": "Fan Changjiang",
       "description_zh": "中国著名记者，《大公报》旅行记者，开创了中国现代通讯报道的新风气。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1936"
+      "active_year": "1936",
+      "birth_year": "1909",
+      "death_year": "1970",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fan_Changjiang"
     },
     {
       "scholar_id": "SCH_XIAO_QIAN",
@@ -558,7 +759,10 @@
       "name_en": "Xiao Qian",
       "description_zh": "《大公报》驻英记者，二战西线唯一的中国记者。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1944"
+      "active_year": "1944",
+      "birth_year": "1910",
+      "death_year": "1999",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Xiao_Qian"
     },
     {
       "scholar_id": "SCH_WANG_YUNSHENG",
@@ -566,7 +770,10 @@
       "name_en": "Wang Yunsheng",
       "description_zh": "《大公报》著名主笔，《六十年来中国与日本》。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1932"
+      "active_year": "1932",
+      "birth_year": "1901",
+      "death_year": "1980",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%8A%B8%E7%94%9F"
     },
     {
       "scholar_id": "SCH_QU_QIUBAI",
@@ -574,7 +781,10 @@
       "name_en": "Qu Qiubai",
       "description_zh": "红中社首任社长，翻译《国际歌》。",
       "school_id": "SCHOOL_CN_CPC",
-      "active_year": "1931"
+      "active_year": "1931",
+      "birth_year": "1899",
+      "death_year": "1935",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E7%9E%BF%E7%A7%8B%E7%99%BD"
     },
     {
       "scholar_id": "SCH_MAO_ZEDONG",
@@ -582,7 +792,10 @@
       "name_en": "Mao Zedong",
       "description_zh": "创办《湘江评论》，提出党报理论与群众路线。",
       "school_id": "SCHOOL_CN_CPC",
-      "active_year": "1919"
+      "active_year": "1919",
+      "birth_year": "1893",
+      "death_year": "1976",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%AF%9B%E6%B3%BD%E4%B8%9C"
     },
     {
       "scholar_id": "SCH_JIN_YONG",
@@ -590,7 +803,10 @@
       "name_en": "Jin Yong",
       "description_zh": "查良镛，《明报》创办人，社论与武侠并重。",
       "school_id": "SCHOOL_HK_PRESS",
-      "active_year": "1959"
+      "active_year": "1959",
+      "birth_year": "1924",
+      "death_year": "2018",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E9%87%91%E5%BA%B8"
     },
     {
       "scholar_id": "SCH_LIN_YUTANG",
@@ -598,7 +814,10 @@
       "name_en": "Lin Yutang",
       "description_zh": "幽默大师，曾任《语丝》撰稿人，中西文化桥梁。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1930"
+      "active_year": "1930",
+      "birth_year": "1895",
+      "death_year": "1976",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%AF%AD%E5%A0%82"
     },
     {
       "scholar_id": "SCH_LU_XUN",
@@ -606,7 +825,10 @@
       "name_en": "Lu Xun",
       "description_zh": "杂文家，曾主编《奔流》《语丝》，以笔为枪。",
       "school_id": "SCHOOL_CN_CRITICAL",
-      "active_year": "1918"
+      "active_year": "1918",
+      "birth_year": "1881",
+      "death_year": "1936",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lu_Xun"
     },
     {
       "scholar_id": "SCH_HALL",
@@ -614,7 +836,10 @@
       "name_en": "Stuart Hall",
       "description_zh": "伯明翰学派领袖，提出「编码/解码」理论。",
       "school_id": "SCHOOL_BIRMINGHAM",
-      "active_year": "1973"
+      "active_year": "1973",
+      "birth_year": "1932",
+      "death_year": "2014",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Stuart_Hall_(cultural_theorist)"
     },
     {
       "scholar_id": "SCH_SMYTHE",
@@ -622,7 +847,10 @@
       "name_en": "Dallas Smythe",
       "description_zh": "提出「受众商品」论。",
       "school_id": "SCHOOL_POLITICAL_ECO",
-      "active_year": "1977"
+      "active_year": "1977",
+      "birth_year": "1907",
+      "death_year": "1992",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dallas_Walker_Smythe"
     },
     {
       "scholar_id": "SCH_SCHILLER",
@@ -630,7 +858,10 @@
       "name_en": "Herbert Schiller",
       "description_zh": "研究「文化帝国主义」。",
       "school_id": "SCHOOL_POLITICAL_ECO",
-      "active_year": "1969"
+      "active_year": "1969",
+      "birth_year": "1919",
+      "death_year": "2000",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Herbert_Schiller"
     },
     {
       "scholar_id": "SCH_MCCHESNEY",
@@ -638,7 +869,10 @@
       "name_en": "Robert McChesney",
       "description_zh": "研究富媒体与民主危机。",
       "school_id": "SCHOOL_POLITICAL_ECO",
-      "active_year": "1999"
+      "active_year": "1999",
+      "birth_year": "1952",
+      "death_year": "2025",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_W._McChesney"
     },
     {
       "scholar_id": "SCH_CHOMSKY",
@@ -646,7 +880,9 @@
       "name_en": "Noam Chomsky",
       "description_zh": "生成语法，普遍语法，制造共识。",
       "school_id": "SCHOOL_LINGUISTICS",
-      "active_year": "1957"
+      "active_year": "1957",
+      "birth_year": "1928",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
     },
     {
       "scholar_id": "SCH_ADORNO",
@@ -654,7 +890,10 @@
       "name_en": "Theodor Adorno",
       "description_zh": "法兰克福学派核心成员，批判理论代表，与霍克海默合著《启蒙辩证法》。",
       "school_id": "SCHOOL_FRANKFURT",
-      "active_year": "1944"
+      "active_year": "1944",
+      "birth_year": "1903",
+      "death_year": "1969",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Theodor_W._Adorno"
     },
     {
       "scholar_id": "SCH_HORKHEIMER",
@@ -662,7 +901,10 @@
       "name_en": "Max Horkheimer",
       "description_zh": "法兰克福学派创始人，批判理论奠基人，提出传统理论与批判理论的区分。",
       "school_id": "SCHOOL_FRANKFURT",
-      "active_year": "1937"
+      "active_year": "1937",
+      "birth_year": "1895",
+      "death_year": "1973",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Max_Horkheimer"
     },
     {
       "scholar_id": "SCH_MARCUSE",
@@ -670,7 +912,10 @@
       "name_en": "Herbert Marcuse",
       "description_zh": "法兰克福学派成员，《单向度的人》作者，新左派精神导师。",
       "school_id": "SCHOOL_FRANKFURT",
-      "active_year": "1964"
+      "active_year": "1964",
+      "birth_year": "1898",
+      "death_year": "1979",
+      "wikipedia_url": "https://simple.wikipedia.org/wiki/Herbert_Marcuse"
     },
     {
       "scholar_id": "SCH_BENJAMIN",
@@ -678,7 +923,10 @@
       "name_en": "Walter Benjamin",
       "description_zh": "德国文化批评家，《机械复制时代的艺术作品》作者。",
       "school_id": "SCHOOL_FRANKFURT",
-      "active_year": "1936"
+      "active_year": "1936",
+      "birth_year": "1892",
+      "death_year": "1940",
+      "wikipedia_url": "https://simple.wikipedia.org/wiki/Walter_Benjamin"
     },
     {
       "scholar_id": "SCH_FROMM",
@@ -686,7 +934,10 @@
       "name_en": "Erich Fromm",
       "description_zh": "精神分析学家与社会批评家，《逃避自由》作者。",
       "school_id": "SCHOOL_FRANKFURT",
-      "active_year": "1941"
+      "active_year": "1941",
+      "birth_year": "1900",
+      "death_year": "1980",
+      "wikipedia_url": "https://simple.wikipedia.org/wiki/Erich_Fromm"
     },
     {
       "scholar_id": "SCH_KRACAUER",
@@ -694,7 +945,10 @@
       "name_en": "Siegfried Kracauer",
       "description_zh": "德国文化批评家与电影理论家，法兰克福学派早期成员。",
       "school_id": "SCHOOL_FRANKFURT",
-      "active_year": "1947"
+      "active_year": "1947",
+      "birth_year": "1889",
+      "death_year": "1966",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Siegfried_Kracauer"
     },
     {
       "scholar_id": "SCH_LOWENTHAL",
@@ -702,7 +956,10 @@
       "name_en": "Leo Löwenthal",
       "description_zh": "法兰克福学派成员，研究大众文化与文学社会学。",
       "school_id": "SCHOOL_FRANKFURT",
-      "active_year": "1957"
+      "active_year": "1957",
+      "birth_year": "1900",
+      "death_year": "1993",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Leo_L%C3%B6wenthal"
     },
     {
       "scholar_id": "SCH_SHANNON",
@@ -710,7 +967,10 @@
       "name_en": "Claude Shannon",
       "description_zh": "信息论之父，提出信息的数学理论，奠定现代通信基础。",
       "school_id": "SCHOOL_INFO_THEORY",
-      "active_year": "1948"
+      "active_year": "1948",
+      "birth_year": "1916",
+      "death_year": "2001",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Claude_Shannon"
     },
     {
       "scholar_id": "SCH_WEAVER",
@@ -718,7 +978,10 @@
       "name_en": "Warren Weaver",
       "description_zh": "与香农合作发展信息论，扩展其社会应用。",
       "school_id": "SCHOOL_INFO_THEORY",
-      "active_year": "1949"
+      "active_year": "1949",
+      "birth_year": "1894",
+      "death_year": "1978",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Warren_Weaver"
     },
     {
       "scholar_id": "SCH_WIENER",
@@ -726,7 +989,10 @@
       "name_en": "Norbert Wiener",
       "description_zh": "控制论之父，《控制论》作者，研究通信与控制。",
       "school_id": "SCHOOL_CYBERNETICS",
-      "active_year": "1948"
+      "active_year": "1948",
+      "birth_year": "1894",
+      "death_year": "1964",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Norbert_Wiener"
     },
     {
       "scholar_id": "SCH_COOLEY",
@@ -734,7 +1000,10 @@
       "name_en": "Charles Horton Cooley",
       "description_zh": "美国社会学家，提出「镜中我」理论，将传播置于社会关系核心。",
       "school_id": "SCHOOL_CHICAGO",
-      "active_year": "1909"
+      "active_year": "1909",
+      "birth_year": "1864",
+      "death_year": "1929",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Horton_Cooley"
     },
     {
       "scholar_id": "SCH_DEWEY",
@@ -742,7 +1011,10 @@
       "name_en": "John Dewey",
       "description_zh": "美国实用主义哲学家，强调传播对民主社会的重要性。",
       "school_id": "SCHOOL_PRAGMATISM",
-      "active_year": "1927"
+      "active_year": "1927",
+      "birth_year": "1859",
+      "death_year": "1952",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Dewey"
     },
     {
       "scholar_id": "SCH_BERELSON",
@@ -750,7 +1022,10 @@
       "name_en": "Bernard Berelson",
       "description_zh": "内容分析方法先驱，哥伦比亚学派成员。",
       "school_id": "SCHOOL_COLUMBIA",
-      "active_year": "1952"
+      "active_year": "1952",
+      "birth_year": "1912",
+      "death_year": "1979",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bernard_Berelson"
     },
     {
       "scholar_id": "SCH_RIESMAN",
@@ -758,7 +1033,10 @@
       "name_en": "David Riesman",
       "description_zh": "《孤独的人群》作者，研究大众社会与传播。",
       "school_id": "SCHOOL_COLUMBIA",
-      "active_year": "1950"
+      "active_year": "1950",
+      "birth_year": "1909",
+      "death_year": "2002",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/David_Riesman"
     },
     {
       "scholar_id": "SCH_STOUFFER",
@@ -766,7 +1044,10 @@
       "name_en": "Samuel Stouffer",
       "description_zh": "社会调查方法专家，芝加哥学派成员。",
       "school_id": "SCHOOL_CHICAGO",
-      "active_year": "1949"
+      "active_year": "1949",
+      "birth_year": "1900",
+      "death_year": "1960",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Samuel_A._Stouffer"
     },
     {
       "scholar_id": "SCH_CASTELLS",
@@ -774,7 +1055,9 @@
       "name_en": "Manuel Castells",
       "description_zh": "西班牙社会学家，网络社会理论创始人，《信息时代三部曲》作者。",
       "school_id": "SCHOOL_NETWORK",
-      "active_year": "1996"
+      "active_year": "1996",
+      "birth_year": "1942",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Manuel_Castells"
     },
     {
       "scholar_id": "SCH_MEYROWITZ",
@@ -782,7 +1065,9 @@
       "name_en": "Joshua Meyrowitz",
       "description_zh": "《消失的地域》作者，研究电子媒介对社会空间的影响。",
       "school_id": "SCHOOL_MEDIA_ECOLOGY",
-      "active_year": "1985"
+      "active_year": "1985",
+      "birth_year": "1949",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Joshua_Meyrowitz"
     },
     {
       "scholar_id": "SCH_BLUMLER",
@@ -790,7 +1075,10 @@
       "name_en": "Jay Blumler",
       "description_zh": "使用与满足理论发展者，政治传播研究先驱。",
       "school_id": "SCHOOL_USES_GRATIFICATIONS",
-      "active_year": "1974"
+      "active_year": "1974",
+      "birth_year": "1924",
+      "death_year": "2021",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jay_Blumler"
     },
     {
       "scholar_id": "SCH_MCQUAIL",
@@ -798,7 +1086,10 @@
       "name_en": "Denis McQuail",
       "description_zh": "《大众传播理论》作者，欧洲传播学代表人物。",
       "school_id": "SCHOOL_EUROPEAN",
-      "active_year": "1983"
+      "active_year": "1983",
+      "birth_year": "1935",
+      "death_year": "2017",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Denis_McQuail"
     },
     {
       "scholar_id": "SCH_LUHMANN",
@@ -806,7 +1097,10 @@
       "name_en": "Niklas Luhmann",
       "description_zh": "德国社会学家，社会系统论代表，研究大众媒介作为社会系统。",
       "school_id": "SCHOOL_SYSTEMS",
-      "active_year": "1984"
+      "active_year": "1984",
+      "birth_year": "1927",
+      "death_year": "1998",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Niklas_Luhmann"
     },
     {
       "scholar_id": "SCH_KITTLER",
@@ -814,7 +1108,10 @@
       "name_en": "Friedrich Kittler",
       "description_zh": "德国媒介理论家，技术媒介学派创始人。",
       "school_id": "SCHOOL_GERMAN_MEDIA",
-      "active_year": "1986"
+      "active_year": "1986",
+      "birth_year": "1943",
+      "death_year": "2011",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Friedrich_Kittler"
     },
     {
       "scholar_id": "SCH_JENKINS",
@@ -822,7 +1119,9 @@
       "name_en": "Henry Jenkins",
       "description_zh": "融合文化与参与式文化研究者，《融合文化》作者。",
       "school_id": "SCHOOL_CULTURAL_STUDIES",
-      "active_year": "2006"
+      "active_year": "2006",
+      "birth_year": "1958",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Jenkins"
     },
     {
       "scholar_id": "SCH_HUANG_YUANYONG",
@@ -830,7 +1129,10 @@
       "name_en": "Huang Yuanyong",
       "description_zh": "中国第一位现代意义上的记者，民国初年著名政论家。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1912"
+      "active_year": "1912",
+      "birth_year": "1885",
+      "death_year": "1915",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Huang_Yuanyong"
     },
     {
       "scholar_id": "SCH_CHENG_SHEWO",
@@ -838,7 +1140,10 @@
       "name_en": "Cheng Shewo",
       "description_zh": "著名报人，创办《世界晚报》《立报》等多家报纸。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1924"
+      "active_year": "1924",
+      "birth_year": "1898",
+      "death_year": "1991",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cheng_Shewo"
     },
     {
       "scholar_id": "SCH_WANG_KANGNIAN",
@@ -846,7 +1151,10 @@
       "name_en": "Wang Kangnian",
       "description_zh": "《时务报》创办人之一，晚清维新派报人。",
       "school_id": "SCHOOL_CN_REFORM",
-      "active_year": "1896"
+      "active_year": "1896",
+      "birth_year": "1860",
+      "death_year": "1911",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E5%BA%B7%E5%B9%B4"
     },
     {
       "scholar_id": "SCH_QIU_JIN",
@@ -854,7 +1162,10 @@
       "name_en": "Qiu Jin",
       "description_zh": "《中国女报》创办人，革命女杰，巾帼英雄。",
       "school_id": "SCHOOL_CN_REVOLUTION",
-      "active_year": "1907"
+      "active_year": "1907",
+      "birth_year": "1875",
+      "death_year": "1907",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Qiu_Jin"
     },
     {
       "scholar_id": "SCH_PENG_YIZHONG",
@@ -862,7 +1173,10 @@
       "name_en": "Peng Yizhong",
       "description_zh": "《京话日报》《启蒙画报》创办人，白话报先驱。",
       "school_id": "SCHOOL_CN_REFORM",
-      "active_year": "1904"
+      "active_year": "1904",
+      "birth_year": "1860",
+      "death_year": "1889",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E5%BD%AD%E7%BF%BC%E4%BB%B2"
     },
     {
       "scholar_id": "SCH_ZHAN_DABEI",
@@ -870,7 +1184,10 @@
       "name_en": "Zhan Dabei",
       "description_zh": "《大江报》创办人，因发表《大乱者救中国之妙药也》被捕。",
       "school_id": "SCHOOL_CN_REVOLUTION",
-      "active_year": "1911"
+      "active_year": "1911",
+      "birth_year": "1887",
+      "death_year": "1927",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E8%A9%B9%E5%A4%A7%E6%82%B2"
     },
     {
       "scholar_id": "SCH_CHEN_YOUREN",
@@ -878,7 +1195,10 @@
       "name_en": "Eugene Chen",
       "description_zh": "英文《京报》创办人，国民政府外交部长。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1917"
+      "active_year": "1917",
+      "birth_year": "1878",
+      "death_year": "1944",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Eugene_Chen"
     },
     {
       "scholar_id": "SCH_DENG_JIXI",
@@ -886,7 +1206,10 @@
       "name_en": "Deng Jixi",
       "description_zh": "《新民报》创办人之一，著名女报人。",
       "school_id": "SCHOOL_CN_REPUBLIC",
-      "active_year": "1929"
+      "active_year": "1929",
+      "birth_year": "1907",
+      "death_year": "1995",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Deng_Jixing"
     },
     {
       "scholar_id": "SCH_WILLIAMS",
@@ -894,7 +1217,10 @@
       "name_en": "Raymond Williams",
       "description_zh": "英国文化研究奠基人，提出「文化是普通的」，著有《文化与社会》《漫长的革命》。",
       "school_id": "SCHOOL_BIRMINGHAM",
-      "active_year": "1958"
+      "active_year": "1958",
+      "birth_year": "1921",
+      "death_year": "1988",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Raymond_Williams"
     },
     {
       "scholar_id": "SCH_HOGGART",
@@ -902,7 +1228,10 @@
       "name_en": "Richard Hoggart",
       "description_zh": "伯明翰当代文化研究中心创始人，著有《识字的用途》，研究工人阶级文化。",
       "school_id": "SCHOOL_BIRMINGHAM",
-      "active_year": "1957"
+      "active_year": "1957",
+      "birth_year": "1918",
+      "death_year": "2014",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Hoggart"
     },
     {
       "scholar_id": "SCH_EP_THOMPSON",
@@ -910,7 +1239,9 @@
       "name_en": "E.P. Thompson",
       "description_zh": "英国马克思主义历史学家，《英国工人阶级的形成》作者，文化研究重要先驱。",
       "school_id": "SCHOOL_BIRMINGHAM",
-      "active_year": "1963"
+      "active_year": "1963",
+      "birth_year": "1924",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/E._P._Thompson"
     },
     {
       "scholar_id": "SCH_MCROBBIE",
@@ -918,7 +1249,9 @@
       "name_en": "Angela McRobbie",
       "description_zh": "伯明翰学派第二代代表，研究青年亚文化与女性主义媒介批评。",
       "school_id": "SCHOOL_BIRMINGHAM",
-      "active_year": "1991"
+      "active_year": "1991",
+      "birth_year": "1951",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Angela_McRobbie"
     },
     {
       "scholar_id": "SCH_MORLEY",
@@ -934,7 +1267,10 @@
       "name_en": "John Fiske",
       "description_zh": "文化研究学者，《理解大众文化》作者，研究受众的积极性与快感政治。",
       "school_id": "SCHOOL_BIRMINGHAM",
-      "active_year": "1989"
+      "active_year": "1989",
+      "birth_year": "1939",
+      "death_year": "2021",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Fiske_(media_scholar)"
     },
     {
       "scholar_id": "SCH_SARNOFF",
@@ -942,7 +1278,10 @@
       "name_en": "David Sarnoff",
       "description_zh": "NBC创始人，美国广播业之父，推动广播电视商业化发展。",
       "school_id": "SCHOOL_BROADCAST",
-      "active_year": "1926"
+      "active_year": "1926",
+      "birth_year": "1891",
+      "death_year": "1971",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/David_Sarnoff"
     },
     {
       "scholar_id": "SCH_PALEY",
@@ -950,7 +1289,10 @@
       "name_en": "William Paley",
       "description_zh": "CBS创始人，将CBS打造成美国三大广播网之一。",
       "school_id": "SCHOOL_BROADCAST",
-      "active_year": "1928"
+      "active_year": "1928",
+      "birth_year": "1901",
+      "death_year": "1990",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/William_S._Paley"
     },
     {
       "scholar_id": "SCH_WALTERS",
@@ -958,7 +1300,10 @@
       "name_en": "Barbara Walters",
       "description_zh": "美国电视新闻女先驱，首位女性晚间新闻主播，开创名人访谈节目。",
       "school_id": "SCHOOL_BROADCAST",
-      "active_year": "1976"
+      "active_year": "1976",
+      "birth_year": "1929",
+      "death_year": "2022",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Barbara_Walters"
     },
     {
       "scholar_id": "SCH_TURNER",
@@ -966,7 +1311,9 @@
       "name_en": "Ted Turner",
       "description_zh": "CNN创始人，开创24小时有线新闻网模式，改变电视新闻格局。",
       "school_id": "SCHOOL_BROADCAST",
-      "active_year": "1980"
+      "active_year": "1980",
+      "birth_year": "1938",
+      "wikipedia_url": "https://simple.wikipedia.org/wiki/Ted_Turner"
     },
     {
       "scholar_id": "SCH_PAGE",
@@ -974,7 +1321,10 @@
       "name_en": "Arthur Page",
       "description_zh": "AT&T公关先驱，提出企业公关理论与佩奇原则。",
       "school_id": "SCHOOL_PR",
-      "active_year": "1927"
+      "active_year": "1927",
+      "birth_year": "1883",
+      "death_year": "1960",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_W._Page"
     },
     {
       "scholar_id": "SCH_BYOIR",
@@ -982,7 +1332,10 @@
       "name_en": "Carl Byoir",
       "description_zh": "现代公关公司创始人，开创全服务公关公司模式。",
       "school_id": "SCHOOL_PR",
-      "active_year": "1930"
+      "active_year": "1930",
+      "birth_year": "1886",
+      "death_year": "1957",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_R._Byoir"
     },
     {
       "scholar_id": "SCH_BURSON",
@@ -1006,7 +1359,10 @@
       "name_en": "Vincent Mosco",
       "description_zh": "传播政治经济学代表人物，著有《传播政治经济学》。",
       "school_id": "SCHOOL_POLITICAL_ECO",
-      "active_year": "1996"
+      "active_year": "1996",
+      "birth_year": "1948",
+      "death_year": "2024",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Vincent_Mosco"
     },
     {
       "scholar_id": "SCH_MURDOCK",
@@ -1022,7 +1378,9 @@
       "name_en": "Paul Levinson",
       "description_zh": "新新媒介研究者，著有《数字麦克卢汉》《新新媒介》。",
       "school_id": "SCHOOL_MEDIA_ECOLOGY",
-      "active_year": "1999"
+      "active_year": "1999",
+      "birth_year": "1947",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Levinson"
     },
     {
       "scholar_id": "SCH_STRATE",
@@ -1030,7 +1388,9 @@
       "name_en": "Lance Strate",
       "description_zh": "媒介生态学协会创始人，福特汉姆大学教授。",
       "school_id": "SCHOOL_MEDIA_ECOLOGY",
-      "active_year": "1998"
+      "active_year": "1998",
+      "birth_year": "1957",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lance_Strate"
     },
     {
       "scholar_id": "SCH_NYSTROM",
@@ -1046,7 +1406,10 @@
       "name_en": "Irving Janis",
       "description_zh": "耶鲁学派成员，群体思维研究先驱，著有《群体思维的受害者》。",
       "school_id": "SCHOOL_YALE",
-      "active_year": "1972"
+      "active_year": "1972",
+      "birth_year": "1918",
+      "death_year": "1990",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Irving_Janis"
     },
     {
       "scholar_id": "SCH_SHAW",
@@ -1062,7 +1425,9 @@
       "name_en": "Larry Gross",
       "description_zh": "格伯纳的长期合作者，共同发展涵化理论，LGBTQ媒介研究先驱。",
       "school_id": "SCHOOL_CULTIVATION",
-      "active_year": "1976"
+      "active_year": "1976",
+      "birth_year": "1953",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Gross"
     },
     {
       "scholar_id": "SCH_ZHENG_GUANYING",
@@ -1070,7 +1435,10 @@
       "name_en": "Zheng Guanying",
       "description_zh": "《盛世危言》作者，近代报刊思想先驱，主张商战与报刊启蒙。",
       "school_id": "SCHOOL_CN_EARLY",
-      "active_year": "1894"
+      "active_year": "1894",
+      "birth_year": "1842",
+      "death_year": "1922",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Zheng_Guanying"
     },
     {
       "scholar_id": "SCH_LAM_HANGCHI",
@@ -1078,7 +1446,9 @@
       "name_en": "Lam Hang-chi",
       "description_zh": "《信报》创办人，香港财经评论家，笔耕不辍四十余年。",
       "school_id": "SCHOOL_HK_PRESS",
-      "active_year": "1973"
+      "active_year": "1973",
+      "birth_year": "1940",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%A1%8C%E6%AD%A2"
     },
     {
       "scholar_id": "SCH_PARK",
@@ -1086,7 +1456,10 @@
       "name_en": "Robert Park",
       "description_zh": "芝加哥学派创始人之一，城市社会学奠基人，研究城市生态与传播。",
       "school_id": "SCHOOL_CHICAGO",
-      "active_year": "1921"
+      "active_year": "1921",
+      "birth_year": "1864",
+      "death_year": "1944",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_E._Park"
     },
     {
       "scholar_id": "SCH_MEAD",
@@ -1094,7 +1467,10 @@
       "name_en": "George Herbert Mead",
       "description_zh": "符号互动论创始人，研究自我与社会的互动关系。",
       "school_id": "SCHOOL_CHICAGO",
-      "active_year": "1934"
+      "active_year": "1934",
+      "birth_year": "1863",
+      "death_year": "1931",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/George_Herbert_Mead"
     },
     {
       "scholar_id": "SCH_BLUMER",
@@ -1102,7 +1478,10 @@
       "name_en": "Herbert Blumer",
       "description_zh": "符号互动论命名者与系统化者，米德学生。",
       "school_id": "SCHOOL_CHICAGO",
-      "active_year": "1937"
+      "active_year": "1937",
+      "birth_year": "1900",
+      "death_year": "1987",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Herbert_Blumer"
     },
     {
       "scholar_id": "SCH_ONG",
@@ -1110,7 +1489,10 @@
       "name_en": "Walter Ong",
       "description_zh": "口语文化与书面文化研究先驱，《口语文化与书面文化》作者。",
       "school_id": "SCHOOL_TORONTO",
-      "active_year": "1982"
+      "active_year": "1982",
+      "birth_year": "1912",
+      "death_year": "2003",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Walter_J._Ong"
     },
     {
       "scholar_id": "SCH_HAVELOCK",
@@ -1118,7 +1500,10 @@
       "name_en": "Eric Havelock",
       "description_zh": "古希腊口语文化研究专家，《柏拉图导论》作者。",
       "school_id": "SCHOOL_TORONTO",
-      "active_year": "1963"
+      "active_year": "1963",
+      "birth_year": "1903",
+      "death_year": "1988",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Eric_A._Havelock"
     },
     {
       "scholar_id": "SCH_DEKERCKHOVE",
@@ -1126,7 +1511,9 @@
       "name_en": "Derrick de Kerckhove",
       "description_zh": "麦克卢汉弟子，多伦多大学麦克卢汉项目主任，研究数字媒介。",
       "school_id": "SCHOOL_TORONTO",
-      "active_year": "1995"
+      "active_year": "1995",
+      "birth_year": "1944",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Derrick_de_Kerckhove"
     },
     {
       "scholar_id": "SCH_BO_GU",
@@ -1134,7 +1521,10 @@
       "name_en": "Bo Gu",
       "description_zh": "原名秦邦宪，红色中华通讯社（红中社）和新华社早期领导人，曾任中共中央负责人。",
       "school_id": "SCHOOL_CN_CPC",
-      "active_year": "1931"
+      "active_year": "1931",
+      "birth_year": "1907",
+      "death_year": "1946",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bo_Gu"
     },
     {
       "scholar_id": "SCH_YANG_SHANGKUN",
@@ -1142,7 +1532,10 @@
       "name_en": "Yang Shangkun",
       "description_zh": "延安新华广播电台创建者之一，曾任中共中央办公厅主任，后任国家主席。",
       "school_id": "SCHOOL_CN_CPC",
-      "active_year": "1940"
+      "active_year": "1940",
+      "birth_year": "1907",
+      "death_year": "1998",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yang_Shangkun"
     },
     {
       "scholar_id": "SCH_LIAO_CHENGZHI",
@@ -1150,7 +1543,10 @@
       "name_en": "Liao Chengzhi",
       "description_zh": "曾任新华社社长，主管对外宣传工作，致力于中日友好和侨务工作。",
       "school_id": "SCHOOL_CN_CPC",
-      "active_year": "1949"
+      "active_year": "1949",
+      "birth_year": "1908",
+      "death_year": "1983",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Liao_Chengzhi"
     },
     {
       "scholar_id": "SCH_HUANG_TIANPENG",
@@ -1158,7 +1554,10 @@
       "name_en": "Huang Tianpeng",
       "description_zh": "民国时期著名新闻学者，著有《新闻学概论》等多部新闻学著作。",
       "school_id": "SCHOOL_CN_ACADEMIC",
-      "active_year": "1930"
+      "active_year": "1930",
+      "birth_year": "1909",
+      "death_year": "1982",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%A4%A9%E9%B5%AC"
     },
     {
       "scholar_id": "SCH_REN_BAITAO",
@@ -1174,7 +1573,9 @@
       "name_en": "Fang Hanqi",
       "description_zh": "当代中国新闻史研究泰斗，中国人民大学教授，著有《中国新闻事业通史》。",
       "school_id": "SCHOOL_CN_ACADEMIC",
-      "active_year": "1992"
+      "active_year": "1992",
+      "birth_year": "1926",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E6%B1%89%E5%A5%87"
     },
     {
       "scholar_id": "SCH_WHITE",
@@ -1198,7 +1599,10 @@
       "name_en": "Erving Goffman",
       "description_zh": "美国社会学家，符号互动论代表人物，1974年出版《框架分析》，将\"框架\"界定为人们认识世界、定义情境的解释结构，为传播学框架理论奠基。",
       "school_id": "SCHOOL_CHICAGO",
-      "active_year": "1959"
+      "active_year": "1959",
+      "birth_year": "1922",
+      "death_year": "1982",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Erving_Goffman"
     },
     {
       "scholar_id": "SCH_ENTMAN",
@@ -1206,7 +1610,9 @@
       "name_en": "Robert M. Entman",
       "description_zh": "美国政治传播学者，1993年在《走向一个破碎范式的澄清》中把框架化界定为\"选择与凸显\"，成为传播学框架研究最常引用的定义。",
       "school_id": "SCHOOL_AGENDA",
-      "active_year": "1993"
+      "active_year": "1993",
+      "birth_year": "1950",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Entman"
     },
     {
       "scholar_id": "SCH_SUNSTEIN",
@@ -1214,7 +1620,9 @@
       "name_en": "Cass R. Sunstein",
       "description_zh": "美国法学家、政治学者，哈佛大学教授，在《网络共和国》等著作中分析网络时代的群体极化、回音室效应与信息茧房，主张民主社会需要\"非预期的信息接触\"。",
       "school_id": "SCHOOL_LIBERTARIAN",
-      "active_year": "2001"
+      "active_year": "2001",
+      "birth_year": "1954",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cass_Sunstein"
     },
     {
       "scholar_id": "SCH_SHIRKY",
@@ -1222,7 +1630,9 @@
       "name_en": "Clay Shirky",
       "description_zh": "美国互联网研究者、纽约大学讲师，著有《人人时代：无组织的组织力量》，阐述网络工具如何使无组织的人群实现分享、协同生产与集体行动。",
       "school_id": "SCHOOL_NETWORK",
-      "active_year": "2008"
+      "active_year": "2008",
+      "birth_year": "1964",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%8E%B1%C2%B7%E8%88%8D%E5%9F%BA"
     },
     {
       "scholar_id": "SCH_PARISER",
@@ -1230,7 +1640,9 @@
       "name_en": "Eli Pariser",
       "description_zh": "美国互联网活动家、MoveOn.org前执行董事，2011年出版《过滤气泡》，指出个性化算法会依据用户行为过滤相异观点，将人封闭在同质信息环境中。",
       "school_id": "SCHOOL_NETWORK",
-      "active_year": "2011"
+      "active_year": "2011",
+      "birth_year": "1980",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Eli_Pariser"
     },
     {
       "scholar_id": "SCH_GUO_QINGGUANG",
@@ -1246,7 +1658,9 @@
       "name_en": "Chen Lidan",
       "description_zh": "中国人民大学荣誉一级教授，研究方向涵盖新闻理论、传播学理论、舆论学与新闻史，著有《舆论学》《新闻理论十讲》《世界新闻传播史》等。",
       "school_id": "SCHOOL_CN_ACADEMIC",
-      "active_year": "2008"
+      "active_year": "2008",
+      "birth_year": "1951",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E9%99%88%E5%8A%9B%E4%B8%B9"
     },
     {
       "scholar_id": "SCH_LI_LIANGRONG",
@@ -1415,7 +1829,7 @@
       "scholar_id": "SCH_BENNETT",
       "proposition_text_zh": "新闻应该摆脱政党控制，以独立、廉价、面向大众的商业模式运营。",
       "year": "1835",
-      "concept_ids": "CONCEPT_OBJECTIVITY",
+      "concept_ids": "CONCEPT_OBJECTIVITY;CONCEPT_PENNY_PRESS",
       "evidence_passage_ids": "PAS_0036"
     },
     {
@@ -1423,7 +1837,7 @@
       "scholar_id": "SCH_TARBELL",
       "proposition_text_zh": "调查性新闻应当揭露企业垄断和政治腐败，为公众利益服务。",
       "year": "1904",
-      "concept_ids": "CONCEPT_FOURTH_ESTATE",
+      "concept_ids": "CONCEPT_FOURTH_ESTATE;CONCEPT_MUCKRAKING",
       "evidence_passage_ids": "PAS_0037"
     },
     {
@@ -1575,7 +1989,7 @@
       "scholar_id": "SCH_LASSWELL",
       "proposition_text_zh": "传播过程可以用5W模式描述：谁（Who）、说什么（Says What）、通过什么渠道（In Which Channel）、对谁说（To Whom）、取得什么效果（With What Effect）。",
       "year": "1948",
-      "concept_ids": "CONCEPT_5W_MODEL",
+      "concept_ids": "CONCEPT_5W_MODEL;CONCEPT_5W",
       "evidence_passage_ids": "PAS_0016"
     },
     {
@@ -2009,6 +2423,22 @@
       "year": "2001",
       "concept_ids": "",
       "evidence_passage_ids": "PAS_0106"
+    },
+    {
+      "proposition_id": "PROP_KATZ_1974_A",
+      "scholar_id": "SCH_KATZ",
+      "proposition_text_zh": "受众使用传媒来满足自己的需求。1974年卡茨与布卢姆勒提出「使用与满足」，传播研究由此开始考察受众如何运用传媒。",
+      "year": "1974",
+      "concept_ids": "CONCEPT_USES_GRATIFICATIONS",
+      "evidence_passage_ids": "PAS_0107"
+    },
+    {
+      "proposition_id": "PROP_HEARST_1895_A",
+      "scholar_id": "SCH_HEARST",
+      "proposition_text_zh": "赫斯特在20世纪初掀起黄色新闻浪潮，对后来的新闻传媒产生了深远影响。",
+      "year": "1895",
+      "concept_ids": "CONCEPT_YELLOW_JOURNALISM",
+      "evidence_passage_ids": "PAS_0108"
     }
   ],
   "passages": [
@@ -2931,6 +3361,26 @@
       "published_year": "2023",
       "passage_text": "彭兰编著的《网络传播概论》初版于2001年10月由中国人民大学出版社出版，是国内出版较早且影响力较大的网络传播教材，被多所高校列为新闻传播考研参考教材，被视为中国网络传播研究的代表性著作之一。",
       "locator": "内容简介"
+    },
+    {
+      "passage_id": "PAS_0107",
+      "source_id": "SRC_0107",
+      "source_title": "维基百科：使用与满足研究",
+      "source_url": "https://zh.wikipedia.org/wiki/使用與滿足研究",
+      "source_type": "encyclopedia",
+      "published_year": "2024",
+      "passage_text": "1974年，Jay G. Blumler及Elihu Katz提出「使用及满足」，提出受众使用传媒来满足自己，在传播学上，开始了受众如何运用传媒的研究。",
+      "locator": "研究内容"
+    },
+    {
+      "passage_id": "PAS_0108",
+      "source_id": "SRC_0108",
+      "source_title": "维基百科：威廉·赫斯特",
+      "source_url": "https://zh.wikipedia.org/wiki/威廉·赫斯特",
+      "source_type": "encyclopedia",
+      "published_year": "2024",
+      "passage_text": "威廉·伦道夫·赫斯特，美国报业大王、企业家，赫斯特国际集团的创始人。……他在20世纪初掀起的黄色新闻浪潮，对后来新闻传媒产生了深远影响。",
+      "locator": "导语"
     }
   ],
   "concepts": [
@@ -3971,7 +4421,10 @@
       "title_en": "Public Opinion",
       "scholar_id": "SCH_LIPPMANN",
       "year": "1922",
-      "description_zh": "李普曼的代表作，探讨舆论与民主的关系，提出「拟态环境」等概念。"
+      "description_zh": "李普曼的代表作，探讨舆论与民主的关系，提出「拟态环境」等概念。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Public_Opinion_(book)",
+      "found_year": "1922",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_UNDERSTANDING_MEDIA",
@@ -3979,7 +4432,10 @@
       "title_en": "Understanding Media",
       "scholar_id": "SCH_MCLUHAN",
       "year": "1964",
-      "description_zh": "麦克卢汉最著名的著作，提出「媒介即讯息」和「地球村」等概念。"
+      "description_zh": "麦克卢汉最著名的著作，提出「媒介即讯息」和「地球村」等概念。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Understanding_Media",
+      "found_year": "1964",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_STRUCTURAL_TRANSFORMATION",
@@ -3987,7 +4443,10 @@
       "title_en": "The Structural Transformation of the Public Sphere",
       "scholar_id": "SCH_HABERMAS",
       "year": "1962",
-      "description_zh": "哈贝马斯的代表作，系统阐述公共领域理论。"
+      "description_zh": "哈贝马斯的代表作，系统阐述公共领域理论。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Structural_Transformation_of_the_Public_Sphere",
+      "found_year": "1962",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_PERSONAL_INFLUENCE",
@@ -3995,7 +4454,8 @@
       "title_en": "Personal Influence",
       "scholar_id": "SCH_KATZ",
       "year": "1955",
-      "description_zh": "卡茨与拉扎斯菲尔德合著，提出两级传播理论。"
+      "description_zh": "卡茨与拉扎斯菲尔德合著，提出两级传播理论。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_AMUSING_OURSELVES",
@@ -4003,7 +4463,10 @@
       "title_en": "Amusing Ourselves to Death",
       "scholar_id": "SCH_POSTMAN",
       "year": "1985",
-      "description_zh": "波兹曼批判电视文化对公共话语的侵蚀。"
+      "description_zh": "波兹曼批判电视文化对公共话语的侵蚀。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Amusing_Ourselves_to_Death",
+      "found_year": "1985",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_COMMUNICATION_EMPIRE",
@@ -4011,7 +4474,10 @@
       "title_en": "Empire and Communications",
       "scholar_id": "SCH_INNIS",
       "year": "1950",
-      "description_zh": "伊尼斯探讨媒介与帝国兴衰关系的著作。"
+      "description_zh": "伊尼斯探讨媒介与帝国兴衰关系的著作。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Empire_and_Communications",
+      "found_year": "1950",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_PROPAGANDA_TECHNIQUE",
@@ -4019,7 +4485,8 @@
       "title_en": "Propaganda Technique in the World War",
       "scholar_id": "SCH_LASSWELL",
       "year": "1927",
-      "description_zh": "拉斯韦尔关于宣传技术的经典研究。"
+      "description_zh": "拉斯韦尔关于宣传技术的经典研究。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_ENCODING_DECODING",
@@ -4027,7 +4494,8 @@
       "title_en": "Encoding and Decoding in the Television Discourse",
       "scholar_id": "SCH_HALL",
       "year": "1973",
-      "description_zh": "霍尔提出编码/解码理论的论文。"
+      "description_zh": "霍尔提出编码/解码理论的论文。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_DIFFUSION_INNOVATIONS",
@@ -4035,7 +4503,10 @@
       "title_en": "Diffusion of Innovations",
       "scholar_id": "SCH_ROGERS",
       "year": "1962",
-      "description_zh": "罗杰斯关于创新扩散理论的开创性著作。"
+      "description_zh": "罗杰斯关于创新扩散理论的开创性著作。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Diffusion_of_Innovations",
+      "found_year": "1962",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_CHINESE_PRESS_HISTORY",
@@ -4043,7 +4514,8 @@
       "title_en": "A History of Chinese Journalism",
       "scholar_id": "SCH_GE_GONGZHEN",
       "year": "1927",
-      "description_zh": "中国第一部系统的新闻史著作。"
+      "description_zh": "中国第一部系统的新闻史著作。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_RED_STAR",
@@ -4051,7 +4523,10 @@
       "title_en": "Red Star Over China",
       "scholar_id": "SCH_SNOW",
       "year": "1937",
-      "description_zh": "斯诺对中国革命的经典报道。"
+      "description_zh": "斯诺对中国革命的经典报道。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Star_Over_China",
+      "found_year": "1937",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_1984",
@@ -4059,7 +4534,10 @@
       "title_en": "Nineteen Eighty-Four",
       "scholar_id": "SCH_ORWELL",
       "year": "1949",
-      "description_zh": "奥威尔的反乌托邦小说，探讨极权主义与媒体控制。"
+      "description_zh": "奥威尔的反乌托邦小说，探讨极权主义与媒体控制。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+      "found_year": "1949",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_AREOPAGITICA",
@@ -4067,7 +4545,10 @@
       "title_en": "Areopagitica",
       "scholar_id": "SCH_MILTON",
       "year": "1644",
-      "description_zh": "弥尔顿反对出版审查的经典论著。"
+      "description_zh": "弥尔顿反对出版审查的经典论著。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Areopagitica",
+      "found_year": "1644",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_MANUFACTURING_CONSENT",
@@ -4075,7 +4556,10 @@
       "title_en": "Manufacturing Consent",
       "scholar_id": "SCH_CHOMSKY",
       "year": "1988",
-      "description_zh": "乔姆斯基对美国媒体政治经济学的批判分析。"
+      "description_zh": "乔姆斯基对美国媒体政治经济学的批判分析。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Manufacturing_Consent",
+      "found_year": "1988",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_DIALECTIC_ENLIGHTENMENT",
@@ -4083,7 +4567,10 @@
       "title_en": "Dialectic of Enlightenment",
       "scholar_id": "SCH_ADORNO",
       "year": "1944",
-      "description_zh": "阿多诺与霍克海默合著，批判启蒙理性走向工具理性的异化。"
+      "description_zh": "阿多诺与霍克海默合著，批判启蒙理性走向工具理性的异化。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dialectic_of_Enlightenment",
+      "found_year": "1947",
+      "year_status": "mismatch"
     },
     {
       "book_id": "BOOK_ONE_DIMENSIONAL_MAN",
@@ -4091,7 +4578,10 @@
       "title_en": "One-Dimensional Man",
       "scholar_id": "SCH_MARCUSE",
       "year": "1964",
-      "description_zh": "马尔库塞批判发达工业社会对人的控制与异化。"
+      "description_zh": "马尔库塞批判发达工业社会对人的控制与异化。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/One-Dimensional_Man",
+      "found_year": "1964",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_MECHANICAL_REPRODUCTION",
@@ -4099,7 +4589,10 @@
       "title_en": "The Work of Art in the Age of Mechanical Reproduction",
       "scholar_id": "SCH_BENJAMIN",
       "year": "1936",
-      "description_zh": "本雅明分析技术复制对艺术「灵韵」的影响。"
+      "description_zh": "本雅明分析技术复制对艺术「灵韵」的影响。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Work_of_Art_in_the_Age_of_Mechanical_Reproduction#bodyContent",
+      "found_year": "1936",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_ESCAPE_FROM_FREEDOM",
@@ -4107,7 +4600,10 @@
       "title_en": "Escape from Freedom",
       "scholar_id": "SCH_FROMM",
       "year": "1941",
-      "description_zh": "弗洛姆分析现代人面对自由时的心理机制。"
+      "description_zh": "弗洛姆分析现代人面对自由时的心理机制。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Escape_from_Freedom",
+      "found_year": "1941",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_COMMUNICATION_PERSUASION",
@@ -4115,7 +4611,8 @@
       "title_en": "Communication and Persuasion",
       "scholar_id": "SCH_HOVLAND",
       "year": "1953",
-      "description_zh": "霍夫兰的说服研究经典著作，系统探讨态度改变机制。"
+      "description_zh": "霍夫兰的说服研究经典著作，系统探讨态度改变机制。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_MATHEMATICAL_COMMUNICATION",
@@ -4123,7 +4620,10 @@
       "title_en": "A Mathematical Theory of Communication",
       "scholar_id": "SCH_SHANNON",
       "year": "1948",
-      "description_zh": "香农奠定信息论数学基础的里程碑论文。"
+      "description_zh": "香农奠定信息论数学基础的里程碑论文。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
+      "found_year": "1948",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_CYBERNETICS",
@@ -4131,7 +4631,10 @@
       "title_en": "Cybernetics",
       "scholar_id": "SCH_WIENER",
       "year": "1948",
-      "description_zh": "维纳创立控制论的开山之作。"
+      "description_zh": "维纳创立控制论的开山之作。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine",
+      "found_year": "1948",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_CULTURE_SOCIETY",
@@ -4139,7 +4642,10 @@
       "title_en": "Culture and Society",
       "scholar_id": "SCH_WILLIAMS",
       "year": "1958",
-      "description_zh": "威廉斯奠定英国文化研究的经典著作。"
+      "description_zh": "威廉斯奠定英国文化研究的经典著作。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Culture_and_Society",
+      "found_year": "1958",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_USES_OF_LITERACY",
@@ -4147,7 +4653,10 @@
       "title_en": "The Uses of Literacy",
       "scholar_id": "SCH_HOGGART",
       "year": "1957",
-      "description_zh": "霍加特研究工人阶级文化的开创性著作。"
+      "description_zh": "霍加特研究工人阶级文化的开创性著作。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Uses_of_Literacy",
+      "found_year": "1957",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_MAKING_ENGLISH_WORKING_CLASS",
@@ -4155,7 +4664,10 @@
       "title_en": "The Making of the English Working Class",
       "scholar_id": "SCH_EP_THOMPSON",
       "year": "1963",
-      "description_zh": "E.P.汤普森的马克思主义历史学经典。"
+      "description_zh": "E.P.汤普森的马克思主义历史学经典。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Making_of_the_English_Working_Class",
+      "found_year": "1963",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_UNDERSTANDING_POPULAR_CULTURE",
@@ -4163,7 +4675,8 @@
       "title_en": "Understanding Popular Culture",
       "scholar_id": "SCH_FISKE",
       "year": "1989",
-      "description_zh": "费斯克研究大众文化与受众能动性的代表作。"
+      "description_zh": "费斯克研究大众文化与受众能动性的代表作。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_NETWORK_SOCIETY",
@@ -4171,7 +4684,8 @@
       "title_en": "The Rise of the Network Society",
       "scholar_id": "SCH_CASTELLS",
       "year": "1996",
-      "description_zh": "卡斯特信息时代三部曲第一卷，分析网络社会结构。"
+      "description_zh": "卡斯特信息时代三部曲第一卷，分析网络社会结构。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_NO_SENSE_OF_PLACE",
@@ -4179,15 +4693,8 @@
       "title_en": "No Sense of Place",
       "scholar_id": "SCH_MEYROWITZ",
       "year": "1985",
-      "description_zh": "梅罗维茨研究电子媒介对社会空间影响的著作。"
-    },
-    {
-      "book_id": "BOOK_CONVERGENCE_CULTURE",
-      "title_zh": "融合文化",
-      "title_en": "Convergence Culture",
-      "scholar_id": "SCH_JENKINS",
-      "year": "2006",
-      "description_zh": "詹金斯研究媒介融合与参与式文化的代表作。"
+      "description_zh": "梅罗维茨研究电子媒介对社会空间影响的著作。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_CRYSTALLIZING_PUBLIC_OPINION",
@@ -4195,7 +4702,10 @@
       "title_en": "Crystallizing Public Opinion",
       "scholar_id": "SCH_BERNAYS",
       "year": "1923",
-      "description_zh": "伯奈斯公共关系理论的奠基之作。"
+      "description_zh": "伯奈斯公共关系理论的奠基之作。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Crystallizing_Public_Opinion",
+      "found_year": "1923",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_HISTORY_STANDARD_OIL",
@@ -4203,7 +4713,10 @@
       "title_en": "The History of the Standard Oil Company",
       "scholar_id": "SCH_TARBELL",
       "year": "1904",
-      "description_zh": "塔贝尔揭露垄断的调查新闻经典。"
+      "description_zh": "塔贝尔揭露垄断的调查新闻经典。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_History_of_the_Standard_Oil_Company",
+      "found_year": "1904",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_IN_COLD_BLOOD",
@@ -4211,7 +4724,10 @@
       "title_en": "In Cold Blood",
       "scholar_id": "SCH_CAPOTE",
       "year": "1966",
-      "description_zh": "卡波特开创非虚构小说文体的里程碑作品。"
+      "description_zh": "卡波特开创非虚构小说文体的里程碑作品。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/In_Cold_Blood",
+      "found_year": "1966",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_PEOPLES_CHOICE",
@@ -4219,7 +4735,8 @@
       "title_en": "The People's Choice",
       "scholar_id": "SCH_LAZARSFELD",
       "year": "1944",
-      "description_zh": "拉扎斯菲尔德主持的选举研究经典，提出两级传播假说。"
+      "description_zh": "拉扎斯菲尔德主持的选举研究经典，提出两级传播假说。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_SPIRAL_OF_SILENCE",
@@ -4227,15 +4744,17 @@
       "title_en": "The Spiral of Silence",
       "scholar_id": "SCH_NOELLE_NEUMANN",
       "year": "1984",
-      "description_zh": "诺依曼系统阐述沉默螺旋理论的著作。"
+      "description_zh": "诺依曼系统阐述沉默螺旋理论的著作。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_XINWENXUE",
       "title_zh": "新闻学",
-      "title_en": "Erta the Principles of Journalism",
+      "title_en": "Journalism",
       "scholar_id": "SCH_XU_BAOHUANG",
       "year": "1919",
-      "description_zh": "徐宝璜著，中国第一部新闻学理论专著。"
+      "description_zh": "徐宝璜著，中国第一部新闻学理论专著。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_NORTHWEST_CORNER",
@@ -4243,7 +4762,9 @@
       "title_en": "China's Northwest Corner",
       "scholar_id": "SCH_FAN_CHANGJIANG",
       "year": "1936",
-      "description_zh": "范长江的西北采访通讯集，开创现代新闻通讯文体。"
+      "description_zh": "范长江的西北采访通讯集，开创现代新闻通讯文体。",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E7%9A%84%E8%A5%BF%E5%8C%97%E8%A7%92",
+      "year_status": "no_year_found"
     },
     {
       "book_id": "BOOK_YINBINGSHI_WENJI",
@@ -4251,7 +4772,10 @@
       "title_en": "Collected Works of Yinbingshi",
       "scholar_id": "SCH_LIANG_QICHAO",
       "year": "1902",
-      "description_zh": "梁启超文集，收录大量政论与报刊评论。"
+      "description_zh": "梁启超文集，收录大量政论与报刊评论。",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E9%A5%AE%E5%86%B0%E5%AE%A4%E6%96%87%E9%9B%86",
+      "found_year": "1902",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_YANSHAN_YEHUA",
@@ -4259,7 +4783,8 @@
       "title_en": "Evening Talks at Yanshan",
       "scholar_id": "SCH_DENG_TUO",
       "year": "1961",
-      "description_zh": "邓拓的杂文集，以史为鉴批评时弊。"
+      "description_zh": "邓拓的杂文集，以史为鉴批评时弊。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_NAHAN",
@@ -4267,7 +4792,10 @@
       "title_en": "Call to Arms",
       "scholar_id": "SCH_LU_XUN",
       "year": "1923",
-      "description_zh": "鲁迅第一部小说集，包括《狂人日记》《阿Q正传》等。"
+      "description_zh": "鲁迅第一部小说集，包括《狂人日记》《阿Q正传》等。",
+      "wikipedia_url": "https://zh.wikipedia.org/wiki/%E5%90%B6%E5%96%8A",
+      "found_year": "1922",
+      "year_status": "near_match"
     },
     {
       "book_id": "BOOK_TAOFEN_WENJI",
@@ -4275,7 +4803,8 @@
       "title_en": "Collected Works of Taofen",
       "scholar_id": "SCH_ZOU_TAOFEN",
       "year": "1938",
-      "description_zh": "邹韬奋的文集，记录抗日救亡舆论工作。"
+      "description_zh": "邹韬奋的文集，记录抗日救亡舆论工作。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_CHINA_NEWS_HISTORY",
@@ -4283,7 +4812,8 @@
       "title_en": "A General History of Chinese Journalism",
       "scholar_id": "SCH_FANG_HANQI",
       "year": "1992",
-      "description_zh": "方汉奇主编，中国新闻史研究集大成之作。"
+      "description_zh": "方汉奇主编，中国新闻史研究集大成之作。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_ORAL_WRITTEN_CULTURE",
@@ -4291,7 +4821,8 @@
       "title_en": "Orality and Literacy",
       "scholar_id": "SCH_ONG",
       "year": "1982",
-      "description_zh": "翁分析口语与书面文化认知差异的经典。"
+      "description_zh": "翁分析口语与书面文化认知差异的经典。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_PREFACE_PLATO",
@@ -4299,7 +4830,8 @@
       "title_en": "Preface to Plato",
       "scholar_id": "SCH_HAVELOCK",
       "year": "1963",
-      "description_zh": "哈弗洛克研究古希腊文化转型的重要著作。"
+      "description_zh": "哈弗洛克研究古希腊文化转型的重要著作。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_BIAS_COMMUNICATION",
@@ -4307,7 +4839,8 @@
       "title_en": "The Bias of Communication",
       "scholar_id": "SCH_INNIS",
       "year": "1951",
-      "description_zh": "伊尼斯研究媒介偏向的另一部重要著作。"
+      "description_zh": "伊尼斯研究媒介偏向的另一部重要著作。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_GUTENBERG_GALAXY",
@@ -4315,7 +4848,10 @@
       "title_en": "The Gutenberg Galaxy",
       "scholar_id": "SCH_MCLUHAN",
       "year": "1962",
-      "description_zh": "麦克卢汉研究印刷术对文化影响的著作。"
+      "description_zh": "麦克卢汉研究印刷术对文化影响的著作。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Gutenberg_Galaxy",
+      "found_year": "1962",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_GROUPTHINK",
@@ -4323,7 +4859,8 @@
       "title_en": "Victims of Groupthink",
       "scholar_id": "SCH_JANIS",
       "year": "1972",
-      "description_zh": "贾尼斯提出群体思维理论的经典著作。"
+      "description_zh": "贾尼斯提出群体思维理论的经典著作。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_LONELY_CROWD",
@@ -4331,7 +4868,10 @@
       "title_en": "The Lonely Crowd",
       "scholar_id": "SCH_RIESMAN",
       "year": "1950",
-      "description_zh": "里斯曼研究美国社会性格变迁的社会学经典。"
+      "description_zh": "里斯曼研究美国社会性格变迁的社会学经典。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Lonely_Crowd",
+      "found_year": "1950",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_DIGITAL_CAPITALISM",
@@ -4339,7 +4879,8 @@
       "title_en": "Digital Capitalism",
       "scholar_id": "SCH_DAN_SCHILLER",
       "year": "1999",
-      "description_zh": "丹·席勒批判信息技术与资本主义逻辑的著作。"
+      "description_zh": "丹·席勒批判信息技术与资本主义逻辑的著作。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_POLITICAL_ECONOMY_COMMUNICATION",
@@ -4347,7 +4888,8 @@
       "title_en": "The Political Economy of Communication",
       "scholar_id": "SCH_MOSCO",
       "year": "1996",
-      "description_zh": "莫斯可系统阐述传播政治经济学的教科书。"
+      "description_zh": "莫斯可系统阐述传播政治经济学的教科书。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_MASS_COMMUNICATION_THEORY",
@@ -4355,15 +4897,18 @@
       "title_en": "Mass Communication Theory",
       "scholar_id": "SCH_MCQUAIL",
       "year": "1983",
-      "description_zh": "麦奎尔的传播学理论教科书，影响深远。"
+      "description_zh": "麦奎尔的传播学理论教科书，影响深远。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_SHENGSHI_WEIYAN",
       "title_zh": "盛世危言",
-      "title_en": "Erta Warnings in Times of Prosperity",
+      "title_en": "Words of Warning to a Prosperous Age",
       "scholar_id": "SCH_ZHENG_GUANYING",
       "year": "1894",
-      "description_zh": "郑观应的改良思想著作，主张商战救国。"
+      "description_zh": "郑观应的改良思想著作，主张商战救国。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Words_of_Warning_to_a_Prosperous_Age",
+      "year_status": "no_year_found"
     },
     {
       "book_id": "BOOK_PUBLIC_AND_PROBLEMS",
@@ -4371,7 +4916,10 @@
       "title_en": "The Public and Its Problems",
       "scholar_id": "SCH_DEWEY",
       "year": "1927",
-      "description_zh": "杜威回应李普曼的民主与传播理论著作。"
+      "description_zh": "杜威回应李普曼的民主与传播理论著作。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Public_and_Its_Problems",
+      "found_year": "1927",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_HUMAN_NATURE_SOCIAL_ORDER",
@@ -4379,7 +4927,8 @@
       "title_en": "Human Nature and the Social Order",
       "scholar_id": "SCH_COOLEY",
       "year": "1902",
-      "description_zh": "库利提出「镜中我」理论的经典社会心理学著作。"
+      "description_zh": "库利提出「镜中我」理论的经典社会心理学著作。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_MIND_SELF_SOCIETY",
@@ -4387,7 +4936,10 @@
       "title_en": "Mind Self and Society",
       "scholar_id": "SCH_MEAD",
       "year": "1934",
-      "description_zh": "米德符号互动论的代表作，由学生整理出版。"
+      "description_zh": "米德符号互动论的代表作，由学生整理出版。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mind,_Self_and_Society",
+      "found_year": "1934",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_FRAME_ANALYSIS",
@@ -4395,7 +4947,8 @@
       "title_en": "Frame Analysis: An Essay on the Organization of Experience",
       "scholar_id": "SCH_GOFFMAN",
       "year": "1974",
-      "description_zh": "戈夫曼的社会学代表作，首次将\"框架\"概念系统引入情境分析，成为传播学框架理论的理论源头。"
+      "description_zh": "戈夫曼的社会学代表作，首次将\"框架\"概念系统引入情境分析，成为传播学框架理论的理论源头。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_REPUBLIC_COM",
@@ -4403,7 +4956,8 @@
       "title_en": "Republic.com",
       "scholar_id": "SCH_SUNSTEIN",
       "year": "2001",
-      "description_zh": "桑斯坦分析网络时代公共领域的著作，提出回音室、群体极化与信息茧房等核心问题，主张民主社会需要\"非预期的信息接触\"。"
+      "description_zh": "桑斯坦分析网络时代公共领域的著作，提出回音室、群体极化与信息茧房等核心问题，主张民主社会需要\"非预期的信息接触\"。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_CONVERGENCE_CULTURE",
@@ -4411,7 +4965,8 @@
       "title_en": "Convergence Culture: Where Old and New Media Collide",
       "scholar_id": "SCH_JENKINS",
       "year": "2006",
-      "description_zh": "詹金斯以跨媒体叙事与粉丝文化案例阐述媒介融合的文化逻辑，提出参与式文化理论。"
+      "description_zh": "詹金斯以跨媒体叙事与粉丝文化案例阐述媒介融合的文化逻辑，提出参与式文化理论。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_HERE_COMES_EVERYBODY",
@@ -4419,7 +4974,10 @@
       "title_en": "Here Comes Everybody: The Power of Organizing Without Organizations",
       "scholar_id": "SCH_SHIRKY",
       "year": "2008",
-      "description_zh": "舍基的互联网研究代表作，论述网络工具如何降低协作门槛、催生无组织的组织力量。"
+      "description_zh": "舍基的互联网研究代表作，论述网络工具如何降低协作门槛、催生无组织的组织力量。",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Here_Comes_Everybody:_The_Power_of_Organizing_Without_Organizations",
+      "found_year": "2008",
+      "year_status": "verified"
     },
     {
       "book_id": "BOOK_FILTER_BUBBLE",
@@ -4427,7 +4985,8 @@
       "title_en": "The Filter Bubble: What the Internet Is Hiding from You",
       "scholar_id": "SCH_PARISER",
       "year": "2011",
-      "description_zh": "帕里泽提出\"过滤气泡\"概念之作，揭示个性化算法如何决定我们能看到什么、看不到什么。"
+      "description_zh": "帕里泽提出\"过滤气泡\"概念之作，揭示个性化算法如何决定我们能看到什么、看不到什么。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_COMMUNICATION_COURSE",
@@ -4435,7 +4994,8 @@
       "title_en": "A Course in Communication Studies",
       "scholar_id": "SCH_GUO_QINGGUANG",
       "year": "1999",
-      "description_zh": "郭庆光主编的国家级重点教材，初版1999年、第二版2011年，是中国传播学教学与考研的基础文献。"
+      "description_zh": "郭庆光主编的国家级重点教材，初版1999年、第二版2011年，是中国传播学教学与考研的基础文献。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_NEWS_THEORY_TEN_LECTURES",
@@ -4443,7 +5003,8 @@
       "title_en": "Ten Lectures on Journalism Theory",
       "scholar_id": "SCH_CHEN_LIDAN",
       "year": "2008",
-      "description_zh": "陈力丹的新闻理论教材，以十讲形式系统阐述新闻学核心理论，重构新闻学基本问题。"
+      "description_zh": "陈力丹的新闻理论教材，以十讲形式系统阐述新闻学核心理论，重构新闻学基本问题。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_JOURNALISM_INTRODUCTION",
@@ -4451,7 +5012,8 @@
       "title_en": "Introduction to Journalism",
       "scholar_id": "SCH_LI_LIANGRONG",
       "year": "1985",
-      "description_zh": "建国后国内第一本新闻学概论教材（1985年），历经七次修订，是全国新闻传播专业使用最广的基础教材之一。"
+      "description_zh": "建国后国内第一本新闻学概论教材（1985年），历经七次修订，是全国新闻传播专业使用最广的基础教材之一。",
+      "year_status": "no_wiki_hit"
     },
     {
       "book_id": "BOOK_INTERNET_COMMUNICATION_INTRO",
@@ -4459,7 +5021,8 @@
       "title_en": "Introduction to Internet Communication",
       "scholar_id": "SCH_PENG_LAN",
       "year": "2001",
-      "description_zh": "彭兰编著的网络传播教材（初版2001年），中国网络传播研究的代表性著作。"
+      "description_zh": "彭兰编著的网络传播教材（初版2001年），中国网络传播研究的代表性著作。",
+      "year_status": "no_wiki_hit"
     }
   ],
   "relations": [
@@ -4605,7 +5168,7 @@
     }
   ],
   "meta": {
-    "build_time": "2026-09-17",
+    "build_time": "2026-11-26",
     "version": "1.0.0-static"
   }
 }
